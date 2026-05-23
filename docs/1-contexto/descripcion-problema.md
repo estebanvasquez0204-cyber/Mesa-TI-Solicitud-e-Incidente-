@@ -1,4 +1,4 @@
-PROBLEMA 
+# PROBLEMA 
 
 En la empresa Nexa Servicios se presentan diversas dificultades en la gestión de solicitudes e 
 incidentes relacionados con el área de Tecnologías de la Información (TI). Actualmente, los 
