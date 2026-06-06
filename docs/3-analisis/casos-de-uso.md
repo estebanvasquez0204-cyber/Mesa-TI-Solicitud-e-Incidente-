@@ -1203,66 +1203,35 @@
 
 ---
 
-# Historias de Usuario
+**2. Flujo Principal
 
-**HU-031**
+| Paso | Actor | Acción |
+|------|--------|---------|
+| 1 | Administrador | Ingresa a la sección de información del personal de soporte. |
+| 2 | Sistema | Muestra la lista de personas de soporte registradas. |
+| 3 | Administrador | Registra o actualiza qué tipo de casos puede atender cada persona, su disponibilidad y su carga de trabajo. |
+| 4 | Sistema | Guarda la información actualizada. |
+
+**3. Flujos Alternativos
+
 | Campo | Descripción |
-|-------|-------------|
-| **ID** | HU-031 |
-| **Título** | Corregir clasificación del caso |
-| **Como** | Personal de soporte |
-| **Quiero** | Corregir si un caso fue marcado como problema o solicitud de forma equivocada |
-| **Para** | Dejar el caso organizado correctamente para que pueda ser atendido por la persona adecuada |
+|---------|-------------|
+| FA-01 | Si una persona de soporte cambia de disponibilidad, el administrador puede actualizar ese dato. |
+| FA-02 | Si una persona de soporte aprende a atender nuevos tipos de casos, el administrador puede actualizar esa información. |
 
-**HU-032**
+**4. Flujos de Excepción
+
 | Campo | Descripción |
-|-------|-------------|
-| **ID** | HU-032 |
-| **Título** | Registrar información del personal de soporte |
-| **Como** | Administrador |
-| **Quiero** | Registrar y actualizar qué tipo de casos puede atender cada persona de soporte, su disponibilidad y su carga de trabajo |
-| **Para** | Permitir que el supervisor consulte información confiable para asignar los casos de forma adecuada |
+|---------|-------------|
+| FE-01 | Si falta información necesaria, el sistema indica qué dato debe completarse. |
+| FE-02 | Si los cambios no se pueden guardar, el sistema muestra un mensaje claro y permite intentarlo nuevamente. |
 
----
+**5. Información Adicional
 
-# Requisito Funcional
-
-**RF-073**
 | Campo | Descripción |
-|-------|-------------|
-| **ID** | RF-073 |
-| **HU Relacionada** | HU-032 |
-| **Descripción** | El sistema debe permitir al administrador registrar y actualizar qué tipo de casos puede atender cada persona de soporte, su disponibilidad y su carga actual de trabajo. |
-
----
-
-# Reglas de Negocio
-
-**RN-026**
-| Campo | Descripción |
-|-------|-------------|
-| **ID** | RN-026 |
-| **Título** | Cambios permitidos de situación |
-| **Descripción** | Si un caso cambia de situación, entonces el cambio debe seguir la tabla de situaciones permitidas definida para el proceso de atención. |
-| **Origen** | HU-007 |
-
-**RN-027**
-| Campo | Descripción |
-|-------|-------------|
-| **ID** | RN-027 |
-| **Título** | Explicación al cambiar la persona encargada |
-| **Descripción** | Si se cambia la persona encargada de un caso, entonces debe registrarse una explicación breve del cambio. |
-| **Origen** | HU-008 |
-
----
-
-# Tabla de cambios permitidos entre situaciones del caso
-
-| Situación actual | Situación permitida | Explicación |
-|------------------|--------------------| ------------|
-| Recibido | En revisión / En atención | El caso puede empezar con revisión o pasar directamente a atención según la información recibida. |
-| En revisión | En atención | Después de revisar el caso, soporte puede iniciar la atención. |
-| En atención | Resuelto | Cuando soporte encuentra una solución, el caso pasa a resuelto. |
-| Resuelto | Cerrado / Reabierto | El caso se cierra si el usuario confirma o si no responde dentro del plazo definido. Se reabre si el problema continúa dentro del plazo permitido. |
-| Reabierto | En revisión / En atención | Un caso reabierto vuelve a revisión o atención según lo que indique el usuario. |
-| Cerrado | Sin cambio posterior | Un caso cerrado no debe cambiar de situación dentro del flujo normal. |
+|---------|-------------|
+| Prioridad | Media |
+| Frecuencia de uso | Ocasional |
+| RN Relacionadas | RN-018, RN-020 |
+| RNF Relacionados | RNF-006, RNF-010 |
+| Notas / Observaciones | Este caso permite registrar la información que luego consulta el supervisor en CU-015. |
