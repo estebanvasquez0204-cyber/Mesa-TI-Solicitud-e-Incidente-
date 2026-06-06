@@ -78,9 +78,7 @@ Sistema --> Correo
 Sistema --> Notificacion
 ```
 
---- 
 
-##
 
 ```mermaid
 
