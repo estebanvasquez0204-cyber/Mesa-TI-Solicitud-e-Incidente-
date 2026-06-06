@@ -1203,7 +1203,7 @@
 
 ---
 
-**2. Flujo Principal
+**2. Flujo Principal**
 
 | Paso | Actor | Acción |
 |------|--------|---------|
@@ -1212,21 +1212,21 @@
 | 3 | Administrador | Registra o actualiza qué tipo de casos puede atender cada persona, su disponibilidad y su carga de trabajo. |
 | 4 | Sistema | Guarda la información actualizada. |
 
-**3. Flujos Alternativos
+**3. Flujos Alternativos**
 
 | Campo | Descripción |
 |---------|-------------|
 | FA-01 | Si una persona de soporte cambia de disponibilidad, el administrador puede actualizar ese dato. |
 | FA-02 | Si una persona de soporte aprende a atender nuevos tipos de casos, el administrador puede actualizar esa información. |
 
-**4. Flujos de Excepción
+**4. Flujos de Excepción**
 
 | Campo | Descripción |
 |---------|-------------|
 | FE-01 | Si falta información necesaria, el sistema indica qué dato debe completarse. |
 | FE-02 | Si los cambios no se pueden guardar, el sistema muestra un mensaje claro y permite intentarlo nuevamente. |
 
-**5. Información Adicional
+**5. Información Adicional**
 
 | Campo | Descripción |
 |---------|-------------|
