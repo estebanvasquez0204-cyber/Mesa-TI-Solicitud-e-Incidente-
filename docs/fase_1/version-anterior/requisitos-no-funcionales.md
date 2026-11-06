@@ -1,4 +1,4 @@
-> ⚠️ **Versión anterior.** Este archivo es la primera versión del análisis que estaba en el repositorio (carpeta `docs/3-analisis`). Usa otra numeración y fue reemplazado por la versión del documento Word de la Fase 1. Se conserva solo como evidencia del trabajo iterativo (metodología ágil, ver [0.4](../../fase_0/0.4-recoleccion-de-informacion-y-metodologia.md)). La versión vigente está en [2.3 Requisitos no funcionales](../2.3-requisitos-no-funcionales.md).
+> ⚠️ **Versión anterior.** Este archivo es la primera versión del análisis que estaba en el repositorio (carpeta `docs/3-analisis`). Usa otra numeración y fue reemplazado por la versión del documento *Proyecto.docx*. Se conserva solo como evidencia del trabajo iterativo (metodología ágil, ver [0.4](../../fase_0/0.4-recoleccion-de-informacion-y-metodologia.md)). La versión vigente está en [2.3 Requisitos no funcionales](../2-reglas-de-negocio-y-requisitos.md).
 
 # Requisitos No Funcionales
 

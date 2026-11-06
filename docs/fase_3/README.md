@@ -1,6 +1,6 @@
 # Fase 3 — Construcción
 
-> *Solo se abre con la compuerta.* La llave que abre esta fase es la **Compuerta M2** (matriz de trazabilidad cerrada y leída). Según el estado de la [Fase 2](../fase_2/README.md), la compuerta todavía está cerrada.
+> *Solo se abre con la compuerta.* La llave que abre esta fase es la **Compuerta M2** (matriz de trazabilidad cerrada y leída). La matriz de trazabilidad ya está documentada ([actividad 12](../fase_2/12-matriz-de-trazabilidad.md)), pero en las fuentes no hay registro de la lectura cruzada entre equipos (12b), así que la compuerta se marca como pendiente de esa lectura.
 
 ## Trazabilidad con la guía de seguimiento
 
@@ -20,20 +20,20 @@ flowchart TD
 
 ## Estado de cada actividad
 
-**13. Script SQL (DDL).** Ninguna fuente contiene el script. Su insumo directo es el [MER / modelo relacional](../fase_2/6-mer-modelo-relacional.md) y el [diccionario de datos](../fase_2/5-diccionario-de-datos.md), que ya definen las 18 tablas con tipos, tamaños, PK, FK, reglas `ON DELETE` / `ON UPDATE`, `CHECK`, `UNIQUE` y valores por defecto. La guía exige que el script sea su **imagen exacta**.
+**13. Script SQL (DDL).** Ninguna fuente contiene el script. Su insumo directo es el [MER versión 2](../fase_2/6-mer-modelo-relacional.md) (18 entidades, 161 atributos, 25 relaciones) y el [diccionario de datos](../fase_2/5-diccionario-de-datos.md). La guía exige que el script sea su **imagen exacta**.
 
 **14. Repositorio Git + `.gitignore` + script en la raíz.**
 - ✅ El repositorio Git existe: [estebanvasquez0204-cyber/Mesa-TI-Solicitud-e-Incidente-](https://github.com/estebanvasquez0204-cyber/Mesa-TI-Solicitud-e-Incidente-), con la documentación organizada por fases en `docs/`.
 - ⏳ Falta el archivo `.gitignore`.
 - ⏳ Falta el script SQL en la raíz del repositorio (depende de la actividad 13).
 
-**15. Código MVC (vertical slice primero).** No hay código en las fuentes. La arquitectura MVC y sus paquetes se definen en el DDA (actividad 9 de la Fase 2, pendiente), y la Vista parte de los [mockups](../fase_1/4-mockups.md).
+**15. Código MVC (vertical slice primero).** No hay código en las fuentes. La arquitectura ya está definida en el [diagrama de paquetes del DDA](../fase_2/9-dda-diagrama-de-paquetes.md) (MVC con Spring Boot, paquete `co.edu.is2.mesaayuda`). El vertical slice puede partir de un caso de uso crítico con su [diagrama de secuencia](../fase_2/10-diagramas-de-secuencia.md), y la Vista parte de los [mockups](../fase_1/4-mockups.md).
 
 ## Gestión del cambio y de la configuración (transversal)
 
 La guía la aplica a toda la ruta y tiene peso especial en esta fase:
 
-- Todo cambio entra por **CRF** (el Cambio DECIDE).
+- Todo cambio entra por **CRF** (el Cambio DECIDE). Ejemplo documentado: [CRF-002](../gestion-del-cambio/crf-002-fase-1.md).
 - Cabeceras de historial y control de versiones (la Configuración REGISTRA).
 - Las **Líneas Base** congelan el trabajo y son la puerta.
 - En Git, cada commit cita su CRF y el **tag** es la línea base.
