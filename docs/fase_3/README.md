@@ -1,5 +1,7 @@
 # Fase 3 — Construcción
 
+> **Alcance en este proyecto:** la Fase 3 comprende solo las actividades **13. Script SQL (DDL)** y **14. Repositorio Git + `.gitignore` + script en la raíz**.
+
 > *Solo se abre con la compuerta.* La llave que abre esta fase es la **Compuerta M2** (matriz de trazabilidad cerrada y leída). La matriz de trazabilidad ya está documentada ([actividad 12](../fase_2/12-matriz-de-trazabilidad.md)), pero en las fuentes no hay registro de la lectura cruzada entre equipos (12b), así que la compuerta se marca como pendiente de esa lectura.
 
 ## Trazabilidad con la guía de seguimiento
@@ -9,13 +11,11 @@
 | — | Compuerta M2: sin matriz cerrada y leída, NO hay código | 10/11/2026 | 🔒 cerrada |
 | 13 | Script SQL (DDL): imagen exacta del Modelo Relacional (actividad 6) | 11/11/2026 – 13/11/2026 | ⏳ pendiente |
 | 14 | Repositorio Git + `.gitignore` + script en la raíz (GCS) | 13/11/2026 – 16/11/2026 | 🟡 parcial |
-| 15 | Código MVC: vertical slice primero | 17/11/2026 – 20/11/2026 | ⏳ pendiente |
 
 ```mermaid
 flowchart TD
     M2[/Compuerta M2 🔒/] -->|la llave que abre la Fase 3| S13[13. Script SQL DDL ⏳]
     S13 --> S14[14. Repositorio Git + .gitignore + script 🟡]
-    S14 --> S15[15. Código MVC, vertical slice primero ⏳]
 ```
 
 ## Estado de cada actividad
@@ -27,7 +27,6 @@ flowchart TD
 - ⏳ Falta el archivo `.gitignore`.
 - ⏳ Falta el script SQL en la raíz del repositorio (depende de la actividad 13).
 
-**15. Código MVC (vertical slice primero).** No hay código en las fuentes. La arquitectura ya está definida en el [diagrama de paquetes del DDA](../fase_2/9-dda-diagrama-de-paquetes.md) (MVC con Spring Boot, paquete `co.edu.is2.mesaayuda`). El vertical slice puede partir de un caso de uso crítico con su [diagrama de secuencia](../fase_2/10-diagramas-de-secuencia.md), y la Vista parte de los [mockups](../fase_1/4-mockups.md).
 
 ## Gestión del cambio y de la configuración (transversal)
 
