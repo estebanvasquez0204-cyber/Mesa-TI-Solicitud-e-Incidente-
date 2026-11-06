@@ -10,7 +10,11 @@ Se incorpora el Diccionario de datos vigente, tal como se entrega en el archivo 
 
 **Control de versión.** La versión 2 conserva el diccionario v4 y agrega tres campos propuestos en la Fase 1 v2 (CRF-002), marcados «v2» y pendientes de validación con la docente: usuario.fecha_actualizacion, usuario.id_usuario_modificacion e historial_caso.motivo, más el valor cambio_clasificacion en historial_caso.accion y la relación de auditoría usuario → usuario. El MER (versión 2) y el diagrama de clases (versión 3, 29 de octubre de 2026) los incluyen. En la versión 3 del diagrama, los campos de auditoría de activo (fecha_creacion, fecha_actualizacion, id_usuario_modificacion) ya figuran también en la clase Activo (IN-18).
 
+<a id="dic-area"></a>
+
 ## Entidad area
+
+> 🔗 Implementación: [`area`](../fase_3/13-script-sql-ddl.md#tabla-area) en el script DDL (Fase 3).
 
 (nombre anterior: Área) — Catálogo de áreas o departamentos de la empresa; se usa para ubicar usuarios y activos, y para calcular el nivel de afectación de un caso.
 
@@ -26,7 +30,11 @@ Se incorpora el Diccionario de datos vigente, tal como se entrega en el archivo 
 | fecha_actualizacion     | DATETIME         | \-         | No     | No                      | Sí       | \-                                   | \-                    | \-         | (D23) Se actualiza en cada modificación                                                                        |
 | id_usuario_modificacion | INT              | \-         | No     | FK → usuario.id_usuario | Sí       | ON DELETE SET NULL ON UPDATE CASCADE | \-                    | \-         | (D23) Quién hizo el último cambio; SET NULL (no RESTRICT) para no bloquear la baja de un usuario por auditoría |
 
+<a id="dic-cargo"></a>
+
 ## Entidad cargo
+
+> 🔗 Implementación: [`cargo`](../fase_3/13-script-sql-ddl.md#tabla-cargo) en el script DDL (Fase 3).
 
 Catálogo de cargos formales de la empresa, usado por Usuario para efectos de recursos humanos.
 
@@ -42,7 +50,11 @@ Catálogo de cargos formales de la empresa, usado por Usuario para efectos de re
 | fecha_actualizacion     | DATETIME         | \-         | No     | No                      | Sí       | \-                                   | \-                    | \-         | (D23) Se actualiza en cada modificación                                                                        |
 | id_usuario_modificacion | INT              | \-         | No     | FK → usuario.id_usuario | Sí       | ON DELETE SET NULL ON UPDATE CASCADE | \-                    | \-         | (D23) Quién hizo el último cambio; SET NULL (no RESTRICT) para no bloquear la baja de un usuario por auditoría |
 
+<a id="dic-rol-empleado"></a>
+
 ## Entidad rol_empleado
+
+> 🔗 Implementación: [`rol_empleado`](../fase_3/13-script-sql-ddl.md#tabla-rol-empleado) en el script DDL (Fase 3).
 
 Catálogo de clasificación jerárquica del empleado dentro de la estructura organizacional de Nexa Servicios.
 
@@ -58,7 +70,11 @@ Catálogo de clasificación jerárquica del empleado dentro de la estructura org
 | fecha_actualizacion     | DATETIME         | \-         | No     | No                      | Sí       | \-                                   | \-                    | \-         | (D23) Se actualiza en cada modificación                                                                        |
 | id_usuario_modificacion | INT              | \-         | No     | FK → usuario.id_usuario | Sí       | ON DELETE SET NULL ON UPDATE CASCADE | \-                    | \-         | (D23) Quién hizo el último cambio; SET NULL (no RESTRICT) para no bloquear la baja de un usuario por auditoría |
 
+<a id="dic-usuario"></a>
+
 ## Entidad usuario
+
+> 🔗 Implementación: [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) en el script DDL (Fase 3).
 
 Toda persona que interactúa con el sistema: solicitantes, personal de soporte, supervisores y administradores. Es la entidad de identidad y de credenciales del modelo. (C12) los tokens de recuperación ya no viven aquí: pasaron a la tabla token_recuperacion.
 
@@ -83,7 +99,11 @@ Toda persona que interactúa con el sistema: solicitantes, personal de soporte, 
 | fecha_actualizacion     | DATETIME         | \-         | No     | No                                | Sí       | \-                                                              | \-                    | \-         | (D23, v2) Se actualiza en cada modificación del usuario                                                                                                                                                                        |
 | id_usuario_modificacion | INT              | \-         | No     | FK → usuario.id_usuario           | Sí       | ON DELETE SET NULL ON UPDATE CASCADE                            | \-                    | \-         | (D23, v2) Quién hizo el último cambio; SET NULL para no bloquear la baja de un usuario por auditoría                                                                                                                           |
 
+<a id="dic-token-recuperacion"></a>
+
 ## Entidad token_recuperacion \[tabla nueva — C12\]
+
+> 🔗 Implementación: [`token_recuperacion`](../fase_3/13-script-sql-ddl.md#tabla-token-recuperacion) en el script DDL (Fase 3).
 
 Tokens de recuperación de contraseña emitidos para un usuario. Al salir de usuario, un mismo usuario puede tener varios tokens vigentes y conserva el histórico de los ya usados o revocados, que antes se perdía al sobrescribir el campo.
 
@@ -100,7 +120,11 @@ Tokens de recuperación de contraseña emitidos para un usuario. Al salir de usu
 | fecha_uso        | DATETIME         | \-         | No     | No                      | Sí       | CHECK(fecha_uso IS NULL OR fecha_uso \>= fecha_generacion) | \-                    | \-         | Cuándo se consumió para restablecer la contraseña; NULL si no se ha usado                                                                  |
 | estado_token     | ENUM             | \-         | No     | No                      | No       | CHECK IN ('vigente','usado','revocado')                    | 'vigente'             | \-         | vigente / usado / revocado (RN06)                                                                                                          |
 
+<a id="dic-activo"></a>
+
 ## Entidad activo
+
+> 🔗 Implementación: [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) en el script DDL (Fase 3).
 
 Equipos y elementos tecnológicos de la empresa (computadores, impresoras, routers, etc.) que pueden estar relacionados con un caso de soporte. Su tipo se clasifica mediante el catálogo tipo_activo (D08).
 
@@ -122,7 +146,11 @@ Equipos y elementos tecnológicos de la empresa (computadores, impresoras, route
 | fecha_actualizacion     | DATETIME         | \-         | No     | No                              | Sí       | \-                                                 | \-                    | \-         | (D23) Se actualiza en cada modificación          |
 | id_usuario_modificacion | INT              | \-         | No     | FK → usuario.id_usuario         | Sí       | ON DELETE SET NULL ON UPDATE CASCADE               | \-                    | \-         | (D23) Quién hizo el último cambio                |
 
+<a id="dic-tipo-activo"></a>
+
 ## Entidad tipo_activo
+
+> 🔗 Implementación: [`tipo_activo`](../fase_3/13-script-sql-ddl.md#tabla-tipo-activo) en el script DDL (Fase 3).
 
 Catálogo de tipos de equipo (computador, portátil, impresora, router, servidor, etc.), creado en D08 para reemplazar el campo de texto libre que tenía Activo.
 
@@ -139,7 +167,11 @@ Catálogo de tipos de equipo (computador, portátil, impresora, router, servidor
 | fecha_actualizacion     | DATETIME         | \-         | No     | No                      | Sí       | \-                                   | \-                    | \-         | (D23) Se actualiza en cada modificación               |
 | id_usuario_modificacion | INT              | \-         | No     | FK → usuario.id_usuario | Sí       | ON DELETE SET NULL ON UPDATE CASCADE | \-                    | \-         | (D23) Quién hizo el último cambio                     |
 
+<a id="dic-caso-soporte"></a>
+
 ## Entidad caso_soporte
+
+> 🔗 Implementación: [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) en el script DDL (Fase 3).
 
 (nombre anterior: Caso de soporte) — Entidad central del sistema. Desde D13, incorpora directamente su clasificación (antes en clasificacion_caso, eliminada por ser una combinación 1:1 con el caso, no un catálogo compartido).
 
@@ -170,7 +202,11 @@ Catálogo de tipos de equipo (computador, portátil, impresora, router, servidor
 | contador_reaperturas    | INT              | \-         | No     | No                                          | No       | CHECK(contador_reaperturas \>= 0)                                                  | 0                     | \-         | (D17) veces reabierto; el SLA se mide sobre el último ciclo (RN03)                                     |
 | motivo_reapertura       | TEXT             | \-         | No     | No                                          | Sí       | \-                                                                                 | \-                    | \-         | (D17) motivo de la reapertura más reciente; NULL si nunca se ha reabierto                              |
 
+<a id="dic-tipo-problema"></a>
+
 ## Entidad tipo_problema
+
+> 🔗 Implementación: [`tipo_problema`](../fase_3/13-script-sql-ddl.md#tabla-tipo-problema) en el script DDL (Fase 3).
 
 Catálogo de tipos de problema técnico (ej. Internet, Hardware) usado para clasificar los casos de tipo 'problema'.
 
@@ -187,7 +223,11 @@ Catálogo de tipos de problema técnico (ej. Internet, Hardware) usado para clas
 | fecha_actualizacion     | DATETIME         | \-         | No     | No                      | Sí       | \-                                   | \-                    | \-         | (D23) Se actualiza en cada modificación |
 | id_usuario_modificacion | INT              | \-         | No     | FK → usuario.id_usuario | Sí       | ON DELETE SET NULL ON UPDATE CASCADE | \-                    | \-         | (D23) Quién hizo el último cambio       |
 
+<a id="dic-tipo-solicitud"></a>
+
 ## Entidad tipo_solicitud
+
+> 🔗 Implementación: [`tipo_solicitud`](../fase_3/13-script-sql-ddl.md#tabla-tipo-solicitud) en el script DDL (Fase 3).
 
 Catálogo de tipos de solicitud (ej. Acceso) usado para clasificar los casos de tipo 'solicitud'.
 
@@ -204,7 +244,11 @@ Catálogo de tipos de solicitud (ej. Acceso) usado para clasificar los casos de 
 | fecha_actualizacion     | DATETIME         | \-         | No     | No                      | Sí       | \-                                   | \-                    | \-         | (D23) Se actualiza en cada modificación |
 | id_usuario_modificacion | INT              | \-         | No     | FK → usuario.id_usuario | Sí       | ON DELETE SET NULL ON UPDATE CASCADE | \-                    | \-         | (D23) Quién hizo el último cambio       |
 
+<a id="dic-tabla-importancia"></a>
+
 ## Entidad tabla_importancia
+
+> 🔗 Implementación: [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) en el script DDL (Fase 3).
 
 (nombre anterior: Tabla de importancia) — Matriz de prioridad: combina afectación y urgencia para determinar el nivel de importancia (P1-P4) de un caso.
 
@@ -222,7 +266,11 @@ Catálogo de tipos de solicitud (ej. Acceso) usado para clasificar los casos de 
 | fecha_actualizacion     | DATETIME         | \-         | No     | No                      | Sí       | \-                                                                  | \-                    | \-         | (D23) Se actualiza en cada modificación                                                              |
 | id_usuario_modificacion | INT              | \-         | No     | FK → usuario.id_usuario | Sí       | ON DELETE SET NULL ON UPDATE CASCADE                                | \-                    | \-         | (D23) Quién hizo el último cambio                                                                    |
 
+<a id="dic-comentario-caso"></a>
+
 ## Entidad comentario_caso
+
+> 🔗 Implementación: [`comentario_caso`](../fase_3/13-script-sql-ddl.md#tabla-comentario-caso) en el script DDL (Fase 3).
 
 (nombre anterior: Comentario del caso) — Comentarios de seguimiento sobre un caso, hechos por el solicitante o por soporte, con visibilidad configurable.
 
@@ -238,7 +286,11 @@ Catálogo de tipos de solicitud (ej. Acceso) usado para clasificar los casos de 
 | visibilidad      | ENUM             | \-         | No     | No                        | No       | CHECK IN ('usuario','interno_soporte') | \-                    | \-         | usuario, interno soporte |
 | fecha_comentario | DATETIME         | \-         | No     | No                        | No       | \-                                     | CURRENT_TIMESTAMP     | \-         | Automática               |
 
+<a id="dic-historial-caso"></a>
+
 ## Entidad historial_caso
+
+> 🔗 Implementación: [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso) en el script DDL (Fase 3).
 
 (nombre anterior: Historial del caso) — Bitácora inmutable de cambios de un caso (auditoría): qué acción se hizo, qué campo cambió, cuándo y por quién.
 
@@ -257,7 +309,11 @@ Catálogo de tipos de solicitud (ej. Acceso) usado para clasificar los casos de 
 | motivo            | VARCHAR          | 255        | No     | No                        | Sí       | \-                                                                                                                       | \-                    | \-         | (v2) Motivo indicado por quien hizo el cambio (corrección de clasificación, reapertura); NULL si no aplica |
 | fecha_accion      | DATETIME         | \-         | No     | No                        | No       | \-                                                                                                                       | CURRENT_TIMESTAMP     | \-         | Automática                                                                                                 |
 
+<a id="dic-adjunto-caso"></a>
+
 ## Entidad adjunto_caso
+
+> 🔗 Implementación: [`adjunto_caso`](../fase_3/13-script-sql-ddl.md#tabla-adjunto-caso) en el script DDL (Fase 3).
 
 (nombre anterior: Adjunto del caso) — Archivos o evidencias (capturas, documentos) cargados por un usuario y asociados a un caso de soporte. (C09) incorpora el borrado lógico que ya estaba previsto en el diagrama.
 
@@ -277,7 +333,11 @@ Catálogo de tipos de solicitud (ej. Acceso) usado para clasificar los casos de 
 | estado_adjunto      | ENUM             | \-         | No     | No                        | No       | CHECK IN ('activo','eliminado')                                       | 'activo'              | \-         | (C09) Estado del borrado lógico; 'eliminado' oculta la evidencia sin borrar el registro ni romper el historial del caso |
 | fecha_eliminacion   | DATETIME         | \-         | No     | No                        | Sí       | CHECK(fecha_eliminacion IS NULL OR fecha_eliminacion \>= fecha_carga) | \-                    | \-         | (C09) Fecha del borrado lógico; NULL mientras estado_adjunto='activo'                                                   |
 
+<a id="dic-info-personal-soporte"></a>
+
 ## Entidad info_personal_soporte
+
+> 🔗 Implementación: [`info_personal_soporte`](../fase_3/13-script-sql-ddl.md#tabla-info-personal-soporte) en el script DDL (Fase 3).
 
 (nombre anterior: Información del personal de soporte) — Extensión 1:1 de Usuario, exclusiva para personal con perfil_acceso=soporte: disponibilidad actual para recibir casos.
 
@@ -291,7 +351,11 @@ Catálogo de tipos de solicitud (ej. Acceso) usado para clasificar los casos de 
 | disponibilidad      | ENUM             | \-         | No     | No                      | No       | CHECK IN ('disponible','ocupado','ausente') | \-                    | \-         | disponible, ocupado, ausente         |
 | fecha_actualizacion | DATETIME         | \-         | No     | No                      | No       | \-                                          | CURRENT_TIMESTAMP     | \-         | Automática                           |
 
+<a id="dic-tiempo-atencion-sla"></a>
+
 ## Entidad tiempo_atencion_sla
+
+> 🔗 Implementación: [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) en el script DDL (Fase 3).
 
 (nombre anterior: Tiempo de atención (SLA)) — Catálogo de tiempos máximos de respuesta y solución según el nivel de importancia y el tipo de caso.
 
@@ -312,7 +376,11 @@ Catálogo de tipos de solicitud (ej. Acceso) usado para clasificar los casos de 
 | fecha_actualizacion     | DATETIME         | \-         | No     | No                                          | Sí       | \-                                                                                                   | \-                    | \-         | (D23) Se actualiza en cada modificación                                                 |
 | id_usuario_modificacion | INT              | \-         | No     | FK → usuario.id_usuario                     | Sí       | ON DELETE SET NULL ON UPDATE CASCADE                                                                 | \-                    | \-         | (D23) Quién hizo el último cambio                                                       |
 
+<a id="dic-aviso"></a>
+
 ## Entidad aviso
+
+> 🔗 Implementación: [`aviso`](../fase_3/13-script-sql-ddl.md#tabla-aviso) en el script DDL (Fase 3).
 
 Notificaciones enviadas a un usuario por un cambio relevante en un caso (correo, aviso emergente, detalle del caso).
 
@@ -333,7 +401,11 @@ Notificaciones enviadas a un usuario por un cambio relevante en un caso (correo,
 | motivo_fallo         | VARCHAR          | 255        | No     | No                        | Sí       | \-                                                       | \-                    | \-         | (D24) detalle del error si estado_envio='fallido'                                |
 | fecha_lectura        | DATETIME         | \-         | No     | No                        | Sí       | \-                                                       | \-                    | \-         | (D24) fecha/hora en que el usuario destino leyó el aviso; NULL si no lo ha leído |
 
+<a id="dic-transicion-estado-caso"></a>
+
 ## Entidad transicion_estado_caso \[tabla nueva — D15\]
+
+> 🔗 Implementación: [`transicion_estado_caso`](../fase_3/13-script-sql-ddl.md#tabla-transicion-estado-caso) en el script DDL (Fase 3).
 
 Cataloga qué cambios de estado_caso están permitidos y qué perfil_acceso puede ejecutarlos; valida las transiciones antes de escribir en el historial.
 

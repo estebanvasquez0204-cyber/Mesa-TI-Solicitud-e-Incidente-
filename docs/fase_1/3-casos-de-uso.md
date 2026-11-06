@@ -35,6 +35,8 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | Mockups | [MK-01](4-mockups.md#mk-01), [MK-02](4-mockups.md#mk-02) | Cobertura §4.4 y flujos del CU |
 > | «include» | [CU-002](#cu-002), [CU-004](#cu-004), [CU-021](#cu-021), [CU-022](#cu-022), [CU-S01](#cu-s01), [CU-S02](#cu-s02) | Flujos del CU |
 > | Aparece en la cadena de | [HU-001](1-historias-de-usuario.md#hu-001), [HU-004](1-historias-de-usuario.md#hu-004) | Matriz §5 |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso), [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla), [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) | Matriz §14 → tabla (Tabla 246) → DDL |
+> | Tablas que usa su diagrama de secuencia | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`CasoSoporte.crearCaso()`); [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso) (`HistorialCaso.registrarHistorial()`); [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) (`TiempoAtencionSLA.obtenerSLA()`); [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) (`Activo.obtenerActivo()`); [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) (`TablaImportancia.calcularResultadoImportancia()`) | Mensajes de secuencia (§14) → clase → tabla |
 > | Caso de uso crítico | [Ficha de CU crítico (§3.2.3)](#cu-001-critico) · [Diagrama de actividades](../fase_2/8-diagrama-de-actividades.md#act-cu-001) · [Diagrama de secuencia](../fase_2/10-diagramas-de-secuencia.md#seq-cu-001) | §3.2, §10, §12 |
 
 
@@ -64,6 +66,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-02](2-reglas-de-negocio-y-requisitos.md#rn-02), [RN-16](2-reglas-de-negocio-y-requisitos.md#rn-16), [RN-17](2-reglas-de-negocio-y-requisitos.md#rn-17) | Flujos del CU |
 > | Mockups | [MK-03](4-mockups.md#mk-03) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-002](1-historias-de-usuario.md#hu-002) | Matriz §5 |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`aviso`](../fase_3/13-script-sql-ddl.md#tabla-aviso) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 145**  
@@ -90,6 +93,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-15](2-reglas-de-negocio-y-requisitos.md#rn-15) | Flujos del CU |
 > | Mockups | [MK-09](4-mockups.md#mk-09) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-002](1-historias-de-usuario.md#hu-002), [HU-003](1-historias-de-usuario.md#hu-003), [HU-007](1-historias-de-usuario.md#hu-007) | Matriz §5 |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso), [`aviso`](../fase_3/13-script-sql-ddl.md#tabla-aviso), [`transicion_estado_caso`](../fase_3/13-script-sql-ddl.md#tabla-transicion-estado-caso) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 146**  
@@ -116,6 +120,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-03](2-reglas-de-negocio-y-requisitos.md#rn-03) | Flujos del CU |
 > | Mockups | [MK-02](4-mockups.md#mk-02) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-001](1-historias-de-usuario.md#hu-001), [HU-004](1-historias-de-usuario.md#hu-004) | Matriz §5 |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso), [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla), [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 147**  
@@ -142,6 +147,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-06](2-reglas-de-negocio-y-requisitos.md#rn-06) | Flujos del CU |
 > | Mockups | [MK-04](4-mockups.md#mk-04) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-005](1-historias-de-usuario.md#hu-005) | Matriz §5 |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 148**  
@@ -169,6 +175,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-05](2-reglas-de-negocio-y-requisitos.md#rn-05), [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | Flujos del CU |
 > | Mockups | [MK-07](4-mockups.md#mk-07) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-006](1-historias-de-usuario.md#hu-006) | Matriz §5 |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 149**  
@@ -197,6 +204,8 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | Mockups | [MK-06](4-mockups.md#mk-06) | Cobertura §4.4 y flujos del CU |
 > | «include» | [CU-003](#cu-003), [CU-S02](#cu-s02) | Flujos del CU |
 > | Aparece en la cadena de | [HU-007](1-historias-de-usuario.md#hu-007) | Matriz §5 |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso), [`transicion_estado_caso`](../fase_3/13-script-sql-ddl.md#tabla-transicion-estado-caso) | Matriz §14 → tabla (Tabla 246) → DDL |
+> | Tablas que usa su diagrama de secuencia | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`CasoSoporte.actualizarCaso()`, `CasoSoporte.marcarSolucionado()`, `CasoSoporte.registrarPrimeraRespuesta()`); [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso) (`HistorialCaso.registrarHistorial()`); [`aviso`](../fase_3/13-script-sql-ddl.md#tabla-aviso) (`Aviso.crearAviso()`); [`transicion_estado_caso`](../fase_3/13-script-sql-ddl.md#tabla-transicion-estado-caso) (`TransicionEstadoCaso.esTransicionValida()`) | Mensajes de secuencia (§14) → clase → tabla |
 > | Caso de uso crítico | [Ficha de CU crítico (§3.2.3)](#cu-007-critico) · [Diagrama de actividades](../fase_2/8-diagrama-de-actividades.md#act-cu-007) · [Diagrama de secuencia](../fase_2/10-diagramas-de-secuencia.md#seq-cu-007) | §3.2, §10, §12 |
 
 
@@ -225,6 +234,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | Mockups | [MK-06](4-mockups.md#mk-06) | Cobertura §4.4 y flujos del CU |
 > | «include» | [CU-S02](#cu-s02) | Flujos del CU |
 > | Aparece en la cadena de | [HU-008](1-historias-de-usuario.md#hu-008) | Matriz §5 |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 151**  
@@ -251,6 +261,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-10](2-reglas-de-negocio-y-requisitos.md#rn-10) | Flujos del CU |
 > | Mockups | [MK-05](4-mockups.md#mk-05), [MK-06](4-mockups.md#mk-06) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-009](1-historias-de-usuario.md#hu-009) | Matriz §5 |
+> | Tablas de la base de datos | [`comentario_caso`](../fase_3/13-script-sql-ddl.md#tabla-comentario-caso) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 152**  
@@ -278,6 +289,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-06](2-reglas-de-negocio-y-requisitos.md#rn-06), [RN-13](2-reglas-de-negocio-y-requisitos.md#rn-13), [RN-14](2-reglas-de-negocio-y-requisitos.md#rn-14) | Flujos del CU |
 > | Mockups | [MK-05](4-mockups.md#mk-05) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-007](1-historias-de-usuario.md#hu-007), [HU-010](1-historias-de-usuario.md#hu-010) | Matriz §5 |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso), [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla), [`transicion_estado_caso`](../fase_3/13-script-sql-ddl.md#tabla-transicion-estado-caso) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 153**  
@@ -304,6 +316,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-14](2-reglas-de-negocio-y-requisitos.md#rn-14), [RN-29](2-reglas-de-negocio-y-requisitos.md#rn-29) | Flujos del CU |
 > | Mockups | [MK-10](4-mockups.md#mk-10) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-011](1-historias-de-usuario.md#hu-011) | Matriz §5 |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 154**  
@@ -330,6 +343,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-29](2-reglas-de-negocio-y-requisitos.md#rn-29) | Flujos del CU |
 > | Mockups | [MK-10](4-mockups.md#mk-10) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-012](1-historias-de-usuario.md#hu-012) | Matriz §5 |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 155**  
@@ -359,6 +373,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | Mockups | [MK-05](4-mockups.md#mk-05) | Cobertura §4.4 y flujos del CU |
 > | «include» | [CU-003](#cu-003), [CU-S02](#cu-s02) | Flujos del CU |
 > | Aparece en la cadena de | [HU-013](1-historias-de-usuario.md#hu-013) | Matriz §5 |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 156**  
@@ -385,6 +400,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-28](2-reglas-de-negocio-y-requisitos.md#rn-28) | Flujos del CU |
 > | Mockups | [MK-11](4-mockups.md#mk-11) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-015](1-historias-de-usuario.md#hu-015) | Matriz §5 |
+> | Tablas de la base de datos | [`info_personal_soporte`](../fase_3/13-script-sql-ddl.md#tabla-info-personal-soporte) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 157**  
@@ -413,6 +429,8 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-17](2-reglas-de-negocio-y-requisitos.md#rn-17), [RN-18](2-reglas-de-negocio-y-requisitos.md#rn-18), [RN-19](2-reglas-de-negocio-y-requisitos.md#rn-19) | Flujos del CU |
 > | Mockups | [MK-14](4-mockups.md#mk-14) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-016](1-historias-de-usuario.md#hu-016) | Matriz §5 |
+> | Tablas de la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) | Matriz §14 → tabla (Tabla 246) → DDL |
+> | Tablas que usa su diagrama de secuencia | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`Usuario.crearUsuario()`, `Usuario.encriptarContrasena()`, `Usuario.validarCorreoUnico()`) | Mensajes de secuencia (§14) → clase → tabla |
 > | Caso de uso crítico | [Ficha de CU crítico (§3.2.3)](#cu-016-critico) · [Diagrama de actividades](../fase_2/8-diagrama-de-actividades.md#act-cu-016) · [Diagrama de secuencia](../fase_2/10-diagramas-de-secuencia.md#seq-cu-016) | §3.2, §10, §12 |
 
 
@@ -439,6 +457,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RF que implementa | [RF-27](2-reglas-de-negocio-y-requisitos.md#rf-27) | Cobertura §4.4 |
 > | Mockups | [MK-13](4-mockups.md#mk-13) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-017](1-historias-de-usuario.md#hu-017) | Matriz §5 |
+> | Tablas de la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 159**  
@@ -465,6 +484,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-04](2-reglas-de-negocio-y-requisitos.md#rn-04) | Flujos del CU |
 > | Mockups | [MK-02](4-mockups.md#mk-02) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-018](1-historias-de-usuario.md#hu-018) | Matriz §5 |
+> | Tablas de la base de datos | [`tipo_problema`](../fase_3/13-script-sql-ddl.md#tabla-tipo-problema) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 160**  
@@ -491,6 +511,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-04](2-reglas-de-negocio-y-requisitos.md#rn-04) | Flujos del CU |
 > | Mockups | [MK-02](4-mockups.md#mk-02) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-019](1-historias-de-usuario.md#hu-019) | Matriz §5 |
+> | Tablas de la base de datos | [`tipo_solicitud`](../fase_3/13-script-sql-ddl.md#tabla-tipo-solicitud) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 161**  
@@ -543,6 +564,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-01](2-reglas-de-negocio-y-requisitos.md#rn-01) | Flujos del CU |
 > | Mockups | [MK-02](4-mockups.md#mk-02) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-001](1-historias-de-usuario.md#hu-001), [HU-021](1-historias-de-usuario.md#hu-021), [HU-022](1-historias-de-usuario.md#hu-022) | Matriz §5 |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso), [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla), [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo), [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 163**  
@@ -569,6 +591,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-01](2-reglas-de-negocio-y-requisitos.md#rn-01), [RN-05](2-reglas-de-negocio-y-requisitos.md#rn-05) | Flujos del CU |
 > | Mockups | [MK-02](4-mockups.md#mk-02) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-001](1-historias-de-usuario.md#hu-001), [HU-021](1-historias-de-usuario.md#hu-021), [HU-022](1-historias-de-usuario.md#hu-022) | Matriz §5 |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso), [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla), [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo), [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 164**  
@@ -597,6 +620,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-20](2-reglas-de-negocio-y-requisitos.md#rn-20), [RN-21](2-reglas-de-negocio-y-requisitos.md#rn-21), [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | Flujos del CU |
 > | Mockups | [MK-01](4-mockups.md#mk-01) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-023](1-historias-de-usuario.md#hu-023) | Matriz §5 |
+> | Tablas de la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 165**  
@@ -624,6 +648,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-19](2-reglas-de-negocio-y-requisitos.md#rn-19), [RN-22](2-reglas-de-negocio-y-requisitos.md#rn-22) | Flujos del CU |
 > | Mockups | [MK-01](4-mockups.md#mk-01) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-024](1-historias-de-usuario.md#hu-024) | Matriz §5 |
+> | Tablas de la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario), [`token_recuperacion`](../fase_3/13-script-sql-ddl.md#tabla-token-recuperacion) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 166**  
@@ -649,6 +674,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | Flujos del CU |
 > | Mockups | [MK-01](4-mockups.md#mk-01), [MK-04](4-mockups.md#mk-04) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-025](1-historias-de-usuario.md#hu-025) | Matriz §5 |
+> | Tablas de la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 167**  
@@ -676,6 +702,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | Mockups | [MK-06](4-mockups.md#mk-06) | Cobertura §4.4 y flujos del CU |
 > | «include» | [CU-S02](#cu-s02) | Flujos del CU |
 > | Aparece en la cadena de | [HU-026](1-historias-de-usuario.md#hu-026) | Matriz §5 |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 168**  
@@ -703,6 +730,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | Mockups | [MK-08](4-mockups.md#mk-08), [MK-09](4-mockups.md#mk-09) | Cobertura §4.4 y flujos del CU |
 > | «include» | [CU-003](#cu-003), [CU-S02](#cu-s02) | Flujos del CU |
 > | Aparece en la cadena de | [HU-028](1-historias-de-usuario.md#hu-028) | Matriz §5 |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`aviso`](../fase_3/13-script-sql-ddl.md#tabla-aviso) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 169**  
@@ -731,6 +759,8 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-13](2-reglas-de-negocio-y-requisitos.md#rn-13) | Flujos del CU |
 > | Mockups | [MK-12](4-mockups.md#mk-12) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-029](1-historias-de-usuario.md#hu-029) | Matriz §5 |
+> | Tablas de la base de datos | [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) | Matriz §14 → tabla (Tabla 246) → DDL |
+> | Tablas que usa su diagrama de secuencia | [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) (`TiempoAtencionSLA.actualizarSLA()`, `TiempoAtencionSLA.crearSLA()`, `TiempoAtencionSLA.inactivarSLA()`, `TiempoAtencionSLA.obtenerSLA()`) | Mensajes de secuencia (§14) → clase → tabla |
 > | Caso de uso crítico | [Ficha de CU crítico (§3.2.3)](#cu-029-critico) · [Diagrama de actividades](../fase_2/8-diagrama-de-actividades.md#act-cu-029) · [Diagrama de secuencia](../fase_2/10-diagramas-de-secuencia.md#seq-cu-029) | §3.2, §10, §12 |
 
 
@@ -759,6 +789,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | Mockups | [MK-10](4-mockups.md#mk-10) | Cobertura §4.4 y flujos del CU |
 > | «include» | [CU-012](#cu-012) | Flujos del CU |
 > | Aparece en la cadena de | [HU-030](1-historias-de-usuario.md#hu-030) | Matriz §5 |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 171**  
@@ -786,6 +817,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-17](2-reglas-de-negocio-y-requisitos.md#rn-17), [RN-18](2-reglas-de-negocio-y-requisitos.md#rn-18) | Flujos del CU |
 > | Mockups | [MK-13](4-mockups.md#mk-13), [MK-14](4-mockups.md#mk-14) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-031](1-historias-de-usuario.md#hu-031) | Matriz §5 |
+> | Tablas de la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 172**  
@@ -812,6 +844,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-21](2-reglas-de-negocio-y-requisitos.md#rn-21) | Flujos del CU |
 > | Mockups | [MK-13](4-mockups.md#mk-13) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-032](1-historias-de-usuario.md#hu-032) | Matriz §5 |
+> | Tablas de la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 173**  
@@ -838,6 +871,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-20](2-reglas-de-negocio-y-requisitos.md#rn-20), [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | Flujos del CU |
 > | Mockups | [MK-15](4-mockups.md#mk-15) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-033](1-historias-de-usuario.md#hu-033) | Matriz §5 |
+> | Tablas de la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 174**  
@@ -864,6 +898,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23), [RN-28](2-reglas-de-negocio-y-requisitos.md#rn-28) | Flujos del CU |
 > | Mockups | [MK-11](4-mockups.md#mk-11) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-034](1-historias-de-usuario.md#hu-034) | Matriz §5 |
+> | Tablas de la base de datos | [`info_personal_soporte`](../fase_3/13-script-sql-ddl.md#tabla-info-personal-soporte) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 175**  
@@ -892,6 +927,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-24](2-reglas-de-negocio-y-requisitos.md#rn-24) | Flujos del CU |
 > | Mockups | [MK-17](4-mockups.md#mk-17) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-035](1-historias-de-usuario.md#hu-035) | Matriz §5 |
+> | Tablas de la base de datos | [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 176**  
@@ -917,6 +953,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RF que implementa | [RF-45](2-reglas-de-negocio-y-requisitos.md#rf-45) | Cobertura §4.4 |
 > | Mockups | [MK-16](4-mockups.md#mk-16) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-036](1-historias-de-usuario.md#hu-036) | Matriz §5 |
+> | Tablas de la base de datos | [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 177**  
@@ -943,6 +980,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-24](2-reglas-de-negocio-y-requisitos.md#rn-24) | Flujos del CU |
 > | Mockups | [MK-16](4-mockups.md#mk-16), [MK-17](4-mockups.md#mk-17) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-037](1-historias-de-usuario.md#hu-037) | Matriz §5 |
+> | Tablas de la base de datos | [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 178**  
@@ -968,6 +1006,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-25](2-reglas-de-negocio-y-requisitos.md#rn-25) | Flujos del CU |
 > | Mockups | [MK-16](4-mockups.md#mk-16) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-038](1-historias-de-usuario.md#hu-038) | Matriz §5 |
+> | Tablas de la base de datos | [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 179**  
@@ -994,6 +1033,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-13](2-reglas-de-negocio-y-requisitos.md#rn-13) | Flujos del CU |
 > | Mockups | [MK-12](4-mockups.md#mk-12) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-040](1-historias-de-usuario.md#hu-040) | Matriz §5 |
+> | Tablas de la base de datos | [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 180**  
@@ -1020,6 +1060,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08) | Flujos del CU |
 > | Mockups | [MK-08](4-mockups.md#mk-08) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-041](1-historias-de-usuario.md#hu-041) | Matriz §5 |
+> | Tablas de la base de datos | [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 181**  
@@ -1049,6 +1090,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | Mockups | [MK-02](4-mockups.md#mk-02), [MK-05](4-mockups.md#mk-05), [MK-06](4-mockups.md#mk-06) | Cobertura §4.4 y flujos del CU |
 > | «include» | [CU-S02](#cu-s02) | Flujos del CU |
 > | Aparece en la cadena de | [HU-042](1-historias-de-usuario.md#hu-042) | Matriz §5 |
+> | Tablas de la base de datos | [`adjunto_caso`](../fase_3/13-script-sql-ddl.md#tabla-adjunto-caso) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 182**  
@@ -1077,6 +1119,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26), [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | Flujos del CU |
 > | Mockups | [MK-18](4-mockups.md#mk-18) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-043](1-historias-de-usuario.md#hu-043) | Matriz §5 |
+> | Tablas de la base de datos | [`area`](../fase_3/13-script-sql-ddl.md#tabla-area) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 183**  
@@ -1105,6 +1148,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26), [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | Flujos del CU |
 > | Mockups | [MK-18](4-mockups.md#mk-18) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-044](1-historias-de-usuario.md#hu-044) | Matriz §5 |
+> | Tablas de la base de datos | [`cargo`](../fase_3/13-script-sql-ddl.md#tabla-cargo) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 184**  
@@ -1133,6 +1177,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26), [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | Flujos del CU |
 > | Mockups | [MK-18](4-mockups.md#mk-18) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-045](1-historias-de-usuario.md#hu-045) | Matriz §5 |
+> | Tablas de la base de datos | [`rol_empleado`](../fase_3/13-script-sql-ddl.md#tabla-rol-empleado) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 185**  
@@ -1161,6 +1206,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26), [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | Flujos del CU |
 > | Mockups | [MK-18](4-mockups.md#mk-18) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-046](1-historias-de-usuario.md#hu-046) | Matriz §5 |
+> | Tablas de la base de datos | [`tipo_activo`](../fase_3/13-script-sql-ddl.md#tabla-tipo-activo) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 186**  
@@ -1189,6 +1235,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26), [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | Flujos del CU |
 > | Mockups | [MK-18](4-mockups.md#mk-18) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-047](1-historias-de-usuario.md#hu-047) | Matriz §5 |
+> | Tablas de la base de datos | [`tipo_problema`](../fase_3/13-script-sql-ddl.md#tabla-tipo-problema) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 187**  
@@ -1217,6 +1264,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26), [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | Flujos del CU |
 > | Mockups | [MK-18](4-mockups.md#mk-18) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-048](1-historias-de-usuario.md#hu-048) | Matriz §5 |
+> | Tablas de la base de datos | [`tipo_solicitud`](../fase_3/13-script-sql-ddl.md#tabla-tipo-solicitud) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 188**  
@@ -1245,6 +1293,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | Mockups | [MK-06](4-mockups.md#mk-06) | Cobertura §4.4 y flujos del CU |
 > | «include» | [CU-S02](#cu-s02) | Flujos del CU |
 > | Aparece en la cadena de | [HU-049](1-historias-de-usuario.md#hu-049) | Matriz §5 |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 189**  
@@ -1270,6 +1319,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-13](2-reglas-de-negocio-y-requisitos.md#rn-13) | Flujos del CU |
 > | Mockups | [MK-05](4-mockups.md#mk-05) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-001](1-historias-de-usuario.md#hu-001), [HU-010](1-historias-de-usuario.md#hu-010) | Matriz §5 |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso), [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla), [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 **Tabla 190**  
@@ -1295,6 +1345,7 @@ Cada CU se documenta con la plantilla del curso. Los Antecedentes de la HU son l
 > | RN que aplica | [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08) | Flujos del CU |
 > | Mockups | [MK-08](4-mockups.md#mk-08) | Cobertura §4.4 y flujos del CU |
 > | Aparece en la cadena de | [HU-001](1-historias-de-usuario.md#hu-001), [HU-007](1-historias-de-usuario.md#hu-007), [HU-008](1-historias-de-usuario.md#hu-008), [HU-026](1-historias-de-usuario.md#hu-026), [HU-041](1-historias-de-usuario.md#hu-041), [HU-049](1-historias-de-usuario.md#hu-049) | Matriz §5 |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso), [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla), [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo), [`transicion_estado_caso`](../fase_3/13-script-sql-ddl.md#tabla-transicion-estado-caso) | Matriz §14 → tabla (Tabla 246) → DDL |
 
 
 ***De dónde nace:** la verificación va en ambos sentidos: todo CA de una HU puede señalarse en un paso o en un flujo de estos casos de uso, y ningún flujo alternativo existe sin un CA o una RN que lo respalde. Los casos de uso sin flujos alternativos (CU-025, CU-034, CU-038, CU-S01, CU-S02) corresponden a historias cuyos criterios son todos de éxito.*

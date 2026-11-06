@@ -105,6 +105,7 @@
 > | Mockups | [MK-02](4-mockups.md#mk-02), [MK-06](4-mockups.md#mk-06) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-001) |
 > | Entidades · Clase.Método | CasoSoporte, HistorialCaso, TiempoAtencionSLA, Activo · CasoSoporte.crearCaso();  HistorialCaso.registrarHistorial();  TiempoAtencionSLA.obtenerSLA();  Activo.obtenerActivo() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-001) |
 > | Mensajes de secuencia | Sec. CU-001: crearCaso(), registrarHistorial(), obtenerSLA(), obtenerActivo() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-001) |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso), [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla), [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-001**
 
@@ -223,6 +224,7 @@
 > | Mockups | [MK-03](4-mockups.md#mk-03), [MK-09](4-mockups.md#mk-09) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-002) |
 > | Entidades · Clase.Método | Aviso, CasoSoporte · Aviso.crearAviso(), actualizarEstadoEnvio(), reintentarEnvio();  CasoSoporte.crearCaso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-002) |
 > | Mensajes de secuencia | Sec. CU-001: crearCaso();  Sec. CU-007: crearAviso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-002) |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`aviso`](../fase_3/13-script-sql-ddl.md#tabla-aviso) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-002**
 
@@ -324,6 +326,7 @@
 > | Mockups | [MK-09](4-mockups.md#mk-09) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-003) |
 > | Entidades · Clase.Método | Aviso · Aviso.crearAviso(), obtenerAviso(), actualizarEstadoEnvio(), reintentarEnvio(), marcarLeido() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-003) |
 > | Mensajes de secuencia | Sec. CU-007: crearAviso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-003) |
+> | Tablas de la base de datos | [`aviso`](../fase_3/13-script-sql-ddl.md#tabla-aviso) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-003**
 
@@ -419,6 +422,7 @@
 > | Mockups | [MK-02](4-mockups.md#mk-02) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-004) |
 > | Entidades · Clase.Método | CasoSoporte · CasoSoporte.crearCaso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-004) |
 > | Mensajes de secuencia | Sec. CU-001: crearCaso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-004) |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-004**
 
@@ -513,6 +517,7 @@
 > | Mockups | [MK-04](4-mockups.md#mk-04) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-005) |
 > | Entidades · Clase.Método | CasoSoporte · CasoSoporte.obtenerCaso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-005) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-005) |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-005**
 
@@ -614,6 +619,7 @@
 > | Mockups | [MK-07](4-mockups.md#mk-07) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-006) |
 > | Entidades · Clase.Método | CasoSoporte, TablaImportancia · CasoSoporte.obtenerCaso();  TablaImportancia.calcularResultadoImportancia() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-006) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-006) |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-006**
 
@@ -723,6 +729,7 @@
 > | Mockups | [MK-05](4-mockups.md#mk-05), [MK-06](4-mockups.md#mk-06) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-007) |
 > | Entidades · Clase.Método | CasoSoporte, HistorialCaso, TransicionEstadoCaso · CasoSoporte.actualizarCaso(), registrarPrimeraRespuesta(), marcarSolucionado();  HistorialCaso.registrarHistorial();  TransicionEstadoCaso.esTransicionValida() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-007) |
 > | Mensajes de secuencia | Sec. CU-007: registrarHistorial(), actualizarCaso(), registrarPrimeraRespuesta(), marcarSolucionado(), esTransicionValida() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-007) |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso), [`transicion_estado_caso`](../fase_3/13-script-sql-ddl.md#tabla-transicion-estado-caso) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-007**
 
@@ -819,6 +826,7 @@
 > | Mockups | [MK-06](4-mockups.md#mk-06) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-008) |
 > | Entidades · Clase.Método | CasoSoporte, HistorialCaso · CasoSoporte.actualizarCaso();  HistorialCaso.registrarHistorial() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-008) |
 > | Mensajes de secuencia | Sec. CU-001: registrarHistorial();  Sec. CU-007: actualizarCaso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-008) |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-008**
 
@@ -917,6 +925,7 @@
 > | Mockups | [MK-05](4-mockups.md#mk-05), [MK-06](4-mockups.md#mk-06) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-009) |
 > | Entidades · Clase.Método | ComentarioCaso · ComentarioCaso.registrarComentario(), listarComentarios() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-009) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-009) |
+> | Tablas de la base de datos | [`comentario_caso`](../fase_3/13-script-sql-ddl.md#tabla-comentario-caso) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-009**
 
@@ -1014,6 +1023,7 @@
 > | Mockups | [MK-05](4-mockups.md#mk-05) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-010) |
 > | Entidades · Clase.Método | CasoSoporte, TiempoAtencionSLA · CasoSoporte.cumpleSLA();  TiempoAtencionSLA.obtenerSLA() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-010) |
 > | Mensajes de secuencia | Sec. CU-001: obtenerSLA() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-010) |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-010**
 
@@ -1108,6 +1118,7 @@
 > | Mockups | [MK-10](4-mockups.md#mk-10) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-011) |
 > | Entidades · Clase.Método | CasoSoporte · CasoSoporte.cumpleSLA(), obtenerCaso(), registrarPrimeraRespuesta() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-011) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-011) |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-011**
 
@@ -1188,6 +1199,7 @@
 > | Mockups | [MK-10](4-mockups.md#mk-10) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-012) |
 > | Entidades · Clase.Método | CasoSoporte · CasoSoporte.obtenerResumenAtencion() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-012) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-012) |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-012**
 
@@ -1287,6 +1299,7 @@
 > | Mockups | [MK-05](4-mockups.md#mk-05) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-013) |
 > | Entidades · Clase.Método | CasoSoporte · CasoSoporte.reabrirCaso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-013) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-013) |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-013**
 
@@ -1375,6 +1388,7 @@
 > | Mockups | [MK-11](4-mockups.md#mk-11) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-015) |
 > | Entidades · Clase.Método | InfoPersonalSoporte · InfoPersonalSoporte.obtenerInfoSoporte() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-015) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-015) |
+> | Tablas de la base de datos | [`info_personal_soporte`](../fase_3/13-script-sql-ddl.md#tabla-info-personal-soporte) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-015**
 
@@ -1468,6 +1482,7 @@
 > | Mockups | [MK-14](4-mockups.md#mk-14) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-016) |
 > | Entidades · Clase.Método | Usuario, Catalogo · Usuario.crearUsuario(), encriptarContrasena(), validarCorreoUnico();  Catalogo.obtener() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-016) |
 > | Mensajes de secuencia | Sec. CU-016: crearUsuario(), encriptarContrasena(), validarCorreoUnico(), obtener() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-016) |
+> | Tablas de la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-016**
 
@@ -1553,6 +1568,7 @@
 > | Mockups | [MK-13](4-mockups.md#mk-13) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-017) |
 > | Entidades · Clase.Método | Usuario · Usuario.obtenerUsuario() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-017) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-017) |
+> | Tablas de la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-017**
 
@@ -1640,6 +1656,7 @@
 > | Mockups | [MK-02](4-mockups.md#mk-02) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-018) |
 > | Entidades · Clase.Método | TipoProblema · Catalogo.obtener() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-018) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-018) |
+> | Tablas de la base de datos | [`tipo_problema`](../fase_3/13-script-sql-ddl.md#tabla-tipo-problema) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-018**
 
@@ -1726,6 +1743,7 @@
 > | Mockups | [MK-02](4-mockups.md#mk-02) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-019) |
 > | Entidades · Clase.Método | TipoSolicitud · Catalogo.obtener() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-019) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-019) |
+> | Tablas de la base de datos | [`tipo_solicitud`](../fase_3/13-script-sql-ddl.md#tabla-tipo-solicitud) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-019**
 
@@ -1896,6 +1914,7 @@
 > | Mockups | [MK-02](4-mockups.md#mk-02) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-021) |
 > | Entidades · Clase.Método | TablaImportancia · TablaImportancia.calcularResultadoImportancia() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-021) |
 > | Mensajes de secuencia | Sec. CU-001: calcularResultadoImportancia() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-021) |
+> | Tablas de la base de datos | [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-021**
 
@@ -1982,6 +2001,7 @@
 > | Mockups | [MK-02](4-mockups.md#mk-02) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-022) |
 > | Entidades · Clase.Método | TablaImportancia · TablaImportancia.calcularResultadoImportancia() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-022) |
 > | Mensajes de secuencia | Sec. CU-001: calcularResultadoImportancia() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-022) |
+> | Tablas de la base de datos | [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-022**
 
@@ -2078,6 +2098,7 @@
 > | Mockups | [MK-01](4-mockups.md#mk-01) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-023) |
 > | Entidades · Clase.Método | Usuario · Usuario.autenticar(), registrarIntentoFallido(), resetearIntentosFallidos(), bloquearCuenta() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-023) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-023) |
+> | Tablas de la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-023**
 
@@ -2176,6 +2197,7 @@
 > | Mockups | [MK-01](4-mockups.md#mk-01), [MK-19](4-mockups.md#mk-19) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-024) |
 > | Entidades · Clase.Método | Usuario, TokenRecuperacion · Usuario.generarTokenRecuperacion(), encriptarContrasena(), enviarEnlaceRecuperacion(), restablecerContrasena();  TokenRecuperacion.esValido(), marcarUsado(), revocar() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-024) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-024) |
+> | Tablas de la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario), [`token_recuperacion`](../fase_3/13-script-sql-ddl.md#tabla-token-recuperacion) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-024**
 
@@ -2257,6 +2279,7 @@
 > | Mockups | [MK-04](4-mockups.md#mk-04) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-025) |
 > | Entidades · Clase.Método | Usuario · Usuario.cerrarSesion() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-025) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-025) |
+> | Tablas de la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-025**
 
@@ -2341,6 +2364,7 @@
 > | Mockups | [MK-06](4-mockups.md#mk-06) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-026) |
 > | Entidades · Clase.Método | CasoSoporte, HistorialCaso · CasoSoporte.actualizarCaso();  HistorialCaso.registrarHistorial() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-026) |
 > | Mensajes de secuencia | Sec. CU-001: registrarHistorial();  Sec. CU-007: actualizarCaso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-026) |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-026**
 
@@ -2429,6 +2453,7 @@
 > | Mockups | [MK-09](4-mockups.md#mk-09) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-028) |
 > | Entidades · Clase.Método | CasoSoporte, Aviso · CasoSoporte.cerrarCaso();  Aviso.crearAviso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-028) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-028) |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`aviso`](../fase_3/13-script-sql-ddl.md#tabla-aviso) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-028**
 
@@ -2523,6 +2548,7 @@
 > | Mockups | [MK-12](4-mockups.md#mk-12) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-029) |
 > | Entidades · Clase.Método | TiempoAtencionSLA · TiempoAtencionSLA.crearSLA(), obtenerSLA(), actualizarSLA(), inactivarSLA() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-029) |
 > | Mensajes de secuencia | Sec. CU-029: crearSLA(), obtenerSLA(), actualizarSLA(), inactivarSLA() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-029) |
+> | Tablas de la base de datos | [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-029**
 
@@ -2603,6 +2629,7 @@
 > | Mockups | [MK-10](4-mockups.md#mk-10) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-030) |
 > | Entidades · Clase.Método | CasoSoporte · CasoSoporte.generarReporte() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-030) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-030) |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-030**
 
@@ -2690,6 +2717,7 @@
 > | Mockups | [MK-13](4-mockups.md#mk-13), [MK-14](4-mockups.md#mk-14) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-031) |
 > | Entidades · Clase.Método | Usuario · Usuario.validarCorreoUnico(), actualizarUsuario() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-031) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-031) |
+> | Tablas de la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-031**
 
@@ -2782,6 +2810,7 @@
 > | Mockups | [MK-13](4-mockups.md#mk-13) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-032) |
 > | Entidades · Clase.Método | Usuario · Usuario.inactivarUsuario(), actualizarUsuario() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-032) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-032) |
+> | Tablas de la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-032**
 
@@ -2870,6 +2899,7 @@
 > | Mockups | [MK-15](4-mockups.md#mk-15) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-033) |
 > | Entidades · Clase.Método | Usuario · Usuario.desbloquearCuenta(), resetearIntentosFallidos() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-033) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-033) |
+> | Tablas de la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-033**
 
@@ -2956,6 +2986,7 @@
 > | Mockups | [MK-11](4-mockups.md#mk-11) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-034) |
 > | Entidades · Clase.Método | InfoPersonalSoporte · InfoPersonalSoporte.actualizarDisponibilidad() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-034) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-034) |
+> | Tablas de la base de datos | [`info_personal_soporte`](../fase_3/13-script-sql-ddl.md#tabla-info-personal-soporte) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-034**
 
@@ -3048,6 +3079,7 @@
 > | Mockups | [MK-17](4-mockups.md#mk-17) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-035) |
 > | Entidades · Clase.Método | Activo · Activo.crearActivo() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-035) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-035) |
+> | Tablas de la base de datos | [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-035**
 
@@ -3133,6 +3165,7 @@
 > | Mockups | [MK-16](4-mockups.md#mk-16) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-036) |
 > | Entidades · Clase.Método | Activo · Activo.obtenerActivo() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-036) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-036) |
+> | Tablas de la base de datos | [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-036**
 
@@ -3215,6 +3248,7 @@
 > | Mockups | [MK-16](4-mockups.md#mk-16), [MK-17](4-mockups.md#mk-17) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-037) |
 > | Entidades · Clase.Método | Activo · Activo.actualizarActivo() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-037) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-037) |
+> | Tablas de la base de datos | [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-037**
 
@@ -3301,6 +3335,7 @@
 > | Mockups | [MK-16](4-mockups.md#mk-16) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-038) |
 > | Entidades · Clase.Método | Activo · Activo.darDeBajaActivo() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-038) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-038) |
+> | Tablas de la base de datos | [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-038**
 
@@ -3387,6 +3422,7 @@
 > | Mockups | [MK-12](4-mockups.md#mk-12) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-040) |
 > | Entidades · Clase.Método | TiempoAtencionSLA · TiempoAtencionSLA.obtenerSLA() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-040) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-040) |
+> | Tablas de la base de datos | [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-040**
 
@@ -3473,6 +3509,7 @@
 > | Mockups | [MK-08](4-mockups.md#mk-08) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-041) |
 > | Entidades · Clase.Método | HistorialCaso · HistorialCaso.listarHistorial(), registrarHistorial() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-041) |
 > | Mensajes de secuencia | Sec. CU-001: registrarHistorial() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-041) |
+> | Tablas de la base de datos | [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-041**
 
@@ -3576,6 +3613,7 @@
 > | Mockups | [MK-02](4-mockups.md#mk-02), [MK-05](4-mockups.md#mk-05), [MK-06](4-mockups.md#mk-06) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-042) |
 > | Entidades · Clase.Método | AdjuntoCaso · AdjuntoCaso.cargarAdjunto(), obtenerAdjunto(), listarAdjuntos(), eliminarAdjunto() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-042) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-042) |
+> | Tablas de la base de datos | [`adjunto_caso`](../fase_3/13-script-sql-ddl.md#tabla-adjunto-caso) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-042**
 
@@ -3673,6 +3711,7 @@
 > | Mockups | [MK-18](4-mockups.md#mk-18) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-043) |
 > | Entidades · Clase.Método | Area · Catalogo.crear(), obtener(), actualizar(), inactivar() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-043) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-043) |
+> | Tablas de la base de datos | [`area`](../fase_3/13-script-sql-ddl.md#tabla-area) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-043**
 
@@ -3769,6 +3808,7 @@
 > | Mockups | [MK-18](4-mockups.md#mk-18) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-044) |
 > | Entidades · Clase.Método | Cargo · Catalogo.crear(), obtener(), actualizar(), inactivar() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-044) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-044) |
+> | Tablas de la base de datos | [`cargo`](../fase_3/13-script-sql-ddl.md#tabla-cargo) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-044**
 
@@ -3865,6 +3905,7 @@
 > | Mockups | [MK-18](4-mockups.md#mk-18) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-045) |
 > | Entidades · Clase.Método | RolEmpleado · Catalogo.crear(), obtener(), actualizar(), inactivar() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-045) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-045) |
+> | Tablas de la base de datos | [`rol_empleado`](../fase_3/13-script-sql-ddl.md#tabla-rol-empleado) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-045**
 
@@ -3961,6 +4002,7 @@
 > | Mockups | [MK-18](4-mockups.md#mk-18) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-046) |
 > | Entidades · Clase.Método | TipoActivo · Catalogo.crear(), obtener(), actualizar(), inactivar() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-046) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-046) |
+> | Tablas de la base de datos | [`tipo_activo`](../fase_3/13-script-sql-ddl.md#tabla-tipo-activo) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-046**
 
@@ -4057,6 +4099,7 @@
 > | Mockups | [MK-18](4-mockups.md#mk-18) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-047) |
 > | Entidades · Clase.Método | TipoProblema · Catalogo.crear(), obtener(), actualizar(), inactivar() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-047) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-047) |
+> | Tablas de la base de datos | [`tipo_problema`](../fase_3/13-script-sql-ddl.md#tabla-tipo-problema) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-047**
 
@@ -4153,6 +4196,7 @@
 > | Mockups | [MK-18](4-mockups.md#mk-18) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-048) |
 > | Entidades · Clase.Método | TipoSolicitud · Catalogo.crear(), obtener(), actualizar(), inactivar() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-048) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-048) |
+> | Tablas de la base de datos | [`tipo_solicitud`](../fase_3/13-script-sql-ddl.md#tabla-tipo-solicitud) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-048**
 
@@ -4244,6 +4288,7 @@
 > | Mockups | [MK-06](4-mockups.md#mk-06) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-049) |
 > | Entidades · Clase.Método | CasoSoporte, HistorialCaso · CasoSoporte.actualizarCaso();  HistorialCaso.registrarHistorial() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-049) |
 > | Mensajes de secuencia | Sec. CU-001: registrarHistorial();  Sec. CU-007: actualizarCaso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-049) |
+> | Tablas de la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte), [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso) | Entidad de la matriz §14 → tabla (Tabla 246) → DDL |
 
 **Trazabilidad de los criterios de aceptación de HU-049**
 
