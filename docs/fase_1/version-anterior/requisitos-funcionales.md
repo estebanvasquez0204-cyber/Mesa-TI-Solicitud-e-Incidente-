@@ -1,3 +1,5 @@
+> ⚠️ **Versión anterior.** Este archivo es la primera versión del análisis que estaba en el repositorio (carpeta `docs/3-analisis`). Usa otra numeración y fue reemplazado por la versión del documento Word de la Fase 1. Se conserva solo como evidencia del trabajo iterativo (metodología ágil, ver [0.4](../../fase_0/0.4-recoleccion-de-informacion-y-metodologia.md)). La versión vigente está en [2.2 Requisitos funcionales](../2.2-requisitos-funcionales.md).
+
 # Requisitos Funcionales
 
 ---
@@ -646,4 +648,4 @@
 |-------|-------------|
 | **ID** | RF-072 |
 | **HU Relacionada** | HU-003, HU-005 |
-| **Descripción** | El sistema debe mostrar al usuario, desde su pantalla principal, cómo va cada uno de sus casos y permitirle ver más detalles. | 
+| **Descripción** | El sistema debe mostrar al usuario, desde su pantalla principal, cómo va cada uno de sus casos y permitirle ver más detalles. |
