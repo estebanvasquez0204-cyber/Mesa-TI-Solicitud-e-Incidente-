@@ -11,7 +11,7 @@ La documentación está organizada por fases según la guía oficial del curso *
 | **Fase 2 — Diseño** | Cómo va a hacerlo | [fase_2](fase_2/README.md) |
 | **Fase 3 — Construcción** | Script SQL y repositorio Git | [fase_3](fase_3/README.md) |
 
-**🧭 Punto central de navegación:** [apoyo/matriz_trazabilidad.md](apoyo/matriz_trazabilidad.md): matriz de trazabilidad general (problema → HU → CA → RF → RN → CU → actor → MK → diseño → evidencias).
+**🧭 Punto central de navegación:** [apoyo/matriz_trazabilidad.md](apoyo/matriz_trazabilidad.md): matriz de trazabilidad general (problema → HU → CA → RF → RN → CU → actor → MK → diseño → evidencias). El detalle por atributo (columna) está en [apoyo/trazabilidad_atributos.md](apoyo/trazabilidad_atributos.md).
 
 ```mermaid
 flowchart LR

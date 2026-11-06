@@ -41,7 +41,7 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 > | RF de sus botones | [RF-34](2-reglas-de-negocio-y-requisitos.md#rf-34), [RF-35](2-reglas-de-negocio-y-requisitos.md#rf-35) | Ficha («Botones ↔ Eventos») |
 > | RN visibles | [RN-20](2-reglas-de-negocio-y-requisitos.md#rn-20), [RN-21](2-reglas-de-negocio-y-requisitos.md#rn-21), [RN-22](2-reglas-de-negocio-y-requisitos.md#rn-22) | Ficha («RN visibles») |
 > | HU | [HU-023](1-historias-de-usuario.md#hu-023), [HU-024](1-historias-de-usuario.md#hu-024) | Matriz §5 |
-> | Información almacenada en | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`contrasena_hash`, `correo`) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
+> | Información almacenada en | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) ([`contrasena_hash`](../apoyo/trazabilidad_atributos.md#atr-usuario-contrasena-hash), [`correo`](../apoyo/trazabilidad_atributos.md#atr-usuario-correo)) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
 
 
 <a id="mk-02"></a>
@@ -77,7 +77,7 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 > | RF de sus botones | [RF-01](2-reglas-de-negocio-y-requisitos.md#rf-01), [RF-18](2-reglas-de-negocio-y-requisitos.md#rf-18), [RF-19](2-reglas-de-negocio-y-requisitos.md#rf-19), [RF-20](2-reglas-de-negocio-y-requisitos.md#rf-20), [RF-42](2-reglas-de-negocio-y-requisitos.md#rf-42) | Ficha («Botones ↔ Eventos») |
 > | RN visibles | [RN-01](2-reglas-de-negocio-y-requisitos.md#rn-01), [RN-03](2-reglas-de-negocio-y-requisitos.md#rn-03), [RN-04](2-reglas-de-negocio-y-requisitos.md#rn-04), [RN-05](2-reglas-de-negocio-y-requisitos.md#rn-05), [RN-25](2-reglas-de-negocio-y-requisitos.md#rn-25), [RN-27](2-reglas-de-negocio-y-requisitos.md#rn-27) | Ficha («RN visibles») |
 > | HU | [HU-001](1-historias-de-usuario.md#hu-001), [HU-004](1-historias-de-usuario.md#hu-004), [HU-018](1-historias-de-usuario.md#hu-018), [HU-019](1-historias-de-usuario.md#hu-019), [HU-020](1-historias-de-usuario.md#hu-020), [HU-021](1-historias-de-usuario.md#hu-021), [HU-022](1-historias-de-usuario.md#hu-022), [HU-042](1-historias-de-usuario.md#hu-042) | Matriz §5 |
-> | Información almacenada en | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`correo`, `telefono`); [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`clase_solicitud`, `id_activo`, `id_tipo_problema`, `id_tipo_solicitud`, `lugar`, `titulo`); [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) (`afectacion`, `urgencia`) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
+> | Información almacenada en | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) ([`correo`](../apoyo/trazabilidad_atributos.md#atr-usuario-correo), [`telefono`](../apoyo/trazabilidad_atributos.md#atr-usuario-telefono)); [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) ([`clase_solicitud`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-clase-solicitud), [`id_activo`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-activo), [`id_tipo_problema`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-tipo-problema), [`id_tipo_solicitud`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-tipo-solicitud), [`lugar`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-lugar), [`titulo`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-titulo)); [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) ([`afectacion`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-afectacion), [`urgencia`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-urgencia)) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
 
 
 <a id="mk-03"></a>
@@ -113,7 +113,7 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 > | RF de sus botones | [RF-13](2-reglas-de-negocio-y-requisitos.md#rf-13) | Ficha («Botones ↔ Eventos») |
 > | RN visibles | [RN-02](2-reglas-de-negocio-y-requisitos.md#rn-02), [RN-16](2-reglas-de-negocio-y-requisitos.md#rn-16) | Ficha («RN visibles») |
 > | HU | [HU-002](1-historias-de-usuario.md#hu-002) | Matriz §5 |
-> | Información almacenada en | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`estado_caso`, `lugar`, `numero_seguimiento`, `titulo`); [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) (`resultado_importancia`); [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) (`tiempo_respuesta`) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
+> | Información almacenada en | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) ([`estado_caso`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-estado-caso), [`lugar`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-lugar), [`numero_seguimiento`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-numero-seguimiento), [`titulo`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-titulo)); [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) ([`resultado_importancia`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-resultado-importancia)); [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) ([`tiempo_respuesta`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-tiempo-respuesta)) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
 
 
 <a id="mk-04"></a>
@@ -149,7 +149,7 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 > | RF de sus botones | [RF-10](2-reglas-de-negocio-y-requisitos.md#rf-10), [RF-13](2-reglas-de-negocio-y-requisitos.md#rf-13), [RF-36](2-reglas-de-negocio-y-requisitos.md#rf-36) | Ficha («Botones ↔ Eventos») |
 > | RN visibles | [RN-06](2-reglas-de-negocio-y-requisitos.md#rn-06), [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | Ficha («RN visibles») |
 > | HU | [HU-005](1-historias-de-usuario.md#hu-005), [HU-025](1-historias-de-usuario.md#hu-025) | Matriz §5 |
-> | Información almacenada en | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`estado_caso`, `numero_seguimiento`, `titulo`); [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) (`resultado_importancia`) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
+> | Información almacenada en | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) ([`estado_caso`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-estado-caso), [`numero_seguimiento`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-numero-seguimiento), [`titulo`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-titulo)); [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) ([`resultado_importancia`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-resultado-importancia)) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
 
 
 <a id="mk-05"></a>
@@ -185,7 +185,7 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 > | RF de sus botones | [RF-23](2-reglas-de-negocio-y-requisitos.md#rf-23), [RF-42](2-reglas-de-negocio-y-requisitos.md#rf-42), [RF-43](2-reglas-de-negocio-y-requisitos.md#rf-43) | Ficha («Botones ↔ Eventos») |
 > | RN visibles | [RN-10](2-reglas-de-negocio-y-requisitos.md#rn-10), [RN-11](2-reglas-de-negocio-y-requisitos.md#rn-11), [RN-13](2-reglas-de-negocio-y-requisitos.md#rn-13), [RN-14](2-reglas-de-negocio-y-requisitos.md#rn-14), [RN-27](2-reglas-de-negocio-y-requisitos.md#rn-27) | Ficha («RN visibles») |
 > | HU | [HU-007](1-historias-de-usuario.md#hu-007), [HU-009](1-historias-de-usuario.md#hu-009), [HU-010](1-historias-de-usuario.md#hu-010), [HU-013](1-historias-de-usuario.md#hu-013), [HU-042](1-historias-de-usuario.md#hu-042) | Matriz §5 |
-> | Información almacenada en | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`id_activo`, `lugar`, `motivo_reapertura`); [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) (`afectacion`, `urgencia`); [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) (`tiempo_respuesta`, `tiempo_solucion`) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
+> | Información almacenada en | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) ([`id_activo`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-activo), [`lugar`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-lugar), [`motivo_reapertura`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-motivo-reapertura)); [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) ([`afectacion`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-afectacion), [`urgencia`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-urgencia)); [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) ([`tiempo_respuesta`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-tiempo-respuesta), [`tiempo_solucion`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-tiempo-solucion)) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
 
 
 <a id="mk-09"></a>
@@ -221,7 +221,7 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 > | RF de sus botones | [RF-04](2-reglas-de-negocio-y-requisitos.md#rf-04), [RF-06](2-reglas-de-negocio-y-requisitos.md#rf-06) | Ficha («Botones ↔ Eventos») |
 > | RN visibles | [RN-15](2-reglas-de-negocio-y-requisitos.md#rn-15), [RN-16](2-reglas-de-negocio-y-requisitos.md#rn-16) | Ficha («RN visibles») |
 > | HU | [HU-002](1-historias-de-usuario.md#hu-002), [HU-003](1-historias-de-usuario.md#hu-003), [HU-028](1-historias-de-usuario.md#hu-028) | Matriz §5 |
-> | Información almacenada en | [`aviso`](../fase_3/13-script-sql-ddl.md#tabla-aviso) (`canal`, `estado_envio`, `fecha_envio`, `fecha_lectura`, `mensaje`) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
+> | Información almacenada en | [`aviso`](../fase_3/13-script-sql-ddl.md#tabla-aviso) ([`canal`](../apoyo/trazabilidad_atributos.md#atr-aviso-canal), [`estado_envio`](../apoyo/trazabilidad_atributos.md#atr-aviso-estado-envio), [`fecha_envio`](../apoyo/trazabilidad_atributos.md#atr-aviso-fecha-envio), [`fecha_lectura`](../apoyo/trazabilidad_atributos.md#atr-aviso-fecha-lectura), [`mensaje`](../apoyo/trazabilidad_atributos.md#atr-aviso-mensaje)) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
 
 
 <a id="mk-19"></a>
@@ -256,7 +256,7 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 > | RF de sus botones | [RF-35](2-reglas-de-negocio-y-requisitos.md#rf-35) | Ficha («Botones ↔ Eventos») |
 > | RN visibles | [RN-19](2-reglas-de-negocio-y-requisitos.md#rn-19), [RN-22](2-reglas-de-negocio-y-requisitos.md#rn-22) | Ficha («RN visibles») |
 > | HU | [HU-024](1-historias-de-usuario.md#hu-024) | Matriz §5 |
-> | Información almacenada en | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`contrasena_hash`); [`token_recuperacion`](../fase_3/13-script-sql-ddl.md#tabla-token-recuperacion) (`estado_token`, `fecha_expiracion`, `fecha_uso`, `token_hash`) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
+> | Información almacenada en | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) ([`contrasena_hash`](../apoyo/trazabilidad_atributos.md#atr-usuario-contrasena-hash)); [`token_recuperacion`](../fase_3/13-script-sql-ddl.md#tabla-token-recuperacion) ([`estado_token`](../apoyo/trazabilidad_atributos.md#atr-token-recuperacion-estado-token), [`fecha_expiracion`](../apoyo/trazabilidad_atributos.md#atr-token-recuperacion-fecha-expiracion), [`fecha_uso`](../apoyo/trazabilidad_atributos.md#atr-token-recuperacion-fecha-uso), [`token_hash`](../apoyo/trazabilidad_atributos.md#atr-token-recuperacion-token-hash)) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
 
 
 ## 4.2 Mockups del personal de soporte y del supervisor
@@ -294,7 +294,7 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 > | RF de sus botones | [RF-08](2-reglas-de-negocio-y-requisitos.md#rf-08), [RF-12](2-reglas-de-negocio-y-requisitos.md#rf-12), [RF-14](2-reglas-de-negocio-y-requisitos.md#rf-14), [RF-15](2-reglas-de-negocio-y-requisitos.md#rf-15), [RF-16](2-reglas-de-negocio-y-requisitos.md#rf-16) | Ficha («Botones ↔ Eventos») |
 > | RN visibles | [RN-03](2-reglas-de-negocio-y-requisitos.md#rn-03), [RN-07](2-reglas-de-negocio-y-requisitos.md#rn-07), [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08), [RN-09](2-reglas-de-negocio-y-requisitos.md#rn-09), [RN-10](2-reglas-de-negocio-y-requisitos.md#rn-10) | Ficha («RN visibles») |
 > | HU | [HU-001](1-historias-de-usuario.md#hu-001), [HU-007](1-historias-de-usuario.md#hu-007), [HU-008](1-historias-de-usuario.md#hu-008), [HU-009](1-historias-de-usuario.md#hu-009), [HU-026](1-historias-de-usuario.md#hu-026), [HU-042](1-historias-de-usuario.md#hu-042), [HU-049](1-historias-de-usuario.md#hu-049) | Matriz §5 |
-> | Información almacenada en | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`estado_caso`, `id_personal_asignado`); [`comentario_caso`](../fase_3/13-script-sql-ddl.md#tabla-comentario-caso) (`comentario`, `visibilidad`) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
+> | Información almacenada en | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) ([`estado_caso`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-estado-caso), [`id_personal_asignado`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-personal-asignado)); [`comentario_caso`](../fase_3/13-script-sql-ddl.md#tabla-comentario-caso) ([`comentario`](../apoyo/trazabilidad_atributos.md#atr-comentario-caso-comentario), [`visibilidad`](../apoyo/trazabilidad_atributos.md#atr-comentario-caso-visibilidad)) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
 
 
 <a id="mk-07"></a>
@@ -330,7 +330,7 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 > | RF de sus botones | [RF-11](2-reglas-de-negocio-y-requisitos.md#rf-11) | Ficha («Botones ↔ Eventos») |
 > | RN visibles | [RN-05](2-reglas-de-negocio-y-requisitos.md#rn-05) | Ficha («RN visibles») |
 > | HU | [HU-006](1-historias-de-usuario.md#hu-006) | Matriz §5 |
-> | Información almacenada en | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`estado_caso`, `numero_seguimiento`); [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) (`resultado_importancia`) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
+> | Información almacenada en | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) ([`estado_caso`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-estado-caso), [`numero_seguimiento`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-numero-seguimiento)); [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) ([`resultado_importancia`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-resultado-importancia)) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
 
 
 <a id="mk-08"></a>
@@ -366,7 +366,7 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 > | RF de sus botones | [RF-41](2-reglas-de-negocio-y-requisitos.md#rf-41) | Ficha («Botones ↔ Eventos») |
 > | RN visibles | [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08) | Ficha («RN visibles») |
 > | HU | [HU-041](1-historias-de-usuario.md#hu-041) | Matriz §5 |
-> | Información almacenada en | [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso) (`accion`, `campo_modificado`, `fecha_accion`, `id_usuario_accion`, `valor_anterior`, `valor_nuevo`) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
+> | Información almacenada en | [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso) ([`accion`](../apoyo/trazabilidad_atributos.md#atr-historial-caso-accion), [`campo_modificado`](../apoyo/trazabilidad_atributos.md#atr-historial-caso-campo-modificado), [`fecha_accion`](../apoyo/trazabilidad_atributos.md#atr-historial-caso-fecha-accion), [`id_usuario_accion`](../apoyo/trazabilidad_atributos.md#atr-historial-caso-id-usuario-accion), [`valor_anterior`](../apoyo/trazabilidad_atributos.md#atr-historial-caso-valor-anterior), [`valor_nuevo`](../apoyo/trazabilidad_atributos.md#atr-historial-caso-valor-nuevo)) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
 
 
 <a id="mk-10"></a>
@@ -402,7 +402,7 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 > | RF de sus botones | [RF-22](2-reglas-de-negocio-y-requisitos.md#rf-22), [RF-40](2-reglas-de-negocio-y-requisitos.md#rf-40) | Ficha («Botones ↔ Eventos») |
 > | RN visibles | [RN-14](2-reglas-de-negocio-y-requisitos.md#rn-14), [RN-29](2-reglas-de-negocio-y-requisitos.md#rn-29) | Ficha («RN visibles») |
 > | HU | [HU-011](1-historias-de-usuario.md#hu-011), [HU-012](1-historias-de-usuario.md#hu-012), [HU-030](1-historias-de-usuario.md#hu-030) | Matriz §5 |
-> | Información almacenada en | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`estado_caso`) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
+> | Información almacenada en | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) ([`estado_caso`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-estado-caso)) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
 
 
 <a id="mk-11"></a>
@@ -438,7 +438,7 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 > | RF de sus botones | [RF-24](2-reglas-de-negocio-y-requisitos.md#rf-24), [RF-25](2-reglas-de-negocio-y-requisitos.md#rf-25) | Ficha («Botones ↔ Eventos») |
 > | RN visibles | [RN-28](2-reglas-de-negocio-y-requisitos.md#rn-28) | Ficha («RN visibles») |
 > | HU | [HU-015](1-historias-de-usuario.md#hu-015), [HU-034](1-historias-de-usuario.md#hu-034) | Matriz §5 |
-> | Información almacenada en | [`info_personal_soporte`](../fase_3/13-script-sql-ddl.md#tabla-info-personal-soporte) (`disponibilidad`) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
+> | Información almacenada en | [`info_personal_soporte`](../fase_3/13-script-sql-ddl.md#tabla-info-personal-soporte) ([`disponibilidad`](../apoyo/trazabilidad_atributos.md#atr-info-personal-soporte-disponibilidad)) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
 
 
 ## 4.3 Mockups del administrador
@@ -476,7 +476,7 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 > | RF de sus botones | [RF-38](2-reglas-de-negocio-y-requisitos.md#rf-38), [RF-39](2-reglas-de-negocio-y-requisitos.md#rf-39) | Ficha («Botones ↔ Eventos») |
 > | RN visibles | [RN-13](2-reglas-de-negocio-y-requisitos.md#rn-13) | Ficha («RN visibles») |
 > | HU | [HU-029](1-historias-de-usuario.md#hu-029), [HU-040](1-historias-de-usuario.md#hu-040) | Matriz §5 |
-> | Información almacenada en | [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) (`fecha_inicio_vigencia`, `tiempo_respuesta`, `tiempo_solucion`) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
+> | Información almacenada en | [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) ([`fecha_inicio_vigencia`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-fecha-inicio-vigencia), [`tiempo_respuesta`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-tiempo-respuesta), [`tiempo_solucion`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-tiempo-solucion)) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
 
 
 <a id="mk-13"></a>
@@ -512,7 +512,7 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 > | RF de sus botones | [RF-26](2-reglas-de-negocio-y-requisitos.md#rf-26), [RF-27](2-reglas-de-negocio-y-requisitos.md#rf-27), [RF-28](2-reglas-de-negocio-y-requisitos.md#rf-28), [RF-29](2-reglas-de-negocio-y-requisitos.md#rf-29) | Ficha («Botones ↔ Eventos») |
 > | RN visibles | [RN-21](2-reglas-de-negocio-y-requisitos.md#rn-21) | Ficha («RN visibles») |
 > | HU | [HU-017](1-historias-de-usuario.md#hu-017), [HU-031](1-historias-de-usuario.md#hu-031), [HU-032](1-historias-de-usuario.md#hu-032) | Matriz §5 |
-> | Información almacenada en | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`correo`, `estado_usuario`, `perfil_acceso`) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
+> | Información almacenada en | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) ([`correo`](../apoyo/trazabilidad_atributos.md#atr-usuario-correo), [`estado_usuario`](../apoyo/trazabilidad_atributos.md#atr-usuario-estado-usuario), [`perfil_acceso`](../apoyo/trazabilidad_atributos.md#atr-usuario-perfil-acceso)) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
 
 
 <a id="mk-14"></a>
@@ -548,7 +548,7 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 > | RF de sus botones | [RF-26](2-reglas-de-negocio-y-requisitos.md#rf-26), [RF-28](2-reglas-de-negocio-y-requisitos.md#rf-28) | Ficha («Botones ↔ Eventos») |
 > | RN visibles | [RN-17](2-reglas-de-negocio-y-requisitos.md#rn-17), [RN-18](2-reglas-de-negocio-y-requisitos.md#rn-18), [RN-19](2-reglas-de-negocio-y-requisitos.md#rn-19) | Ficha («RN visibles») |
 > | HU | [HU-016](1-historias-de-usuario.md#hu-016), [HU-031](1-historias-de-usuario.md#hu-031) | Matriz §5 |
-> | Información almacenada en | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`contrasena_hash`, `correo`, `id_cargo`, `id_rol_organizacional`, `perfil_acceso`, `telefono`) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
+> | Información almacenada en | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) ([`contrasena_hash`](../apoyo/trazabilidad_atributos.md#atr-usuario-contrasena-hash), [`correo`](../apoyo/trazabilidad_atributos.md#atr-usuario-correo), [`id_cargo`](../apoyo/trazabilidad_atributos.md#atr-usuario-id-cargo), [`id_rol_organizacional`](../apoyo/trazabilidad_atributos.md#atr-usuario-id-rol-organizacional), [`perfil_acceso`](../apoyo/trazabilidad_atributos.md#atr-usuario-perfil-acceso), [`telefono`](../apoyo/trazabilidad_atributos.md#atr-usuario-telefono)) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
 
 
 <a id="mk-15"></a>
@@ -584,7 +584,7 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 > | RF de sus botones | [RF-30](2-reglas-de-negocio-y-requisitos.md#rf-30) | Ficha («Botones ↔ Eventos») |
 > | RN visibles | [RN-20](2-reglas-de-negocio-y-requisitos.md#rn-20) | Ficha («RN visibles») |
 > | HU | [HU-033](1-historias-de-usuario.md#hu-033) | Matriz §5 |
-> | Información almacenada en | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`correo`, `fecha_bloqueo`, `intentos_fallidos`) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
+> | Información almacenada en | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) ([`correo`](../apoyo/trazabilidad_atributos.md#atr-usuario-correo), [`fecha_bloqueo`](../apoyo/trazabilidad_atributos.md#atr-usuario-fecha-bloqueo), [`intentos_fallidos`](../apoyo/trazabilidad_atributos.md#atr-usuario-intentos-fallidos)) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
 
 
 <a id="mk-16"></a>
@@ -620,7 +620,7 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 > | RF de sus botones | [RF-44](2-reglas-de-negocio-y-requisitos.md#rf-44), [RF-45](2-reglas-de-negocio-y-requisitos.md#rf-45), [RF-46](2-reglas-de-negocio-y-requisitos.md#rf-46), [RF-47](2-reglas-de-negocio-y-requisitos.md#rf-47) | Ficha («Botones ↔ Eventos») |
 > | RN visibles | [RN-25](2-reglas-de-negocio-y-requisitos.md#rn-25) | Ficha («RN visibles») |
 > | HU | [HU-036](1-historias-de-usuario.md#hu-036), [HU-037](1-historias-de-usuario.md#hu-037), [HU-038](1-historias-de-usuario.md#hu-038) | Matriz §5 |
-> | Información almacenada en | [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) (`numero_serie`) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
+> | Información almacenada en | [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) ([`numero_serie`](../apoyo/trazabilidad_atributos.md#atr-activo-numero-serie)) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
 
 
 <a id="mk-17"></a>
@@ -656,7 +656,7 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 > | RF de sus botones | [RF-44](2-reglas-de-negocio-y-requisitos.md#rf-44), [RF-46](2-reglas-de-negocio-y-requisitos.md#rf-46) | Ficha («Botones ↔ Eventos») |
 > | RN visibles | [RN-24](2-reglas-de-negocio-y-requisitos.md#rn-24) | Ficha («RN visibles») |
 > | HU | [HU-035](1-historias-de-usuario.md#hu-035), [HU-037](1-historias-de-usuario.md#hu-037) | Matriz §5 |
-> | Información almacenada en | [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) (`fecha_adquisicion`, `id_tipo_activo`, `marca`, `modelo`, `numero_serie`) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
+> | Información almacenada en | [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) ([`fecha_adquisicion`](../apoyo/trazabilidad_atributos.md#atr-activo-fecha-adquisicion), [`id_tipo_activo`](../apoyo/trazabilidad_atributos.md#atr-activo-id-tipo-activo), [`marca`](../apoyo/trazabilidad_atributos.md#atr-activo-marca), [`modelo`](../apoyo/trazabilidad_atributos.md#atr-activo-modelo), [`numero_serie`](../apoyo/trazabilidad_atributos.md#atr-activo-numero-serie)) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
 
 
 <a id="mk-18"></a>
@@ -692,7 +692,7 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 > | RF de sus botones | [RF-48](2-reglas-de-negocio-y-requisitos.md#rf-48) | Ficha («Botones ↔ Eventos») |
 > | RN visibles | [RN-04](2-reglas-de-negocio-y-requisitos.md#rn-04), [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26), [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | Ficha («RN visibles») |
 > | HU | [HU-043](1-historias-de-usuario.md#hu-043), [HU-044](1-historias-de-usuario.md#hu-044), [HU-045](1-historias-de-usuario.md#hu-045), [HU-046](1-historias-de-usuario.md#hu-046), [HU-047](1-historias-de-usuario.md#hu-047), [HU-048](1-historias-de-usuario.md#hu-048) | Matriz §5 |
-> | Información almacenada en | [`area`](../fase_3/13-script-sql-ddl.md#tabla-area) (`nombre_area`); [`cargo`](../fase_3/13-script-sql-ddl.md#tabla-cargo) (`nombre_cargo`); [`rol_empleado`](../fase_3/13-script-sql-ddl.md#tabla-rol-empleado) (`nombre_rol`) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
+> | Información almacenada en | [`area`](../fase_3/13-script-sql-ddl.md#tabla-area) ([`nombre_area`](../apoyo/trazabilidad_atributos.md#atr-area-nombre-area)); [`cargo`](../fase_3/13-script-sql-ddl.md#tabla-cargo) ([`nombre_cargo`](../apoyo/trazabilidad_atributos.md#atr-cargo-nombre-cargo)); [`rol_empleado`](../fase_3/13-script-sql-ddl.md#tabla-rol-empleado) ([`nombre_rol`](../apoyo/trazabilidad_atributos.md#atr-rol-empleado-nombre-rol)) | Ficha («Campos ↔ Diccionario») → columnas del DDL |
 
 
 ## 4.4 Cobertura de los casos de uso

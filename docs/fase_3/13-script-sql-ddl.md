@@ -309,14 +309,14 @@ erDiagram
 
 **Propósito.** Catálogo de áreas o departamentos (RN-18, RN-30). En el script: *catálogo de áreas*. Implementa la entidad [Tabla 223](../fase_2/5-diccionario-de-datos.md#dic-area) del diccionario y la clase [`Area`](../fase_2/7-diagrama-de-clases.md) del diagrama de clases (correspondencia de la Tabla 246, §9.3.2).
 
-| Columna | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
+| Columna (→ [trazabilidad](../apoyo/trazabilidad_atributos.md)) | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
 |---|---|:---:|---|:---:|---|
-| `id_area` | `int` | No | — (auto_increment) | PK |  |
-| `nombre_area` | `varchar(100)` | No | — | UQ |  |
-| `estado` | `enum('activo','inactivo')` | No | activo |  |  |
-| `fecha_creacion` | `datetime` | No | CURRENT_TIMESTAMP |  |  |
-| `fecha_actualizacion` | `datetime` | Sí | — |  |  |
-| `id_usuario_modificacion` | `int` | Sí | — | FK |  |
+| <a id="bd-area-id-area"></a>[`id_area`](../apoyo/trazabilidad_atributos.md#atr-area-id-area) | `int` | No | — (auto_increment) | PK |  |
+| <a id="bd-area-nombre-area"></a>[`nombre_area`](../apoyo/trazabilidad_atributos.md#atr-area-nombre-area) | `varchar(100)` | No | — | UQ |  |
+| <a id="bd-area-estado"></a>[`estado`](../apoyo/trazabilidad_atributos.md#atr-area-estado) | `enum('activo','inactivo')` | No | activo |  |  |
+| <a id="bd-area-fecha-creacion"></a>[`fecha_creacion`](../apoyo/trazabilidad_atributos.md#atr-area-fecha-creacion) | `datetime` | No | CURRENT_TIMESTAMP |  |  |
+| <a id="bd-area-fecha-actualizacion"></a>[`fecha_actualizacion`](../apoyo/trazabilidad_atributos.md#atr-area-fecha-actualizacion) | `datetime` | Sí | — |  |  |
+| <a id="bd-area-id-usuario-modificacion"></a>[`id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-area-id-usuario-modificacion) | `int` | Sí | — | FK |  |
 
 | Restricción | Tipo | Definición | Reglas de negocio |
 |---|---|---|---|
@@ -346,14 +346,14 @@ erDiagram
 
 **Propósito.** Catálogo de cargos formales (RN-30). Implementa la entidad [Tabla 224](../fase_2/5-diccionario-de-datos.md#dic-cargo) del diccionario y la clase [`Cargo`](../fase_2/7-diagrama-de-clases.md) del diagrama de clases (correspondencia de la Tabla 246, §9.3.2).
 
-| Columna | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
+| Columna (→ [trazabilidad](../apoyo/trazabilidad_atributos.md)) | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
 |---|---|:---:|---|:---:|---|
-| `id_cargo` | `int` | No | — (auto_increment) | PK |  |
-| `nombre_cargo` | `varchar(100)` | No | — | UQ |  |
-| `estado` | `enum('activo','inactivo')` | No | activo |  |  |
-| `fecha_creacion` | `datetime` | No | CURRENT_TIMESTAMP |  |  |
-| `fecha_actualizacion` | `datetime` | Sí | — |  |  |
-| `id_usuario_modificacion` | `int` | Sí | — | FK |  |
+| <a id="bd-cargo-id-cargo"></a>[`id_cargo`](../apoyo/trazabilidad_atributos.md#atr-cargo-id-cargo) | `int` | No | — (auto_increment) | PK |  |
+| <a id="bd-cargo-nombre-cargo"></a>[`nombre_cargo`](../apoyo/trazabilidad_atributos.md#atr-cargo-nombre-cargo) | `varchar(100)` | No | — | UQ |  |
+| <a id="bd-cargo-estado"></a>[`estado`](../apoyo/trazabilidad_atributos.md#atr-cargo-estado) | `enum('activo','inactivo')` | No | activo |  |  |
+| <a id="bd-cargo-fecha-creacion"></a>[`fecha_creacion`](../apoyo/trazabilidad_atributos.md#atr-cargo-fecha-creacion) | `datetime` | No | CURRENT_TIMESTAMP |  |  |
+| <a id="bd-cargo-fecha-actualizacion"></a>[`fecha_actualizacion`](../apoyo/trazabilidad_atributos.md#atr-cargo-fecha-actualizacion) | `datetime` | Sí | — |  |  |
+| <a id="bd-cargo-id-usuario-modificacion"></a>[`id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-cargo-id-usuario-modificacion) | `int` | Sí | — | FK |  |
 
 | Restricción | Tipo | Definición | Reglas de negocio |
 |---|---|---|---|
@@ -382,14 +382,14 @@ erDiagram
 
 **Propósito.** Clasificación jerárquica del empleado (RN-30). Implementa la entidad [Tabla 225](../fase_2/5-diccionario-de-datos.md#dic-rol-empleado) del diccionario y la clase [`RolEmpleado`](../fase_2/7-diagrama-de-clases.md) del diagrama de clases (correspondencia de la Tabla 246, §9.3.2).
 
-| Columna | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
+| Columna (→ [trazabilidad](../apoyo/trazabilidad_atributos.md)) | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
 |---|---|:---:|---|:---:|---|
-| `id_rol_empleado` | `int` | No | — (auto_increment) | PK |  |
-| `nombre_rol` | `varchar(100)` | No | — | UQ |  |
-| `estado` | `enum('activo','inactivo')` | No | activo |  |  |
-| `fecha_creacion` | `datetime` | No | CURRENT_TIMESTAMP |  |  |
-| `fecha_actualizacion` | `datetime` | Sí | — |  |  |
-| `id_usuario_modificacion` | `int` | Sí | — | FK |  |
+| <a id="bd-rol-empleado-id-rol-empleado"></a>[`id_rol_empleado`](../apoyo/trazabilidad_atributos.md#atr-rol-empleado-id-rol-empleado) | `int` | No | — (auto_increment) | PK |  |
+| <a id="bd-rol-empleado-nombre-rol"></a>[`nombre_rol`](../apoyo/trazabilidad_atributos.md#atr-rol-empleado-nombre-rol) | `varchar(100)` | No | — | UQ |  |
+| <a id="bd-rol-empleado-estado"></a>[`estado`](../apoyo/trazabilidad_atributos.md#atr-rol-empleado-estado) | `enum('activo','inactivo')` | No | activo |  |  |
+| <a id="bd-rol-empleado-fecha-creacion"></a>[`fecha_creacion`](../apoyo/trazabilidad_atributos.md#atr-rol-empleado-fecha-creacion) | `datetime` | No | CURRENT_TIMESTAMP |  |  |
+| <a id="bd-rol-empleado-fecha-actualizacion"></a>[`fecha_actualizacion`](../apoyo/trazabilidad_atributos.md#atr-rol-empleado-fecha-actualizacion) | `datetime` | Sí | — |  |  |
+| <a id="bd-rol-empleado-id-usuario-modificacion"></a>[`id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-rol-empleado-id-usuario-modificacion) | `int` | Sí | — | FK |  |
 
 | Restricción | Tipo | Definición | Reglas de negocio |
 |---|---|---|---|
@@ -418,23 +418,23 @@ erDiagram
 
 **Propósito.** Personas que usan el sistema (RN-17 a RN-23). En el script: *identidad y credenciales*. Implementa la entidad [Tabla 226](../fase_2/5-diccionario-de-datos.md#dic-usuario) del diccionario y la clase [`Usuario`](../fase_2/7-diagrama-de-clases.md) del diagrama de clases (correspondencia de la Tabla 246, §9.3.2).
 
-| Columna | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
+| Columna (→ [trazabilidad](../apoyo/trazabilidad_atributos.md)) | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
 |---|---|:---:|---|:---:|---|
-| `id_usuario` | `int` | No | — (auto_increment) | PK |  |
-| `nombre` | `varchar(120)` | No | — |  |  |
-| `correo` | `varchar(150)` | No | — | UQ |  |
-| `telefono` | `varchar(20)` | Sí | — |  | [RN-01](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-01) |
-| `contrasena_hash` | `varchar(255)` | No | — |  | [RN-19](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-19) |
-| `intentos_fallidos` | `int` | No | 0 |  | [RN-20](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-20) |
-| `fecha_bloqueo` | `datetime` | Sí | — |  | [RN-20](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-20) |
-| `id_cargo` | `int` | Sí | — | FK |  |
-| `id_area` | `int` | Sí | — | FK | [RN-18](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-18) |
-| `id_rol_organizacional` | `int` | Sí | — | FK |  |
-| `perfil_acceso` | `enum('solicitante','soporte','supervisor','administrador')` | No | — |  | [RN-23](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-23) |
-| `estado_usuario` | `enum('activo','inactivo')` | No | activo |  | [RN-21](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-21) |
-| `fecha_registro` | `date` | No | curdate() |  |  |
-| `fecha_actualizacion` | `datetime` | Sí | — |  |  |
-| `id_usuario_modificacion` | `int` | Sí | — | FK |  |
+| <a id="bd-usuario-id-usuario"></a>[`id_usuario`](../apoyo/trazabilidad_atributos.md#atr-usuario-id-usuario) | `int` | No | — (auto_increment) | PK |  |
+| <a id="bd-usuario-nombre"></a>[`nombre`](../apoyo/trazabilidad_atributos.md#atr-usuario-nombre) | `varchar(120)` | No | — |  |  |
+| <a id="bd-usuario-correo"></a>[`correo`](../apoyo/trazabilidad_atributos.md#atr-usuario-correo) | `varchar(150)` | No | — | UQ |  |
+| <a id="bd-usuario-telefono"></a>[`telefono`](../apoyo/trazabilidad_atributos.md#atr-usuario-telefono) | `varchar(20)` | Sí | — |  | [RN-01](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-01) |
+| <a id="bd-usuario-contrasena-hash"></a>[`contrasena_hash`](../apoyo/trazabilidad_atributos.md#atr-usuario-contrasena-hash) | `varchar(255)` | No | — |  | [RN-19](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-19) |
+| <a id="bd-usuario-intentos-fallidos"></a>[`intentos_fallidos`](../apoyo/trazabilidad_atributos.md#atr-usuario-intentos-fallidos) | `int` | No | 0 |  | [RN-20](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-20) |
+| <a id="bd-usuario-fecha-bloqueo"></a>[`fecha_bloqueo`](../apoyo/trazabilidad_atributos.md#atr-usuario-fecha-bloqueo) | `datetime` | Sí | — |  | [RN-20](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-20) |
+| <a id="bd-usuario-id-cargo"></a>[`id_cargo`](../apoyo/trazabilidad_atributos.md#atr-usuario-id-cargo) | `int` | Sí | — | FK |  |
+| <a id="bd-usuario-id-area"></a>[`id_area`](../apoyo/trazabilidad_atributos.md#atr-usuario-id-area) | `int` | Sí | — | FK | [RN-18](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-18) |
+| <a id="bd-usuario-id-rol-organizacional"></a>[`id_rol_organizacional`](../apoyo/trazabilidad_atributos.md#atr-usuario-id-rol-organizacional) | `int` | Sí | — | FK |  |
+| <a id="bd-usuario-perfil-acceso"></a>[`perfil_acceso`](../apoyo/trazabilidad_atributos.md#atr-usuario-perfil-acceso) | `enum('solicitante','soporte','supervisor','administrador')` | No | — |  | [RN-23](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-23) |
+| <a id="bd-usuario-estado-usuario"></a>[`estado_usuario`](../apoyo/trazabilidad_atributos.md#atr-usuario-estado-usuario) | `enum('activo','inactivo')` | No | activo |  | [RN-21](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-21) |
+| <a id="bd-usuario-fecha-registro"></a>[`fecha_registro`](../apoyo/trazabilidad_atributos.md#atr-usuario-fecha-registro) | `date` | No | curdate() |  |  |
+| <a id="bd-usuario-fecha-actualizacion"></a>[`fecha_actualizacion`](../apoyo/trazabilidad_atributos.md#atr-usuario-fecha-actualizacion) | `datetime` | Sí | — |  |  |
+| <a id="bd-usuario-id-usuario-modificacion"></a>[`id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-usuario-id-usuario-modificacion) | `int` | Sí | — | FK |  |
 
 | Restricción | Tipo | Definición | Reglas de negocio |
 |---|---|---|---|
@@ -472,15 +472,15 @@ erDiagram
 
 **Propósito.** Tokens de recuperación de contraseña (RN-19, RN-22). En el script: *nueva en C12*. Implementa la entidad [Tabla 227](../fase_2/5-diccionario-de-datos.md#dic-token-recuperacion) del diccionario y la clase [`TokenRecuperacion`](../fase_2/7-diagrama-de-clases.md) del diagrama de clases (correspondencia de la Tabla 246, §9.3.2).
 
-| Columna | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
+| Columna (→ [trazabilidad](../apoyo/trazabilidad_atributos.md)) | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
 |---|---|:---:|---|:---:|---|
-| `id_token` | `int` | No | — (auto_increment) | PK |  |
-| `id_usuario` | `int` | No | — | FK |  |
-| `token_hash` | `varchar(255)` | No | — | UQ | [RN-19](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-19) |
-| `fecha_generacion` | `datetime` | No | CURRENT_TIMESTAMP |  |  |
-| `fecha_expiracion` | `datetime` | No | — |  |  |
-| `fecha_uso` | `datetime` | Sí | — |  |  |
-| `estado_token` | `enum('vigente','usado','revocado')` | No | vigente |  |  |
+| <a id="bd-token-recuperacion-id-token"></a>[`id_token`](../apoyo/trazabilidad_atributos.md#atr-token-recuperacion-id-token) | `int` | No | — (auto_increment) | PK |  |
+| <a id="bd-token-recuperacion-id-usuario"></a>[`id_usuario`](../apoyo/trazabilidad_atributos.md#atr-token-recuperacion-id-usuario) | `int` | No | — | FK |  |
+| <a id="bd-token-recuperacion-token-hash"></a>[`token_hash`](../apoyo/trazabilidad_atributos.md#atr-token-recuperacion-token-hash) | `varchar(255)` | No | — | UQ | [RN-19](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-19) |
+| <a id="bd-token-recuperacion-fecha-generacion"></a>[`fecha_generacion`](../apoyo/trazabilidad_atributos.md#atr-token-recuperacion-fecha-generacion) | `datetime` | No | CURRENT_TIMESTAMP |  |  |
+| <a id="bd-token-recuperacion-fecha-expiracion"></a>[`fecha_expiracion`](../apoyo/trazabilidad_atributos.md#atr-token-recuperacion-fecha-expiracion) | `datetime` | No | — |  |  |
+| <a id="bd-token-recuperacion-fecha-uso"></a>[`fecha_uso`](../apoyo/trazabilidad_atributos.md#atr-token-recuperacion-fecha-uso) | `datetime` | Sí | — |  |  |
+| <a id="bd-token-recuperacion-estado-token"></a>[`estado_token`](../apoyo/trazabilidad_atributos.md#atr-token-recuperacion-estado-token) | `enum('vigente','usado','revocado')` | No | vigente |  |  |
 
 | Restricción | Tipo | Definición | Reglas de negocio |
 |---|---|---|---|
@@ -514,12 +514,12 @@ erDiagram
 
 **Propósito.** Disponibilidad del personal de soporte (RN-28). En el script: *extensión 1:1 de usuario*. Implementa la entidad [Tabla 237](../fase_2/5-diccionario-de-datos.md#dic-info-personal-soporte) del diccionario y la clase [`InfoPersonalSoporte`](../fase_2/7-diagrama-de-clases.md) del diagrama de clases (correspondencia de la Tabla 246, §9.3.2).
 
-| Columna | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
+| Columna (→ [trazabilidad](../apoyo/trazabilidad_atributos.md)) | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
 |---|---|:---:|---|:---:|---|
-| `id_info_soporte` | `int` | No | — (auto_increment) | PK |  |
-| `id_usuario_soporte` | `int` | No | — | FK |  |
-| `disponibilidad` | `enum('disponible','ocupado','ausente')` | No | — |  |  |
-| `fecha_actualizacion` | `datetime` | No | CURRENT_TIMESTAMP |  |  |
+| <a id="bd-info-personal-soporte-id-info-soporte"></a>[`id_info_soporte`](../apoyo/trazabilidad_atributos.md#atr-info-personal-soporte-id-info-soporte) | `int` | No | — (auto_increment) | PK |  |
+| <a id="bd-info-personal-soporte-id-usuario-soporte"></a>[`id_usuario_soporte`](../apoyo/trazabilidad_atributos.md#atr-info-personal-soporte-id-usuario-soporte) | `int` | No | — | FK |  |
+| <a id="bd-info-personal-soporte-disponibilidad"></a>[`disponibilidad`](../apoyo/trazabilidad_atributos.md#atr-info-personal-soporte-disponibilidad) | `enum('disponible','ocupado','ausente')` | No | — |  |  |
+| <a id="bd-info-personal-soporte-fecha-actualizacion"></a>[`fecha_actualizacion`](../apoyo/trazabilidad_atributos.md#atr-info-personal-soporte-fecha-actualizacion) | `datetime` | No | CURRENT_TIMESTAMP |  |  |
 
 | Restricción | Tipo | Definición | Reglas de negocio |
 |---|---|---|---|
@@ -549,15 +549,15 @@ erDiagram
 
 **Propósito.** Catálogo de tipos de equipo (RN-24, RN-30). Implementa la entidad [Tabla 229](../fase_2/5-diccionario-de-datos.md#dic-tipo-activo) del diccionario y la clase [`TipoActivo`](../fase_2/7-diagrama-de-clases.md) del diagrama de clases (correspondencia de la Tabla 246, §9.3.2).
 
-| Columna | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
+| Columna (→ [trazabilidad](../apoyo/trazabilidad_atributos.md)) | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
 |---|---|:---:|---|:---:|---|
-| `id_tipo_activo` | `int` | No | — (auto_increment) | PK |  |
-| `nombre` | `varchar(100)` | No | — | UQ | [RN-24](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-24) |
-| `descripcion` | `text` | Sí | — |  |  |
-| `estado` | `enum('activo','inactivo')` | No | activo |  |  |
-| `fecha_creacion` | `datetime` | No | CURRENT_TIMESTAMP |  |  |
-| `fecha_actualizacion` | `datetime` | Sí | — |  |  |
-| `id_usuario_modificacion` | `int` | Sí | — | FK |  |
+| <a id="bd-tipo-activo-id-tipo-activo"></a>[`id_tipo_activo`](../apoyo/trazabilidad_atributos.md#atr-tipo-activo-id-tipo-activo) | `int` | No | — (auto_increment) | PK |  |
+| <a id="bd-tipo-activo-nombre"></a>[`nombre`](../apoyo/trazabilidad_atributos.md#atr-tipo-activo-nombre) | `varchar(100)` | No | — | UQ | [RN-24](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-24) |
+| <a id="bd-tipo-activo-descripcion"></a>[`descripcion`](../apoyo/trazabilidad_atributos.md#atr-tipo-activo-descripcion) | `text` | Sí | — |  |  |
+| <a id="bd-tipo-activo-estado"></a>[`estado`](../apoyo/trazabilidad_atributos.md#atr-tipo-activo-estado) | `enum('activo','inactivo')` | No | activo |  |  |
+| <a id="bd-tipo-activo-fecha-creacion"></a>[`fecha_creacion`](../apoyo/trazabilidad_atributos.md#atr-tipo-activo-fecha-creacion) | `datetime` | No | CURRENT_TIMESTAMP |  |  |
+| <a id="bd-tipo-activo-fecha-actualizacion"></a>[`fecha_actualizacion`](../apoyo/trazabilidad_atributos.md#atr-tipo-activo-fecha-actualizacion) | `datetime` | Sí | — |  |  |
+| <a id="bd-tipo-activo-id-usuario-modificacion"></a>[`id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-tipo-activo-id-usuario-modificacion) | `int` | Sí | — | FK |  |
 
 | Restricción | Tipo | Definición | Reglas de negocio |
 |---|---|---|---|
@@ -583,15 +583,15 @@ erDiagram
 
 **Propósito.** Catálogo de tipos de problema (RN-04, RN-30). Implementa la entidad [Tabla 231](../fase_2/5-diccionario-de-datos.md#dic-tipo-problema) del diccionario y la clase [`TipoProblema`](../fase_2/7-diagrama-de-clases.md) del diagrama de clases (correspondencia de la Tabla 246, §9.3.2).
 
-| Columna | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
+| Columna (→ [trazabilidad](../apoyo/trazabilidad_atributos.md)) | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
 |---|---|:---:|---|:---:|---|
-| `id_tipo_problema` | `int` | No | — (auto_increment) | PK |  |
-| `nombre` | `varchar(100)` | No | — | UQ |  |
-| `descripcion` | `text` | Sí | — |  |  |
-| `estado` | `enum('activo','inactivo')` | No | activo |  |  |
-| `fecha_creacion` | `datetime` | No | CURRENT_TIMESTAMP |  |  |
-| `fecha_actualizacion` | `datetime` | Sí | — |  |  |
-| `id_usuario_modificacion` | `int` | Sí | — | FK |  |
+| <a id="bd-tipo-problema-id-tipo-problema"></a>[`id_tipo_problema`](../apoyo/trazabilidad_atributos.md#atr-tipo-problema-id-tipo-problema) | `int` | No | — (auto_increment) | PK |  |
+| <a id="bd-tipo-problema-nombre"></a>[`nombre`](../apoyo/trazabilidad_atributos.md#atr-tipo-problema-nombre) | `varchar(100)` | No | — | UQ |  |
+| <a id="bd-tipo-problema-descripcion"></a>[`descripcion`](../apoyo/trazabilidad_atributos.md#atr-tipo-problema-descripcion) | `text` | Sí | — |  |  |
+| <a id="bd-tipo-problema-estado"></a>[`estado`](../apoyo/trazabilidad_atributos.md#atr-tipo-problema-estado) | `enum('activo','inactivo')` | No | activo |  |  |
+| <a id="bd-tipo-problema-fecha-creacion"></a>[`fecha_creacion`](../apoyo/trazabilidad_atributos.md#atr-tipo-problema-fecha-creacion) | `datetime` | No | CURRENT_TIMESTAMP |  |  |
+| <a id="bd-tipo-problema-fecha-actualizacion"></a>[`fecha_actualizacion`](../apoyo/trazabilidad_atributos.md#atr-tipo-problema-fecha-actualizacion) | `datetime` | Sí | — |  |  |
+| <a id="bd-tipo-problema-id-usuario-modificacion"></a>[`id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-tipo-problema-id-usuario-modificacion) | `int` | Sí | — | FK |  |
 
 | Restricción | Tipo | Definición | Reglas de negocio |
 |---|---|---|---|
@@ -617,15 +617,15 @@ erDiagram
 
 **Propósito.** Catálogo de tipos de solicitud (RN-04, RN-30). Implementa la entidad [Tabla 232](../fase_2/5-diccionario-de-datos.md#dic-tipo-solicitud) del diccionario y la clase [`TipoSolicitud`](../fase_2/7-diagrama-de-clases.md) del diagrama de clases (correspondencia de la Tabla 246, §9.3.2).
 
-| Columna | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
+| Columna (→ [trazabilidad](../apoyo/trazabilidad_atributos.md)) | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
 |---|---|:---:|---|:---:|---|
-| `id_tipo_solicitud` | `int` | No | — (auto_increment) | PK |  |
-| `nombre` | `varchar(100)` | No | — | UQ |  |
-| `descripcion` | `text` | Sí | — |  |  |
-| `estado` | `enum('activo','inactivo')` | No | activo |  |  |
-| `fecha_creacion` | `datetime` | No | CURRENT_TIMESTAMP |  |  |
-| `fecha_actualizacion` | `datetime` | Sí | — |  |  |
-| `id_usuario_modificacion` | `int` | Sí | — | FK |  |
+| <a id="bd-tipo-solicitud-id-tipo-solicitud"></a>[`id_tipo_solicitud`](../apoyo/trazabilidad_atributos.md#atr-tipo-solicitud-id-tipo-solicitud) | `int` | No | — (auto_increment) | PK |  |
+| <a id="bd-tipo-solicitud-nombre"></a>[`nombre`](../apoyo/trazabilidad_atributos.md#atr-tipo-solicitud-nombre) | `varchar(100)` | No | — | UQ |  |
+| <a id="bd-tipo-solicitud-descripcion"></a>[`descripcion`](../apoyo/trazabilidad_atributos.md#atr-tipo-solicitud-descripcion) | `text` | Sí | — |  |  |
+| <a id="bd-tipo-solicitud-estado"></a>[`estado`](../apoyo/trazabilidad_atributos.md#atr-tipo-solicitud-estado) | `enum('activo','inactivo')` | No | activo |  |  |
+| <a id="bd-tipo-solicitud-fecha-creacion"></a>[`fecha_creacion`](../apoyo/trazabilidad_atributos.md#atr-tipo-solicitud-fecha-creacion) | `datetime` | No | CURRENT_TIMESTAMP |  |  |
+| <a id="bd-tipo-solicitud-fecha-actualizacion"></a>[`fecha_actualizacion`](../apoyo/trazabilidad_atributos.md#atr-tipo-solicitud-fecha-actualizacion) | `datetime` | Sí | — |  |  |
+| <a id="bd-tipo-solicitud-id-usuario-modificacion"></a>[`id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-tipo-solicitud-id-usuario-modificacion) | `int` | Sí | — | FK |  |
 
 | Restricción | Tipo | Definición | Reglas de negocio |
 |---|---|---|---|
@@ -651,16 +651,16 @@ erDiagram
 
 **Propósito.** Matriz de prioridad afectación x urgencia = P1..P4 (RN-05). En el script: *matriz de prioridad*. Implementa la entidad [Tabla 233](../fase_2/5-diccionario-de-datos.md#dic-tabla-importancia) del diccionario y la clase [`TablaImportancia`](../fase_2/7-diagrama-de-clases.md) del diagrama de clases (correspondencia de la Tabla 246, §9.3.2).
 
-| Columna | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
+| Columna (→ [trazabilidad](../apoyo/trazabilidad_atributos.md)) | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
 |---|---|:---:|---|:---:|---|
-| `id_tabla_importancia` | `int` | No | — (auto_increment) | PK |  |
-| `afectacion` | `enum('usuario','area','empresa')` | No | — |  |  |
-| `urgencia` | `enum('baja','media','alta','critica')` | No | — |  |  |
-| `resultado_importancia` | `enum('P1','P2','P3','P4')` | No | — |  |  |
-| `estado` | `enum('activo','inactivo')` | No | activo |  |  |
-| `fecha_creacion` | `datetime` | No | CURRENT_TIMESTAMP |  |  |
-| `fecha_actualizacion` | `datetime` | Sí | — |  |  |
-| `id_usuario_modificacion` | `int` | Sí | — | FK |  |
+| <a id="bd-tabla-importancia-id-tabla-importancia"></a>[`id_tabla_importancia`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-id-tabla-importancia) | `int` | No | — (auto_increment) | PK |  |
+| <a id="bd-tabla-importancia-afectacion"></a>[`afectacion`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-afectacion) | `enum('usuario','area','empresa')` | No | — |  |  |
+| <a id="bd-tabla-importancia-urgencia"></a>[`urgencia`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-urgencia) | `enum('baja','media','alta','critica')` | No | — |  |  |
+| <a id="bd-tabla-importancia-resultado-importancia"></a>[`resultado_importancia`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-resultado-importancia) | `enum('P1','P2','P3','P4')` | No | — |  |  |
+| <a id="bd-tabla-importancia-estado"></a>[`estado`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-estado) | `enum('activo','inactivo')` | No | activo |  |  |
+| <a id="bd-tabla-importancia-fecha-creacion"></a>[`fecha_creacion`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-fecha-creacion) | `datetime` | No | CURRENT_TIMESTAMP |  |  |
+| <a id="bd-tabla-importancia-fecha-actualizacion"></a>[`fecha_actualizacion`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-fecha-actualizacion) | `datetime` | Sí | — |  |  |
+| <a id="bd-tabla-importancia-id-usuario-modificacion"></a>[`id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-id-usuario-modificacion) | `int` | Sí | — | FK |  |
 
 | Restricción | Tipo | Definición | Reglas de negocio |
 |---|---|---|---|
@@ -696,20 +696,20 @@ erDiagram
 
 **Propósito.** Equipos de la empresa (RN-24, RN-25). Implementa la entidad [Tabla 228](../fase_2/5-diccionario-de-datos.md#dic-activo) del diccionario y la clase [`Activo`](../fase_2/7-diagrama-de-clases.md) del diagrama de clases (correspondencia de la Tabla 246, §9.3.2).
 
-| Columna | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
+| Columna (→ [trazabilidad](../apoyo/trazabilidad_atributos.md)) | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
 |---|---|:---:|---|:---:|---|
-| `id_activo` | `int` | No | — (auto_increment) | PK |  |
-| `nombre` | `varchar(100)` | No | — |  | [RN-24](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-24) |
-| `id_tipo_activo` | `int` | No | — | FK | [RN-24](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-24) |
-| `marca` | `varchar(60)` | Sí | — |  |  |
-| `modelo` | `varchar(60)` | Sí | — |  |  |
-| `numero_serie` | `varchar(60)` | Sí | — | UQ |  |
-| `id_area` | `int` | Sí | — | FK |  |
-| `estado` | `enum('activo','en_reparacion','dado_de_baja')` | No | activo |  |  |
-| `fecha_adquisicion` | `date` | Sí | — |  |  |
-| `fecha_creacion` | `datetime` | No | CURRENT_TIMESTAMP |  |  |
-| `fecha_actualizacion` | `datetime` | Sí | — |  |  |
-| `id_usuario_modificacion` | `int` | Sí | — | FK |  |
+| <a id="bd-activo-id-activo"></a>[`id_activo`](../apoyo/trazabilidad_atributos.md#atr-activo-id-activo) | `int` | No | — (auto_increment) | PK |  |
+| <a id="bd-activo-nombre"></a>[`nombre`](../apoyo/trazabilidad_atributos.md#atr-activo-nombre) | `varchar(100)` | No | — |  | [RN-24](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-24) |
+| <a id="bd-activo-id-tipo-activo"></a>[`id_tipo_activo`](../apoyo/trazabilidad_atributos.md#atr-activo-id-tipo-activo) | `int` | No | — | FK | [RN-24](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-24) |
+| <a id="bd-activo-marca"></a>[`marca`](../apoyo/trazabilidad_atributos.md#atr-activo-marca) | `varchar(60)` | Sí | — |  |  |
+| <a id="bd-activo-modelo"></a>[`modelo`](../apoyo/trazabilidad_atributos.md#atr-activo-modelo) | `varchar(60)` | Sí | — |  |  |
+| <a id="bd-activo-numero-serie"></a>[`numero_serie`](../apoyo/trazabilidad_atributos.md#atr-activo-numero-serie) | `varchar(60)` | Sí | — | UQ |  |
+| <a id="bd-activo-id-area"></a>[`id_area`](../apoyo/trazabilidad_atributos.md#atr-activo-id-area) | `int` | Sí | — | FK |  |
+| <a id="bd-activo-estado"></a>[`estado`](../apoyo/trazabilidad_atributos.md#atr-activo-estado) | `enum('activo','en_reparacion','dado_de_baja')` | No | activo |  |  |
+| <a id="bd-activo-fecha-adquisicion"></a>[`fecha_adquisicion`](../apoyo/trazabilidad_atributos.md#atr-activo-fecha-adquisicion) | `date` | Sí | — |  |  |
+| <a id="bd-activo-fecha-creacion"></a>[`fecha_creacion`](../apoyo/trazabilidad_atributos.md#atr-activo-fecha-creacion) | `datetime` | No | CURRENT_TIMESTAMP |  |  |
+| <a id="bd-activo-fecha-actualizacion"></a>[`fecha_actualizacion`](../apoyo/trazabilidad_atributos.md#atr-activo-fecha-actualizacion) | `datetime` | Sí | — |  |  |
+| <a id="bd-activo-id-usuario-modificacion"></a>[`id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-activo-id-usuario-modificacion) | `int` | Sí | — | FK |  |
 
 | Restricción | Tipo | Definición | Reglas de negocio |
 |---|---|---|---|
@@ -744,19 +744,19 @@ erDiagram
 
 **Propósito.** Reglas de tiempos de respuesta y solución, versionadas (RN-13, RN-14). Implementa la entidad [Tabla 238](../fase_2/5-diccionario-de-datos.md#dic-tiempo-atencion-sla) del diccionario y la clase [`TiempoAtencionSLA`](../fase_2/7-diagrama-de-clases.md) del diagrama de clases (correspondencia de la Tabla 246, §9.3.2).
 
-| Columna | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
+| Columna (→ [trazabilidad](../apoyo/trazabilidad_atributos.md)) | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
 |---|---|:---:|---|:---:|---|
-| `id_tiempo_atencion` | `int` | No | — (auto_increment) | PK |  |
-| `id_tabla_importancia` | `int` | No | — | FK |  |
-| `tipo_caso` | `enum('problema','solicitud')` | No | — |  |  |
-| `fecha_inicio_vigencia` | `date` | No | curdate() |  |  |
-| `fecha_fin_vigencia` | `date` | Sí | — |  |  |
-| `tiempo_respuesta` | `int` | No | — |  | [RN-13](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-13) |
-| `tiempo_solucion` | `int` | No | — |  | [RN-13](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-13) |
-| `estado` | `enum('activo','inactivo')` | No | activo |  |  |
-| `fecha_creacion` | `datetime` | No | CURRENT_TIMESTAMP |  |  |
-| `fecha_actualizacion` | `datetime` | Sí | — |  |  |
-| `id_usuario_modificacion` | `int` | Sí | — | FK |  |
+| <a id="bd-tiempo-atencion-sla-id-tiempo-atencion"></a>[`id_tiempo_atencion`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-id-tiempo-atencion) | `int` | No | — (auto_increment) | PK |  |
+| <a id="bd-tiempo-atencion-sla-id-tabla-importancia"></a>[`id_tabla_importancia`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-id-tabla-importancia) | `int` | No | — | FK |  |
+| <a id="bd-tiempo-atencion-sla-tipo-caso"></a>[`tipo_caso`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-tipo-caso) | `enum('problema','solicitud')` | No | — |  |  |
+| <a id="bd-tiempo-atencion-sla-fecha-inicio-vigencia"></a>[`fecha_inicio_vigencia`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-fecha-inicio-vigencia) | `date` | No | curdate() |  |  |
+| <a id="bd-tiempo-atencion-sla-fecha-fin-vigencia"></a>[`fecha_fin_vigencia`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-fecha-fin-vigencia) | `date` | Sí | — |  |  |
+| <a id="bd-tiempo-atencion-sla-tiempo-respuesta"></a>[`tiempo_respuesta`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-tiempo-respuesta) | `int` | No | — |  | [RN-13](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-13) |
+| <a id="bd-tiempo-atencion-sla-tiempo-solucion"></a>[`tiempo_solucion`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-tiempo-solucion) | `int` | No | — |  | [RN-13](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-13) |
+| <a id="bd-tiempo-atencion-sla-estado"></a>[`estado`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-estado) | `enum('activo','inactivo')` | No | activo |  |  |
+| <a id="bd-tiempo-atencion-sla-fecha-creacion"></a>[`fecha_creacion`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-fecha-creacion) | `datetime` | No | CURRENT_TIMESTAMP |  |  |
+| <a id="bd-tiempo-atencion-sla-fecha-actualizacion"></a>[`fecha_actualizacion`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-fecha-actualizacion) | `datetime` | Sí | — |  |  |
+| <a id="bd-tiempo-atencion-sla-id-usuario-modificacion"></a>[`id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-id-usuario-modificacion) | `int` | Sí | — | FK |  |
 
 | Restricción | Tipo | Definición | Reglas de negocio |
 |---|---|---|---|
@@ -792,29 +792,29 @@ erDiagram
 
 **Propósito.** Caso de soporte, entidad central (RN-01 a RN-14, RN-25). En el script: *entidad central*. Implementa la entidad [Tabla 230](../fase_2/5-diccionario-de-datos.md#dic-caso-soporte) del diccionario y la clase [`CasoSoporte`](../fase_2/7-diagrama-de-clases.md) del diagrama de clases (correspondencia de la Tabla 246, §9.3.2).
 
-| Columna | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
+| Columna (→ [trazabilidad](../apoyo/trazabilidad_atributos.md)) | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
 |---|---|:---:|---|:---:|---|
-| `id_caso` | `int` | No | — (auto_increment) | PK |  |
-| `numero_seguimiento` | `varchar(30)` | No | — | UQ | [RN-02](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-02) |
-| `titulo` | `varchar(150)` | No | — |  | [RN-01](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-01) |
-| `descripcion` | `text` | No | — |  | [RN-01](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-01) |
-| `lugar` | `varchar(120)` | No | — |  | [RN-01](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-01) |
-| `estado_caso` | `enum('recibido','en_revision','en_atencion','resuelto','cerrado','reabierto')` | No | recibido |  |  |
-| `id_usuario_solicitante` | `int` | No | — | FK | [RN-06](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-06) |
-| `id_personal_asignado` | `int` | Sí | — | FK | [RN-09](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-09) |
-| `id_activo` | `int` | Sí | — | FK | [RN-25](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-25) |
-| `id_tabla_importancia` | `int` | No | — | FK | [RN-01](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-01), [RN-05](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-05) |
-| `id_tiempo_atencion` | `int` | No | — | FK | [RN-13](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-13) |
-| `tipo_caso` | `enum('problema','solicitud')` | No | — |  | [RN-03](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-03) |
-| `id_tipo_problema` | `int` | Sí | — | FK | [RN-03](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-03) |
-| `id_tipo_solicitud` | `int` | Sí | — | FK | [RN-03](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-03) |
-| `clase_solicitud` | `enum('nuevo','cambio','consulta')` | Sí | — |  | [RN-03](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-03) |
-| `fecha_creacion` | `datetime` | No | CURRENT_TIMESTAMP |  |  |
-| `fecha_primera_respuesta` | `datetime` | Sí | — |  |  |
-| `fecha_solucion` | `datetime` | Sí | — |  |  |
-| `fecha_cierre` | `datetime` | Sí | — |  |  |
-| `contador_reaperturas` | `int` | No | 0 |  | [RN-11](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-11) |
-| `motivo_reapertura` | `text` | Sí | — |  | [RN-11](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-11) |
+| <a id="bd-caso-soporte-id-caso"></a>[`id_caso`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-caso) | `int` | No | — (auto_increment) | PK |  |
+| <a id="bd-caso-soporte-numero-seguimiento"></a>[`numero_seguimiento`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-numero-seguimiento) | `varchar(30)` | No | — | UQ | [RN-02](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-02) |
+| <a id="bd-caso-soporte-titulo"></a>[`titulo`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-titulo) | `varchar(150)` | No | — |  | [RN-01](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-01) |
+| <a id="bd-caso-soporte-descripcion"></a>[`descripcion`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-descripcion) | `text` | No | — |  | [RN-01](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-01) |
+| <a id="bd-caso-soporte-lugar"></a>[`lugar`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-lugar) | `varchar(120)` | No | — |  | [RN-01](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-01) |
+| <a id="bd-caso-soporte-estado-caso"></a>[`estado_caso`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-estado-caso) | `enum('recibido','en_revision','en_atencion','resuelto','cerrado','reabierto')` | No | recibido |  |  |
+| <a id="bd-caso-soporte-id-usuario-solicitante"></a>[`id_usuario_solicitante`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-usuario-solicitante) | `int` | No | — | FK | [RN-06](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-06) |
+| <a id="bd-caso-soporte-id-personal-asignado"></a>[`id_personal_asignado`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-personal-asignado) | `int` | Sí | — | FK | [RN-09](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-09) |
+| <a id="bd-caso-soporte-id-activo"></a>[`id_activo`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-activo) | `int` | Sí | — | FK | [RN-25](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-25) |
+| <a id="bd-caso-soporte-id-tabla-importancia"></a>[`id_tabla_importancia`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-tabla-importancia) | `int` | No | — | FK | [RN-01](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-01), [RN-05](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-05) |
+| <a id="bd-caso-soporte-id-tiempo-atencion"></a>[`id_tiempo_atencion`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-tiempo-atencion) | `int` | No | — | FK | [RN-13](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-13) |
+| <a id="bd-caso-soporte-tipo-caso"></a>[`tipo_caso`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-tipo-caso) | `enum('problema','solicitud')` | No | — |  | [RN-03](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-03) |
+| <a id="bd-caso-soporte-id-tipo-problema"></a>[`id_tipo_problema`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-tipo-problema) | `int` | Sí | — | FK | [RN-03](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-03) |
+| <a id="bd-caso-soporte-id-tipo-solicitud"></a>[`id_tipo_solicitud`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-tipo-solicitud) | `int` | Sí | — | FK | [RN-03](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-03) |
+| <a id="bd-caso-soporte-clase-solicitud"></a>[`clase_solicitud`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-clase-solicitud) | `enum('nuevo','cambio','consulta')` | Sí | — |  | [RN-03](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-03) |
+| <a id="bd-caso-soporte-fecha-creacion"></a>[`fecha_creacion`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-fecha-creacion) | `datetime` | No | CURRENT_TIMESTAMP |  |  |
+| <a id="bd-caso-soporte-fecha-primera-respuesta"></a>[`fecha_primera_respuesta`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-fecha-primera-respuesta) | `datetime` | Sí | — |  |  |
+| <a id="bd-caso-soporte-fecha-solucion"></a>[`fecha_solucion`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-fecha-solucion) | `datetime` | Sí | — |  |  |
+| <a id="bd-caso-soporte-fecha-cierre"></a>[`fecha_cierre`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-fecha-cierre) | `datetime` | Sí | — |  |  |
+| <a id="bd-caso-soporte-contador-reaperturas"></a>[`contador_reaperturas`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-contador-reaperturas) | `int` | No | 0 |  | [RN-11](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-11) |
+| <a id="bd-caso-soporte-motivo-reapertura"></a>[`motivo_reapertura`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-motivo-reapertura) | `text` | Sí | — |  | [RN-11](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-11) |
 
 | Restricción | Tipo | Definición | Reglas de negocio |
 |---|---|---|---|
@@ -865,14 +865,14 @@ erDiagram
 
 **Propósito.** Comentarios del caso (RN-06, RN-10). Implementa la entidad [Tabla 234](../fase_2/5-diccionario-de-datos.md#dic-comentario-caso) del diccionario y la clase [`ComentarioCaso`](../fase_2/7-diagrama-de-clases.md) del diagrama de clases (correspondencia de la Tabla 246, §9.3.2).
 
-| Columna | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
+| Columna (→ [trazabilidad](../apoyo/trazabilidad_atributos.md)) | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
 |---|---|:---:|---|:---:|---|
-| `id_comentario` | `int` | No | — (auto_increment) | PK |  |
-| `id_caso` | `int` | No | — | FK |  |
-| `id_usuario_autor` | `int` | No | — | FK |  |
-| `comentario` | `text` | No | — |  |  |
-| `visibilidad` | `enum('usuario','interno_soporte')` | No | — |  |  |
-| `fecha_comentario` | `datetime` | No | CURRENT_TIMESTAMP |  |  |
+| <a id="bd-comentario-caso-id-comentario"></a>[`id_comentario`](../apoyo/trazabilidad_atributos.md#atr-comentario-caso-id-comentario) | `int` | No | — (auto_increment) | PK |  |
+| <a id="bd-comentario-caso-id-caso"></a>[`id_caso`](../apoyo/trazabilidad_atributos.md#atr-comentario-caso-id-caso) | `int` | No | — | FK |  |
+| <a id="bd-comentario-caso-id-usuario-autor"></a>[`id_usuario_autor`](../apoyo/trazabilidad_atributos.md#atr-comentario-caso-id-usuario-autor) | `int` | No | — | FK |  |
+| <a id="bd-comentario-caso-comentario"></a>[`comentario`](../apoyo/trazabilidad_atributos.md#atr-comentario-caso-comentario) | `text` | No | — |  |  |
+| <a id="bd-comentario-caso-visibilidad"></a>[`visibilidad`](../apoyo/trazabilidad_atributos.md#atr-comentario-caso-visibilidad) | `enum('usuario','interno_soporte')` | No | — |  |  |
+| <a id="bd-comentario-caso-fecha-comentario"></a>[`fecha_comentario`](../apoyo/trazabilidad_atributos.md#atr-comentario-caso-fecha-comentario) | `datetime` | No | CURRENT_TIMESTAMP |  |  |
 
 | Restricción | Tipo | Definición | Reglas de negocio |
 |---|---|---|---|
@@ -903,17 +903,17 @@ erDiagram
 
 **Propósito.** Bitácora inmutable de cambios del caso (RN-08). En el script: *bitácora inmutable*. Implementa la entidad [Tabla 235](../fase_2/5-diccionario-de-datos.md#dic-historial-caso) del diccionario y la clase [`HistorialCaso`](../fase_2/7-diagrama-de-clases.md) del diagrama de clases (correspondencia de la Tabla 246, §9.3.2).
 
-| Columna | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
+| Columna (→ [trazabilidad](../apoyo/trazabilidad_atributos.md)) | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
 |---|---|:---:|---|:---:|---|
-| `id_historial` | `int` | No | — (auto_increment) | PK |  |
-| `id_caso` | `int` | No | — | FK |  |
-| `id_usuario_accion` | `int` | No | — | FK |  |
-| `accion` | `enum('creacion','cambio_estado','reasignacion','comentario','adjunto','cierre','reapertura','cambio_clasificacion')` | No | — |  |  |
-| `campo_modificado` | `varchar(60)` | Sí | — |  |  |
-| `valor_anterior` | `text` | Sí | — |  |  |
-| `valor_nuevo` | `text` | Sí | — |  |  |
-| `motivo` | `varchar(255)` | Sí | — |  |  |
-| `fecha_accion` | `datetime` | No | CURRENT_TIMESTAMP |  |  |
+| <a id="bd-historial-caso-id-historial"></a>[`id_historial`](../apoyo/trazabilidad_atributos.md#atr-historial-caso-id-historial) | `int` | No | — (auto_increment) | PK |  |
+| <a id="bd-historial-caso-id-caso"></a>[`id_caso`](../apoyo/trazabilidad_atributos.md#atr-historial-caso-id-caso) | `int` | No | — | FK |  |
+| <a id="bd-historial-caso-id-usuario-accion"></a>[`id_usuario_accion`](../apoyo/trazabilidad_atributos.md#atr-historial-caso-id-usuario-accion) | `int` | No | — | FK |  |
+| <a id="bd-historial-caso-accion"></a>[`accion`](../apoyo/trazabilidad_atributos.md#atr-historial-caso-accion) | `enum('creacion','cambio_estado','reasignacion','comentario','adjunto','cierre','reapertura','cambio_clasificacion')` | No | — |  |  |
+| <a id="bd-historial-caso-campo-modificado"></a>[`campo_modificado`](../apoyo/trazabilidad_atributos.md#atr-historial-caso-campo-modificado) | `varchar(60)` | Sí | — |  |  |
+| <a id="bd-historial-caso-valor-anterior"></a>[`valor_anterior`](../apoyo/trazabilidad_atributos.md#atr-historial-caso-valor-anterior) | `text` | Sí | — |  |  |
+| <a id="bd-historial-caso-valor-nuevo"></a>[`valor_nuevo`](../apoyo/trazabilidad_atributos.md#atr-historial-caso-valor-nuevo) | `text` | Sí | — |  |  |
+| <a id="bd-historial-caso-motivo"></a>[`motivo`](../apoyo/trazabilidad_atributos.md#atr-historial-caso-motivo) | `varchar(255)` | Sí | — |  |  |
+| <a id="bd-historial-caso-fecha-accion"></a>[`fecha_accion`](../apoyo/trazabilidad_atributos.md#atr-historial-caso-fecha-accion) | `datetime` | No | CURRENT_TIMESTAMP |  |  |
 
 | Restricción | Tipo | Definición | Reglas de negocio |
 |---|---|---|---|
@@ -946,18 +946,18 @@ erDiagram
 
 **Propósito.** Evidencias del caso, borrado lógico (RN-27). En el script: *con borrado lógico (C09)*. Implementa la entidad [Tabla 236](../fase_2/5-diccionario-de-datos.md#dic-adjunto-caso) del diccionario y la clase [`AdjuntoCaso`](../fase_2/7-diagrama-de-clases.md) del diagrama de clases (correspondencia de la Tabla 246, §9.3.2).
 
-| Columna | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
+| Columna (→ [trazabilidad](../apoyo/trazabilidad_atributos.md)) | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
 |---|---|:---:|---|:---:|---|
-| `id_adjunto` | `int` | No | — (auto_increment) | PK |  |
-| `id_caso` | `int` | No | — | FK |  |
-| `id_usuario_autor` | `int` | No | — | FK |  |
-| `nombre_archivo` | `varchar(150)` | No | — |  |  |
-| `tipo_archivo` | `varchar(50)` | No | — |  |  |
-| `ruta_almacenamiento` | `varchar(255)` | No | — |  |  |
-| `tamano_kb` | `int` | No | — |  |  |
-| `fecha_carga` | `datetime` | No | CURRENT_TIMESTAMP |  |  |
-| `estado_adjunto` | `enum('activo','eliminado')` | No | activo |  |  |
-| `fecha_eliminacion` | `datetime` | Sí | — |  |  |
+| <a id="bd-adjunto-caso-id-adjunto"></a>[`id_adjunto`](../apoyo/trazabilidad_atributos.md#atr-adjunto-caso-id-adjunto) | `int` | No | — (auto_increment) | PK |  |
+| <a id="bd-adjunto-caso-id-caso"></a>[`id_caso`](../apoyo/trazabilidad_atributos.md#atr-adjunto-caso-id-caso) | `int` | No | — | FK |  |
+| <a id="bd-adjunto-caso-id-usuario-autor"></a>[`id_usuario_autor`](../apoyo/trazabilidad_atributos.md#atr-adjunto-caso-id-usuario-autor) | `int` | No | — | FK |  |
+| <a id="bd-adjunto-caso-nombre-archivo"></a>[`nombre_archivo`](../apoyo/trazabilidad_atributos.md#atr-adjunto-caso-nombre-archivo) | `varchar(150)` | No | — |  |  |
+| <a id="bd-adjunto-caso-tipo-archivo"></a>[`tipo_archivo`](../apoyo/trazabilidad_atributos.md#atr-adjunto-caso-tipo-archivo) | `varchar(50)` | No | — |  |  |
+| <a id="bd-adjunto-caso-ruta-almacenamiento"></a>[`ruta_almacenamiento`](../apoyo/trazabilidad_atributos.md#atr-adjunto-caso-ruta-almacenamiento) | `varchar(255)` | No | — |  |  |
+| <a id="bd-adjunto-caso-tamano-kb"></a>[`tamano_kb`](../apoyo/trazabilidad_atributos.md#atr-adjunto-caso-tamano-kb) | `int` | No | — |  |  |
+| <a id="bd-adjunto-caso-fecha-carga"></a>[`fecha_carga`](../apoyo/trazabilidad_atributos.md#atr-adjunto-caso-fecha-carga) | `datetime` | No | CURRENT_TIMESTAMP |  |  |
+| <a id="bd-adjunto-caso-estado-adjunto"></a>[`estado_adjunto`](../apoyo/trazabilidad_atributos.md#atr-adjunto-caso-estado-adjunto) | `enum('activo','eliminado')` | No | activo |  |  |
+| <a id="bd-adjunto-caso-fecha-eliminacion"></a>[`fecha_eliminacion`](../apoyo/trazabilidad_atributos.md#atr-adjunto-caso-fecha-eliminacion) | `datetime` | Sí | — |  |  |
 
 | Restricción | Tipo | Definición | Reglas de negocio |
 |---|---|---|---|
@@ -987,19 +987,19 @@ erDiagram
 
 **Propósito.** Avisos por cambios de situación (RN-15, RN-16). Implementa la entidad [Tabla 239](../fase_2/5-diccionario-de-datos.md#dic-aviso) del diccionario y la clase [`Aviso`](../fase_2/7-diagrama-de-clases.md) del diagrama de clases (correspondencia de la Tabla 246, §9.3.2).
 
-| Columna | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
+| Columna (→ [trazabilidad](../apoyo/trazabilidad_atributos.md)) | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
 |---|---|:---:|---|:---:|---|
-| `id_aviso` | `int` | No | — (auto_increment) | PK |  |
-| `id_caso` | `int` | No | — | FK |  |
-| `id_usuario_destino` | `int` | No | — | FK |  |
-| `canal` | `enum('correo','aviso_emergente','detalle_del_caso')` | No | — |  |  |
-| `mensaje` | `text` | No | — |  |  |
-| `fecha_envio` | `datetime` | No | CURRENT_TIMESTAMP |  |  |
-| `estado_envio` | `enum('enviado','pendiente','fallido')` | No | — |  |  |
-| `intentos` | `int` | No | 0 |  | [RN-15](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-15) |
-| `fecha_ultimo_intento` | `datetime` | Sí | — |  | [RN-15](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-15) |
-| `motivo_fallo` | `varchar(255)` | Sí | — |  | [RN-15](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-15) |
-| `fecha_lectura` | `datetime` | Sí | — |  |  |
+| <a id="bd-aviso-id-aviso"></a>[`id_aviso`](../apoyo/trazabilidad_atributos.md#atr-aviso-id-aviso) | `int` | No | — (auto_increment) | PK |  |
+| <a id="bd-aviso-id-caso"></a>[`id_caso`](../apoyo/trazabilidad_atributos.md#atr-aviso-id-caso) | `int` | No | — | FK |  |
+| <a id="bd-aviso-id-usuario-destino"></a>[`id_usuario_destino`](../apoyo/trazabilidad_atributos.md#atr-aviso-id-usuario-destino) | `int` | No | — | FK |  |
+| <a id="bd-aviso-canal"></a>[`canal`](../apoyo/trazabilidad_atributos.md#atr-aviso-canal) | `enum('correo','aviso_emergente','detalle_del_caso')` | No | — |  |  |
+| <a id="bd-aviso-mensaje"></a>[`mensaje`](../apoyo/trazabilidad_atributos.md#atr-aviso-mensaje) | `text` | No | — |  |  |
+| <a id="bd-aviso-fecha-envio"></a>[`fecha_envio`](../apoyo/trazabilidad_atributos.md#atr-aviso-fecha-envio) | `datetime` | No | CURRENT_TIMESTAMP |  |  |
+| <a id="bd-aviso-estado-envio"></a>[`estado_envio`](../apoyo/trazabilidad_atributos.md#atr-aviso-estado-envio) | `enum('enviado','pendiente','fallido')` | No | — |  |  |
+| <a id="bd-aviso-intentos"></a>[`intentos`](../apoyo/trazabilidad_atributos.md#atr-aviso-intentos) | `int` | No | 0 |  | [RN-15](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-15) |
+| <a id="bd-aviso-fecha-ultimo-intento"></a>[`fecha_ultimo_intento`](../apoyo/trazabilidad_atributos.md#atr-aviso-fecha-ultimo-intento) | `datetime` | Sí | — |  | [RN-15](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-15) |
+| <a id="bd-aviso-motivo-fallo"></a>[`motivo_fallo`](../apoyo/trazabilidad_atributos.md#atr-aviso-motivo-fallo) | `varchar(255)` | Sí | — |  | [RN-15](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-15) |
+| <a id="bd-aviso-fecha-lectura"></a>[`fecha_lectura`](../apoyo/trazabilidad_atributos.md#atr-aviso-fecha-lectura) | `datetime` | Sí | — |  |  |
 
 | Restricción | Tipo | Definición | Reglas de negocio |
 |---|---|---|---|
@@ -1034,16 +1034,16 @@ erDiagram
 
 **Propósito.** Transiciones de estado permitidas por perfil (RN-07). En el script: *nueva en D15*. Implementa la entidad [Tabla 240](../fase_2/5-diccionario-de-datos.md#dic-transicion-estado-caso) del diccionario y la clase [`TransicionEstadoCaso`](../fase_2/7-diagrama-de-clases.md) del diagrama de clases (correspondencia de la Tabla 246, §9.3.2).
 
-| Columna | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
+| Columna (→ [trazabilidad](../apoyo/trazabilidad_atributos.md)) | Tipo | Nulo | Por defecto | Clave | Reglas de negocio |
 |---|---|:---:|---|:---:|---|
-| `id_transicion` | `int` | No | — (auto_increment) | PK |  |
-| `estado_origen` | `enum('recibido','en_revision','en_atencion','resuelto','cerrado','reabierto')` | No | — |  |  |
-| `estado_destino` | `enum('recibido','en_revision','en_atencion','resuelto','cerrado','reabierto')` | No | — |  |  |
-| `perfil_autorizado` | `enum('solicitante','soporte','supervisor','administrador')` | No | — |  |  |
-| `estado` | `enum('activo','inactivo')` | No | activo |  |  |
-| `fecha_creacion` | `datetime` | No | CURRENT_TIMESTAMP |  |  |
-| `fecha_actualizacion` | `datetime` | Sí | — |  |  |
-| `id_usuario_modificacion` | `int` | Sí | — | FK |  |
+| <a id="bd-transicion-estado-caso-id-transicion"></a>[`id_transicion`](../apoyo/trazabilidad_atributos.md#atr-transicion-estado-caso-id-transicion) | `int` | No | — (auto_increment) | PK |  |
+| <a id="bd-transicion-estado-caso-estado-origen"></a>[`estado_origen`](../apoyo/trazabilidad_atributos.md#atr-transicion-estado-caso-estado-origen) | `enum('recibido','en_revision','en_atencion','resuelto','cerrado','reabierto')` | No | — |  |  |
+| <a id="bd-transicion-estado-caso-estado-destino"></a>[`estado_destino`](../apoyo/trazabilidad_atributos.md#atr-transicion-estado-caso-estado-destino) | `enum('recibido','en_revision','en_atencion','resuelto','cerrado','reabierto')` | No | — |  |  |
+| <a id="bd-transicion-estado-caso-perfil-autorizado"></a>[`perfil_autorizado`](../apoyo/trazabilidad_atributos.md#atr-transicion-estado-caso-perfil-autorizado) | `enum('solicitante','soporte','supervisor','administrador')` | No | — |  |  |
+| <a id="bd-transicion-estado-caso-estado"></a>[`estado`](../apoyo/trazabilidad_atributos.md#atr-transicion-estado-caso-estado) | `enum('activo','inactivo')` | No | activo |  |  |
+| <a id="bd-transicion-estado-caso-fecha-creacion"></a>[`fecha_creacion`](../apoyo/trazabilidad_atributos.md#atr-transicion-estado-caso-fecha-creacion) | `datetime` | No | CURRENT_TIMESTAMP |  |  |
+| <a id="bd-transicion-estado-caso-fecha-actualizacion"></a>[`fecha_actualizacion`](../apoyo/trazabilidad_atributos.md#atr-transicion-estado-caso-fecha-actualizacion) | `datetime` | Sí | — |  |  |
+| <a id="bd-transicion-estado-caso-id-usuario-modificacion"></a>[`id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-transicion-estado-caso-id-usuario-modificacion) | `int` | Sí | — | FK |  |
 
 | Restricción | Tipo | Definición | Reglas de negocio |
 |---|---|---|---|

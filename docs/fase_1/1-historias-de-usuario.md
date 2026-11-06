@@ -109,13 +109,13 @@
 
 **Trazabilidad de los criterios de aceptación de HU-001**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-001-ca-1) | Envío exitoso con todos los datos obligatorios | [RN-13](2-reglas-de-negocio-y-requisitos.md#rn-13), [RN-25](2-reglas-de-negocio-y-requisitos.md#rn-25) | [RF-18](2-reglas-de-negocio-y-requisitos.md#rf-18) | [RN-02](2-reglas-de-negocio-y-requisitos.md#rn-02) | [CU-001](3-casos-de-uso.md#cu-001) |
-| [CA-2](#hu-001-ca-2) | Rechazo por falta de un dato obligatorio | — | — | [RN-01](2-reglas-de-negocio-y-requisitos.md#rn-01) | [CU-001](3-casos-de-uso.md#cu-001) |
-| [CA-3](#hu-001-ca-3) | Registro sin un equipo o programa asociado | — | — | [RN-25](2-reglas-de-negocio-y-requisitos.md#rn-25) | [CU-001](3-casos-de-uso.md#cu-001) |
-| [CA-4](#hu-001-ca-4) | El sistema orienta con ejemplos | — | [RF-02](2-reglas-de-negocio-y-requisitos.md#rf-02) | — | — |
-| [CA-5](#hu-001-ca-5) | Rechazo si quien intenta reportar no es un usuario registrado | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | [RF-34](2-reglas-de-negocio-y-requisitos.md#rf-34) | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | [CU-001](3-casos-de-uso.md#cu-001) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-001-ca-1) | Envío exitoso con todos los datos obligatorios | [RN-13](2-reglas-de-negocio-y-requisitos.md#rn-13), [RN-25](2-reglas-de-negocio-y-requisitos.md#rn-25) | [RF-18](2-reglas-de-negocio-y-requisitos.md#rf-18) | [RN-02](2-reglas-de-negocio-y-requisitos.md#rn-02) | [CU-001](3-casos-de-uso.md#cu-001) | — |
+| [CA-2](#hu-001-ca-2) | Rechazo por falta de un dato obligatorio | — | — | [RN-01](2-reglas-de-negocio-y-requisitos.md#rn-01) | [CU-001](3-casos-de-uso.md#cu-001) | — |
+| [CA-3](#hu-001-ca-3) | Registro sin un equipo o programa asociado | — | — | [RN-25](2-reglas-de-negocio-y-requisitos.md#rn-25) | [CU-001](3-casos-de-uso.md#cu-001) | [`caso_soporte.id_activo`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-activo) |
+| [CA-4](#hu-001-ca-4) | El sistema orienta con ejemplos | — | [RF-02](2-reglas-de-negocio-y-requisitos.md#rf-02) | — | — | — |
+| [CA-5](#hu-001-ca-5) | Rechazo si quien intenta reportar no es un usuario registrado | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | [RF-34](2-reglas-de-negocio-y-requisitos.md#rf-34) | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | [CU-001](3-casos-de-uso.md#cu-001) | — |
 
 
 <a id="hu-002"></a>
@@ -228,14 +228,14 @@
 
 **Trazabilidad de los criterios de aceptación de HU-002**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-002-ca-1) | Confirmación inmediata | — | — | — | [CU-002](3-casos-de-uso.md#cu-002) |
-| [CA-2](#hu-002-ca-2) | Confirmación enviada por correo | — | — | [RN-16](2-reglas-de-negocio-y-requisitos.md#rn-16) | — |
-| [CA-3](#hu-002-ca-3) | El número de seguimiento nunca se repite | — | — | [RN-02](2-reglas-de-negocio-y-requisitos.md#rn-02) | — |
-| [CA-4](#hu-002-ca-4) | Reintento automático si falla el envío del correo | — | — | [RN-15](2-reglas-de-negocio-y-requisitos.md#rn-15), [RN-16](2-reglas-de-negocio-y-requisitos.md#rn-16) | [CU-002](3-casos-de-uso.md#cu-002) |
-| [CA-5](#hu-002-ca-5) | Rechazo por correo electrónico con formato no válido | [RN-17](2-reglas-de-negocio-y-requisitos.md#rn-17) | [RF-03](2-reglas-de-negocio-y-requisitos.md#rf-03) | [RN-17](2-reglas-de-negocio-y-requisitos.md#rn-17) | [CU-002](3-casos-de-uso.md#cu-002) |
-| [CA-6](#hu-002-ca-6) | Aviso cuando la confirmación por correo no pudo enviarse | [RN-16](2-reglas-de-negocio-y-requisitos.md#rn-16) | — | — | [CU-002](3-casos-de-uso.md#cu-002) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-002-ca-1) | Confirmación inmediata | — | — | — | [CU-002](3-casos-de-uso.md#cu-002) | — |
+| [CA-2](#hu-002-ca-2) | Confirmación enviada por correo | — | — | [RN-16](2-reglas-de-negocio-y-requisitos.md#rn-16) | — | [`aviso.canal`](../apoyo/trazabilidad_atributos.md#atr-aviso-canal) |
+| [CA-3](#hu-002-ca-3) | El número de seguimiento nunca se repite | — | — | [RN-02](2-reglas-de-negocio-y-requisitos.md#rn-02) | — | [`caso_soporte.numero_seguimiento`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-numero-seguimiento) |
+| [CA-4](#hu-002-ca-4) | Reintento automático si falla el envío del correo | — | — | [RN-15](2-reglas-de-negocio-y-requisitos.md#rn-15), [RN-16](2-reglas-de-negocio-y-requisitos.md#rn-16) | [CU-002](3-casos-de-uso.md#cu-002) | — |
+| [CA-5](#hu-002-ca-5) | Rechazo por correo electrónico con formato no válido | [RN-17](2-reglas-de-negocio-y-requisitos.md#rn-17) | [RF-03](2-reglas-de-negocio-y-requisitos.md#rf-03) | [RN-17](2-reglas-de-negocio-y-requisitos.md#rn-17) | [CU-002](3-casos-de-uso.md#cu-002) | — |
+| [CA-6](#hu-002-ca-6) | Aviso cuando la confirmación por correo no pudo enviarse | [RN-16](2-reglas-de-negocio-y-requisitos.md#rn-16) | — | — | [CU-002](3-casos-de-uso.md#cu-002) | — |
 
 
 <a id="hu-003"></a>
@@ -330,12 +330,12 @@
 
 **Trazabilidad de los criterios de aceptación de HU-003**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-003-ca-1) | Aviso ante cada cambio de situación del caso | — | — | [RN-15](2-reglas-de-negocio-y-requisitos.md#rn-15) | [CU-003](3-casos-de-uso.md#cu-003) |
-| [CA-2](#hu-003-ca-2) | El aviso llega por los tres medios definidos | — | — | [RN-15](2-reglas-de-negocio-y-requisitos.md#rn-15) | — |
-| [CA-3](#hu-003-ca-3) | Reintento ante una falla de envío | — | — | [RN-15](2-reglas-de-negocio-y-requisitos.md#rn-15) | [CU-003](3-casos-de-uso.md#cu-003) |
-| [CA-4](#hu-003-ca-4) | Marcela consulta y lee un aviso | — | — | — | — |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-003-ca-1) | Aviso ante cada cambio de situación del caso | — | — | [RN-15](2-reglas-de-negocio-y-requisitos.md#rn-15) | [CU-003](3-casos-de-uso.md#cu-003) | [`caso_soporte.estado_caso`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-estado-caso) |
+| [CA-2](#hu-003-ca-2) | El aviso llega por los tres medios definidos | — | — | [RN-15](2-reglas-de-negocio-y-requisitos.md#rn-15) | — | — |
+| [CA-3](#hu-003-ca-3) | Reintento ante una falla de envío | — | — | [RN-15](2-reglas-de-negocio-y-requisitos.md#rn-15) | [CU-003](3-casos-de-uso.md#cu-003) | — |
+| [CA-4](#hu-003-ca-4) | Marcela consulta y lee un aviso | — | — | — | — | — |
 
 
 <a id="hu-004"></a>
@@ -426,12 +426,12 @@
 
 **Trazabilidad de los criterios de aceptación de HU-004**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-004-ca-1) | Marcela identifica que tiene un problema | — | — | [RN-03](2-reglas-de-negocio-y-requisitos.md#rn-03) | [CU-004](3-casos-de-uso.md#cu-004) |
-| [CA-2](#hu-004-ca-2) | Marcela identifica que tiene una solicitud | — | — | [RN-03](2-reglas-de-negocio-y-requisitos.md#rn-03) | — |
-| [CA-3](#hu-004-ca-3) | El sistema no permite mezclar datos de problema y de solicitud | — | — | [RN-03](2-reglas-de-negocio-y-requisitos.md#rn-03) | [CU-004](3-casos-de-uso.md#cu-004) |
-| [CA-4](#hu-004-ca-4) | Ejemplos que ayudan a elegir correctamente | — | [RF-02](2-reglas-de-negocio-y-requisitos.md#rf-02) | — | — |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-004-ca-1) | Marcela identifica que tiene un problema | — | — | [RN-03](2-reglas-de-negocio-y-requisitos.md#rn-03) | [CU-004](3-casos-de-uso.md#cu-004) | [`caso_soporte.tipo_caso`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-tipo-caso) |
+| [CA-2](#hu-004-ca-2) | Marcela identifica que tiene una solicitud | — | — | [RN-03](2-reglas-de-negocio-y-requisitos.md#rn-03) | — | [`caso_soporte.tipo_caso`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-tipo-caso) |
+| [CA-3](#hu-004-ca-3) | El sistema no permite mezclar datos de problema y de solicitud | — | — | [RN-03](2-reglas-de-negocio-y-requisitos.md#rn-03) | [CU-004](3-casos-de-uso.md#cu-004) | — |
+| [CA-4](#hu-004-ca-4) | Ejemplos que ayudan a elegir correctamente | — | [RF-02](2-reglas-de-negocio-y-requisitos.md#rf-02) | — | — | — |
 
 
 <a id="hu-005"></a>
@@ -521,12 +521,12 @@
 
 **Trazabilidad de los criterios de aceptación de HU-005**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-005-ca-1) | Listado ordenado del más reciente al más antiguo | — | [RF-10](2-reglas-de-negocio-y-requisitos.md#rf-10) | — | [CU-005](3-casos-de-uso.md#cu-005) |
-| [CA-2](#hu-005-ca-2) | Un usuario solo ve sus propios casos | — | — | [RN-06](2-reglas-de-negocio-y-requisitos.md#rn-06) | — |
-| [CA-3](#hu-005-ca-3) | Búsqueda por distintos filtros | — | [RF-10](2-reglas-de-negocio-y-requisitos.md#rf-10) | — | — |
-| [CA-4](#hu-005-ca-4) | Búsqueda sin resultados | — | — | — | [CU-005](3-casos-de-uso.md#cu-005) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-005-ca-1) | Listado ordenado del más reciente al más antiguo | — | [RF-10](2-reglas-de-negocio-y-requisitos.md#rf-10) | — | [CU-005](3-casos-de-uso.md#cu-005) | [`caso_soporte.fecha_creacion`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-fecha-creacion) |
+| [CA-2](#hu-005-ca-2) | Un usuario solo ve sus propios casos | — | — | [RN-06](2-reglas-de-negocio-y-requisitos.md#rn-06) | — | — |
+| [CA-3](#hu-005-ca-3) | Búsqueda por distintos filtros | — | [RF-10](2-reglas-de-negocio-y-requisitos.md#rf-10) | — | — | — |
+| [CA-4](#hu-005-ca-4) | Búsqueda sin resultados | — | — | — | [CU-005](3-casos-de-uso.md#cu-005) | — |
 
 
 <a id="hu-006"></a>
@@ -623,13 +623,13 @@
 
 **Trazabilidad de los criterios de aceptación de HU-006**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-006-ca-1) | Un solo lugar con los casos pendientes | — | [RF-11](2-reglas-de-negocio-y-requisitos.md#rf-11) | — | [CU-006](3-casos-de-uso.md#cu-006) |
-| [CA-2](#hu-006-ca-2) | Orden por importancia, fecha y tipo de problema | — | — | [RN-05](2-reglas-de-negocio-y-requisitos.md#rn-05) | — |
-| [CA-3](#hu-006-ca-3) | Información visible por caso | — | — | — | — |
-| [CA-4](#hu-006-ca-4) | No hay casos pendientes | — | — | — | [CU-006](3-casos-de-uso.md#cu-006) |
-| [CA-5](#hu-006-ca-5) | Un solicitante no accede a los casos pendientes | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | — | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | [CU-006](3-casos-de-uso.md#cu-006) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-006-ca-1) | Un solo lugar con los casos pendientes | — | [RF-11](2-reglas-de-negocio-y-requisitos.md#rf-11) | — | [CU-006](3-casos-de-uso.md#cu-006) | [`caso_soporte.estado_caso`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-estado-caso) |
+| [CA-2](#hu-006-ca-2) | Orden por importancia, fecha y tipo de problema | — | — | [RN-05](2-reglas-de-negocio-y-requisitos.md#rn-05) | — | — |
+| [CA-3](#hu-006-ca-3) | Información visible por caso | — | — | — | — | — |
+| [CA-4](#hu-006-ca-4) | No hay casos pendientes | — | — | — | [CU-006](3-casos-de-uso.md#cu-006) | — |
+| [CA-5](#hu-006-ca-5) | Un solicitante no accede a los casos pendientes | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | — | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | [CU-006](3-casos-de-uso.md#cu-006) | — |
 
 
 <a id="hu-007"></a>
@@ -733,13 +733,13 @@
 
 **Trazabilidad de los criterios de aceptación de HU-007**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-007-ca-1) | Cambio permitido y autorizado | — | — | [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08) | [CU-007](3-casos-de-uso.md#cu-007) |
-| [CA-2](#hu-007-ca-2) | Rechazo de un cambio no permitido | — | — | [RN-07](2-reglas-de-negocio-y-requisitos.md#rn-07) | [CU-007](3-casos-de-uso.md#cu-007) |
-| [CA-3](#hu-007-ca-3) | Rechazo por rol no autorizado | — | — | [RN-07](2-reglas-de-negocio-y-requisitos.md#rn-07), [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | [CU-007](3-casos-de-uso.md#cu-007) |
-| [CA-4](#hu-007-ca-4) | El solicitante ve el cambio de inmediato | — | — | — | — |
-| [CA-5](#hu-007-ca-5) | Registro de la primera respuesta | [RN-14](2-reglas-de-negocio-y-requisitos.md#rn-14) | — | [RN-14](2-reglas-de-negocio-y-requisitos.md#rn-14) | — |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-007-ca-1) | Cambio permitido y autorizado | — | — | [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08) | [CU-007](3-casos-de-uso.md#cu-007) | — |
+| [CA-2](#hu-007-ca-2) | Rechazo de un cambio no permitido | — | — | [RN-07](2-reglas-de-negocio-y-requisitos.md#rn-07) | [CU-007](3-casos-de-uso.md#cu-007) | — |
+| [CA-3](#hu-007-ca-3) | Rechazo por rol no autorizado | — | — | [RN-07](2-reglas-de-negocio-y-requisitos.md#rn-07), [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | [CU-007](3-casos-de-uso.md#cu-007) | [`transicion_estado_caso.perfil_autorizado`](../apoyo/trazabilidad_atributos.md#atr-transicion-estado-caso-perfil-autorizado) |
+| [CA-4](#hu-007-ca-4) | El solicitante ve el cambio de inmediato | — | — | — | — | — |
+| [CA-5](#hu-007-ca-5) | Registro de la primera respuesta | [RN-14](2-reglas-de-negocio-y-requisitos.md#rn-14) | — | [RN-14](2-reglas-de-negocio-y-requisitos.md#rn-14) | — | — |
 
 
 <a id="hu-008"></a>
@@ -830,12 +830,12 @@
 
 **Trazabilidad de los criterios de aceptación de HU-008**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-008-ca-1) | Asignación a personal de soporte | — | [RF-49](2-reglas-de-negocio-y-requisitos.md#rf-49) | [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08) | [CU-008](3-casos-de-uso.md#cu-008) |
-| [CA-2](#hu-008-ca-2) | Rechazo al intentar asignar a alguien sin perfil de soporte | — | — | [RN-09](2-reglas-de-negocio-y-requisitos.md#rn-09) | [CU-008](3-casos-de-uso.md#cu-008) |
-| [CA-3](#hu-008-ca-3) | Cambio de responsable | — | — | — | — |
-| [CA-4](#hu-008-ca-4) | Caso sin responsable definido | — | — | — | — |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-008-ca-1) | Asignación a personal de soporte | — | [RF-49](2-reglas-de-negocio-y-requisitos.md#rf-49) | [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08) | [CU-008](3-casos-de-uso.md#cu-008) | — |
+| [CA-2](#hu-008-ca-2) | Rechazo al intentar asignar a alguien sin perfil de soporte | — | — | [RN-09](2-reglas-de-negocio-y-requisitos.md#rn-09) | [CU-008](3-casos-de-uso.md#cu-008) | [`usuario.perfil_acceso`](../apoyo/trazabilidad_atributos.md#atr-usuario-perfil-acceso) |
+| [CA-3](#hu-008-ca-3) | Cambio de responsable | — | — | — | — | — |
+| [CA-4](#hu-008-ca-4) | Caso sin responsable definido | — | — | — | — | — |
 
 
 <a id="hu-009"></a>
@@ -929,12 +929,12 @@
 
 **Trazabilidad de los criterios de aceptación de HU-009**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-009-ca-1) | Comentario visible para el usuario | — | — | — | [CU-009](3-casos-de-uso.md#cu-009) |
-| [CA-2](#hu-009-ca-2) | Comentario interno, solo para soporte | — | — | [RN-10](2-reglas-de-negocio-y-requisitos.md#rn-10) | — |
-| [CA-3](#hu-009-ca-3) | Rechazo de un comentario vacío | — | — | [RN-10](2-reglas-de-negocio-y-requisitos.md#rn-10) | [CU-009](3-casos-de-uso.md#cu-009) |
-| [CA-4](#hu-009-ca-4) | Consulta del hilo completo de comentarios | — | — | [RN-06](2-reglas-de-negocio-y-requisitos.md#rn-06), [RN-10](2-reglas-de-negocio-y-requisitos.md#rn-10) | — |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-009-ca-1) | Comentario visible para el usuario | — | — | — | [CU-009](3-casos-de-uso.md#cu-009) | [`comentario_caso.visibilidad`](../apoyo/trazabilidad_atributos.md#atr-comentario-caso-visibilidad) |
+| [CA-2](#hu-009-ca-2) | Comentario interno, solo para soporte | — | — | [RN-10](2-reglas-de-negocio-y-requisitos.md#rn-10) | — | [`comentario_caso.visibilidad`](../apoyo/trazabilidad_atributos.md#atr-comentario-caso-visibilidad) |
+| [CA-3](#hu-009-ca-3) | Rechazo de un comentario vacío | — | — | [RN-10](2-reglas-de-negocio-y-requisitos.md#rn-10) | [CU-009](3-casos-de-uso.md#cu-009) | — |
+| [CA-4](#hu-009-ca-4) | Consulta del hilo completo de comentarios | — | — | [RN-06](2-reglas-de-negocio-y-requisitos.md#rn-06), [RN-10](2-reglas-de-negocio-y-requisitos.md#rn-10) | — | — |
 
 
 <a id="hu-010"></a>
@@ -1027,12 +1027,12 @@
 
 **Trazabilidad de los criterios de aceptación de HU-010**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-010-ca-1) | Tiempo aproximado visible para el solicitante | — | — | — | [CU-010](3-casos-de-uso.md#cu-010), [CU-S01](3-casos-de-uso.md#cu-s01) |
-| [CA-2](#hu-010-ca-2) | El tiempo mostrado no cambia aunque la regla se actualice después | — | — | [RN-13](2-reglas-de-negocio-y-requisitos.md#rn-13) | [CU-010](3-casos-de-uso.md#cu-010) |
-| [CA-3](#hu-010-ca-3) | Indicación de cumplimiento una vez hay primera respuesta | — | — | [RN-14](2-reglas-de-negocio-y-requisitos.md#rn-14) | — |
-| [CA-4](#hu-010-ca-4) | Un solicitante no ve los tiempos de un caso ajeno | [RN-06](2-reglas-de-negocio-y-requisitos.md#rn-06) | — | [RN-06](2-reglas-de-negocio-y-requisitos.md#rn-06) | [CU-010](3-casos-de-uso.md#cu-010) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-010-ca-1) | Tiempo aproximado visible para el solicitante | — | — | — | [CU-010](3-casos-de-uso.md#cu-010), [CU-S01](3-casos-de-uso.md#cu-s01) | — |
+| [CA-2](#hu-010-ca-2) | El tiempo mostrado no cambia aunque la regla se actualice después | — | — | [RN-13](2-reglas-de-negocio-y-requisitos.md#rn-13) | [CU-010](3-casos-de-uso.md#cu-010) | — |
+| [CA-3](#hu-010-ca-3) | Indicación de cumplimiento una vez hay primera respuesta | — | — | [RN-14](2-reglas-de-negocio-y-requisitos.md#rn-14) | — | — |
+| [CA-4](#hu-010-ca-4) | Un solicitante no ve los tiempos de un caso ajeno | [RN-06](2-reglas-de-negocio-y-requisitos.md#rn-06) | — | [RN-06](2-reglas-de-negocio-y-requisitos.md#rn-06) | [CU-010](3-casos-de-uso.md#cu-010) | — |
 
 
 <a id="hu-011"></a>
@@ -1122,12 +1122,12 @@
 
 **Trazabilidad de los criterios de aceptación de HU-011**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-011-ca-1) | Conteo de casos por situación | — | — | — | [CU-011](3-casos-de-uso.md#cu-011) |
-| [CA-2](#hu-011-ca-2) | Casos que cumplen y que incumplen el tiempo definido | — | — | [RN-14](2-reglas-de-negocio-y-requisitos.md#rn-14) | — |
-| [CA-3](#hu-011-ca-3) | Un caso atrasado se identifica por superar el tiempo definido | — | — | [RN-14](2-reglas-de-negocio-y-requisitos.md#rn-14) | — |
-| [CA-4](#hu-011-ca-4) | Periodo sin casos registrados | — | — | [RN-29](2-reglas-de-negocio-y-requisitos.md#rn-29) | [CU-011](3-casos-de-uso.md#cu-011) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-011-ca-1) | Conteo de casos por situación | — | — | — | [CU-011](3-casos-de-uso.md#cu-011) | [`caso_soporte.estado_caso`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-estado-caso) |
+| [CA-2](#hu-011-ca-2) | Casos que cumplen y que incumplen el tiempo definido | — | — | [RN-14](2-reglas-de-negocio-y-requisitos.md#rn-14) | — | — |
+| [CA-3](#hu-011-ca-3) | Un caso atrasado se identifica por superar el tiempo definido | — | — | [RN-14](2-reglas-de-negocio-y-requisitos.md#rn-14) | — | — |
+| [CA-4](#hu-011-ca-4) | Periodo sin casos registrados | — | — | [RN-29](2-reglas-de-negocio-y-requisitos.md#rn-29) | [CU-011](3-casos-de-uso.md#cu-011) | — |
 
 
 <a id="hu-012"></a>
@@ -1203,10 +1203,10 @@
 
 **Trazabilidad de los criterios de aceptación de HU-012**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-012-ca-1) | Resumen según el periodo elegido | [RN-29](2-reglas-de-negocio-y-requisitos.md#rn-29) | [RF-22](2-reglas-de-negocio-y-requisitos.md#rf-22) | — | [CU-012](3-casos-de-uso.md#cu-012) |
-| [CA-2](#hu-012-ca-2) | Periodo sin casos | — | — | [RN-29](2-reglas-de-negocio-y-requisitos.md#rn-29) | [CU-012](3-casos-de-uso.md#cu-012) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-012-ca-1) | Resumen según el periodo elegido | [RN-29](2-reglas-de-negocio-y-requisitos.md#rn-29) | [RF-22](2-reglas-de-negocio-y-requisitos.md#rf-22) | — | [CU-012](3-casos-de-uso.md#cu-012) | — |
+| [CA-2](#hu-012-ca-2) | Periodo sin casos | — | — | [RN-29](2-reglas-de-negocio-y-requisitos.md#rn-29) | [CU-012](3-casos-de-uso.md#cu-012) | — |
 
 
 <a id="hu-013"></a>
@@ -1303,13 +1303,13 @@
 
 **Trazabilidad de los criterios de aceptación de HU-013**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-013-ca-1) | Reapertura dentro del plazo permitido | — | — | [RN-11](2-reglas-de-negocio-y-requisitos.md#rn-11) | [CU-013](3-casos-de-uso.md#cu-013) |
-| [CA-2](#hu-013-ca-2) | Rechazo por vencimiento del plazo | — | — | [RN-11](2-reglas-de-negocio-y-requisitos.md#rn-11) | [CU-013](3-casos-de-uso.md#cu-013) |
-| [CA-3](#hu-013-ca-3) | El motivo de reapertura es obligatorio | — | — | [RN-11](2-reglas-de-negocio-y-requisitos.md#rn-11) | [CU-013](3-casos-de-uso.md#cu-013) |
-| [CA-4](#hu-013-ca-4) | Solo puede reabrirse un caso resuelto | — | — | [RN-11](2-reglas-de-negocio-y-requisitos.md#rn-11) | [CU-013](3-casos-de-uso.md#cu-013) |
-| [CA-5](#hu-013-ca-5) | El caso reabierto conserva su historial, comentarios y adjuntos | — | — | [RN-11](2-reglas-de-negocio-y-requisitos.md#rn-11) | — |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-013-ca-1) | Reapertura dentro del plazo permitido | — | — | [RN-11](2-reglas-de-negocio-y-requisitos.md#rn-11) | [CU-013](3-casos-de-uso.md#cu-013) | — |
+| [CA-2](#hu-013-ca-2) | Rechazo por vencimiento del plazo | — | — | [RN-11](2-reglas-de-negocio-y-requisitos.md#rn-11) | [CU-013](3-casos-de-uso.md#cu-013) | — |
+| [CA-3](#hu-013-ca-3) | El motivo de reapertura es obligatorio | — | — | [RN-11](2-reglas-de-negocio-y-requisitos.md#rn-11) | [CU-013](3-casos-de-uso.md#cu-013) | — |
+| [CA-4](#hu-013-ca-4) | Solo puede reabrirse un caso resuelto | — | — | [RN-11](2-reglas-de-negocio-y-requisitos.md#rn-11) | [CU-013](3-casos-de-uso.md#cu-013) | — |
+| [CA-5](#hu-013-ca-5) | El caso reabierto conserva su historial, comentarios y adjuntos | — | — | [RN-11](2-reglas-de-negocio-y-requisitos.md#rn-11) | — | — |
 
 
 <a id="hu-015"></a>
@@ -1392,11 +1392,11 @@
 
 **Trazabilidad de los criterios de aceptación de HU-015**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-015-ca-1) | Disponibilidad de una persona específica | — | — | — | [CU-015](3-casos-de-uso.md#cu-015) |
-| [CA-2](#hu-015-ca-2) | Disponibilidad de todo el equipo de soporte | — | — | — | — |
-| [CA-3](#hu-015-ca-3) | Persona sin información de disponibilidad registrada | — | — | [RN-28](2-reglas-de-negocio-y-requisitos.md#rn-28) | [CU-015](3-casos-de-uso.md#cu-015) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-015-ca-1) | Disponibilidad de una persona específica | — | — | — | [CU-015](3-casos-de-uso.md#cu-015) | — |
+| [CA-2](#hu-015-ca-2) | Disponibilidad de todo el equipo de soporte | — | — | — | — | — |
+| [CA-3](#hu-015-ca-3) | Persona sin información de disponibilidad registrada | — | — | [RN-28](2-reglas-de-negocio-y-requisitos.md#rn-28) | [CU-015](3-casos-de-uso.md#cu-015) | — |
 
 
 <a id="hu-016"></a>
@@ -1486,12 +1486,12 @@
 
 **Trazabilidad de los criterios de aceptación de HU-016**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-016-ca-1) | Registro exitoso de un usuario | — | — | [RN-19](2-reglas-de-negocio-y-requisitos.md#rn-19) | [CU-016](3-casos-de-uso.md#cu-016) |
-| [CA-2](#hu-016-ca-2) | Rechazo por correo duplicado | — | — | [RN-17](2-reglas-de-negocio-y-requisitos.md#rn-17) | [CU-016](3-casos-de-uso.md#cu-016) |
-| [CA-3](#hu-016-ca-3) | Datos obligatorios incompletos | — | — | — | [CU-016](3-casos-de-uso.md#cu-016) |
-| [CA-4](#hu-016-ca-4) | El área es obligatoria para un perfil solicitante | — | — | [RN-18](2-reglas-de-negocio-y-requisitos.md#rn-18) | [CU-016](3-casos-de-uso.md#cu-016) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-016-ca-1) | Registro exitoso de un usuario | — | — | [RN-19](2-reglas-de-negocio-y-requisitos.md#rn-19) | [CU-016](3-casos-de-uso.md#cu-016) | — |
+| [CA-2](#hu-016-ca-2) | Rechazo por correo duplicado | — | — | [RN-17](2-reglas-de-negocio-y-requisitos.md#rn-17) | [CU-016](3-casos-de-uso.md#cu-016) | [`usuario.correo`](../apoyo/trazabilidad_atributos.md#atr-usuario-correo) |
+| [CA-3](#hu-016-ca-3) | Datos obligatorios incompletos | — | — | — | [CU-016](3-casos-de-uso.md#cu-016) | — |
+| [CA-4](#hu-016-ca-4) | El área es obligatoria para un perfil solicitante | — | — | [RN-18](2-reglas-de-negocio-y-requisitos.md#rn-18) | [CU-016](3-casos-de-uso.md#cu-016) | [`usuario.perfil_acceso`](../apoyo/trazabilidad_atributos.md#atr-usuario-perfil-acceso) |
 
 
 <a id="hu-017"></a>
@@ -1572,11 +1572,11 @@
 
 **Trazabilidad de los criterios de aceptación de HU-017**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-017-ca-1) | Listado con cargo y área | — | [RF-27](2-reglas-de-negocio-y-requisitos.md#rf-27) | — | [CU-017](3-casos-de-uso.md#cu-017) |
-| [CA-2](#hu-017-ca-2) | Búsqueda por nombre o correo | — | — | — | — |
-| [CA-3](#hu-017-ca-3) | Búsqueda sin resultados | — | — | — | [CU-017](3-casos-de-uso.md#cu-017) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-017-ca-1) | Listado con cargo y área | — | [RF-27](2-reglas-de-negocio-y-requisitos.md#rf-27) | — | [CU-017](3-casos-de-uso.md#cu-017) | — |
+| [CA-2](#hu-017-ca-2) | Búsqueda por nombre o correo | — | — | — | — | — |
+| [CA-3](#hu-017-ca-3) | Búsqueda sin resultados | — | — | — | [CU-017](3-casos-de-uso.md#cu-017) | — |
 
 
 <a id="hu-018"></a>
@@ -1660,11 +1660,11 @@
 
 **Trazabilidad de los criterios de aceptación de HU-018**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-018-ca-1) | Selección de un tipo de problema activo | — | — | — | [CU-018](3-casos-de-uso.md#cu-018) |
-| [CA-2](#hu-018-ca-2) | Solo se muestran tipos activos | — | — | [RN-04](2-reglas-de-negocio-y-requisitos.md#rn-04) | — |
-| [CA-3](#hu-018-ca-3) | No se permite escribir un tipo libre | — | — | [RN-04](2-reglas-de-negocio-y-requisitos.md#rn-04) | [CU-018](3-casos-de-uso.md#cu-018) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-018-ca-1) | Selección de un tipo de problema activo | — | — | — | [CU-018](3-casos-de-uso.md#cu-018) | — |
+| [CA-2](#hu-018-ca-2) | Solo se muestran tipos activos | — | — | [RN-04](2-reglas-de-negocio-y-requisitos.md#rn-04) | — | [`tipo_problema.estado`](../apoyo/trazabilidad_atributos.md#atr-tipo-problema-estado) |
+| [CA-3](#hu-018-ca-3) | No se permite escribir un tipo libre | — | — | [RN-04](2-reglas-de-negocio-y-requisitos.md#rn-04) | [CU-018](3-casos-de-uso.md#cu-018) | — |
 
 
 <a id="hu-019"></a>
@@ -1747,11 +1747,11 @@
 
 **Trazabilidad de los criterios de aceptación de HU-019**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-019-ca-1) | Selección de un tipo de solicitud activo | — | — | — | [CU-019](3-casos-de-uso.md#cu-019) |
-| [CA-2](#hu-019-ca-2) | Solo se muestran tipos activos | — | — | [RN-04](2-reglas-de-negocio-y-requisitos.md#rn-04) | — |
-| [CA-3](#hu-019-ca-3) | No se permite escribir un tipo libre | — | — | [RN-04](2-reglas-de-negocio-y-requisitos.md#rn-04) | [CU-019](3-casos-de-uso.md#cu-019) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-019-ca-1) | Selección de un tipo de solicitud activo | — | — | — | [CU-019](3-casos-de-uso.md#cu-019) | — |
+| [CA-2](#hu-019-ca-2) | Solo se muestran tipos activos | — | — | [RN-04](2-reglas-de-negocio-y-requisitos.md#rn-04) | — | — |
+| [CA-3](#hu-019-ca-3) | No se permite escribir un tipo libre | — | — | [RN-04](2-reglas-de-negocio-y-requisitos.md#rn-04) | [CU-019](3-casos-de-uso.md#cu-019) | — |
 
 
 <a id="hu-020"></a>
@@ -1832,11 +1832,11 @@
 
 **Trazabilidad de los criterios de aceptación de HU-020**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-020-ca-1) | Clase de solicitud disponible | — | [RF-33](2-reglas-de-negocio-y-requisitos.md#rf-33) | — | [CU-020](3-casos-de-uso.md#cu-020) |
-| [CA-2](#hu-020-ca-2) | La clase de solicitud solo se pide para solicitudes | — | — | [RN-03](2-reglas-de-negocio-y-requisitos.md#rn-03) | — |
-| [CA-3](#hu-020-ca-3) | Dato obligatorio para solicitudes | — | — | [RN-03](2-reglas-de-negocio-y-requisitos.md#rn-03) | [CU-020](3-casos-de-uso.md#cu-020) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-020-ca-1) | Clase de solicitud disponible | — | [RF-33](2-reglas-de-negocio-y-requisitos.md#rf-33) | — | [CU-020](3-casos-de-uso.md#cu-020) | [`caso_soporte.clase_solicitud`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-clase-solicitud) |
+| [CA-2](#hu-020-ca-2) | La clase de solicitud solo se pide para solicitudes | — | — | [RN-03](2-reglas-de-negocio-y-requisitos.md#rn-03) | — | [`caso_soporte.clase_solicitud`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-clase-solicitud) |
+| [CA-3](#hu-020-ca-3) | Dato obligatorio para solicitudes | — | — | [RN-03](2-reglas-de-negocio-y-requisitos.md#rn-03) | [CU-020](3-casos-de-uso.md#cu-020) | — |
 
 
 <a id="hu-021"></a>
@@ -1918,11 +1918,11 @@
 
 **Trazabilidad de los criterios de aceptación de HU-021**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-021-ca-1) | Registro de la afectación indicada | — | — | — | [CU-021](3-casos-de-uso.md#cu-021) |
-| [CA-2](#hu-021-ca-2) | Dato obligatorio | — | — | [RN-01](2-reglas-de-negocio-y-requisitos.md#rn-01) | [CU-021](3-casos-de-uso.md#cu-021) |
-| [CA-3](#hu-021-ca-3) | La afectación se usa para calcular la importancia | — | — | [RN-05](2-reglas-de-negocio-y-requisitos.md#rn-05) | — |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-021-ca-1) | Registro de la afectación indicada | — | — | — | [CU-021](3-casos-de-uso.md#cu-021) | [`tabla_importancia.afectacion`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-afectacion) |
+| [CA-2](#hu-021-ca-2) | Dato obligatorio | — | — | [RN-01](2-reglas-de-negocio-y-requisitos.md#rn-01) | [CU-021](3-casos-de-uso.md#cu-021) | — |
+| [CA-3](#hu-021-ca-3) | La afectación se usa para calcular la importancia | — | — | [RN-05](2-reglas-de-negocio-y-requisitos.md#rn-05) | — | — |
 
 
 <a id="hu-022"></a>
@@ -2005,11 +2005,11 @@
 
 **Trazabilidad de los criterios de aceptación de HU-022**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-022-ca-1) | Combinación de afectación y urgencia | — | — | [RN-05](2-reglas-de-negocio-y-requisitos.md#rn-05) | [CU-022](3-casos-de-uso.md#cu-022) |
-| [CA-2](#hu-022-ca-2) | La importancia calculada no cambia después | — | — | [RN-05](2-reglas-de-negocio-y-requisitos.md#rn-05) | — |
-| [CA-3](#hu-022-ca-3) | Urgencia obligatoria | — | — | [RN-01](2-reglas-de-negocio-y-requisitos.md#rn-01) | [CU-022](3-casos-de-uso.md#cu-022) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-022-ca-1) | Combinación de afectación y urgencia | — | — | [RN-05](2-reglas-de-negocio-y-requisitos.md#rn-05) | [CU-022](3-casos-de-uso.md#cu-022) | — |
+| [CA-2](#hu-022-ca-2) | La importancia calculada no cambia después | — | — | [RN-05](2-reglas-de-negocio-y-requisitos.md#rn-05) | — | [`tabla_importancia.resultado_importancia`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-resultado-importancia) |
+| [CA-3](#hu-022-ca-3) | Urgencia obligatoria | — | — | [RN-01](2-reglas-de-negocio-y-requisitos.md#rn-01) | [CU-022](3-casos-de-uso.md#cu-022) | — |
 
 
 <a id="hu-023"></a>
@@ -2102,12 +2102,12 @@
 
 **Trazabilidad de los criterios de aceptación de HU-023**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-023-ca-1) | Ingreso exitoso | — | — | — | [CU-023](3-casos-de-uso.md#cu-023) |
-| [CA-2](#hu-023-ca-2) | Rechazo por datos incorrectos | — | — | [RN-20](2-reglas-de-negocio-y-requisitos.md#rn-20) | [CU-023](3-casos-de-uso.md#cu-023) |
-| [CA-3](#hu-023-ca-3) | Bloqueo por intentos fallidos repetidos | [RN-20](2-reglas-de-negocio-y-requisitos.md#rn-20) | — | [RN-20](2-reglas-de-negocio-y-requisitos.md#rn-20) | [CU-023](3-casos-de-uso.md#cu-023) |
-| [CA-4](#hu-023-ca-4) | Cada rol ve solo sus funciones permitidas | — | — | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | — |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-023-ca-1) | Ingreso exitoso | — | — | — | [CU-023](3-casos-de-uso.md#cu-023) | — |
+| [CA-2](#hu-023-ca-2) | Rechazo por datos incorrectos | — | — | [RN-20](2-reglas-de-negocio-y-requisitos.md#rn-20) | [CU-023](3-casos-de-uso.md#cu-023) | — |
+| [CA-3](#hu-023-ca-3) | Bloqueo por intentos fallidos repetidos | [RN-20](2-reglas-de-negocio-y-requisitos.md#rn-20) | — | [RN-20](2-reglas-de-negocio-y-requisitos.md#rn-20) | [CU-023](3-casos-de-uso.md#cu-023) | — |
+| [CA-4](#hu-023-ca-4) | Cada rol ve solo sus funciones permitidas | — | — | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | — | — |
 
 
 <a id="hu-024"></a>
@@ -2201,12 +2201,12 @@
 
 **Trazabilidad de los criterios de aceptación de HU-024**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-024-ca-1) | Solicitud del enlace de recuperación | [RN-22](2-reglas-de-negocio-y-requisitos.md#rn-22) | [RF-35](2-reglas-de-negocio-y-requisitos.md#rf-35) | — | — |
-| [CA-2](#hu-024-ca-2) | Restablecimiento exitoso dentro del tiempo límite | [RN-19](2-reglas-de-negocio-y-requisitos.md#rn-19), [RN-22](2-reglas-de-negocio-y-requisitos.md#rn-22) | — | [RN-19](2-reglas-de-negocio-y-requisitos.md#rn-19), [RN-22](2-reglas-de-negocio-y-requisitos.md#rn-22) | [CU-024](3-casos-de-uso.md#cu-024) |
-| [CA-3](#hu-024-ca-3) | Rechazo por enlace vencido o ya usado | — | — | [RN-22](2-reglas-de-negocio-y-requisitos.md#rn-22) | [CU-024](3-casos-de-uso.md#cu-024) |
-| [CA-4](#hu-024-ca-4) | Un enlace nuevo invalida el anterior | — | — | [RN-22](2-reglas-de-negocio-y-requisitos.md#rn-22) | [CU-024](3-casos-de-uso.md#cu-024) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-024-ca-1) | Solicitud del enlace de recuperación | [RN-22](2-reglas-de-negocio-y-requisitos.md#rn-22) | [RF-35](2-reglas-de-negocio-y-requisitos.md#rf-35) | — | — | — |
+| [CA-2](#hu-024-ca-2) | Restablecimiento exitoso dentro del tiempo límite | [RN-19](2-reglas-de-negocio-y-requisitos.md#rn-19), [RN-22](2-reglas-de-negocio-y-requisitos.md#rn-22) | — | [RN-19](2-reglas-de-negocio-y-requisitos.md#rn-19), [RN-22](2-reglas-de-negocio-y-requisitos.md#rn-22) | [CU-024](3-casos-de-uso.md#cu-024) | — |
+| [CA-3](#hu-024-ca-3) | Rechazo por enlace vencido o ya usado | — | — | [RN-22](2-reglas-de-negocio-y-requisitos.md#rn-22) | [CU-024](3-casos-de-uso.md#cu-024) | — |
+| [CA-4](#hu-024-ca-4) | Un enlace nuevo invalida el anterior | — | — | [RN-22](2-reglas-de-negocio-y-requisitos.md#rn-22) | [CU-024](3-casos-de-uso.md#cu-024) | — |
 
 
 <a id="hu-025"></a>
@@ -2283,10 +2283,10 @@
 
 **Trazabilidad de los criterios de aceptación de HU-025**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-025-ca-1) | Cierre de sesión exitoso | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | — | — | [CU-025](3-casos-de-uso.md#cu-025) |
-| [CA-2](#hu-025-ca-2) | Las funciones quedan bloqueadas tras el cierre | — | — | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | — |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-025-ca-1) | Cierre de sesión exitoso | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | — | — | [CU-025](3-casos-de-uso.md#cu-025) | — |
+| [CA-2](#hu-025-ca-2) | Las funciones quedan bloqueadas tras el cierre | — | — | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | — | — |
 
 
 <a id="hu-026"></a>
@@ -2368,11 +2368,11 @@
 
 **Trazabilidad de los criterios de aceptación de HU-026**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-026-ca-1) | Reasignación a otro técnico | — | — | [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08) | [CU-026](3-casos-de-uso.md#cu-026) |
-| [CA-2](#hu-026-ca-2) | Rechazo si el nuevo responsable no es personal de soporte | — | — | [RN-09](2-reglas-de-negocio-y-requisitos.md#rn-09) | [CU-026](3-casos-de-uso.md#cu-026) |
-| [CA-3](#hu-026-ca-3) | El nuevo responsable ve el historial previo | — | — | — | — |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-026-ca-1) | Reasignación a otro técnico | — | — | [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08) | [CU-026](3-casos-de-uso.md#cu-026) | — |
+| [CA-2](#hu-026-ca-2) | Rechazo si el nuevo responsable no es personal de soporte | — | — | [RN-09](2-reglas-de-negocio-y-requisitos.md#rn-09) | [CU-026](3-casos-de-uso.md#cu-026) | — |
+| [CA-3](#hu-026-ca-3) | El nuevo responsable ve el historial previo | — | — | — | — | — |
 
 
 <a id="hu-028"></a>
@@ -2457,11 +2457,11 @@
 
 **Trazabilidad de los criterios de aceptación de HU-028**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-028-ca-1) | Cierre automático tras el plazo sin respuesta | — | — | [RN-12](2-reglas-de-negocio-y-requisitos.md#rn-12) | [CU-028](3-casos-de-uso.md#cu-028) |
-| [CA-2](#hu-028-ca-2) | Aviso al solicitante por el cierre automático | — | — | [RN-15](2-reglas-de-negocio-y-requisitos.md#rn-15) | — |
-| [CA-3](#hu-028-ca-3) | Un caso resuelto dentro del plazo no se cierra solo | — | — | [RN-12](2-reglas-de-negocio-y-requisitos.md#rn-12) | [CU-028](3-casos-de-uso.md#cu-028) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-028-ca-1) | Cierre automático tras el plazo sin respuesta | — | — | [RN-12](2-reglas-de-negocio-y-requisitos.md#rn-12) | [CU-028](3-casos-de-uso.md#cu-028) | — |
+| [CA-2](#hu-028-ca-2) | Aviso al solicitante por el cierre automático | — | — | [RN-15](2-reglas-de-negocio-y-requisitos.md#rn-15) | — | — |
+| [CA-3](#hu-028-ca-3) | Un caso resuelto dentro del plazo no se cierra solo | — | — | [RN-12](2-reglas-de-negocio-y-requisitos.md#rn-12) | [CU-028](3-casos-de-uso.md#cu-028) | — |
 
 
 <a id="hu-029"></a>
@@ -2552,12 +2552,12 @@
 
 **Trazabilidad de los criterios de aceptación de HU-029**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-029-ca-1) | Creación de una nueva regla de tiempos | — | — | — | [CU-029](3-casos-de-uso.md#cu-029) |
-| [CA-2](#hu-029-ca-2) | No se permiten dos reglas activas para la misma combinación | — | — | [RN-13](2-reglas-de-negocio-y-requisitos.md#rn-13) | [CU-029](3-casos-de-uso.md#cu-029) |
-| [CA-3](#hu-029-ca-3) | Edición sin afectar casos ya cerrados | — | — | [RN-13](2-reglas-de-negocio-y-requisitos.md#rn-13) | [CU-029](3-casos-de-uso.md#cu-029) |
-| [CA-4](#hu-029-ca-4) | Desactivación de una regla | — | — | — | [CU-029](3-casos-de-uso.md#cu-029) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-029-ca-1) | Creación de una nueva regla de tiempos | — | — | — | [CU-029](3-casos-de-uso.md#cu-029) | — |
+| [CA-2](#hu-029-ca-2) | No se permiten dos reglas activas para la misma combinación | — | — | [RN-13](2-reglas-de-negocio-y-requisitos.md#rn-13) | [CU-029](3-casos-de-uso.md#cu-029) | — |
+| [CA-3](#hu-029-ca-3) | Edición sin afectar casos ya cerrados | — | — | [RN-13](2-reglas-de-negocio-y-requisitos.md#rn-13) | [CU-029](3-casos-de-uso.md#cu-029) | — |
+| [CA-4](#hu-029-ca-4) | Desactivación de una regla | — | — | — | [CU-029](3-casos-de-uso.md#cu-029) | — |
 
 
 <a id="hu-030"></a>
@@ -2633,10 +2633,10 @@
 
 **Trazabilidad de los criterios de aceptación de HU-030**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-030-ca-1) | Descarga en el formato elegido | [RN-29](2-reglas-de-negocio-y-requisitos.md#rn-29) | [RF-40](2-reglas-de-negocio-y-requisitos.md#rf-40) | — | [CU-030](3-casos-de-uso.md#cu-030) |
-| [CA-2](#hu-030-ca-2) | Periodo sin información | — | — | [RN-29](2-reglas-de-negocio-y-requisitos.md#rn-29) | [CU-030](3-casos-de-uso.md#cu-030) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-030-ca-1) | Descarga en el formato elegido | [RN-29](2-reglas-de-negocio-y-requisitos.md#rn-29) | [RF-40](2-reglas-de-negocio-y-requisitos.md#rf-40) | — | [CU-030](3-casos-de-uso.md#cu-030) | — |
+| [CA-2](#hu-030-ca-2) | Periodo sin información | — | — | [RN-29](2-reglas-de-negocio-y-requisitos.md#rn-29) | [CU-030](3-casos-de-uso.md#cu-030) | — |
 
 
 <a id="hu-031"></a>
@@ -2721,11 +2721,11 @@
 
 **Trazabilidad de los criterios de aceptación de HU-031**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-031-ca-1) | Actualización exitosa de los datos | — | — | — | [CU-031](3-casos-de-uso.md#cu-031) |
-| [CA-2](#hu-031-ca-2) | Rechazo por correo duplicado | — | — | [RN-17](2-reglas-de-negocio-y-requisitos.md#rn-17) | [CU-031](3-casos-de-uso.md#cu-031) |
-| [CA-3](#hu-031-ca-3) | Área obligatoria al pasar a perfil solicitante | — | — | [RN-18](2-reglas-de-negocio-y-requisitos.md#rn-18) | [CU-031](3-casos-de-uso.md#cu-031) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-031-ca-1) | Actualización exitosa de los datos | — | — | — | [CU-031](3-casos-de-uso.md#cu-031) | — |
+| [CA-2](#hu-031-ca-2) | Rechazo por correo duplicado | — | — | [RN-17](2-reglas-de-negocio-y-requisitos.md#rn-17) | [CU-031](3-casos-de-uso.md#cu-031) | — |
+| [CA-3](#hu-031-ca-3) | Área obligatoria al pasar a perfil solicitante | — | — | [RN-18](2-reglas-de-negocio-y-requisitos.md#rn-18) | [CU-031](3-casos-de-uso.md#cu-031) | — |
 
 
 <a id="hu-032"></a>
@@ -2814,12 +2814,12 @@
 
 **Trazabilidad de los criterios de aceptación de HU-032**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-032-ca-1) | Inactivación de un usuario | — | — | — | [CU-032](3-casos-de-uso.md#cu-032) |
-| [CA-2](#hu-032-ca-2) | Un usuario inactivo no puede ingresar | — | — | [RN-21](2-reglas-de-negocio-y-requisitos.md#rn-21) | — |
-| [CA-3](#hu-032-ca-3) | La información histórica se conserva | — | — | [RN-21](2-reglas-de-negocio-y-requisitos.md#rn-21) | — |
-| [CA-4](#hu-032-ca-4) | Reactivación | — | — | [RN-21](2-reglas-de-negocio-y-requisitos.md#rn-21) | [CU-032](3-casos-de-uso.md#cu-032) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-032-ca-1) | Inactivación de un usuario | — | — | — | [CU-032](3-casos-de-uso.md#cu-032) | — |
+| [CA-2](#hu-032-ca-2) | Un usuario inactivo no puede ingresar | — | — | [RN-21](2-reglas-de-negocio-y-requisitos.md#rn-21) | — | — |
+| [CA-3](#hu-032-ca-3) | La información histórica se conserva | — | — | [RN-21](2-reglas-de-negocio-y-requisitos.md#rn-21) | — | — |
+| [CA-4](#hu-032-ca-4) | Reactivación | — | — | [RN-21](2-reglas-de-negocio-y-requisitos.md#rn-21) | [CU-032](3-casos-de-uso.md#cu-032) | [`usuario.estado_usuario`](../apoyo/trazabilidad_atributos.md#atr-usuario-estado-usuario) |
 
 
 <a id="hu-033"></a>
@@ -2903,11 +2903,11 @@
 
 **Trazabilidad de los criterios de aceptación de HU-033**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-033-ca-1) | Ver las cuentas bloqueadas | — | — | — | — |
-| [CA-2](#hu-033-ca-2) | Desbloqueo exitoso | — | — | [RN-20](2-reglas-de-negocio-y-requisitos.md#rn-20) | [CU-033](3-casos-de-uso.md#cu-033) |
-| [CA-3](#hu-033-ca-3) | Solo el administrador desbloquea cuentas | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | — | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | [CU-033](3-casos-de-uso.md#cu-033) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-033-ca-1) | Ver las cuentas bloqueadas | — | — | — | — | — |
+| [CA-2](#hu-033-ca-2) | Desbloqueo exitoso | — | — | [RN-20](2-reglas-de-negocio-y-requisitos.md#rn-20) | [CU-033](3-casos-de-uso.md#cu-033) | — |
+| [CA-3](#hu-033-ca-3) | Solo el administrador desbloquea cuentas | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | — | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | [CU-033](3-casos-de-uso.md#cu-033) | — |
 
 
 <a id="hu-034"></a>
@@ -2990,11 +2990,11 @@
 
 **Trazabilidad de los criterios de aceptación de HU-034**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-034-ca-1) | Cambio de disponibilidad | — | — | — | [CU-034](3-casos-de-uso.md#cu-034) |
-| [CA-2](#hu-034-ca-2) | La disponibilidad más reciente es la que se ve | — | — | [RN-28](2-reglas-de-negocio-y-requisitos.md#rn-28) | — |
-| [CA-3](#hu-034-ca-3) | Un solicitante no cambia la disponibilidad | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | — | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | [CU-034](3-casos-de-uso.md#cu-034) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-034-ca-1) | Cambio de disponibilidad | — | — | — | [CU-034](3-casos-de-uso.md#cu-034) | — |
+| [CA-2](#hu-034-ca-2) | La disponibilidad más reciente es la que se ve | — | — | [RN-28](2-reglas-de-negocio-y-requisitos.md#rn-28) | — | — |
+| [CA-3](#hu-034-ca-3) | Un solicitante no cambia la disponibilidad | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | — | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | [CU-034](3-casos-de-uso.md#cu-034) | — |
 
 
 <a id="hu-035"></a>
@@ -3083,12 +3083,12 @@
 
 **Trazabilidad de los criterios de aceptación de HU-035**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-035-ca-1) | Registro exitoso de un activo | — | — | — | [CU-035](3-casos-de-uso.md#cu-035) |
-| [CA-2](#hu-035-ca-2) | Rechazo por número de serie repetido | — | — | [RN-24](2-reglas-de-negocio-y-requisitos.md#rn-24) | [CU-035](3-casos-de-uso.md#cu-035) |
-| [CA-3](#hu-035-ca-3) | Registro sin número de serie | — | — | [RN-24](2-reglas-de-negocio-y-requisitos.md#rn-24) | [CU-035](3-casos-de-uso.md#cu-035) |
-| [CA-4](#hu-035-ca-4) | Datos obligatorios | — | — | [RN-24](2-reglas-de-negocio-y-requisitos.md#rn-24) | [CU-035](3-casos-de-uso.md#cu-035) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-035-ca-1) | Registro exitoso de un activo | — | — | — | [CU-035](3-casos-de-uso.md#cu-035) | — |
+| [CA-2](#hu-035-ca-2) | Rechazo por número de serie repetido | — | — | [RN-24](2-reglas-de-negocio-y-requisitos.md#rn-24) | [CU-035](3-casos-de-uso.md#cu-035) | [`activo.numero_serie`](../apoyo/trazabilidad_atributos.md#atr-activo-numero-serie) |
+| [CA-3](#hu-035-ca-3) | Registro sin número de serie | — | — | [RN-24](2-reglas-de-negocio-y-requisitos.md#rn-24) | [CU-035](3-casos-de-uso.md#cu-035) | — |
+| [CA-4](#hu-035-ca-4) | Datos obligatorios | — | — | [RN-24](2-reglas-de-negocio-y-requisitos.md#rn-24) | [CU-035](3-casos-de-uso.md#cu-035) | — |
 
 
 <a id="hu-036"></a>
@@ -3169,11 +3169,11 @@
 
 **Trazabilidad de los criterios de aceptación de HU-036**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-036-ca-1) | Listado con estado y ubicación | — | [RF-45](2-reglas-de-negocio-y-requisitos.md#rf-45) | — | [CU-036](3-casos-de-uso.md#cu-036) |
-| [CA-2](#hu-036-ca-2) | Búsqueda por nombre, número de serie o área | — | — | — | — |
-| [CA-3](#hu-036-ca-3) | Búsqueda sin resultados | — | — | — | [CU-036](3-casos-de-uso.md#cu-036) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-036-ca-1) | Listado con estado y ubicación | — | [RF-45](2-reglas-de-negocio-y-requisitos.md#rf-45) | — | [CU-036](3-casos-de-uso.md#cu-036) | — |
+| [CA-2](#hu-036-ca-2) | Búsqueda por nombre, número de serie o área | — | — | — | — | — |
+| [CA-3](#hu-036-ca-3) | Búsqueda sin resultados | — | — | — | [CU-036](3-casos-de-uso.md#cu-036) | — |
 
 
 <a id="hu-037"></a>
@@ -3252,10 +3252,10 @@
 
 **Trazabilidad de los criterios de aceptación de HU-037**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-037-ca-1) | Actualización de ubicación y estado | — | — | — | [CU-037](3-casos-de-uso.md#cu-037) |
-| [CA-2](#hu-037-ca-2) | Rechazo por número de serie en uso | — | — | [RN-24](2-reglas-de-negocio-y-requisitos.md#rn-24) | [CU-037](3-casos-de-uso.md#cu-037) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-037-ca-1) | Actualización de ubicación y estado | — | — | — | [CU-037](3-casos-de-uso.md#cu-037) | — |
+| [CA-2](#hu-037-ca-2) | Rechazo por número de serie en uso | — | — | [RN-24](2-reglas-de-negocio-y-requisitos.md#rn-24) | [CU-037](3-casos-de-uso.md#cu-037) | — |
 
 
 <a id="hu-038"></a>
@@ -3339,11 +3339,11 @@
 
 **Trazabilidad de los criterios de aceptación de HU-038**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-038-ca-1) | Dar de baja un activo | — | — | — | [CU-038](3-casos-de-uso.md#cu-038) |
-| [CA-2](#hu-038-ca-2) | Un activo dado de baja no puede elegirse en casos nuevos | — | — | [RN-25](2-reglas-de-negocio-y-requisitos.md#rn-25) | — |
-| [CA-3](#hu-038-ca-3) | Los casos anteriores conservan la relación | — | — | [RN-25](2-reglas-de-negocio-y-requisitos.md#rn-25) | — |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-038-ca-1) | Dar de baja un activo | — | — | — | [CU-038](3-casos-de-uso.md#cu-038) | — |
+| [CA-2](#hu-038-ca-2) | Un activo dado de baja no puede elegirse en casos nuevos | — | — | [RN-25](2-reglas-de-negocio-y-requisitos.md#rn-25) | — | — |
+| [CA-3](#hu-038-ca-3) | Los casos anteriores conservan la relación | — | — | [RN-25](2-reglas-de-negocio-y-requisitos.md#rn-25) | — | — |
 
 
 <a id="hu-040"></a>
@@ -3426,11 +3426,11 @@
 
 **Trazabilidad de los criterios de aceptación de HU-040**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-040-ca-1) | Listado de reglas vigentes | — | — | — | [CU-040](3-casos-de-uso.md#cu-040) |
-| [CA-2](#hu-040-ca-2) | Distinción entre reglas activas y reglas anteriores | — | — | [RN-13](2-reglas-de-negocio-y-requisitos.md#rn-13) | — |
-| [CA-3](#hu-040-ca-3) | Combinación sin regla definida | — | — | — | [CU-040](3-casos-de-uso.md#cu-040) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-040-ca-1) | Listado de reglas vigentes | — | — | — | [CU-040](3-casos-de-uso.md#cu-040) | — |
+| [CA-2](#hu-040-ca-2) | Distinción entre reglas activas y reglas anteriores | — | — | [RN-13](2-reglas-de-negocio-y-requisitos.md#rn-13) | — | — |
+| [CA-3](#hu-040-ca-3) | Combinación sin regla definida | — | — | — | [CU-040](3-casos-de-uso.md#cu-040) | — |
 
 
 <a id="hu-041"></a>
@@ -3513,11 +3513,11 @@
 
 **Trazabilidad de los criterios de aceptación de HU-041**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-041-ca-1) | Registro automático de cada cambio relevante | — | — | [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08) | [CU-S02](3-casos-de-uso.md#cu-s02) |
-| [CA-2](#hu-041-ca-2) | Consulta del historial completo | — | — | — | [CU-041](3-casos-de-uso.md#cu-041) |
-| [CA-3](#hu-041-ca-3) | El historial no puede modificarse ni eliminarse | — | — | [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08) | [CU-041](3-casos-de-uso.md#cu-041) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-041-ca-1) | Registro automático de cada cambio relevante | — | — | [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08) | [CU-S02](3-casos-de-uso.md#cu-s02) | — |
+| [CA-2](#hu-041-ca-2) | Consulta del historial completo | — | — | — | [CU-041](3-casos-de-uso.md#cu-041) | — |
+| [CA-3](#hu-041-ca-3) | El historial no puede modificarse ni eliminarse | — | — | [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08) | [CU-041](3-casos-de-uso.md#cu-041) | — |
 
 
 <a id="hu-042"></a>
@@ -3617,13 +3617,13 @@
 
 **Trazabilidad de los criterios de aceptación de HU-042**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-042-ca-1) | Carga exitosa de un archivo permitido | — | — | [RN-27](2-reglas-de-negocio-y-requisitos.md#rn-27) | [CU-042](3-casos-de-uso.md#cu-042) |
-| [CA-2](#hu-042-ca-2) | Rechazo por tamaño máximo excedido | — | — | [RN-27](2-reglas-de-negocio-y-requisitos.md#rn-27) | [CU-042](3-casos-de-uso.md#cu-042) |
-| [CA-3](#hu-042-ca-3) | Rechazo por tipo de archivo no permitido | — | — | [RN-27](2-reglas-de-negocio-y-requisitos.md#rn-27) | [CU-042](3-casos-de-uso.md#cu-042) |
-| [CA-4](#hu-042-ca-4) | Consulta de los adjuntos de un caso | — | — | — | — |
-| [CA-5](#hu-042-ca-5) | Retiro de un adjunto cargado por error | — | — | [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08), [RN-27](2-reglas-de-negocio-y-requisitos.md#rn-27) | [CU-042](3-casos-de-uso.md#cu-042) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-042-ca-1) | Carga exitosa de un archivo permitido | — | — | [RN-27](2-reglas-de-negocio-y-requisitos.md#rn-27) | [CU-042](3-casos-de-uso.md#cu-042) | [`adjunto_caso.tipo_archivo`](../apoyo/trazabilidad_atributos.md#atr-adjunto-caso-tipo-archivo) |
+| [CA-2](#hu-042-ca-2) | Rechazo por tamaño máximo excedido | — | — | [RN-27](2-reglas-de-negocio-y-requisitos.md#rn-27) | [CU-042](3-casos-de-uso.md#cu-042) | [`adjunto_caso.tamano_kb`](../apoyo/trazabilidad_atributos.md#atr-adjunto-caso-tamano-kb) |
+| [CA-3](#hu-042-ca-3) | Rechazo por tipo de archivo no permitido | — | — | [RN-27](2-reglas-de-negocio-y-requisitos.md#rn-27) | [CU-042](3-casos-de-uso.md#cu-042) | — |
+| [CA-4](#hu-042-ca-4) | Consulta de los adjuntos de un caso | — | — | — | — | — |
+| [CA-5](#hu-042-ca-5) | Retiro de un adjunto cargado por error | — | — | [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08), [RN-27](2-reglas-de-negocio-y-requisitos.md#rn-27) | [CU-042](3-casos-de-uso.md#cu-042) | — |
 
 
 <a id="hu-043"></a>
@@ -3715,12 +3715,12 @@
 
 **Trazabilidad de los criterios de aceptación de HU-043**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-043-ca-1) | Creación de un valor nuevo | — | — | — | [CU-043](3-casos-de-uso.md#cu-043) |
-| [CA-2](#hu-043-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | [CU-043](3-casos-de-uso.md#cu-043) |
-| [CA-3](#hu-043-ca-3) | Edición de un valor existente | — | — | — | [CU-043](3-casos-de-uso.md#cu-043) |
-| [CA-4](#hu-043-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | [CU-043](3-casos-de-uso.md#cu-043) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-043-ca-1) | Creación de un valor nuevo | — | — | — | [CU-043](3-casos-de-uso.md#cu-043) | — |
+| [CA-2](#hu-043-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | [CU-043](3-casos-de-uso.md#cu-043) | — |
+| [CA-3](#hu-043-ca-3) | Edición de un valor existente | — | — | — | [CU-043](3-casos-de-uso.md#cu-043) | — |
+| [CA-4](#hu-043-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | [CU-043](3-casos-de-uso.md#cu-043) | — |
 
 
 <a id="hu-044"></a>
@@ -3812,12 +3812,12 @@
 
 **Trazabilidad de los criterios de aceptación de HU-044**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-044-ca-1) | Creación de un valor nuevo | — | — | — | [CU-044](3-casos-de-uso.md#cu-044) |
-| [CA-2](#hu-044-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | [CU-044](3-casos-de-uso.md#cu-044) |
-| [CA-3](#hu-044-ca-3) | Edición de un valor existente | — | — | — | [CU-044](3-casos-de-uso.md#cu-044) |
-| [CA-4](#hu-044-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | [CU-044](3-casos-de-uso.md#cu-044) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-044-ca-1) | Creación de un valor nuevo | — | — | — | [CU-044](3-casos-de-uso.md#cu-044) | — |
+| [CA-2](#hu-044-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | [CU-044](3-casos-de-uso.md#cu-044) | — |
+| [CA-3](#hu-044-ca-3) | Edición de un valor existente | — | — | — | [CU-044](3-casos-de-uso.md#cu-044) | — |
+| [CA-4](#hu-044-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | [CU-044](3-casos-de-uso.md#cu-044) | — |
 
 
 <a id="hu-045"></a>
@@ -3909,12 +3909,12 @@
 
 **Trazabilidad de los criterios de aceptación de HU-045**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-045-ca-1) | Creación de un valor nuevo | — | — | — | [CU-045](3-casos-de-uso.md#cu-045) |
-| [CA-2](#hu-045-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | [CU-045](3-casos-de-uso.md#cu-045) |
-| [CA-3](#hu-045-ca-3) | Edición de un valor existente | — | — | — | [CU-045](3-casos-de-uso.md#cu-045) |
-| [CA-4](#hu-045-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | [CU-045](3-casos-de-uso.md#cu-045) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-045-ca-1) | Creación de un valor nuevo | — | — | — | [CU-045](3-casos-de-uso.md#cu-045) | — |
+| [CA-2](#hu-045-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | [CU-045](3-casos-de-uso.md#cu-045) | — |
+| [CA-3](#hu-045-ca-3) | Edición de un valor existente | — | — | — | [CU-045](3-casos-de-uso.md#cu-045) | — |
+| [CA-4](#hu-045-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | [CU-045](3-casos-de-uso.md#cu-045) | — |
 
 
 <a id="hu-046"></a>
@@ -4006,12 +4006,12 @@
 
 **Trazabilidad de los criterios de aceptación de HU-046**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-046-ca-1) | Creación de un valor nuevo | — | — | — | [CU-046](3-casos-de-uso.md#cu-046) |
-| [CA-2](#hu-046-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | [CU-046](3-casos-de-uso.md#cu-046) |
-| [CA-3](#hu-046-ca-3) | Edición de un valor existente | — | — | — | [CU-046](3-casos-de-uso.md#cu-046) |
-| [CA-4](#hu-046-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | [CU-046](3-casos-de-uso.md#cu-046) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-046-ca-1) | Creación de un valor nuevo | — | — | — | [CU-046](3-casos-de-uso.md#cu-046) | — |
+| [CA-2](#hu-046-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | [CU-046](3-casos-de-uso.md#cu-046) | — |
+| [CA-3](#hu-046-ca-3) | Edición de un valor existente | — | — | — | [CU-046](3-casos-de-uso.md#cu-046) | — |
+| [CA-4](#hu-046-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | [CU-046](3-casos-de-uso.md#cu-046) | — |
 
 
 <a id="hu-047"></a>
@@ -4103,12 +4103,12 @@
 
 **Trazabilidad de los criterios de aceptación de HU-047**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-047-ca-1) | Creación de un valor nuevo | — | — | — | [CU-047](3-casos-de-uso.md#cu-047) |
-| [CA-2](#hu-047-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | [CU-047](3-casos-de-uso.md#cu-047) |
-| [CA-3](#hu-047-ca-3) | Edición de un valor existente | — | — | — | [CU-047](3-casos-de-uso.md#cu-047) |
-| [CA-4](#hu-047-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | [RN-04](2-reglas-de-negocio-y-requisitos.md#rn-04), [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | [CU-047](3-casos-de-uso.md#cu-047) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-047-ca-1) | Creación de un valor nuevo | — | — | — | [CU-047](3-casos-de-uso.md#cu-047) | — |
+| [CA-2](#hu-047-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | [CU-047](3-casos-de-uso.md#cu-047) | — |
+| [CA-3](#hu-047-ca-3) | Edición de un valor existente | — | — | — | [CU-047](3-casos-de-uso.md#cu-047) | — |
+| [CA-4](#hu-047-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | [RN-04](2-reglas-de-negocio-y-requisitos.md#rn-04), [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | [CU-047](3-casos-de-uso.md#cu-047) | — |
 
 
 <a id="hu-048"></a>
@@ -4200,12 +4200,12 @@
 
 **Trazabilidad de los criterios de aceptación de HU-048**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-048-ca-1) | Creación de un valor nuevo | — | — | — | [CU-048](3-casos-de-uso.md#cu-048) |
-| [CA-2](#hu-048-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | [CU-048](3-casos-de-uso.md#cu-048) |
-| [CA-3](#hu-048-ca-3) | Edición de un valor existente | — | — | — | [CU-048](3-casos-de-uso.md#cu-048) |
-| [CA-4](#hu-048-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | [RN-04](2-reglas-de-negocio-y-requisitos.md#rn-04), [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | [CU-048](3-casos-de-uso.md#cu-048) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-048-ca-1) | Creación de un valor nuevo | — | — | — | [CU-048](3-casos-de-uso.md#cu-048) | — |
+| [CA-2](#hu-048-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | [CU-048](3-casos-de-uso.md#cu-048) | — |
+| [CA-3](#hu-048-ca-3) | Edición de un valor existente | — | — | — | [CU-048](3-casos-de-uso.md#cu-048) | — |
+| [CA-4](#hu-048-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | [RN-04](2-reglas-de-negocio-y-requisitos.md#rn-04), [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | [CU-048](3-casos-de-uso.md#cu-048) | — |
 
 
 <a id="hu-049"></a>
@@ -4292,9 +4292,9 @@
 
 **Trazabilidad de los criterios de aceptación de HU-049**
 
-| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
-|---|---|---|---|---|---|
-| [CA-1](#hu-049-ca-1) | Corrección exitosa | [RN-03](2-reglas-de-negocio-y-requisitos.md#rn-03), [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08) | — | [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08) | [CU-049](3-casos-de-uso.md#cu-049) |
-| [CA-2](#hu-049-ca-2) | La corrección mantiene los datos coherentes | [RN-03](2-reglas-de-negocio-y-requisitos.md#rn-03) | — | [RN-03](2-reglas-de-negocio-y-requisitos.md#rn-03) | [CU-049](3-casos-de-uso.md#cu-049) |
-| [CA-3](#hu-049-ca-3) | Rechazo por rol no autorizado | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | — | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | [CU-049](3-casos-de-uso.md#cu-049) |
+| CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa | Atributos que cita |
+|---|---|---|---|---|---|---|
+| [CA-1](#hu-049-ca-1) | Corrección exitosa | [RN-03](2-reglas-de-negocio-y-requisitos.md#rn-03), [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08) | — | [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08) | [CU-049](3-casos-de-uso.md#cu-049) | — |
+| [CA-2](#hu-049-ca-2) | La corrección mantiene los datos coherentes | [RN-03](2-reglas-de-negocio-y-requisitos.md#rn-03) | — | [RN-03](2-reglas-de-negocio-y-requisitos.md#rn-03) | [CU-049](3-casos-de-uso.md#cu-049) | — |
+| [CA-3](#hu-049-ca-3) | Rechazo por rol no autorizado | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | — | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | [CU-049](3-casos-de-uso.md#cu-049) | — |
 

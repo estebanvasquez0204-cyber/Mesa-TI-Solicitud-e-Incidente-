@@ -30,6 +30,7 @@
 > | Mockups que la muestran | [MK-02](4-mockups.md#mk-02) | Fichas de mockup («RN visibles») |
 > | HU | [HU-001](1-historias-de-usuario.md#hu-001), [HU-021](1-historias-de-usuario.md#hu-021), [HU-022](1-historias-de-usuario.md#hu-022) | Matriz §5 |
 > | Implementación en la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`telefono`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`titulo`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`descripcion`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`lugar`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`id_tabla_importancia`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`usuario.telefono`](../apoyo/trazabilidad_atributos.md#atr-usuario-telefono), [`caso_soporte.titulo`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-titulo), [`caso_soporte.descripcion`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-descripcion), [`caso_soporte.lugar`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-lugar), [`caso_soporte.id_tabla_importancia`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-tabla-importancia) | Columnas de las restricciones marcadas `-- RN-01` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 > | Pruebas en MySQL | [5.16](../fase_3/13.1-pruebas-ddl.md#prueba-5-16) | Sección 5 del script (13.1) |
 
 
@@ -55,6 +56,7 @@
 > | Mockups que la muestran | [MK-03](4-mockups.md#mk-03) | Fichas de mockup («RN visibles») |
 > | HU | [HU-001](1-historias-de-usuario.md#hu-001), [HU-002](1-historias-de-usuario.md#hu-002) | Matriz §5 |
 > | Implementación en la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`numero_seguimiento`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`uq_caso_numero_seguimiento`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`ck_caso_numero_seguimiento_formato`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`caso_soporte.numero_seguimiento`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-numero-seguimiento) | Columnas de las restricciones marcadas `-- RN-02` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 > | Pruebas en MySQL | [5.9](../fase_3/13.1-pruebas-ddl.md#prueba-5-9), [5.10](../fase_3/13.1-pruebas-ddl.md#prueba-5-10) | Sección 5 del script (13.1) |
 
 
@@ -81,6 +83,7 @@
 > | Mockups que la muestran | [MK-02](4-mockups.md#mk-02), [MK-06](4-mockups.md#mk-06) | Fichas de mockup («RN visibles») |
 > | HU | [HU-004](1-historias-de-usuario.md#hu-004), [HU-018](1-historias-de-usuario.md#hu-018), [HU-019](1-historias-de-usuario.md#hu-019), [HU-020](1-historias-de-usuario.md#hu-020), [HU-049](1-historias-de-usuario.md#hu-049) | Matriz §5 |
 > | Implementación en la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`tipo_caso`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`id_tipo_problema`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`id_tipo_solicitud`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`clase_solicitud`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`ck_caso_tipo_caso`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`ck_caso_clase_solicitud`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`ck_caso_clasificacion_exclusiva`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`caso_soporte.tipo_caso`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-tipo-caso), [`caso_soporte.id_tipo_problema`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-tipo-problema), [`caso_soporte.id_tipo_solicitud`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-tipo-solicitud), [`caso_soporte.clase_solicitud`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-clase-solicitud) | Columnas de las restricciones marcadas `-- RN-03` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 > | Pruebas en MySQL | [5.11](../fase_3/13.1-pruebas-ddl.md#prueba-5-11), [5.12](../fase_3/13.1-pruebas-ddl.md#prueba-5-12) | Sección 5 del script (13.1) |
 
 
@@ -105,6 +108,7 @@
 > | Mockups que la muestran | [MK-02](4-mockups.md#mk-02), [MK-18](4-mockups.md#mk-18) | Fichas de mockup («RN visibles») |
 > | HU | [HU-018](1-historias-de-usuario.md#hu-018), [HU-019](1-historias-de-usuario.md#hu-019), [HU-047](1-historias-de-usuario.md#hu-047), [HU-048](1-historias-de-usuario.md#hu-048) | Matriz §5 |
 > | Implementación en la base de datos | [`tipo_problema`](../fase_3/13-script-sql-ddl.md#tabla-tipo-problema) (`ck_tipo_problema_estado`), [`tipo_solicitud`](../fase_3/13-script-sql-ddl.md#tabla-tipo-solicitud) (`ck_tipo_solicitud_estado`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`fk_caso_tipo_problema`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`fk_caso_tipo_solicitud`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`tipo_problema.estado`](../apoyo/trazabilidad_atributos.md#atr-tipo-problema-estado), [`tipo_solicitud.estado`](../apoyo/trazabilidad_atributos.md#atr-tipo-solicitud-estado), [`caso_soporte.id_tipo_problema`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-tipo-problema), [`caso_soporte.id_tipo_solicitud`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-tipo-solicitud) | Columnas de las restricciones marcadas `-- RN-04` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 
 
 **Tabla 56**  
@@ -129,6 +133,7 @@
 > | Mockups que la muestran | [MK-02](4-mockups.md#mk-02), [MK-07](4-mockups.md#mk-07) | Fichas de mockup («RN visibles») |
 > | HU | [HU-006](1-historias-de-usuario.md#hu-006), [HU-021](1-historias-de-usuario.md#hu-021), [HU-022](1-historias-de-usuario.md#hu-022) | Matriz §5 |
 > | Implementación en la base de datos | [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) (`uq_tabla_importancia_afectacion_urgencia`), [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) (`ck_tabla_importancia_afectacion`), [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) (`ck_tabla_importancia_urgencia`), [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) (`ck_tabla_importancia_resultado`), [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) (`ck_tabla_importancia_estado`), [`tabla_importancia`](../fase_3/13-script-sql-ddl.md#tabla-tabla-importancia) (`fk_tabla_importancia_usuario_modificacion`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`id_tabla_importancia`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`fk_caso_tabla_importancia`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`tabla_importancia.afectacion`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-afectacion), [`tabla_importancia.urgencia`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-urgencia), [`tabla_importancia.resultado_importancia`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-resultado-importancia), [`tabla_importancia.estado`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-estado), [`tabla_importancia.id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-tabla-importancia-id-usuario-modificacion), [`caso_soporte.id_tabla_importancia`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-tabla-importancia) | Columnas de las restricciones marcadas `-- RN-05` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 > | Pruebas en MySQL | [5.17](../fase_3/13.1-pruebas-ddl.md#prueba-5-17) | Sección 5 del script (13.1) |
 
 
@@ -154,6 +159,7 @@
 > | Mockups que la muestran | [MK-04](4-mockups.md#mk-04) | Fichas de mockup («RN visibles») |
 > | HU | [HU-005](1-historias-de-usuario.md#hu-005), [HU-007](1-historias-de-usuario.md#hu-007), [HU-010](1-historias-de-usuario.md#hu-010) | Matriz §5 |
 > | Implementación en la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`id_usuario_solicitante`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`fk_caso_solicitante`), [`comentario_caso`](../fase_3/13-script-sql-ddl.md#tabla-comentario-caso) (`ck_comentario_visibilidad`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`caso_soporte.id_usuario_solicitante`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-usuario-solicitante), [`comentario_caso.visibilidad`](../apoyo/trazabilidad_atributos.md#atr-comentario-caso-visibilidad) | Columnas de las restricciones marcadas `-- RN-06` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 > | Pruebas en MySQL | [5.31](../fase_3/13.1-pruebas-ddl.md#prueba-5-31) | Sección 5 del script (13.1) |
 
 
@@ -178,6 +184,7 @@
 > | Mockups que la muestran | [MK-06](4-mockups.md#mk-06) | Fichas de mockup («RN visibles») |
 > | HU | [HU-007](1-historias-de-usuario.md#hu-007) | Matriz §5 |
 > | Implementación en la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`ck_caso_estado_caso`), [`transicion_estado_caso`](../fase_3/13-script-sql-ddl.md#tabla-transicion-estado-caso) (`uq_transicion_origen_destino_perfil`), [`transicion_estado_caso`](../fase_3/13-script-sql-ddl.md#tabla-transicion-estado-caso) (`ck_transicion_estado_origen`), [`transicion_estado_caso`](../fase_3/13-script-sql-ddl.md#tabla-transicion-estado-caso) (`ck_transicion_estado_destino`), [`transicion_estado_caso`](../fase_3/13-script-sql-ddl.md#tabla-transicion-estado-caso) (`ck_transicion_perfil`), [`transicion_estado_caso`](../fase_3/13-script-sql-ddl.md#tabla-transicion-estado-caso) (`ck_transicion_estado`), [`transicion_estado_caso`](../fase_3/13-script-sql-ddl.md#tabla-transicion-estado-caso) (`fk_transicion_usuario_modificacion`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`caso_soporte.estado_caso`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-estado-caso), [`transicion_estado_caso.estado_origen`](../apoyo/trazabilidad_atributos.md#atr-transicion-estado-caso-estado-origen), [`transicion_estado_caso.estado_destino`](../apoyo/trazabilidad_atributos.md#atr-transicion-estado-caso-estado-destino), [`transicion_estado_caso.perfil_autorizado`](../apoyo/trazabilidad_atributos.md#atr-transicion-estado-caso-perfil-autorizado), [`transicion_estado_caso.estado`](../apoyo/trazabilidad_atributos.md#atr-transicion-estado-caso-estado), [`transicion_estado_caso.id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-transicion-estado-caso-id-usuario-modificacion) | Columnas de las restricciones marcadas `-- RN-07` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 > | Pruebas en MySQL | [5.13](../fase_3/13.1-pruebas-ddl.md#prueba-5-13), [5.30](../fase_3/13.1-pruebas-ddl.md#prueba-5-30) | Sección 5 del script (13.1) |
 
 
@@ -204,6 +211,7 @@
 > | Mockups que la muestran | [MK-06](4-mockups.md#mk-06), [MK-08](4-mockups.md#mk-08) | Fichas de mockup («RN visibles») |
 > | HU | [HU-007](1-historias-de-usuario.md#hu-007), [HU-008](1-historias-de-usuario.md#hu-008), [HU-009](1-historias-de-usuario.md#hu-009), [HU-013](1-historias-de-usuario.md#hu-013), [HU-026](1-historias-de-usuario.md#hu-026), [HU-028](1-historias-de-usuario.md#hu-028), [HU-041](1-historias-de-usuario.md#hu-041), [HU-042](1-historias-de-usuario.md#hu-042), [HU-049](1-historias-de-usuario.md#hu-049) | Matriz §5 |
 > | Implementación en la base de datos | [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso) (`fk_historial_caso`), [`historial_caso`](../fase_3/13-script-sql-ddl.md#tabla-historial-caso) (`fk_historial_usuario_accion`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`historial_caso.id_caso`](../apoyo/trazabilidad_atributos.md#atr-historial-caso-id-caso), [`historial_caso.id_usuario_accion`](../apoyo/trazabilidad_atributos.md#atr-historial-caso-id-usuario-accion) | Columnas de las restricciones marcadas `-- RN-08` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 > | Pruebas en MySQL | [5.22](../fase_3/13.1-pruebas-ddl.md#prueba-5-22) | Sección 5 del script (13.1) |
 
 
@@ -228,6 +236,7 @@
 > | Mockups que la muestran | [MK-06](4-mockups.md#mk-06) | Fichas de mockup («RN visibles») |
 > | HU | [HU-008](1-historias-de-usuario.md#hu-008), [HU-026](1-historias-de-usuario.md#hu-026) | Matriz §5 |
 > | Implementación en la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`id_personal_asignado`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`fk_caso_asignado`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`caso_soporte.id_personal_asignado`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-personal-asignado) | Columnas de las restricciones marcadas `-- RN-09` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 
 
 **Tabla 61**  
@@ -252,6 +261,7 @@
 > | Mockups que la muestran | [MK-05](4-mockups.md#mk-05), [MK-06](4-mockups.md#mk-06) | Fichas de mockup («RN visibles») |
 > | HU | [HU-009](1-historias-de-usuario.md#hu-009) | Matriz §5 |
 > | Implementación en la base de datos | [`comentario_caso`](../fase_3/13-script-sql-ddl.md#tabla-comentario-caso) (`ck_comentario_no_vacio`), [`comentario_caso`](../fase_3/13-script-sql-ddl.md#tabla-comentario-caso) (`ck_comentario_visibilidad`), [`comentario_caso`](../fase_3/13-script-sql-ddl.md#tabla-comentario-caso) (`fk_comentario_caso`), [`comentario_caso`](../fase_3/13-script-sql-ddl.md#tabla-comentario-caso) (`fk_comentario_autor`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`comentario_caso.id_caso`](../apoyo/trazabilidad_atributos.md#atr-comentario-caso-id-caso), [`comentario_caso.id_usuario_autor`](../apoyo/trazabilidad_atributos.md#atr-comentario-caso-id-usuario-autor), [`comentario_caso.comentario`](../apoyo/trazabilidad_atributos.md#atr-comentario-caso-comentario), [`comentario_caso.visibilidad`](../apoyo/trazabilidad_atributos.md#atr-comentario-caso-visibilidad) | Columnas de las restricciones marcadas `-- RN-10` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 > | Pruebas en MySQL | [5.20](../fase_3/13.1-pruebas-ddl.md#prueba-5-20), [5.21](../fase_3/13.1-pruebas-ddl.md#prueba-5-21) | Sección 5 del script (13.1) |
 
 
@@ -276,6 +286,7 @@
 > | Mockups que la muestran | [MK-05](4-mockups.md#mk-05) | Fichas de mockup («RN visibles») |
 > | HU | [HU-013](1-historias-de-usuario.md#hu-013) | Matriz §5 |
 > | Implementación en la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`contador_reaperturas`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`motivo_reapertura`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`ck_caso_contador_reaperturas`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`caso_soporte.contador_reaperturas`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-contador-reaperturas), [`caso_soporte.motivo_reapertura`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-motivo-reapertura) | Columnas de las restricciones marcadas `-- RN-11` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 > | Pruebas en MySQL | [5.15](../fase_3/13.1-pruebas-ddl.md#prueba-5-15) | Sección 5 del script (13.1) |
 
 
@@ -299,6 +310,7 @@
 > | Casos de uso que la aplican | [CU-028](3-casos-de-uso.md#cu-028) | Flujos de los CU (§3.1) |
 > | HU | [HU-028](1-historias-de-usuario.md#hu-028) | Matriz §5 |
 > | Implementación en la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`ck_caso_fecha_cierre`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`caso_soporte.fecha_solucion`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-fecha-solucion), [`caso_soporte.fecha_cierre`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-fecha-cierre) | Columnas de las restricciones marcadas `-- RN-12` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 
 
 **Tabla 64**  
@@ -324,6 +336,7 @@
 > | Mockups que la muestran | [MK-05](4-mockups.md#mk-05), [MK-12](4-mockups.md#mk-12) | Fichas de mockup («RN visibles») |
 > | HU | [HU-010](1-historias-de-usuario.md#hu-010), [HU-029](1-historias-de-usuario.md#hu-029), [HU-040](1-historias-de-usuario.md#hu-040) | Matriz §5 |
 > | Implementación en la base de datos | [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) (`tiempo_respuesta`), [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) (`tiempo_solucion`), [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) (`uq_sla_importancia_tipo_vigencia`), [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) (`ck_sla_tipo_caso`), [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) (`ck_sla_vigencia`), [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) (`ck_sla_estado`), [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) (`fk_sla_tabla_importancia`), [`tiempo_atencion_sla`](../fase_3/13-script-sql-ddl.md#tabla-tiempo-atencion-sla) (`fk_sla_usuario_modificacion`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`id_tiempo_atencion`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`fk_caso_tiempo_atencion`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`tiempo_atencion_sla.id_tabla_importancia`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-id-tabla-importancia), [`tiempo_atencion_sla.tipo_caso`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-tipo-caso), [`tiempo_atencion_sla.fecha_inicio_vigencia`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-fecha-inicio-vigencia), [`tiempo_atencion_sla.fecha_fin_vigencia`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-fecha-fin-vigencia), [`tiempo_atencion_sla.tiempo_respuesta`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-tiempo-respuesta), [`tiempo_atencion_sla.tiempo_solucion`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-tiempo-solucion), [`tiempo_atencion_sla.estado`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-estado), [`tiempo_atencion_sla.id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-tiempo-atencion-sla-id-usuario-modificacion), [`caso_soporte.id_tiempo_atencion`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-tiempo-atencion) | Columnas de las restricciones marcadas `-- RN-13` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 > | Pruebas en MySQL | [5.18](../fase_3/13.1-pruebas-ddl.md#prueba-5-18), [5.19](../fase_3/13.1-pruebas-ddl.md#prueba-5-19) | Sección 5 del script (13.1) |
 
 
@@ -350,6 +363,7 @@
 > | Mockups que la muestran | [MK-05](4-mockups.md#mk-05), [MK-10](4-mockups.md#mk-10) | Fichas de mockup («RN visibles») |
 > | HU | [HU-007](1-historias-de-usuario.md#hu-007), [HU-010](1-historias-de-usuario.md#hu-010), [HU-011](1-historias-de-usuario.md#hu-011) | Matriz §5 |
 > | Implementación en la base de datos | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`ck_caso_primera_respuesta`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`ck_caso_fecha_solucion`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`caso_soporte.fecha_creacion`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-fecha-creacion), [`caso_soporte.fecha_primera_respuesta`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-fecha-primera-respuesta), [`caso_soporte.fecha_solucion`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-fecha-solucion) | Columnas de las restricciones marcadas `-- RN-14` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 > | Pruebas en MySQL | [5.14](../fase_3/13.1-pruebas-ddl.md#prueba-5-14) | Sección 5 del script (13.1) |
 
 
@@ -375,6 +389,7 @@
 > | Mockups que la muestran | [MK-09](4-mockups.md#mk-09) | Fichas de mockup («RN visibles») |
 > | HU | [HU-002](1-historias-de-usuario.md#hu-002), [HU-003](1-historias-de-usuario.md#hu-003), [HU-028](1-historias-de-usuario.md#hu-028) | Matriz §5 |
 > | Implementación en la base de datos | [`aviso`](../fase_3/13-script-sql-ddl.md#tabla-aviso) (`intentos`), [`aviso`](../fase_3/13-script-sql-ddl.md#tabla-aviso) (`fecha_ultimo_intento`), [`aviso`](../fase_3/13-script-sql-ddl.md#tabla-aviso) (`motivo_fallo`), [`aviso`](../fase_3/13-script-sql-ddl.md#tabla-aviso) (`ck_aviso_canal`), [`aviso`](../fase_3/13-script-sql-ddl.md#tabla-aviso) (`ck_aviso_estado_envio`), [`aviso`](../fase_3/13-script-sql-ddl.md#tabla-aviso) (`fk_aviso_caso`), [`aviso`](../fase_3/13-script-sql-ddl.md#tabla-aviso) (`fk_aviso_usuario_destino`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`aviso.id_caso`](../apoyo/trazabilidad_atributos.md#atr-aviso-id-caso), [`aviso.id_usuario_destino`](../apoyo/trazabilidad_atributos.md#atr-aviso-id-usuario-destino), [`aviso.canal`](../apoyo/trazabilidad_atributos.md#atr-aviso-canal), [`aviso.estado_envio`](../apoyo/trazabilidad_atributos.md#atr-aviso-estado-envio), [`aviso.intentos`](../apoyo/trazabilidad_atributos.md#atr-aviso-intentos), [`aviso.fecha_ultimo_intento`](../apoyo/trazabilidad_atributos.md#atr-aviso-fecha-ultimo-intento), [`aviso.motivo_fallo`](../apoyo/trazabilidad_atributos.md#atr-aviso-motivo-fallo) | Columnas de las restricciones marcadas `-- RN-15` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 > | Pruebas en MySQL | [5.29](../fase_3/13.1-pruebas-ddl.md#prueba-5-29) | Sección 5 del script (13.1) |
 
 
@@ -423,6 +438,7 @@
 > | Mockups que la muestran | [MK-14](4-mockups.md#mk-14) | Fichas de mockup («RN visibles») |
 > | HU | [HU-002](1-historias-de-usuario.md#hu-002), [HU-016](1-historias-de-usuario.md#hu-016), [HU-031](1-historias-de-usuario.md#hu-031) | Matriz §5 |
 > | Implementación en la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`uq_usuario_correo`), [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`ck_usuario_correo_formato`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`usuario.correo`](../apoyo/trazabilidad_atributos.md#atr-usuario-correo) | Columnas de las restricciones marcadas `-- RN-17` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 > | Pruebas en MySQL | [5.1](../fase_3/13.1-pruebas-ddl.md#prueba-5-1), [5.2](../fase_3/13.1-pruebas-ddl.md#prueba-5-2) | Sección 5 del script (13.1) |
 
 
@@ -447,6 +463,7 @@
 > | Mockups que la muestran | [MK-14](4-mockups.md#mk-14) | Fichas de mockup («RN visibles») |
 > | HU | [HU-016](1-historias-de-usuario.md#hu-016), [HU-031](1-historias-de-usuario.md#hu-031) | Matriz §5 |
 > | Implementación en la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`id_area`), [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`fk_usuario_area`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`usuario.id_area`](../apoyo/trazabilidad_atributos.md#atr-usuario-id-area) | Columnas de las restricciones marcadas `-- RN-18` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 
 
 **Tabla 70**  
@@ -471,6 +488,7 @@
 > | Mockups que la muestran | [MK-19](4-mockups.md#mk-19), [MK-14](4-mockups.md#mk-14) | Fichas de mockup («RN visibles») |
 > | HU | [HU-016](1-historias-de-usuario.md#hu-016), [HU-024](1-historias-de-usuario.md#hu-024) | Matriz §5 |
 > | Implementación en la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`contrasena_hash`), [`token_recuperacion`](../fase_3/13-script-sql-ddl.md#tabla-token-recuperacion) (`token_hash`), [`token_recuperacion`](../fase_3/13-script-sql-ddl.md#tabla-token-recuperacion) (`uq_token_recuperacion_token_hash`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`usuario.contrasena_hash`](../apoyo/trazabilidad_atributos.md#atr-usuario-contrasena-hash), [`token_recuperacion.token_hash`](../apoyo/trazabilidad_atributos.md#atr-token-recuperacion-token-hash) | Columnas de las restricciones marcadas `-- RN-19` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 
 
 **Tabla 71**  
@@ -495,6 +513,7 @@
 > | Mockups que la muestran | [MK-01](4-mockups.md#mk-01), [MK-15](4-mockups.md#mk-15) | Fichas de mockup («RN visibles») |
 > | HU | [HU-023](1-historias-de-usuario.md#hu-023), [HU-033](1-historias-de-usuario.md#hu-033) | Matriz §5 |
 > | Implementación en la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`intentos_fallidos`), [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`fecha_bloqueo`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`usuario.intentos_fallidos`](../apoyo/trazabilidad_atributos.md#atr-usuario-intentos-fallidos), [`usuario.fecha_bloqueo`](../apoyo/trazabilidad_atributos.md#atr-usuario-fecha-bloqueo) | Columnas de las restricciones marcadas `-- RN-20` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 
 
 **Tabla 72**  
@@ -518,6 +537,7 @@
 > | Mockups que la muestran | [MK-01](4-mockups.md#mk-01), [MK-13](4-mockups.md#mk-13) | Fichas de mockup («RN visibles») |
 > | HU | [HU-023](1-historias-de-usuario.md#hu-023), [HU-032](1-historias-de-usuario.md#hu-032) | Matriz §5 |
 > | Implementación en la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`estado_usuario`), [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`ck_usuario_estado_usuario`), [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`fk_usuario_usuario_modificacion`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`usuario.estado_usuario`](../apoyo/trazabilidad_atributos.md#atr-usuario-estado-usuario), [`usuario.id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-usuario-id-usuario-modificacion) | Columnas de las restricciones marcadas `-- RN-21` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 
 
 **Tabla 73**  
@@ -542,6 +562,7 @@
 > | Mockups que la muestran | [MK-01](4-mockups.md#mk-01), [MK-19](4-mockups.md#mk-19) | Fichas de mockup («RN visibles») |
 > | HU | [HU-024](1-historias-de-usuario.md#hu-024) | Matriz §5 |
 > | Implementación en la base de datos | [`token_recuperacion`](../fase_3/13-script-sql-ddl.md#tabla-token-recuperacion) (`uq_token_recuperacion_token_hash`), [`token_recuperacion`](../fase_3/13-script-sql-ddl.md#tabla-token-recuperacion) (`ck_token_expiracion`), [`token_recuperacion`](../fase_3/13-script-sql-ddl.md#tabla-token-recuperacion) (`ck_token_fecha_uso`), [`token_recuperacion`](../fase_3/13-script-sql-ddl.md#tabla-token-recuperacion) (`ck_token_estado`), [`token_recuperacion`](../fase_3/13-script-sql-ddl.md#tabla-token-recuperacion) (`fk_token_usuario`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`token_recuperacion.id_usuario`](../apoyo/trazabilidad_atributos.md#atr-token-recuperacion-id-usuario), [`token_recuperacion.token_hash`](../apoyo/trazabilidad_atributos.md#atr-token-recuperacion-token-hash), [`token_recuperacion.fecha_generacion`](../apoyo/trazabilidad_atributos.md#atr-token-recuperacion-fecha-generacion), [`token_recuperacion.fecha_expiracion`](../apoyo/trazabilidad_atributos.md#atr-token-recuperacion-fecha-expiracion), [`token_recuperacion.fecha_uso`](../apoyo/trazabilidad_atributos.md#atr-token-recuperacion-fecha-uso), [`token_recuperacion.estado_token`](../apoyo/trazabilidad_atributos.md#atr-token-recuperacion-estado-token) | Columnas de las restricciones marcadas `-- RN-22` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 > | Pruebas en MySQL | [5.25](../fase_3/13.1-pruebas-ddl.md#prueba-5-25), [5.26](../fase_3/13.1-pruebas-ddl.md#prueba-5-26) | Sección 5 del script (13.1) |
 
 
@@ -567,6 +588,7 @@
 > | Mockups que la muestran | [MK-04](4-mockups.md#mk-04) | Fichas de mockup («RN visibles») |
 > | HU | [HU-001](1-historias-de-usuario.md#hu-001), [HU-006](1-historias-de-usuario.md#hu-006), [HU-007](1-historias-de-usuario.md#hu-007), [HU-017](1-historias-de-usuario.md#hu-017), [HU-023](1-historias-de-usuario.md#hu-023), [HU-025](1-historias-de-usuario.md#hu-025), [HU-033](1-historias-de-usuario.md#hu-033), [HU-034](1-historias-de-usuario.md#hu-034), [HU-036](1-historias-de-usuario.md#hu-036), [HU-049](1-historias-de-usuario.md#hu-049) | Matriz §5 |
 > | Implementación en la base de datos | [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`perfil_acceso`), [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`ck_usuario_perfil_acceso`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`usuario.perfil_acceso`](../apoyo/trazabilidad_atributos.md#atr-usuario-perfil-acceso) | Columnas de las restricciones marcadas `-- RN-23` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 > | Pruebas en MySQL | [5.3](../fase_3/13.1-pruebas-ddl.md#prueba-5-3) | Sección 5 del script (13.1) |
 
 
@@ -591,6 +613,7 @@
 > | Mockups que la muestran | [MK-17](4-mockups.md#mk-17) | Fichas de mockup («RN visibles») |
 > | HU | [HU-035](1-historias-de-usuario.md#hu-035), [HU-037](1-historias-de-usuario.md#hu-037) | Matriz §5 |
 > | Implementación en la base de datos | [`tipo_activo`](../fase_3/13-script-sql-ddl.md#tabla-tipo-activo) (`nombre`), [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) (`nombre`), [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) (`id_tipo_activo`), [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) (`uq_activo_numero_serie`), [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) (`fk_activo_tipo_activo`), [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) (`fk_activo_area`), [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) (`fk_activo_usuario_modificacion`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`tipo_activo.nombre`](../apoyo/trazabilidad_atributos.md#atr-tipo-activo-nombre), [`activo.nombre`](../apoyo/trazabilidad_atributos.md#atr-activo-nombre), [`activo.id_tipo_activo`](../apoyo/trazabilidad_atributos.md#atr-activo-id-tipo-activo), [`activo.numero_serie`](../apoyo/trazabilidad_atributos.md#atr-activo-numero-serie), [`activo.id_area`](../apoyo/trazabilidad_atributos.md#atr-activo-id-area), [`activo.id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-activo-id-usuario-modificacion) | Columnas de las restricciones marcadas `-- RN-24` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 > | Pruebas en MySQL | [5.6](../fase_3/13.1-pruebas-ddl.md#prueba-5-6), [5.7](../fase_3/13.1-pruebas-ddl.md#prueba-5-7) | Sección 5 del script (13.1) |
 
 
@@ -616,6 +639,7 @@
 > | Mockups que la muestran | [MK-02](4-mockups.md#mk-02), [MK-16](4-mockups.md#mk-16) | Fichas de mockup («RN visibles») |
 > | HU | [HU-001](1-historias-de-usuario.md#hu-001), [HU-038](1-historias-de-usuario.md#hu-038) | Matriz §5 |
 > | Implementación en la base de datos | [`activo`](../fase_3/13-script-sql-ddl.md#tabla-activo) (`ck_activo_estado`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`id_activo`), [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) (`fk_caso_activo`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`activo.estado`](../apoyo/trazabilidad_atributos.md#atr-activo-estado), [`caso_soporte.id_activo`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-id-activo) | Columnas de las restricciones marcadas `-- RN-25` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 > | Pruebas en MySQL | [5.8](../fase_3/13.1-pruebas-ddl.md#prueba-5-8) | Sección 5 del script (13.1) |
 
 
@@ -641,6 +665,7 @@
 > | Mockups que la muestran | [MK-18](4-mockups.md#mk-18) | Fichas de mockup («RN visibles») |
 > | HU | [HU-043](1-historias-de-usuario.md#hu-043), [HU-044](1-historias-de-usuario.md#hu-044), [HU-045](1-historias-de-usuario.md#hu-045), [HU-046](1-historias-de-usuario.md#hu-046), [HU-047](1-historias-de-usuario.md#hu-047), [HU-048](1-historias-de-usuario.md#hu-048) | Matriz §5 |
 > | Implementación en la base de datos | [`area`](../fase_3/13-script-sql-ddl.md#tabla-area) (`uq_area_nombre_area`), [`cargo`](../fase_3/13-script-sql-ddl.md#tabla-cargo) (`uq_cargo_nombre_cargo`), [`rol_empleado`](../fase_3/13-script-sql-ddl.md#tabla-rol-empleado) (`uq_rol_empleado_nombre_rol`), [`tipo_activo`](../fase_3/13-script-sql-ddl.md#tabla-tipo-activo) (`uq_tipo_activo_nombre`), [`tipo_problema`](../fase_3/13-script-sql-ddl.md#tabla-tipo-problema) (`uq_tipo_problema_nombre`), [`tipo_solicitud`](../fase_3/13-script-sql-ddl.md#tabla-tipo-solicitud) (`uq_tipo_solicitud_nombre`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`area.nombre_area`](../apoyo/trazabilidad_atributos.md#atr-area-nombre-area), [`cargo.nombre_cargo`](../apoyo/trazabilidad_atributos.md#atr-cargo-nombre-cargo), [`rol_empleado.nombre_rol`](../apoyo/trazabilidad_atributos.md#atr-rol-empleado-nombre-rol), [`tipo_activo.nombre`](../apoyo/trazabilidad_atributos.md#atr-tipo-activo-nombre), [`tipo_problema.nombre`](../apoyo/trazabilidad_atributos.md#atr-tipo-problema-nombre), [`tipo_solicitud.nombre`](../apoyo/trazabilidad_atributos.md#atr-tipo-solicitud-nombre) | Columnas de las restricciones marcadas `-- RN-26` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 > | Pruebas en MySQL | [5.4](../fase_3/13.1-pruebas-ddl.md#prueba-5-4) | Sección 5 del script (13.1) |
 
 
@@ -666,6 +691,7 @@
 > | Mockups que la muestran | [MK-02](4-mockups.md#mk-02), [MK-05](4-mockups.md#mk-05) | Fichas de mockup («RN visibles») |
 > | HU | [HU-042](1-historias-de-usuario.md#hu-042) | Matriz §5 |
 > | Implementación en la base de datos | [`adjunto_caso`](../fase_3/13-script-sql-ddl.md#tabla-adjunto-caso) (`ck_adjunto_tipo_archivo`), [`adjunto_caso`](../fase_3/13-script-sql-ddl.md#tabla-adjunto-caso) (`ck_adjunto_tamano`), [`adjunto_caso`](../fase_3/13-script-sql-ddl.md#tabla-adjunto-caso) (`ck_adjunto_estado`), [`adjunto_caso`](../fase_3/13-script-sql-ddl.md#tabla-adjunto-caso) (`ck_adjunto_fecha_eliminacion`), [`adjunto_caso`](../fase_3/13-script-sql-ddl.md#tabla-adjunto-caso) (`fk_adjunto_caso`), [`adjunto_caso`](../fase_3/13-script-sql-ddl.md#tabla-adjunto-caso) (`fk_adjunto_autor`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`adjunto_caso.id_caso`](../apoyo/trazabilidad_atributos.md#atr-adjunto-caso-id-caso), [`adjunto_caso.id_usuario_autor`](../apoyo/trazabilidad_atributos.md#atr-adjunto-caso-id-usuario-autor), [`adjunto_caso.tipo_archivo`](../apoyo/trazabilidad_atributos.md#atr-adjunto-caso-tipo-archivo), [`adjunto_caso.tamano_kb`](../apoyo/trazabilidad_atributos.md#atr-adjunto-caso-tamano-kb), [`adjunto_caso.fecha_carga`](../apoyo/trazabilidad_atributos.md#atr-adjunto-caso-fecha-carga), [`adjunto_caso.estado_adjunto`](../apoyo/trazabilidad_atributos.md#atr-adjunto-caso-estado-adjunto), [`adjunto_caso.fecha_eliminacion`](../apoyo/trazabilidad_atributos.md#atr-adjunto-caso-fecha-eliminacion) | Columnas de las restricciones marcadas `-- RN-27` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 > | Pruebas en MySQL | [5.23](../fase_3/13.1-pruebas-ddl.md#prueba-5-23), [5.24](../fase_3/13.1-pruebas-ddl.md#prueba-5-24) | Sección 5 del script (13.1) |
 
 
@@ -691,6 +717,7 @@
 > | Mockups que la muestran | [MK-11](4-mockups.md#mk-11) | Fichas de mockup («RN visibles») |
 > | HU | [HU-015](1-historias-de-usuario.md#hu-015), [HU-034](1-historias-de-usuario.md#hu-034) | Matriz §5 |
 > | Implementación en la base de datos | [`info_personal_soporte`](../fase_3/13-script-sql-ddl.md#tabla-info-personal-soporte) (`uq_info_soporte_usuario`), [`info_personal_soporte`](../fase_3/13-script-sql-ddl.md#tabla-info-personal-soporte) (`ck_info_soporte_disponibilidad`), [`info_personal_soporte`](../fase_3/13-script-sql-ddl.md#tabla-info-personal-soporte) (`fk_info_soporte_usuario`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`info_personal_soporte.id_usuario_soporte`](../apoyo/trazabilidad_atributos.md#atr-info-personal-soporte-id-usuario-soporte), [`info_personal_soporte.disponibilidad`](../apoyo/trazabilidad_atributos.md#atr-info-personal-soporte-disponibilidad) | Columnas de las restricciones marcadas `-- RN-28` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 > | Pruebas en MySQL | [5.27](../fase_3/13.1-pruebas-ddl.md#prueba-5-27), [5.28](../fase_3/13.1-pruebas-ddl.md#prueba-5-28) | Sección 5 del script (13.1) |
 
 
@@ -739,6 +766,7 @@
 > | Mockups que la muestran | [MK-18](4-mockups.md#mk-18) | Fichas de mockup («RN visibles») |
 > | HU | [HU-043](1-historias-de-usuario.md#hu-043), [HU-044](1-historias-de-usuario.md#hu-044), [HU-045](1-historias-de-usuario.md#hu-045), [HU-046](1-historias-de-usuario.md#hu-046), [HU-047](1-historias-de-usuario.md#hu-047), [HU-048](1-historias-de-usuario.md#hu-048) | Matriz §5 |
 > | Implementación en la base de datos | [`area`](../fase_3/13-script-sql-ddl.md#tabla-area) (`ck_area_estado`), [`area`](../fase_3/13-script-sql-ddl.md#tabla-area) (`fk_area_usuario_modificacion`), [`cargo`](../fase_3/13-script-sql-ddl.md#tabla-cargo) (`ck_cargo_estado`), [`cargo`](../fase_3/13-script-sql-ddl.md#tabla-cargo) (`fk_cargo_usuario_modificacion`), [`rol_empleado`](../fase_3/13-script-sql-ddl.md#tabla-rol-empleado) (`ck_rol_empleado_estado`), [`rol_empleado`](../fase_3/13-script-sql-ddl.md#tabla-rol-empleado) (`fk_rol_empleado_usuario_modificacion`), [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`fk_usuario_cargo`), [`usuario`](../fase_3/13-script-sql-ddl.md#tabla-usuario) (`fk_usuario_rol_empleado`), [`tipo_activo`](../fase_3/13-script-sql-ddl.md#tabla-tipo-activo) (`ck_tipo_activo_estado`), [`tipo_activo`](../fase_3/13-script-sql-ddl.md#tabla-tipo-activo) (`fk_tipo_activo_usuario_modificacion`), [`tipo_problema`](../fase_3/13-script-sql-ddl.md#tabla-tipo-problema) (`ck_tipo_problema_estado`), [`tipo_problema`](../fase_3/13-script-sql-ddl.md#tabla-tipo-problema) (`fk_tipo_problema_usuario_modificacion`), [`tipo_solicitud`](../fase_3/13-script-sql-ddl.md#tabla-tipo-solicitud) (`ck_tipo_solicitud_estado`), [`tipo_solicitud`](../fase_3/13-script-sql-ddl.md#tabla-tipo-solicitud) (`fk_tipo_solicitud_usuario_modificacion`) | Comentarios `-- RN-xx` del script DDL |
+> | Atributos que restringe | [`area.estado`](../apoyo/trazabilidad_atributos.md#atr-area-estado), [`area.id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-area-id-usuario-modificacion), [`cargo.estado`](../apoyo/trazabilidad_atributos.md#atr-cargo-estado), [`cargo.id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-cargo-id-usuario-modificacion), [`rol_empleado.estado`](../apoyo/trazabilidad_atributos.md#atr-rol-empleado-estado), [`rol_empleado.id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-rol-empleado-id-usuario-modificacion), [`usuario.id_cargo`](../apoyo/trazabilidad_atributos.md#atr-usuario-id-cargo), [`usuario.id_rol_organizacional`](../apoyo/trazabilidad_atributos.md#atr-usuario-id-rol-organizacional), [`tipo_activo.estado`](../apoyo/trazabilidad_atributos.md#atr-tipo-activo-estado), [`tipo_activo.id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-tipo-activo-id-usuario-modificacion), [`tipo_problema.estado`](../apoyo/trazabilidad_atributos.md#atr-tipo-problema-estado), [`tipo_problema.id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-tipo-problema-id-usuario-modificacion), [`tipo_solicitud.estado`](../apoyo/trazabilidad_atributos.md#atr-tipo-solicitud-estado), [`tipo_solicitud.id_usuario_modificacion`](../apoyo/trazabilidad_atributos.md#atr-tipo-solicitud-id-usuario-modificacion) | Columnas de las restricciones marcadas `-- RN-30` en el DDL ([catálogo de atributos](../apoyo/trazabilidad_atributos.md)) |
 > | Pruebas en MySQL | [5.5](../fase_3/13.1-pruebas-ddl.md#prueba-5-5) | Sección 5 del script (13.1) |
 
 

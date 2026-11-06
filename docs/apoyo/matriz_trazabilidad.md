@@ -17,6 +17,7 @@
 9. [Diseño e implementación](#9-diseño-e-implementación)
 10. [Base de datos (Fase 3)](#10-base-de-datos-fase-3)
 11. [Pruebas del DDL](#11-pruebas-del-ddl)
+12. [Trazabilidad de atributos y campos](#12-trazabilidad-de-atributos-y-campos)
 
 ## 1. Cadena general del proyecto
 
@@ -416,3 +417,28 @@ El script se ejecutó en MySQL 8.0.46: creó las 18 tablas y sus restricciones s
 | [5.29](../fase_3/13.1-pruebas-ddl.md#prueba-5-29) | [RN-15](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-15) | [`aviso`](../fase_3/13-script-sql-ddl.md#tabla-aviso) | ✅ rechazado |
 | [5.30](../fase_3/13.1-pruebas-ddl.md#prueba-5-30) | [RN-07](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-07) | [`transicion_estado_caso`](../fase_3/13-script-sql-ddl.md#tabla-transicion-estado-caso) | ✅ rechazado |
 | [5.31](../fase_3/13.1-pruebas-ddl.md#prueba-5-31) | [RN-06](../fase_1/2-reglas-de-negocio-y-requisitos.md#rn-06) | [`caso_soporte`](../fase_3/13-script-sql-ddl.md#tabla-caso-soporte) | ✅ rechazado |
+
+## 12. Trazabilidad de atributos y campos
+
+El detalle por atributo está en [trazabilidad_atributos.md](trazabilidad_atributos.md): 161 atributos de 18 tablas, cada uno con su diccionario, su columna del DDL, los CA que lo citan, las RN que lo restringen, los mockups que lo muestran, los diagramas que lo nombran y las pruebas que lo verifican.
+
+| Tabla | Atributos | Con CA | Con RN | Con MK | Con pruebas |
+|---|---:|---:|---:|---:|---:|
+| [`area`](trazabilidad_atributos.md#atributos-de-area) | 6 | 0 | 3 | 1 | 2 |
+| [`cargo`](trazabilidad_atributos.md#atributos-de-cargo) | 6 | 0 | 3 | 1 | 0 |
+| [`rol_empleado`](trazabilidad_atributos.md#atributos-de-rol-empleado) | 6 | 0 | 3 | 1 | 0 |
+| [`usuario`](trazabilidad_atributos.md#atributos-de-usuario) | 15 | 3 | 11 | 9 | 2 |
+| [`token_recuperacion`](trazabilidad_atributos.md#atributos-de-token-recuperacion) | 7 | 0 | 6 | 4 | 3 |
+| [`info_personal_soporte`](trazabilidad_atributos.md#atributos-de-info-personal-soporte) | 4 | 0 | 2 | 1 | 2 |
+| [`tipo_activo`](trazabilidad_atributos.md#atributos-de-tipo-activo) | 7 | 0 | 3 | 2 | 0 |
+| [`tipo_problema`](trazabilidad_atributos.md#atributos-de-tipo-problema) | 7 | 1 | 3 | 0 | 0 |
+| [`tipo_solicitud`](trazabilidad_atributos.md#atributos-de-tipo-solicitud) | 7 | 0 | 3 | 0 | 0 |
+| [`tabla_importancia`](trazabilidad_atributos.md#atributos-de-tabla-importancia) | 8 | 2 | 5 | 3 | 2 |
+| [`activo`](trazabilidad_atributos.md#atributos-de-activo) | 12 | 1 | 6 | 7 | 3 |
+| [`tiempo_atencion_sla`](trazabilidad_atributos.md#atributos-de-tiempo-atencion-sla) | 11 | 0 | 8 | 3 | 4 |
+| [`caso_soporte`](trazabilidad_atributos.md#atributos-de-caso-soporte) | 21 | 6 | 20 | 10 | 11 |
+| [`comentario_caso`](trazabilidad_atributos.md#atributos-de-comentario-caso) | 6 | 1 | 4 | 2 | 2 |
+| [`historial_caso`](trazabilidad_atributos.md#atributos-de-historial-caso) | 9 | 0 | 2 | 6 | 1 |
+| [`adjunto_caso`](trazabilidad_atributos.md#atributos-de-adjunto-caso) | 10 | 2 | 7 | 0 | 2 |
+| [`aviso`](trazabilidad_atributos.md#atributos-de-aviso) | 11 | 1 | 7 | 5 | 1 |
+| [`transicion_estado_caso`](trazabilidad_atributos.md#atributos-de-transicion-estado-caso) | 8 | 1 | 5 | 0 | 3 |

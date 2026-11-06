@@ -503,3 +503,6 @@ Sec. CU-007: actualizarCaso()</td>
 </table>
 
 *Nota. Elaboración propia, a partir de la matriz por historia de usuario de la Fase 1, la cobertura de métodos del diagrama de clases y los diagramas de secuencia de este documento. La matriz solo exige mensajes para los cuatro casos de uso críticos (CU-001, CU-007, CU-016 y CU-029); en las demás filas se indica «N/A: caso no crítico».*
+
+
+> 🔗 **Atributos citados en esta sección:** [`caso_soporte.clase_solicitud`](../apoyo/trazabilidad_atributos.md#atr-caso-soporte-clase-solicitud)
