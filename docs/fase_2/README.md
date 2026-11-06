@@ -1,6 +1,6 @@
 # Fase 2 — Diseño
 
-> *Cómo va a hacerlo* (aquí están sus equipos). Termina en la **Compuerta M2**: sin matriz cerrada y leída, no hay código.
+> *Cómo va a hacerlo* (aquí están sus equipos).
 
 **Fuente:** documento Word *Proyecto.docx*, capítulos 6 a 14.
 
@@ -18,13 +18,12 @@
 | 11 | Diagrama de Estados: cada transición del ENUM con su gestor | [11-diagramas-de-estados.md](11-diagramas-de-estados.md): CasoSoporte, Aviso, Usuario y TiempoAtencionSLA | ✅ |
 | 12 | Matriz de trazabilidad: HU → RF → entidad → clase.método → CU → mensaje de secuencia → pantalla | [12-matriz-de-trazabilidad.md](12-matriz-de-trazabilidad.md) (incluye además la RN) | ✅ |
 | 12b | Lectura cruzada entre equipos (punto de control de lectura) | — | ⏳ no está en el documento |
-| M2 | **Compuerta M2:** sin matriz cerrada y leída, NO hay código | — | 🔒 depende de la 12b |
 
 ```mermaid
 flowchart TD
     D5[5. Diccionario ✅] --> D6[6. MER ✅] --> D7[7. Clases ✅] --> D7b{{7b. Auditoría cruzada ✅}}
     D7b -. la corrección viaja hacia atrás .-> D5
-    D7 --> D8[8. Actividades ✅] --> D9[9. DDA ✅] --> D10[10. Secuencia ✅] --> D11[11. Estados ✅] --> D12[12. Matriz ✅] --> D12b{{12b. Lectura cruzada ⏳}} --> M2[/Compuerta M2 🔒/]
+    D7 --> D8[8. Actividades ✅] --> D9[9. DDA ✅] --> D10[10. Secuencia ✅] --> D11[11. Estados ✅] --> D12[12. Matriz ✅] --> D12b{{12b. Lectura cruzada ⏳}}
 ```
 
 Todas las figuras (MER, clases, actividades, paquetes, secuencia y estados) están en [`img/`](img/). El documento menciona versiones HTML del MER y del diagrama de clases, pero esos archivos no venían en las fuentes entregadas.

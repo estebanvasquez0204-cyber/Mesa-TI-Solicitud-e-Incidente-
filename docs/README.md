@@ -9,13 +9,13 @@ La documentación está organizada por fases según la guía oficial del curso *
 | **Fase 0 — Concepción** | Conocer el sistema antes de construirlo | [fase_0](fase_0/README.md) |
 | **Fase 1 — Análisis** | Qué debe hacer el sistema | [fase_1](fase_1/README.md) |
 | **Fase 2 — Diseño** | Cómo va a hacerlo | [fase_2](fase_2/README.md) |
-| **Fase 3 — Construcción** | Solo se abre con la Compuerta M2 | [fase_3](fase_3/README.md) |
+| **Fase 3 — Construcción** | Script SQL y repositorio Git | [fase_3](fase_3/README.md) |
 
 **🧭 Punto central de navegación:** [apoyo/matriz_trazabilidad.md](apoyo/matriz_trazabilidad.md): matriz de trazabilidad general (problema → HU → CA → RF → RN → CU → actor → MK → diseño → evidencias).
 
 ```mermaid
 flowchart LR
-    F0[Fase 0<br/>Concepción] --> F1[Fase 1<br/>Análisis] --> F2[Fase 2<br/>Diseño] --> M2{{Compuerta M2<br/>matriz cerrada y leída}} --> F3[Fase 3<br/>Construcción]
+    F0[Fase 0<br/>Concepción] --> F1[Fase 1<br/>Análisis] --> F2[Fase 2<br/>Diseño] --> F3[Fase 3<br/>Construcción]
 ```
 
 **Entregable del curso:** un solo documento Word con la Fase 0 y todos los artefactos de las Fases 1 y 2, más el enlace del repositorio Git, según la plantilla oficial.

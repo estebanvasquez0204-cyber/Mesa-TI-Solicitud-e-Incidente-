@@ -2,19 +2,16 @@
 
 > **Alcance en este proyecto:** la Fase 3 comprende solo las actividades **13. Script SQL (DDL)** y **14. Repositorio Git + `.gitignore` + script en la raíz**.
 
-> *Solo se abre con la compuerta.* La llave que abre esta fase es la **Compuerta M2** (matriz de trazabilidad cerrada y leída). La matriz de trazabilidad ya está documentada ([actividad 12](../fase_2/12-matriz-de-trazabilidad.md)), pero en las fuentes no hay registro de la lectura cruzada entre equipos (12b), así que la compuerta se marca como pendiente de esa lectura.
-
 ## Trazabilidad con la guía de seguimiento
 
 | # | Actividad de la guía | Fechas planeadas | Estado |
 |:---:|---|---|:---:|
-| — | Compuerta M2: sin matriz cerrada y leída, NO hay código | 10/11/2026 | 🔒 cerrada |
 | 13 | Script SQL (DDL): imagen exacta del Modelo Relacional (actividad 6) | 11/11/2026 – 13/11/2026 | ⏳ pendiente |
 | 14 | Repositorio Git + `.gitignore` + script en la raíz (GCS) | 13/11/2026 – 16/11/2026 | 🟡 parcial |
 
 ```mermaid
 flowchart TD
-    M2[/Compuerta M2 🔒/] -->|la llave que abre la Fase 3| S13[13. Script SQL DDL ⏳]
+    S13[13. Script SQL DDL ⏳]
     S13 --> S14[14. Repositorio Git + .gitignore + script 🟡]
 ```
 
