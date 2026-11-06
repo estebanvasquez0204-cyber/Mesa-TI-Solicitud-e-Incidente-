@@ -26,7 +26,6 @@
 > | Nace de (CA) | [HU-001 CA-2](1-historias-de-usuario.md#hu-001-ca-2), [HU-021 CA-2](1-historias-de-usuario.md#hu-021-ca-2), [HU-022 CA-3](1-historias-de-usuario.md#hu-022-ca-3) | Campo «Origen» |
 > | Origen (entrevista) | [P6](../fase_0/0.4.1-entrevista-resultados.md#p6) | Campo «Origen» |
 > | RF que la vigilan | [RF-01](#rf-01), [RF-18](#rf-18) | Campo «RF que la vigilan» |
-> | CA que la citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-001](3-casos-de-uso.md#cu-001), [CU-021](3-casos-de-uso.md#cu-021), [CU-022](3-casos-de-uso.md#cu-022) | Flujos de los CU (§3.1) |
 > | Mockups que la muestran | [MK-02](4-mockups.md#mk-02) | Fichas de mockup («RN visibles») |
 > | HU | [HU-001](1-historias-de-usuario.md#hu-001), [HU-021](1-historias-de-usuario.md#hu-021), [HU-022](1-historias-de-usuario.md#hu-022) | Matriz §5 |
@@ -50,7 +49,6 @@
 > | Nace de (CA) | [HU-001 CA-1](1-historias-de-usuario.md#hu-001-ca-1), [HU-002 CA-3](1-historias-de-usuario.md#hu-002-ca-3) | Campo «Origen» |
 > | Origen (entrevista) | [P3](../fase_0/0.4.1-entrevista-resultados.md#p3) | Campo «Origen» |
 > | RF que la vigilan | [RF-01](#rf-01), [RF-03](#rf-03) | Campo «RF que la vigilan» |
-> | CA que la citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-001](3-casos-de-uso.md#cu-001), [CU-002](3-casos-de-uso.md#cu-002) | Flujos de los CU (§3.1) |
 > | Mockups que la muestran | [MK-03](4-mockups.md#mk-03) | Fichas de mockup («RN visibles») |
 > | HU | [HU-001](1-historias-de-usuario.md#hu-001), [HU-002](1-historias-de-usuario.md#hu-002) | Matriz §5 |
@@ -95,10 +93,8 @@
 >
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
-> | Nace de (CA) | [HU-018 CA-2](1-historias-de-usuario.md#hu-018-ca-2), [HU-018 CA-3](1-historias-de-usuario.md#hu-018-ca-3), [HU-019 CA-2](1-historias-de-usuario.md#hu-019-ca-2), [HU-019 CA-3](1-historias-de-usuario.md#hu-019-ca-3), [HU-048 CA-4](1-historias-de-usuario.md#hu-048-ca-4) | Campo «Origen» |
-> | Origen (entrevista) | — | Campo «Origen» |
+> | Nace de (CA) | [HU-018 CA-2](1-historias-de-usuario.md#hu-018-ca-2), [HU-018 CA-3](1-historias-de-usuario.md#hu-018-ca-3), [HU-019 CA-2](1-historias-de-usuario.md#hu-019-ca-2), [HU-019 CA-3](1-historias-de-usuario.md#hu-019-ca-3), [HU-047 CA-4](1-historias-de-usuario.md#hu-047-ca-4), [HU-048 CA-4](1-historias-de-usuario.md#hu-048-ca-4) | Campo «Origen» |
 > | RF que la vigilan | [RF-31](#rf-31), [RF-32](#rf-32), [RF-48](#rf-48) | Campo «RF que la vigilan» |
-> | CA que la citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-018](3-casos-de-uso.md#cu-018), [CU-019](3-casos-de-uso.md#cu-019) | Flujos de los CU (§3.1) |
 > | Mockups que la muestran | [MK-02](4-mockups.md#mk-02), [MK-18](4-mockups.md#mk-18) | Fichas de mockup («RN visibles») |
 > | HU | [HU-018](1-historias-de-usuario.md#hu-018), [HU-019](1-historias-de-usuario.md#hu-019), [HU-047](1-historias-de-usuario.md#hu-047), [HU-048](1-historias-de-usuario.md#hu-048) | Matriz §5 |
@@ -122,7 +118,6 @@
 > | Nace de (CA) | [HU-022 CA-1](1-historias-de-usuario.md#hu-022-ca-1), [HU-022 CA-2](1-historias-de-usuario.md#hu-022-ca-2), [HU-021 CA-3](1-historias-de-usuario.md#hu-021-ca-3), [HU-006 CA-2](1-historias-de-usuario.md#hu-006-ca-2) | Campo «Origen» |
 > | Origen (entrevista) | [P12](../fase_0/0.4.1-entrevista-resultados.md#p12), [P13](../fase_0/0.4.1-entrevista-resultados.md#p13) | Campo «Origen» |
 > | RF que la vigilan | [RF-11](#rf-11), [RF-19](#rf-19) | Campo «RF que la vigilan» |
-> | CA que la citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-001](3-casos-de-uso.md#cu-001), [CU-006](3-casos-de-uso.md#cu-006), [CU-022](3-casos-de-uso.md#cu-022) | Flujos de los CU (§3.1) |
 > | Mockups que la muestran | [MK-02](4-mockups.md#mk-02), [MK-07](4-mockups.md#mk-07) | Fichas de mockup («RN visibles») |
 > | HU | [HU-006](1-historias-de-usuario.md#hu-006), [HU-021](1-historias-de-usuario.md#hu-021), [HU-022](1-historias-de-usuario.md#hu-022) | Matriz §5 |
@@ -144,7 +139,6 @@
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
 > | Nace de (CA) | [HU-005 CA-2](1-historias-de-usuario.md#hu-005-ca-2), [HU-009 CA-4](1-historias-de-usuario.md#hu-009-ca-4), [HU-010 CA-4](1-historias-de-usuario.md#hu-010-ca-4) | Campo «Origen» |
-> | Origen (entrevista) | — | Campo «Origen» |
 > | RF que la vigilan | [RF-09](#rf-09), [RF-10](#rf-10), [RF-13](#rf-13) | Campo «RF que la vigilan» |
 > | CA que la citan | [HU-010 CA-4](1-historias-de-usuario.md#hu-010-ca-4) | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-005](3-casos-de-uso.md#cu-005), [CU-010](3-casos-de-uso.md#cu-010) | Flujos de los CU (§3.1) |
@@ -168,9 +162,7 @@
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
 > | Nace de (CA) | [HU-007 CA-2](1-historias-de-usuario.md#hu-007-ca-2), [HU-007 CA-3](1-historias-de-usuario.md#hu-007-ca-3) | Campo «Origen» |
-> | Origen (entrevista) | — | Campo «Origen» |
 > | RF que la vigilan | [RF-12](#rf-12) | Campo «RF que la vigilan» |
-> | CA que la citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-007](3-casos-de-uso.md#cu-007) | Flujos de los CU (§3.1) |
 > | Mockups que la muestran | [MK-06](4-mockups.md#mk-06) | Fichas de mockup («RN visibles») |
 > | HU | [HU-007](1-historias-de-usuario.md#hu-007) | Matriz §5 |
@@ -216,9 +208,7 @@
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
 > | Nace de (CA) | [HU-008 CA-2](1-historias-de-usuario.md#hu-008-ca-2), [HU-026 CA-2](1-historias-de-usuario.md#hu-026-ca-2) | Campo «Origen» |
-> | Origen (entrevista) | — | Campo «Origen» |
 > | RF que la vigilan | [RF-14](#rf-14), [RF-15](#rf-15) | Campo «RF que la vigilan» |
-> | CA que la citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-008](3-casos-de-uso.md#cu-008), [CU-026](3-casos-de-uso.md#cu-026) | Flujos de los CU (§3.1) |
 > | Mockups que la muestran | [MK-06](4-mockups.md#mk-06) | Fichas de mockup («RN visibles») |
 > | HU | [HU-008](1-historias-de-usuario.md#hu-008), [HU-026](1-historias-de-usuario.md#hu-026) | Matriz §5 |
@@ -242,7 +232,6 @@
 > | Nace de (CA) | [HU-009 CA-2](1-historias-de-usuario.md#hu-009-ca-2), [HU-009 CA-3](1-historias-de-usuario.md#hu-009-ca-3), [HU-009 CA-4](1-historias-de-usuario.md#hu-009-ca-4) | Campo «Origen» |
 > | Origen (entrevista) | [P6](../fase_0/0.4.1-entrevista-resultados.md#p6) | Campo «Origen» |
 > | RF que la vigilan | [RF-16](#rf-16), [RF-17](#rf-17) | Campo «RF que la vigilan» |
-> | CA que la citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-009](3-casos-de-uso.md#cu-009) | Flujos de los CU (§3.1) |
 > | Mockups que la muestran | [MK-05](4-mockups.md#mk-05), [MK-06](4-mockups.md#mk-06) | Fichas de mockup («RN visibles») |
 > | HU | [HU-009](1-historias-de-usuario.md#hu-009) | Matriz §5 |
@@ -264,9 +253,7 @@
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
 > | Nace de (CA) | [HU-013 CA-2](1-historias-de-usuario.md#hu-013-ca-2), [HU-013 CA-3](1-historias-de-usuario.md#hu-013-ca-3), [HU-013 CA-4](1-historias-de-usuario.md#hu-013-ca-4), [HU-013 CA-1](1-historias-de-usuario.md#hu-013-ca-1), [HU-013 CA-5](1-historias-de-usuario.md#hu-013-ca-5) | Campo «Origen» |
-> | Origen (entrevista) | — | Campo «Origen» |
 > | RF que la vigilan | [RF-23](#rf-23) | Campo «RF que la vigilan» |
-> | CA que la citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-013](3-casos-de-uso.md#cu-013) | Flujos de los CU (§3.1) |
 > | Mockups que la muestran | [MK-05](4-mockups.md#mk-05) | Fichas de mockup («RN visibles») |
 > | HU | [HU-013](1-historias-de-usuario.md#hu-013) | Matriz §5 |
@@ -288,11 +275,8 @@
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
 > | Nace de (CA) | [HU-028 CA-1](1-historias-de-usuario.md#hu-028-ca-1), [HU-028 CA-3](1-historias-de-usuario.md#hu-028-ca-3) | Campo «Origen» |
-> | Origen (entrevista) | — | Campo «Origen» |
 > | RF que la vigilan | [RF-37](#rf-37) | Campo «RF que la vigilan» |
-> | CA que la citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-028](3-casos-de-uso.md#cu-028) | Flujos de los CU (§3.1) |
-> | Mockups que la muestran | — | Fichas de mockup («RN visibles») |
 > | HU | [HU-028](1-historias-de-usuario.md#hu-028) | Matriz §5 |
 
 
@@ -362,7 +346,6 @@
 > | Nace de (CA) | [HU-003 CA-1](1-historias-de-usuario.md#hu-003-ca-1), [HU-003 CA-2](1-historias-de-usuario.md#hu-003-ca-2), [HU-003 CA-3](1-historias-de-usuario.md#hu-003-ca-3), [HU-002 CA-4](1-historias-de-usuario.md#hu-002-ca-4), [HU-028 CA-2](1-historias-de-usuario.md#hu-028-ca-2) | Campo «Origen» |
 > | Origen (entrevista) | [P10](../fase_0/0.4.1-entrevista-resultados.md#p10) | Campo «Origen» |
 > | RF que la vigilan | [RF-04](#rf-04), [RF-05](#rf-05), [RF-37](#rf-37) | Campo «RF que la vigilan» |
-> | CA que la citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-003](3-casos-de-uso.md#cu-003) | Flujos de los CU (§3.1) |
 > | Mockups que la muestran | [MK-09](4-mockups.md#mk-09) | Fichas de mockup («RN visibles») |
 > | HU | [HU-002](1-historias-de-usuario.md#hu-002), [HU-003](1-historias-de-usuario.md#hu-003), [HU-028](1-historias-de-usuario.md#hu-028) | Matriz §5 |
@@ -384,7 +367,6 @@
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
 > | Nace de (CA) | [HU-002 CA-2](1-historias-de-usuario.md#hu-002-ca-2), [HU-002 CA-4](1-historias-de-usuario.md#hu-002-ca-4) | Campo «Origen» |
-> | Origen (entrevista) | — | Campo «Origen» |
 > | RF que la vigilan | [RF-03](#rf-03), [RF-05](#rf-05) | Campo «RF que la vigilan» |
 > | CA que la citan | [HU-002 CA-6](1-historias-de-usuario.md#hu-002-ca-6) | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-002](3-casos-de-uso.md#cu-002) | Flujos de los CU (§3.1) |
@@ -408,7 +390,6 @@
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
 > | Nace de (CA) | [HU-016 CA-2](1-historias-de-usuario.md#hu-016-ca-2), [HU-031 CA-2](1-historias-de-usuario.md#hu-031-ca-2), [HU-002 CA-5](1-historias-de-usuario.md#hu-002-ca-5) | Campo «Origen» |
-> | Origen (entrevista) | — | Campo «Origen» |
 > | RF que la vigilan | [RF-03](#rf-03), [RF-26](#rf-26), [RF-28](#rf-28) | Campo «RF que la vigilan» |
 > | CA que la citan | [HU-002 CA-5](1-historias-de-usuario.md#hu-002-ca-5) | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-002](3-casos-de-uso.md#cu-002), [CU-016](3-casos-de-uso.md#cu-016), [CU-031](3-casos-de-uso.md#cu-031) | Flujos de los CU (§3.1) |
@@ -432,9 +413,7 @@
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
 > | Nace de (CA) | [HU-016 CA-4](1-historias-de-usuario.md#hu-016-ca-4), [HU-031 CA-3](1-historias-de-usuario.md#hu-031-ca-3) | Campo «Origen» |
-> | Origen (entrevista) | — | Campo «Origen» |
 > | RF que la vigilan | [RF-26](#rf-26), [RF-28](#rf-28) | Campo «RF que la vigilan» |
-> | CA que la citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-016](3-casos-de-uso.md#cu-016), [CU-031](3-casos-de-uso.md#cu-031) | Flujos de los CU (§3.1) |
 > | Mockups que la muestran | [MK-14](4-mockups.md#mk-14) | Fichas de mockup («RN visibles») |
 > | HU | [HU-016](1-historias-de-usuario.md#hu-016), [HU-031](1-historias-de-usuario.md#hu-031) | Matriz §5 |
@@ -456,7 +435,6 @@
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
 > | Nace de (CA) | [HU-016 CA-1](1-historias-de-usuario.md#hu-016-ca-1), [HU-024 CA-2](1-historias-de-usuario.md#hu-024-ca-2) | Campo «Origen» |
-> | Origen (entrevista) | — | Campo «Origen» |
 > | RF que la vigilan | [RF-26](#rf-26), [RF-35](#rf-35) | Campo «RF que la vigilan» |
 > | CA que la citan | [HU-024 CA-2](1-historias-de-usuario.md#hu-024-ca-2) | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-016](3-casos-de-uso.md#cu-016), [CU-024](3-casos-de-uso.md#cu-024) | Flujos de los CU (§3.1) |
@@ -480,7 +458,6 @@
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
 > | Nace de (CA) | [HU-023 CA-2](1-historias-de-usuario.md#hu-023-ca-2), [HU-023 CA-3](1-historias-de-usuario.md#hu-023-ca-3), [HU-033 CA-2](1-historias-de-usuario.md#hu-033-ca-2) | Campo «Origen» |
-> | Origen (entrevista) | — | Campo «Origen» |
 > | RF que la vigilan | [RF-30](#rf-30), [RF-34](#rf-34) | Campo «RF que la vigilan» |
 > | CA que la citan | [HU-023 CA-3](1-historias-de-usuario.md#hu-023-ca-3) | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-023](3-casos-de-uso.md#cu-023), [CU-033](3-casos-de-uso.md#cu-033) | Flujos de los CU (§3.1) |
@@ -504,9 +481,7 @@
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
 > | Nace de (CA) | [HU-032 CA-2](1-historias-de-usuario.md#hu-032-ca-2), [HU-032 CA-3](1-historias-de-usuario.md#hu-032-ca-3), [HU-032 CA-4](1-historias-de-usuario.md#hu-032-ca-4) | Campo «Origen» |
-> | Origen (entrevista) | — | Campo «Origen» |
 > | RF que la vigilan | [RF-29](#rf-29), [RF-34](#rf-34) | Campo «RF que la vigilan» |
-> | CA que la citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-023](3-casos-de-uso.md#cu-023), [CU-032](3-casos-de-uso.md#cu-032) | Flujos de los CU (§3.1) |
 > | Mockups que la muestran | [MK-01](4-mockups.md#mk-01), [MK-13](4-mockups.md#mk-13) | Fichas de mockup («RN visibles») |
 > | HU | [HU-023](1-historias-de-usuario.md#hu-023), [HU-032](1-historias-de-usuario.md#hu-032) | Matriz §5 |
@@ -528,7 +503,6 @@
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
 > | Nace de (CA) | [HU-024 CA-3](1-historias-de-usuario.md#hu-024-ca-3), [HU-024 CA-4](1-historias-de-usuario.md#hu-024-ca-4), [HU-024 CA-2](1-historias-de-usuario.md#hu-024-ca-2) | Campo «Origen» |
-> | Origen (entrevista) | — | Campo «Origen» |
 > | RF que la vigilan | [RF-35](#rf-35) | Campo «RF que la vigilan» |
 > | CA que la citan | [HU-024 CA-1](1-historias-de-usuario.md#hu-024-ca-1), [HU-024 CA-2](1-historias-de-usuario.md#hu-024-ca-2) | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-024](3-casos-de-uso.md#cu-024) | Flujos de los CU (§3.1) |
@@ -552,7 +526,6 @@
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
 > | Nace de (CA) | [HU-001 CA-5](1-historias-de-usuario.md#hu-001-ca-5), [HU-023 CA-4](1-historias-de-usuario.md#hu-023-ca-4), [HU-025 CA-2](1-historias-de-usuario.md#hu-025-ca-2), [HU-007 CA-3](1-historias-de-usuario.md#hu-007-ca-3), [HU-006 CA-5](1-historias-de-usuario.md#hu-006-ca-5), [HU-033 CA-3](1-historias-de-usuario.md#hu-033-ca-3), [HU-034 CA-3](1-historias-de-usuario.md#hu-034-ca-3), [HU-049 CA-3](1-historias-de-usuario.md#hu-049-ca-3) | Campo «Origen» |
-> | Origen (entrevista) | — | Campo «Origen» |
 > | RF que la vigilan | [RF-01](#rf-01), [RF-08](#rf-08), [RF-11](#rf-11), [RF-12](#rf-12), [RF-25](#rf-25), [RF-27](#rf-27), [RF-30](#rf-30), [RF-34](#rf-34), [RF-36](#rf-36), [RF-45](#rf-45) | Campo «RF que la vigilan» |
 > | CA que la citan | [HU-001 CA-5](1-historias-de-usuario.md#hu-001-ca-5), [HU-006 CA-5](1-historias-de-usuario.md#hu-006-ca-5), [HU-025 CA-1](1-historias-de-usuario.md#hu-025-ca-1), [HU-033 CA-3](1-historias-de-usuario.md#hu-033-ca-3), [HU-034 CA-3](1-historias-de-usuario.md#hu-034-ca-3), [HU-049 CA-3](1-historias-de-usuario.md#hu-049-ca-3) | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-001](3-casos-de-uso.md#cu-001), [CU-006](3-casos-de-uso.md#cu-006), [CU-007](3-casos-de-uso.md#cu-007), [CU-023](3-casos-de-uso.md#cu-023), [CU-025](3-casos-de-uso.md#cu-025), [CU-033](3-casos-de-uso.md#cu-033), [CU-034](3-casos-de-uso.md#cu-034), [CU-049](3-casos-de-uso.md#cu-049) | Flujos de los CU (§3.1) |
@@ -575,10 +548,8 @@
 >
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
-> | Nace de (CA) | [HU-035 CA-2](1-historias-de-usuario.md#hu-035-ca-2), [HU-035 CA-4](1-historias-de-usuario.md#hu-035-ca-4), [HU-037 CA-2](1-historias-de-usuario.md#hu-037-ca-2), HU-037 CA-3 ⚠️ *(no existe en el documento)* | Campo «Origen» |
-> | Origen (entrevista) | — | Campo «Origen» |
+> | Nace de (CA) | [HU-035 CA-2](1-historias-de-usuario.md#hu-035-ca-2), [HU-035 CA-4](1-historias-de-usuario.md#hu-035-ca-4), [HU-037 CA-2](1-historias-de-usuario.md#hu-037-ca-2), [HU-035 CA-3](1-historias-de-usuario.md#hu-035-ca-3) | Campo «Origen» |
 > | RF que la vigilan | [RF-44](#rf-44), [RF-46](#rf-46) | Campo «RF que la vigilan» |
-> | CA que la citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-035](3-casos-de-uso.md#cu-035), [CU-037](3-casos-de-uso.md#cu-037) | Flujos de los CU (§3.1) |
 > | Mockups que la muestran | [MK-17](4-mockups.md#mk-17) | Fichas de mockup («RN visibles») |
 > | HU | [HU-035](1-historias-de-usuario.md#hu-035), [HU-037](1-historias-de-usuario.md#hu-037) | Matriz §5 |
@@ -600,7 +571,6 @@
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
 > | Nace de (CA) | [HU-038 CA-2](1-historias-de-usuario.md#hu-038-ca-2), [HU-038 CA-3](1-historias-de-usuario.md#hu-038-ca-3), [HU-001 CA-3](1-historias-de-usuario.md#hu-001-ca-3) | Campo «Origen» |
-> | Origen (entrevista) | — | Campo «Origen» |
 > | RF que la vigilan | [RF-01](#rf-01), [RF-47](#rf-47) | Campo «RF que la vigilan» |
 > | CA que la citan | [HU-001 CA-1](1-historias-de-usuario.md#hu-001-ca-1) | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-001](3-casos-de-uso.md#cu-001), [CU-038](3-casos-de-uso.md#cu-038) | Flujos de los CU (§3.1) |
@@ -623,8 +593,7 @@
 >
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
-> | Nace de (CA) | [HU-048 CA-2](1-historias-de-usuario.md#hu-048-ca-2) | Campo «Origen» |
-> | Origen (entrevista) | — | Campo «Origen» |
+> | Nace de (CA) | [HU-043 CA-2](1-historias-de-usuario.md#hu-043-ca-2), [HU-044 CA-2](1-historias-de-usuario.md#hu-044-ca-2), [HU-045 CA-2](1-historias-de-usuario.md#hu-045-ca-2), [HU-046 CA-2](1-historias-de-usuario.md#hu-046-ca-2), [HU-047 CA-2](1-historias-de-usuario.md#hu-047-ca-2), [HU-048 CA-2](1-historias-de-usuario.md#hu-048-ca-2) | Campo «Origen» |
 > | RF que la vigilan | [RF-48](#rf-48) | Campo «RF que la vigilan» |
 > | CA que la citan | [HU-043 CA-2](1-historias-de-usuario.md#hu-043-ca-2), [HU-044 CA-2](1-historias-de-usuario.md#hu-044-ca-2), [HU-045 CA-2](1-historias-de-usuario.md#hu-045-ca-2), [HU-046 CA-2](1-historias-de-usuario.md#hu-046-ca-2), [HU-047 CA-2](1-historias-de-usuario.md#hu-047-ca-2), [HU-048 CA-2](1-historias-de-usuario.md#hu-048-ca-2) | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-043](3-casos-de-uso.md#cu-043), [CU-044](3-casos-de-uso.md#cu-044), [CU-045](3-casos-de-uso.md#cu-045), [CU-046](3-casos-de-uso.md#cu-046), [CU-047](3-casos-de-uso.md#cu-047), [CU-048](3-casos-de-uso.md#cu-048) | Flujos de los CU (§3.1) |
@@ -650,7 +619,6 @@
 > | Nace de (CA) | [HU-042 CA-2](1-historias-de-usuario.md#hu-042-ca-2), [HU-042 CA-3](1-historias-de-usuario.md#hu-042-ca-3), [HU-042 CA-1](1-historias-de-usuario.md#hu-042-ca-1), [HU-042 CA-5](1-historias-de-usuario.md#hu-042-ca-5) | Campo «Origen» |
 > | Origen (entrevista) | [P6](../fase_0/0.4.1-entrevista-resultados.md#p6) | Campo «Origen» |
 > | RF que la vigilan | [RF-42](#rf-42), [RF-43](#rf-43) | Campo «RF que la vigilan» |
-> | CA que la citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-042](3-casos-de-uso.md#cu-042) | Flujos de los CU (§3.1) |
 > | Mockups que la muestran | [MK-02](4-mockups.md#mk-02), [MK-05](4-mockups.md#mk-05) | Fichas de mockup («RN visibles») |
 > | HU | [HU-042](1-historias-de-usuario.md#hu-042) | Matriz §5 |
@@ -674,7 +642,6 @@
 > | Nace de (CA) | [HU-034 CA-2](1-historias-de-usuario.md#hu-034-ca-2), [HU-015 CA-3](1-historias-de-usuario.md#hu-015-ca-3) | Campo «Origen» |
 > | Origen (entrevista) | [P8](../fase_0/0.4.1-entrevista-resultados.md#p8) | Campo «Origen» |
 > | RF que la vigilan | [RF-24](#rf-24), [RF-25](#rf-25) | Campo «RF que la vigilan» |
-> | CA que la citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-015](3-casos-de-uso.md#cu-015), [CU-034](3-casos-de-uso.md#cu-034) | Flujos de los CU (§3.1) |
 > | Mockups que la muestran | [MK-11](4-mockups.md#mk-11) | Fichas de mockup («RN visibles») |
 > | HU | [HU-015](1-historias-de-usuario.md#hu-015), [HU-034](1-historias-de-usuario.md#hu-034) | Matriz §5 |
@@ -696,7 +663,6 @@
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
 > | Nace de (CA) | [HU-011 CA-4](1-historias-de-usuario.md#hu-011-ca-4), [HU-012 CA-2](1-historias-de-usuario.md#hu-012-ca-2), [HU-030 CA-2](1-historias-de-usuario.md#hu-030-ca-2) | Campo «Origen» |
-> | Origen (entrevista) | — | Campo «Origen» |
 > | RF que la vigilan | [RF-21](#rf-21), [RF-22](#rf-22), [RF-40](#rf-40) | Campo «RF que la vigilan» |
 > | CA que la citan | [HU-012 CA-1](1-historias-de-usuario.md#hu-012-ca-1), [HU-030 CA-1](1-historias-de-usuario.md#hu-030-ca-1) | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-011](3-casos-de-uso.md#cu-011), [CU-012](3-casos-de-uso.md#cu-012), [CU-030](3-casos-de-uso.md#cu-030) | Flujos de los CU (§3.1) |
@@ -719,8 +685,7 @@
 >
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
-> | Nace de (CA) | [HU-048 CA-4](1-historias-de-usuario.md#hu-048-ca-4), HU-039 CA-4 ⚠️ *(no existe en el documento)* | Campo «Origen» |
-> | Origen (entrevista) | — | Campo «Origen» |
+> | Nace de (CA) | [HU-043 CA-4](1-historias-de-usuario.md#hu-043-ca-4), [HU-044 CA-4](1-historias-de-usuario.md#hu-044-ca-4), [HU-045 CA-4](1-historias-de-usuario.md#hu-045-ca-4), [HU-046 CA-4](1-historias-de-usuario.md#hu-046-ca-4), [HU-047 CA-4](1-historias-de-usuario.md#hu-047-ca-4), [HU-048 CA-4](1-historias-de-usuario.md#hu-048-ca-4) | Campo «Origen» |
 > | RF que la vigilan | [RF-48](#rf-48) | Campo «RF que la vigilan» |
 > | CA que la citan | [HU-043 CA-4](1-historias-de-usuario.md#hu-043-ca-4), [HU-044 CA-4](1-historias-de-usuario.md#hu-044-ca-4), [HU-045 CA-4](1-historias-de-usuario.md#hu-045-ca-4), [HU-046 CA-4](1-historias-de-usuario.md#hu-046-ca-4), [HU-047 CA-4](1-historias-de-usuario.md#hu-047-ca-4), [HU-048 CA-4](1-historias-de-usuario.md#hu-048-ca-4) | Anotaciones de los criterios de aceptación |
 > | Casos de uso que la aplican | [CU-043](3-casos-de-uso.md#cu-043), [CU-044](3-casos-de-uso.md#cu-044), [CU-045](3-casos-de-uso.md#cu-045), [CU-046](3-casos-de-uso.md#cu-046), [CU-047](3-casos-de-uso.md#cu-047), [CU-048](3-casos-de-uso.md#cu-048) | Flujos de los CU (§3.1) |
@@ -812,11 +777,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-001](1-historias-de-usuario.md#hu-001), [HU-002](1-historias-de-usuario.md#hu-002) | Ficha del RF |
 > | HU que lo derivan | [HU-001](1-historias-de-usuario.md#hu-001), [HU-002](1-historias-de-usuario.md#hu-002) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-01](#rn-01), [RN-02](#rn-02), [RN-23](#rn-23), [RN-25](#rn-25) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-001](3-casos-de-uso.md#cu-001) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-02](4-mockups.md#mk-02) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-02](4-mockups.md#mk-02) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 84**  
@@ -838,12 +801,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > |---|---|---|
 > | HU de origen | [HU-001](1-historias-de-usuario.md#hu-001), [HU-004](1-historias-de-usuario.md#hu-004) | Ficha del RF |
 > | HU que lo derivan | [HU-001](1-historias-de-usuario.md#hu-001), [HU-004](1-historias-de-usuario.md#hu-004) | Fichas de HU («RF derivados») |
-> | RN que hace cumplir | — | Ficha del RF |
 > | CA que lo citan | [HU-001 CA-4](1-historias-de-usuario.md#hu-001-ca-4), [HU-004 CA-4](1-historias-de-usuario.md#hu-004-ca-4) | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-001](3-casos-de-uso.md#cu-001), [CU-004](3-casos-de-uso.md#cu-004) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-02](4-mockups.md#mk-02) | Cobertura §4.4 |
-> | Mockups con botón asociado | — | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 85**  
@@ -869,8 +829,6 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | CA que lo citan | [HU-002 CA-5](1-historias-de-usuario.md#hu-002-ca-5) | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-002](3-casos-de-uso.md#cu-002) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-03](4-mockups.md#mk-03) | Cobertura §4.4 |
-> | Mockups con botón asociado | — | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 86**  
@@ -893,11 +851,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-003](1-historias-de-usuario.md#hu-003) | Ficha del RF |
 > | HU que lo derivan | [HU-003](1-historias-de-usuario.md#hu-003) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-15](#rn-15) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-003](3-casos-de-uso.md#cu-003) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-09](4-mockups.md#mk-09) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-09](4-mockups.md#mk-09) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 87**  
@@ -920,11 +876,8 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-002](1-historias-de-usuario.md#hu-002), [HU-003](1-historias-de-usuario.md#hu-003) | Ficha del RF |
 > | HU que lo derivan | [HU-002](1-historias-de-usuario.md#hu-002), [HU-003](1-historias-de-usuario.md#hu-003) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-15](#rn-15), [RN-16](#rn-16) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-003](3-casos-de-uso.md#cu-003) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-09](4-mockups.md#mk-09) | Cobertura §4.4 |
-> | Mockups con botón asociado | — | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 88**  
@@ -946,12 +899,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > |---|---|---|
 > | HU de origen | [HU-003](1-historias-de-usuario.md#hu-003) | Ficha del RF |
 > | HU que lo derivan | [HU-003](1-historias-de-usuario.md#hu-003) | Fichas de HU («RF derivados») |
-> | RN que hace cumplir | — | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-003](3-casos-de-uso.md#cu-003) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-09](4-mockups.md#mk-09) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-09](4-mockups.md#mk-09) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 89**  
@@ -974,11 +924,8 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-004](1-historias-de-usuario.md#hu-004) | Ficha del RF |
 > | HU que lo derivan | [HU-004](1-historias-de-usuario.md#hu-004) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-03](#rn-03) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-004](3-casos-de-uso.md#cu-004) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-02](4-mockups.md#mk-02) | Cobertura §4.4 |
-> | Mockups con botón asociado | — | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 90**  
@@ -1001,11 +948,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-049](1-historias-de-usuario.md#hu-049) | Ficha del RF |
 > | HU que lo derivan | [HU-049](1-historias-de-usuario.md#hu-049) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-03](#rn-03), [RN-08](#rn-08), [RN-23](#rn-23) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-049](3-casos-de-uso.md#cu-049) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-06](4-mockups.md#mk-06) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-06](4-mockups.md#mk-06) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 91**  
@@ -1028,11 +973,8 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-005](1-historias-de-usuario.md#hu-005) | Ficha del RF |
 > | HU que lo derivan | [HU-005](1-historias-de-usuario.md#hu-005) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-06](#rn-06) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-005](3-casos-de-uso.md#cu-005) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-04](4-mockups.md#mk-04) | Cobertura §4.4 |
-> | Mockups con botón asociado | — | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 92**  
@@ -1059,7 +1001,6 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | Casos de uso que lo implementan | [CU-005](3-casos-de-uso.md#cu-005) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-04](4-mockups.md#mk-04) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-04](4-mockups.md#mk-04) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 93**  
@@ -1086,7 +1027,6 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | Casos de uso que lo implementan | [CU-006](3-casos-de-uso.md#cu-006) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-07](4-mockups.md#mk-07) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-07](4-mockups.md#mk-07) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 94**  
@@ -1109,11 +1049,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-007](1-historias-de-usuario.md#hu-007) | Ficha del RF |
 > | HU que lo derivan | [HU-007](1-historias-de-usuario.md#hu-007) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-07](#rn-07), [RN-08](#rn-08), [RN-23](#rn-23) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-007](3-casos-de-uso.md#cu-007) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-06](4-mockups.md#mk-06) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-06](4-mockups.md#mk-06) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 95**  
@@ -1136,11 +1074,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-007](1-historias-de-usuario.md#hu-007), [HU-010](1-historias-de-usuario.md#hu-010) | Ficha del RF |
 > | HU que lo derivan | [HU-007](1-historias-de-usuario.md#hu-007), [HU-010](1-historias-de-usuario.md#hu-010) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-06](#rn-06) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-010](3-casos-de-uso.md#cu-010) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-05](4-mockups.md#mk-05) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-03](4-mockups.md#mk-03), [MK-04](4-mockups.md#mk-04) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 96**  
@@ -1163,11 +1099,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-008](1-historias-de-usuario.md#hu-008) | Ficha del RF |
 > | HU que lo derivan | [HU-008](1-historias-de-usuario.md#hu-008) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-08](#rn-08), [RN-09](#rn-09) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-008](3-casos-de-uso.md#cu-008) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-06](4-mockups.md#mk-06) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-06](4-mockups.md#mk-06) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 97**  
@@ -1190,11 +1124,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-026](1-historias-de-usuario.md#hu-026) | Ficha del RF |
 > | HU que lo derivan | [HU-026](1-historias-de-usuario.md#hu-026) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-08](#rn-08), [RN-09](#rn-09) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-026](3-casos-de-uso.md#cu-026) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-06](4-mockups.md#mk-06) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-06](4-mockups.md#mk-06) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 98**  
@@ -1217,11 +1149,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-009](1-historias-de-usuario.md#hu-009) | Ficha del RF |
 > | HU que lo derivan | [HU-009](1-historias-de-usuario.md#hu-009) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-08](#rn-08), [RN-10](#rn-10) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-009](3-casos-de-uso.md#cu-009) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-05](4-mockups.md#mk-05), [MK-06](4-mockups.md#mk-06) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-06](4-mockups.md#mk-06) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 99**  
@@ -1244,11 +1174,8 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-009](1-historias-de-usuario.md#hu-009) | Ficha del RF |
 > | HU que lo derivan | [HU-009](1-historias-de-usuario.md#hu-009) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-10](#rn-10) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-009](3-casos-de-uso.md#cu-009) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-05](4-mockups.md#mk-05), [MK-06](4-mockups.md#mk-06) | Cobertura §4.4 |
-> | Mockups con botón asociado | — | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 100**  
@@ -1275,7 +1202,6 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | Casos de uso que lo implementan | [CU-021](3-casos-de-uso.md#cu-021), [CU-022](3-casos-de-uso.md#cu-022) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-02](4-mockups.md#mk-02) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-02](4-mockups.md#mk-02) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 101**  
@@ -1298,11 +1224,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-021](1-historias-de-usuario.md#hu-021), [HU-022](1-historias-de-usuario.md#hu-022) | Ficha del RF |
 > | HU que lo derivan | [HU-021](1-historias-de-usuario.md#hu-021), [HU-022](1-historias-de-usuario.md#hu-022) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-05](#rn-05) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-022](3-casos-de-uso.md#cu-022) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-02](4-mockups.md#mk-02) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-02](4-mockups.md#mk-02) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 102**  
@@ -1325,11 +1249,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-010](1-historias-de-usuario.md#hu-010) | Ficha del RF |
 > | HU que lo derivan | [HU-010](1-historias-de-usuario.md#hu-010) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-13](#rn-13), [RN-14](#rn-14) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-S01](3-casos-de-uso.md#cu-s01) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-05](4-mockups.md#mk-05) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-02](4-mockups.md#mk-02) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 103**  
@@ -1352,11 +1274,8 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-011](1-historias-de-usuario.md#hu-011) | Ficha del RF |
 > | HU que lo derivan | [HU-011](1-historias-de-usuario.md#hu-011) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-14](#rn-14), [RN-29](#rn-29) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-011](3-casos-de-uso.md#cu-011) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-10](4-mockups.md#mk-10) | Cobertura §4.4 |
-> | Mockups con botón asociado | — | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 104**  
@@ -1383,7 +1302,6 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | Casos de uso que lo implementan | [CU-012](3-casos-de-uso.md#cu-012) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-10](4-mockups.md#mk-10) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-10](4-mockups.md#mk-10) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 105**  
@@ -1406,11 +1324,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-013](1-historias-de-usuario.md#hu-013) | Ficha del RF |
 > | HU que lo derivan | [HU-013](1-historias-de-usuario.md#hu-013) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-08](#rn-08), [RN-11](#rn-11) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-013](3-casos-de-uso.md#cu-013) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-05](4-mockups.md#mk-05) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-05](4-mockups.md#mk-05) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 106**  
@@ -1433,11 +1349,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-015](1-historias-de-usuario.md#hu-015) | Ficha del RF |
 > | HU que lo derivan | [HU-015](1-historias-de-usuario.md#hu-015) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-28](#rn-28) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-015](3-casos-de-uso.md#cu-015) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-11](4-mockups.md#mk-11) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-11](4-mockups.md#mk-11) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 107**  
@@ -1460,11 +1374,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-034](1-historias-de-usuario.md#hu-034) | Ficha del RF |
 > | HU que lo derivan | [HU-034](1-historias-de-usuario.md#hu-034) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-23](#rn-23), [RN-28](#rn-28) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-034](3-casos-de-uso.md#cu-034) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-11](4-mockups.md#mk-11) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-11](4-mockups.md#mk-11) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 108**  
@@ -1487,11 +1399,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-016](1-historias-de-usuario.md#hu-016) | Ficha del RF |
 > | HU que lo derivan | [HU-016](1-historias-de-usuario.md#hu-016) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-17](#rn-17), [RN-18](#rn-18), [RN-19](#rn-19) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-016](3-casos-de-uso.md#cu-016) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-14](4-mockups.md#mk-14) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-13](4-mockups.md#mk-13), [MK-14](4-mockups.md#mk-14) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 109**  
@@ -1518,7 +1428,6 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | Casos de uso que lo implementan | [CU-017](3-casos-de-uso.md#cu-017) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-13](4-mockups.md#mk-13) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-13](4-mockups.md#mk-13) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 110**  
@@ -1541,11 +1450,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-031](1-historias-de-usuario.md#hu-031) | Ficha del RF |
 > | HU que lo derivan | [HU-031](1-historias-de-usuario.md#hu-031) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-17](#rn-17), [RN-18](#rn-18) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-031](3-casos-de-uso.md#cu-031) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-13](4-mockups.md#mk-13), [MK-14](4-mockups.md#mk-14) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-13](4-mockups.md#mk-13), [MK-14](4-mockups.md#mk-14) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 111**  
@@ -1568,11 +1475,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-032](1-historias-de-usuario.md#hu-032) | Ficha del RF |
 > | HU que lo derivan | [HU-032](1-historias-de-usuario.md#hu-032) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-21](#rn-21) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-032](3-casos-de-uso.md#cu-032) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-13](4-mockups.md#mk-13) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-13](4-mockups.md#mk-13) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 112**  
@@ -1595,11 +1500,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-033](1-historias-de-usuario.md#hu-033) | Ficha del RF |
 > | HU que lo derivan | [HU-033](1-historias-de-usuario.md#hu-033) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-20](#rn-20), [RN-23](#rn-23) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-033](3-casos-de-uso.md#cu-033) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-15](4-mockups.md#mk-15) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-15](4-mockups.md#mk-15) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 113**  
@@ -1622,11 +1525,8 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-018](1-historias-de-usuario.md#hu-018) | Ficha del RF |
 > | HU que lo derivan | [HU-018](1-historias-de-usuario.md#hu-018) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-03](#rn-03), [RN-04](#rn-04) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-018](3-casos-de-uso.md#cu-018) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-02](4-mockups.md#mk-02) | Cobertura §4.4 |
-> | Mockups con botón asociado | — | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 114**  
@@ -1649,11 +1549,8 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-019](1-historias-de-usuario.md#hu-019) | Ficha del RF |
 > | HU que lo derivan | [HU-019](1-historias-de-usuario.md#hu-019) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-03](#rn-03), [RN-04](#rn-04) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-019](3-casos-de-uso.md#cu-019) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-02](4-mockups.md#mk-02) | Cobertura §4.4 |
-> | Mockups con botón asociado | — | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 115**  
@@ -1679,8 +1576,6 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | CA que lo citan | [HU-020 CA-1](1-historias-de-usuario.md#hu-020-ca-1) | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-020](3-casos-de-uso.md#cu-020) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-02](4-mockups.md#mk-02) | Cobertura §4.4 |
-> | Mockups con botón asociado | — | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 116**  
@@ -1707,7 +1602,6 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | Casos de uso que lo implementan | [CU-023](3-casos-de-uso.md#cu-023) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-01](4-mockups.md#mk-01) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-01](4-mockups.md#mk-01) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 117**  
@@ -1734,7 +1628,6 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | Casos de uso que lo implementan | [CU-024](3-casos-de-uso.md#cu-024) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-01](4-mockups.md#mk-01) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-01](4-mockups.md#mk-01), [MK-19](4-mockups.md#mk-19) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 118**  
@@ -1757,11 +1650,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-025](1-historias-de-usuario.md#hu-025) | Ficha del RF |
 > | HU que lo derivan | [HU-025](1-historias-de-usuario.md#hu-025) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-23](#rn-23) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-025](3-casos-de-uso.md#cu-025) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-04](4-mockups.md#mk-04) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-04](4-mockups.md#mk-04) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 119**  
@@ -1784,11 +1675,8 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-028](1-historias-de-usuario.md#hu-028) | Ficha del RF |
 > | HU que lo derivan | [HU-028](1-historias-de-usuario.md#hu-028) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-08](#rn-08), [RN-12](#rn-12), [RN-15](#rn-15) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-028](3-casos-de-uso.md#cu-028) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-08](4-mockups.md#mk-08), [MK-09](4-mockups.md#mk-09) | Cobertura §4.4 |
-> | Mockups con botón asociado | — | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 120**  
@@ -1811,11 +1699,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-029](1-historias-de-usuario.md#hu-029) | Ficha del RF |
 > | HU que lo derivan | [HU-029](1-historias-de-usuario.md#hu-029) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-13](#rn-13) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-029](3-casos-de-uso.md#cu-029) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-12](4-mockups.md#mk-12) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-12](4-mockups.md#mk-12) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 121**  
@@ -1838,11 +1724,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-040](1-historias-de-usuario.md#hu-040) | Ficha del RF |
 > | HU que lo derivan | [HU-040](1-historias-de-usuario.md#hu-040) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-13](#rn-13) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-040](3-casos-de-uso.md#cu-040) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-12](4-mockups.md#mk-12) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-12](4-mockups.md#mk-12) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 122**  
@@ -1869,7 +1753,6 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | Casos de uso que lo implementan | [CU-030](3-casos-de-uso.md#cu-030) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-10](4-mockups.md#mk-10) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-10](4-mockups.md#mk-10) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 123**  
@@ -1892,11 +1775,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-041](1-historias-de-usuario.md#hu-041) | Ficha del RF |
 > | HU que lo derivan | [HU-041](1-historias-de-usuario.md#hu-041) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-08](#rn-08) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-041](3-casos-de-uso.md#cu-041) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-08](4-mockups.md#mk-08) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-08](4-mockups.md#mk-08) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 124**  
@@ -1919,11 +1800,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-042](1-historias-de-usuario.md#hu-042) | Ficha del RF |
 > | HU que lo derivan | [HU-042](1-historias-de-usuario.md#hu-042) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-08](#rn-08), [RN-27](#rn-27) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-042](3-casos-de-uso.md#cu-042) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-02](4-mockups.md#mk-02), [MK-05](4-mockups.md#mk-05), [MK-06](4-mockups.md#mk-06) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-02](4-mockups.md#mk-02), [MK-05](4-mockups.md#mk-05) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 125**  
@@ -1946,11 +1825,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-042](1-historias-de-usuario.md#hu-042) | Ficha del RF |
 > | HU que lo derivan | [HU-042](1-historias-de-usuario.md#hu-042) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-08](#rn-08), [RN-27](#rn-27) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-042](3-casos-de-uso.md#cu-042) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-02](4-mockups.md#mk-02), [MK-05](4-mockups.md#mk-05), [MK-06](4-mockups.md#mk-06) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-05](4-mockups.md#mk-05) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 126**  
@@ -1973,11 +1850,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-035](1-historias-de-usuario.md#hu-035) | Ficha del RF |
 > | HU que lo derivan | [HU-035](1-historias-de-usuario.md#hu-035) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-24](#rn-24) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-035](3-casos-de-uso.md#cu-035) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-17](4-mockups.md#mk-17) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-16](4-mockups.md#mk-16), [MK-17](4-mockups.md#mk-17) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 127**  
@@ -2004,7 +1879,6 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | Casos de uso que lo implementan | [CU-036](3-casos-de-uso.md#cu-036) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-16](4-mockups.md#mk-16) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-16](4-mockups.md#mk-16) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 128**  
@@ -2027,11 +1901,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-037](1-historias-de-usuario.md#hu-037) | Ficha del RF |
 > | HU que lo derivan | [HU-037](1-historias-de-usuario.md#hu-037) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-24](#rn-24) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-037](3-casos-de-uso.md#cu-037) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-16](4-mockups.md#mk-16), [MK-17](4-mockups.md#mk-17) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-16](4-mockups.md#mk-16), [MK-17](4-mockups.md#mk-17) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 129**  
@@ -2054,11 +1926,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-038](1-historias-de-usuario.md#hu-038) | Ficha del RF |
 > | HU que lo derivan | [HU-038](1-historias-de-usuario.md#hu-038) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-25](#rn-25) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-038](3-casos-de-uso.md#cu-038) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-16](4-mockups.md#mk-16) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-16](4-mockups.md#mk-16) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 130**  
@@ -2081,11 +1951,9 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-043](1-historias-de-usuario.md#hu-043), [HU-048](1-historias-de-usuario.md#hu-048) | Ficha del RF |
 > | HU que lo derivan | [HU-043](1-historias-de-usuario.md#hu-043), [HU-044](1-historias-de-usuario.md#hu-044), [HU-045](1-historias-de-usuario.md#hu-045), [HU-046](1-historias-de-usuario.md#hu-046), [HU-047](1-historias-de-usuario.md#hu-047), [HU-048](1-historias-de-usuario.md#hu-048) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-04](#rn-04), [RN-26](#rn-26), [RN-30](#rn-30) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-043](3-casos-de-uso.md#cu-043), [CU-044](3-casos-de-uso.md#cu-044), [CU-045](3-casos-de-uso.md#cu-045), [CU-046](3-casos-de-uso.md#cu-046), [CU-047](3-casos-de-uso.md#cu-047), [CU-048](3-casos-de-uso.md#cu-048) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-18](4-mockups.md#mk-18) | Cobertura §4.4 |
 > | Mockups con botón asociado | [MK-18](4-mockups.md#mk-18) | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 131**  
@@ -2111,8 +1979,6 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | CA que lo citan | [HU-008 CA-1](1-historias-de-usuario.md#hu-008-ca-1) | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-049](3-casos-de-uso.md#cu-049), [CU-S02](3-casos-de-uso.md#cu-s02) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-06](4-mockups.md#mk-06), [MK-08](4-mockups.md#mk-08) | Cobertura §4.4 |
-> | Mockups con botón asociado | — | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 132**  
@@ -2135,11 +2001,8 @@ Todo RF cita su HU madre. Los RF que implementan una baja se redactan como inact
 > | HU de origen | [HU-007](1-historias-de-usuario.md#hu-007) | Ficha del RF |
 > | HU que lo derivan | [HU-007](1-historias-de-usuario.md#hu-007) | Fichas de HU («RF derivados») |
 > | RN que hace cumplir | [RN-14](#rn-14) | Ficha del RF |
-> | CA que lo citan | — | Anotaciones de los criterios de aceptación |
 > | Casos de uso que lo implementan | [CU-007](3-casos-de-uso.md#cu-007) | Cobertura §4.4 |
 > | Mockups donde aterriza | [MK-06](4-mockups.md#mk-06) | Cobertura §4.4 |
-> | Mockups con botón asociado | — | Fichas de mockup («Botones ↔ Eventos») |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 
 ## 2.3 Requisitos No Funcionales
@@ -2163,8 +2026,6 @@ Un RNF sin medida es un deseo. Los diez RNF tienen número verificable y origen 
 > |---|---|---|
 > | Categoría | Rendimiento | Ficha del RNF |
 > | Origen (entrevista) | [P4](../fase_0/0.4.1-entrevista-resultados.md#p4), [P10](../fase_0/0.4.1-entrevista-resultados.md#p10) | Campo «Origen» |
-> | HU, RF o CU relacionados | *No identificado en el documento* | — |
-> | Pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 134**  
@@ -2184,8 +2045,6 @@ Un RNF sin medida es un deseo. Los diez RNF tienen número verificable y origen 
 > |---|---|---|
 > | Categoría | Disponibilidad | Ficha del RNF |
 > | Origen (entrevista) | [P9](../fase_0/0.4.1-entrevista-resultados.md#p9) | Campo «Origen» |
-> | HU, RF o CU relacionados | *No identificado en el documento* | — |
-> | Pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 135**  
@@ -2205,8 +2064,6 @@ Un RNF sin medida es un deseo. Los diez RNF tienen número verificable y origen 
 > |---|---|---|
 > | Categoría | Usabilidad | Ficha del RNF |
 > | Origen (entrevista) | [P2](../fase_0/0.4.1-entrevista-resultados.md#p2) | Campo «Origen» |
-> | HU, RF o CU relacionados | *No identificado en el documento* | — |
-> | Pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 136**  
@@ -2226,8 +2083,6 @@ Un RNF sin medida es un deseo. Los diez RNF tienen número verificable y origen 
 > |---|---|---|
 > | Categoría | Usabilidad | Ficha del RNF |
 > | Origen (entrevista) | [P2](../fase_0/0.4.1-entrevista-resultados.md#p2), [P10](../fase_0/0.4.1-entrevista-resultados.md#p10) | Campo «Origen» |
-> | HU, RF o CU relacionados | *No identificado en el documento* | — |
-> | Pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 137**  
@@ -2247,8 +2102,6 @@ Un RNF sin medida es un deseo. Los diez RNF tienen número verificable y origen 
 > |---|---|---|
 > | Categoría | Comunicación | Ficha del RNF |
 > | Origen (entrevista) | [P3](../fase_0/0.4.1-entrevista-resultados.md#p3) | Campo «Origen» |
-> | HU, RF o CU relacionados | *No identificado en el documento* | — |
-> | Pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 138**  
@@ -2268,8 +2121,6 @@ Un RNF sin medida es un deseo. Los diez RNF tienen número verificable y origen 
 > |---|---|---|
 > | Categoría | Comunicación | Ficha del RNF |
 > | Origen (entrevista) | [P10](../fase_0/0.4.1-entrevista-resultados.md#p10) | Campo «Origen» |
-> | HU, RF o CU relacionados | *No identificado en el documento* | — |
-> | Pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 139**  
@@ -2289,8 +2140,6 @@ Un RNF sin medida es un deseo. Los diez RNF tienen número verificable y origen 
 > |---|---|---|
 > | Categoría | Tiempos de respuesta | Ficha del RNF |
 > | Origen (entrevista) | [P13](../fase_0/0.4.1-entrevista-resultados.md#p13) | Campo «Origen» |
-> | HU, RF o CU relacionados | *No identificado en el documento* | — |
-> | Pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 140**  
@@ -2310,8 +2159,6 @@ Un RNF sin medida es un deseo. Los diez RNF tienen número verificable y origen 
 > |---|---|---|
 > | Categoría | Seguimiento | Ficha del RNF |
 > | Origen (entrevista) | [P3](../fase_0/0.4.1-entrevista-resultados.md#p3), [P10](../fase_0/0.4.1-entrevista-resultados.md#p10) | Campo «Origen» |
-> | HU, RF o CU relacionados | *No identificado en el documento* | — |
-> | Pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 141**  
@@ -2331,8 +2178,6 @@ Un RNF sin medida es un deseo. Los diez RNF tienen número verificable y origen 
 > |---|---|---|
 > | Categoría | Centralización | Ficha del RNF |
 > | Origen (entrevista) | [P9](../fase_0/0.4.1-entrevista-resultados.md#p9) | Campo «Origen» |
-> | HU, RF o CU relacionados | *No identificado en el documento* | — |
-> | Pruebas | *No identificado en el documento* | — |
 
 
 **Tabla 142**  
@@ -2351,9 +2196,6 @@ Un RNF sin medida es un deseo. Los diez RNF tienen número verificable y origen 
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
 > | Categoría | Seguridad | Ficha del RNF |
-> | Origen (entrevista) | — | Campo «Origen» |
-> | HU, RF o CU relacionados | *No identificado en el documento* | — |
-> | Pruebas | *No identificado en el documento* | — |
 
 
 ***De dónde nace:** la conclusión de la entrevista —una Mesa de Ayuda TI centralizada que registre solicitudes, confirme recepción, permita hacer seguimiento y mejore los tiempos de atención— se traduce en medidas: confirmación (RNF-05), avisos (RNF-06), tiempos (RNF-07), seguimiento (RNF-08) y centralización (RNF-09).*

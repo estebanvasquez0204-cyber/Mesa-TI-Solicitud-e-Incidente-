@@ -247,7 +247,6 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
 > | Casos de uso que atiende | [CU-024](3-casos-de-uso.md#cu-024) | Ficha («Atiende (CU)») |
-> | Casos de uso que aterrizan aquí | — | Cobertura §4.4 |
 > | RF de sus botones | [RF-35](2-reglas-de-negocio-y-requisitos.md#rf-35) | Ficha («Botones ↔ Eventos») |
 > | RN visibles | [RN-19](2-reglas-de-negocio-y-requisitos.md#rn-19), [RN-22](2-reglas-de-negocio-y-requisitos.md#rn-22) | Ficha («RN visibles») |
 > | HU | [HU-024](1-historias-de-usuario.md#hu-024) | Matriz §5 |

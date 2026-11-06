@@ -105,7 +105,6 @@
 > | Mockups | [MK-02](4-mockups.md#mk-02), [MK-06](4-mockups.md#mk-06) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-001) |
 > | Entidades · Clase.Método | CasoSoporte, HistorialCaso, TiempoAtencionSLA, Activo · CasoSoporte.crearCaso();  HistorialCaso.registrarHistorial();  TiempoAtencionSLA.obtenerSLA();  Activo.obtenerActivo() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-001) |
 > | Mensajes de secuencia | Sec. CU-001: crearCaso(), registrarHistorial(), obtenerSLA(), obtenerActivo() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-001) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-001**
 
@@ -224,7 +223,6 @@
 > | Mockups | [MK-03](4-mockups.md#mk-03), [MK-09](4-mockups.md#mk-09) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-002) |
 > | Entidades · Clase.Método | Aviso, CasoSoporte · Aviso.crearAviso(), actualizarEstadoEnvio(), reintentarEnvio();  CasoSoporte.crearCaso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-002) |
 > | Mensajes de secuencia | Sec. CU-001: crearCaso();  Sec. CU-007: crearAviso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-002) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-002**
 
@@ -326,7 +324,6 @@
 > | Mockups | [MK-09](4-mockups.md#mk-09) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-003) |
 > | Entidades · Clase.Método | Aviso · Aviso.crearAviso(), obtenerAviso(), actualizarEstadoEnvio(), reintentarEnvio(), marcarLeido() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-003) |
 > | Mensajes de secuencia | Sec. CU-007: crearAviso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-003) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-003**
 
@@ -422,7 +419,6 @@
 > | Mockups | [MK-02](4-mockups.md#mk-02) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-004) |
 > | Entidades · Clase.Método | CasoSoporte · CasoSoporte.crearCaso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-004) |
 > | Mensajes de secuencia | Sec. CU-001: crearCaso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-004) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-004**
 
@@ -517,7 +513,6 @@
 > | Mockups | [MK-04](4-mockups.md#mk-04) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-005) |
 > | Entidades · Clase.Método | CasoSoporte · CasoSoporte.obtenerCaso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-005) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-005) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-005**
 
@@ -619,7 +614,6 @@
 > | Mockups | [MK-07](4-mockups.md#mk-07) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-006) |
 > | Entidades · Clase.Método | CasoSoporte, TablaImportancia · CasoSoporte.obtenerCaso();  TablaImportancia.calcularResultadoImportancia() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-006) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-006) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-006**
 
@@ -729,7 +723,6 @@
 > | Mockups | [MK-05](4-mockups.md#mk-05), [MK-06](4-mockups.md#mk-06) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-007) |
 > | Entidades · Clase.Método | CasoSoporte, HistorialCaso, TransicionEstadoCaso · CasoSoporte.actualizarCaso(), registrarPrimeraRespuesta(), marcarSolucionado();  HistorialCaso.registrarHistorial();  TransicionEstadoCaso.esTransicionValida() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-007) |
 > | Mensajes de secuencia | Sec. CU-007: registrarHistorial(), actualizarCaso(), registrarPrimeraRespuesta(), marcarSolucionado(), esTransicionValida() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-007) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-007**
 
@@ -826,7 +819,6 @@
 > | Mockups | [MK-06](4-mockups.md#mk-06) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-008) |
 > | Entidades · Clase.Método | CasoSoporte, HistorialCaso · CasoSoporte.actualizarCaso();  HistorialCaso.registrarHistorial() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-008) |
 > | Mensajes de secuencia | Sec. CU-001: registrarHistorial();  Sec. CU-007: actualizarCaso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-008) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-008**
 
@@ -925,7 +917,6 @@
 > | Mockups | [MK-05](4-mockups.md#mk-05), [MK-06](4-mockups.md#mk-06) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-009) |
 > | Entidades · Clase.Método | ComentarioCaso · ComentarioCaso.registrarComentario(), listarComentarios() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-009) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-009) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-009**
 
@@ -1023,7 +1014,6 @@
 > | Mockups | [MK-05](4-mockups.md#mk-05) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-010) |
 > | Entidades · Clase.Método | CasoSoporte, TiempoAtencionSLA · CasoSoporte.cumpleSLA();  TiempoAtencionSLA.obtenerSLA() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-010) |
 > | Mensajes de secuencia | Sec. CU-001: obtenerSLA() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-010) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-010**
 
@@ -1118,7 +1108,6 @@
 > | Mockups | [MK-10](4-mockups.md#mk-10) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-011) |
 > | Entidades · Clase.Método | CasoSoporte · CasoSoporte.cumpleSLA(), obtenerCaso(), registrarPrimeraRespuesta() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-011) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-011) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-011**
 
@@ -1199,7 +1188,6 @@
 > | Mockups | [MK-10](4-mockups.md#mk-10) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-012) |
 > | Entidades · Clase.Método | CasoSoporte · CasoSoporte.obtenerResumenAtencion() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-012) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-012) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-012**
 
@@ -1299,7 +1287,6 @@
 > | Mockups | [MK-05](4-mockups.md#mk-05) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-013) |
 > | Entidades · Clase.Método | CasoSoporte · CasoSoporte.reabrirCaso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-013) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-013) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-013**
 
@@ -1388,7 +1375,6 @@
 > | Mockups | [MK-11](4-mockups.md#mk-11) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-015) |
 > | Entidades · Clase.Método | InfoPersonalSoporte · InfoPersonalSoporte.obtenerInfoSoporte() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-015) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-015) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-015**
 
@@ -1474,7 +1460,6 @@
 >
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
-> | Origen (entrevista) | — | Origen de la necesidad |
 > | Criterios de aceptación | [CA-1](#hu-016-ca-1), [CA-2](#hu-016-ca-2), [CA-3](#hu-016-ca-3), [CA-4](#hu-016-ca-4) | Ficha de la HU |
 > | RF derivados | [RF-26](2-reglas-de-negocio-y-requisitos.md#rf-26) | Ficha de la HU |
 > | RN | [RN-17](2-reglas-de-negocio-y-requisitos.md#rn-17), [RN-18](2-reglas-de-negocio-y-requisitos.md#rn-18), [RN-19](2-reglas-de-negocio-y-requisitos.md#rn-19) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-016) |
@@ -1483,7 +1468,6 @@
 > | Mockups | [MK-14](4-mockups.md#mk-14) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-016) |
 > | Entidades · Clase.Método | Usuario, Catalogo · Usuario.crearUsuario(), encriptarContrasena(), validarCorreoUnico();  Catalogo.obtener() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-016) |
 > | Mensajes de secuencia | Sec. CU-016: crearUsuario(), encriptarContrasena(), validarCorreoUnico(), obtener() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-016) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-016**
 
@@ -1569,7 +1553,6 @@
 > | Mockups | [MK-13](4-mockups.md#mk-13) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-017) |
 > | Entidades · Clase.Método | Usuario · Usuario.obtenerUsuario() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-017) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-017) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-017**
 
@@ -1657,7 +1640,6 @@
 > | Mockups | [MK-02](4-mockups.md#mk-02) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-018) |
 > | Entidades · Clase.Método | TipoProblema · Catalogo.obtener() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-018) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-018) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-018**
 
@@ -1744,7 +1726,6 @@
 > | Mockups | [MK-02](4-mockups.md#mk-02) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-019) |
 > | Entidades · Clase.Método | TipoSolicitud · Catalogo.obtener() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-019) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-019) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-019**
 
@@ -1830,7 +1811,6 @@
 > | Mockups | [MK-02](4-mockups.md#mk-02) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-020) |
 > | Entidades · Clase.Método | CasoSoporte (atributo clase_solicitud) · CasoSoporte.crearCaso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-020) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-020) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-020**
 
@@ -1916,7 +1896,6 @@
 > | Mockups | [MK-02](4-mockups.md#mk-02) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-021) |
 > | Entidades · Clase.Método | TablaImportancia · TablaImportancia.calcularResultadoImportancia() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-021) |
 > | Mensajes de secuencia | Sec. CU-001: calcularResultadoImportancia() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-021) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-021**
 
@@ -2003,7 +1982,6 @@
 > | Mockups | [MK-02](4-mockups.md#mk-02) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-022) |
 > | Entidades · Clase.Método | TablaImportancia · TablaImportancia.calcularResultadoImportancia() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-022) |
 > | Mensajes de secuencia | Sec. CU-001: calcularResultadoImportancia() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-022) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-022**
 
@@ -2092,7 +2070,6 @@
 >
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
-> | Origen (entrevista) | — | Origen de la necesidad |
 > | Criterios de aceptación | [CA-1](#hu-023-ca-1), [CA-2](#hu-023-ca-2), [CA-3](#hu-023-ca-3), [CA-4](#hu-023-ca-4) | Ficha de la HU |
 > | RF derivados | [RF-34](2-reglas-de-negocio-y-requisitos.md#rf-34) | Ficha de la HU |
 > | RN | [RN-20](2-reglas-de-negocio-y-requisitos.md#rn-20), [RN-21](2-reglas-de-negocio-y-requisitos.md#rn-21), [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-023) |
@@ -2101,7 +2078,6 @@
 > | Mockups | [MK-01](4-mockups.md#mk-01) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-023) |
 > | Entidades · Clase.Método | Usuario · Usuario.autenticar(), registrarIntentoFallido(), resetearIntentosFallidos(), bloquearCuenta() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-023) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-023) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-023**
 
@@ -2192,7 +2168,6 @@
 >
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
-> | Origen (entrevista) | — | Origen de la necesidad |
 > | Criterios de aceptación | [CA-1](#hu-024-ca-1), [CA-2](#hu-024-ca-2), [CA-3](#hu-024-ca-3), [CA-4](#hu-024-ca-4) | Ficha de la HU |
 > | RF derivados | [RF-35](2-reglas-de-negocio-y-requisitos.md#rf-35) | Ficha de la HU |
 > | RN | [RN-19](2-reglas-de-negocio-y-requisitos.md#rn-19), [RN-22](2-reglas-de-negocio-y-requisitos.md#rn-22) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-024) |
@@ -2201,7 +2176,6 @@
 > | Mockups | [MK-01](4-mockups.md#mk-01), [MK-19](4-mockups.md#mk-19) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-024) |
 > | Entidades · Clase.Método | Usuario, TokenRecuperacion · Usuario.generarTokenRecuperacion(), encriptarContrasena(), enviarEnlaceRecuperacion(), restablecerContrasena();  TokenRecuperacion.esValido(), marcarUsado(), revocar() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-024) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-024) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-024**
 
@@ -2275,7 +2249,6 @@
 >
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
-> | Origen (entrevista) | — | Origen de la necesidad |
 > | Criterios de aceptación | [CA-1](#hu-025-ca-1), [CA-2](#hu-025-ca-2) | Ficha de la HU |
 > | RF derivados | [RF-36](2-reglas-de-negocio-y-requisitos.md#rf-36) | Ficha de la HU |
 > | RN | [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-025) |
@@ -2284,7 +2257,6 @@
 > | Mockups | [MK-04](4-mockups.md#mk-04) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-025) |
 > | Entidades · Clase.Método | Usuario · Usuario.cerrarSesion() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-025) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-025) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-025**
 
@@ -2369,7 +2341,6 @@
 > | Mockups | [MK-06](4-mockups.md#mk-06) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-026) |
 > | Entidades · Clase.Método | CasoSoporte, HistorialCaso · CasoSoporte.actualizarCaso();  HistorialCaso.registrarHistorial() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-026) |
 > | Mensajes de secuencia | Sec. CU-001: registrarHistorial();  Sec. CU-007: actualizarCaso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-026) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-026**
 
@@ -2458,7 +2429,6 @@
 > | Mockups | [MK-09](4-mockups.md#mk-09) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-028) |
 > | Entidades · Clase.Método | CasoSoporte, Aviso · CasoSoporte.cerrarCaso();  Aviso.crearAviso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-028) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-028) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-028**
 
@@ -2553,7 +2523,6 @@
 > | Mockups | [MK-12](4-mockups.md#mk-12) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-029) |
 > | Entidades · Clase.Método | TiempoAtencionSLA · TiempoAtencionSLA.crearSLA(), obtenerSLA(), actualizarSLA(), inactivarSLA() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-029) |
 > | Mensajes de secuencia | Sec. CU-029: crearSLA(), obtenerSLA(), actualizarSLA(), inactivarSLA() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-029) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-029**
 
@@ -2634,7 +2603,6 @@
 > | Mockups | [MK-10](4-mockups.md#mk-10) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-030) |
 > | Entidades · Clase.Método | CasoSoporte · CasoSoporte.generarReporte() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-030) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-030) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-030**
 
@@ -2714,7 +2682,6 @@
 >
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
-> | Origen (entrevista) | — | Origen de la necesidad |
 > | Criterios de aceptación | [CA-1](#hu-031-ca-1), [CA-2](#hu-031-ca-2), [CA-3](#hu-031-ca-3) | Ficha de la HU |
 > | RF derivados | [RF-28](2-reglas-de-negocio-y-requisitos.md#rf-28) | Ficha de la HU |
 > | RN | [RN-17](2-reglas-de-negocio-y-requisitos.md#rn-17), [RN-18](2-reglas-de-negocio-y-requisitos.md#rn-18) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-031) |
@@ -2723,7 +2690,6 @@
 > | Mockups | [MK-13](4-mockups.md#mk-13), [MK-14](4-mockups.md#mk-14) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-031) |
 > | Entidades · Clase.Método | Usuario · Usuario.validarCorreoUnico(), actualizarUsuario() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-031) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-031) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-031**
 
@@ -2808,7 +2774,6 @@
 >
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
-> | Origen (entrevista) | — | Origen de la necesidad |
 > | Criterios de aceptación | [CA-1](#hu-032-ca-1), [CA-2](#hu-032-ca-2), [CA-3](#hu-032-ca-3), [CA-4](#hu-032-ca-4) | Ficha de la HU |
 > | RF derivados | [RF-29](2-reglas-de-negocio-y-requisitos.md#rf-29), [RF-34](2-reglas-de-negocio-y-requisitos.md#rf-34) | Ficha de la HU |
 > | RN | [RN-21](2-reglas-de-negocio-y-requisitos.md#rn-21) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-032) |
@@ -2817,7 +2782,6 @@
 > | Mockups | [MK-13](4-mockups.md#mk-13) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-032) |
 > | Entidades · Clase.Método | Usuario · Usuario.inactivarUsuario(), actualizarUsuario() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-032) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-032) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-032**
 
@@ -2898,7 +2862,6 @@
 >
 > | Relación | Elementos | Fuente en el documento |
 > |---|---|---|
-> | Origen (entrevista) | — | Origen de la necesidad |
 > | Criterios de aceptación | [CA-1](#hu-033-ca-1), [CA-2](#hu-033-ca-2), [CA-3](#hu-033-ca-3) | Ficha de la HU |
 > | RF derivados | [RF-30](2-reglas-de-negocio-y-requisitos.md#rf-30) | Ficha de la HU |
 > | RN | [RN-20](2-reglas-de-negocio-y-requisitos.md#rn-20), [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-033) |
@@ -2907,7 +2870,6 @@
 > | Mockups | [MK-15](4-mockups.md#mk-15) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-033) |
 > | Entidades · Clase.Método | Usuario · Usuario.desbloquearCuenta(), resetearIntentosFallidos() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-033) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-033) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-033**
 
@@ -2994,7 +2956,6 @@
 > | Mockups | [MK-11](4-mockups.md#mk-11) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-034) |
 > | Entidades · Clase.Método | InfoPersonalSoporte · InfoPersonalSoporte.actualizarDisponibilidad() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-034) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-034) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-034**
 
@@ -3087,7 +3048,6 @@
 > | Mockups | [MK-17](4-mockups.md#mk-17) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-035) |
 > | Entidades · Clase.Método | Activo · Activo.crearActivo() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-035) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-035) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-035**
 
@@ -3095,7 +3055,7 @@
 |---|---|---|---|---|---|
 | [CA-1](#hu-035-ca-1) | Registro exitoso de un activo | — | — | — | [CU-035](3-casos-de-uso.md#cu-035) |
 | [CA-2](#hu-035-ca-2) | Rechazo por número de serie repetido | — | — | [RN-24](2-reglas-de-negocio-y-requisitos.md#rn-24) | [CU-035](3-casos-de-uso.md#cu-035) |
-| [CA-3](#hu-035-ca-3) | Registro sin número de serie | — | — | — | [CU-035](3-casos-de-uso.md#cu-035) |
+| [CA-3](#hu-035-ca-3) | Registro sin número de serie | — | — | [RN-24](2-reglas-de-negocio-y-requisitos.md#rn-24) | [CU-035](3-casos-de-uso.md#cu-035) |
 | [CA-4](#hu-035-ca-4) | Datos obligatorios | — | — | [RN-24](2-reglas-de-negocio-y-requisitos.md#rn-24) | [CU-035](3-casos-de-uso.md#cu-035) |
 
 
@@ -3173,7 +3133,6 @@
 > | Mockups | [MK-16](4-mockups.md#mk-16) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-036) |
 > | Entidades · Clase.Método | Activo · Activo.obtenerActivo() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-036) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-036) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-036**
 
@@ -3256,7 +3215,6 @@
 > | Mockups | [MK-16](4-mockups.md#mk-16), [MK-17](4-mockups.md#mk-17) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-037) |
 > | Entidades · Clase.Método | Activo · Activo.actualizarActivo() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-037) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-037) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-037**
 
@@ -3343,7 +3301,6 @@
 > | Mockups | [MK-16](4-mockups.md#mk-16) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-038) |
 > | Entidades · Clase.Método | Activo · Activo.darDeBajaActivo() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-038) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-038) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-038**
 
@@ -3430,7 +3387,6 @@
 > | Mockups | [MK-12](4-mockups.md#mk-12) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-040) |
 > | Entidades · Clase.Método | TiempoAtencionSLA · TiempoAtencionSLA.obtenerSLA() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-040) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-040) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-040**
 
@@ -3517,7 +3473,6 @@
 > | Mockups | [MK-08](4-mockups.md#mk-08) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-041) |
 > | Entidades · Clase.Método | HistorialCaso · HistorialCaso.listarHistorial(), registrarHistorial() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-041) |
 > | Mensajes de secuencia | Sec. CU-001: registrarHistorial() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-041) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-041**
 
@@ -3621,7 +3576,6 @@
 > | Mockups | [MK-02](4-mockups.md#mk-02), [MK-05](4-mockups.md#mk-05), [MK-06](4-mockups.md#mk-06) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-042) |
 > | Entidades · Clase.Método | AdjuntoCaso · AdjuntoCaso.cargarAdjunto(), obtenerAdjunto(), listarAdjuntos(), eliminarAdjunto() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-042) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-042) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-042**
 
@@ -3719,16 +3673,15 @@
 > | Mockups | [MK-18](4-mockups.md#mk-18) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-043) |
 > | Entidades · Clase.Método | Area · Catalogo.crear(), obtener(), actualizar(), inactivar() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-043) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-043) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-043**
 
 | CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
 |---|---|---|---|---|---|
 | [CA-1](#hu-043-ca-1) | Creación de un valor nuevo | — | — | — | [CU-043](3-casos-de-uso.md#cu-043) |
-| [CA-2](#hu-043-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | — | [CU-043](3-casos-de-uso.md#cu-043) |
+| [CA-2](#hu-043-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | [CU-043](3-casos-de-uso.md#cu-043) |
 | [CA-3](#hu-043-ca-3) | Edición de un valor existente | — | — | — | [CU-043](3-casos-de-uso.md#cu-043) |
-| [CA-4](#hu-043-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | — | [CU-043](3-casos-de-uso.md#cu-043) |
+| [CA-4](#hu-043-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | [CU-043](3-casos-de-uso.md#cu-043) |
 
 
 <a id="hu-044"></a>
@@ -3816,16 +3769,15 @@
 > | Mockups | [MK-18](4-mockups.md#mk-18) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-044) |
 > | Entidades · Clase.Método | Cargo · Catalogo.crear(), obtener(), actualizar(), inactivar() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-044) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-044) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-044**
 
 | CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
 |---|---|---|---|---|---|
 | [CA-1](#hu-044-ca-1) | Creación de un valor nuevo | — | — | — | [CU-044](3-casos-de-uso.md#cu-044) |
-| [CA-2](#hu-044-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | — | [CU-044](3-casos-de-uso.md#cu-044) |
+| [CA-2](#hu-044-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | [CU-044](3-casos-de-uso.md#cu-044) |
 | [CA-3](#hu-044-ca-3) | Edición de un valor existente | — | — | — | [CU-044](3-casos-de-uso.md#cu-044) |
-| [CA-4](#hu-044-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | — | [CU-044](3-casos-de-uso.md#cu-044) |
+| [CA-4](#hu-044-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | [CU-044](3-casos-de-uso.md#cu-044) |
 
 
 <a id="hu-045"></a>
@@ -3913,16 +3865,15 @@
 > | Mockups | [MK-18](4-mockups.md#mk-18) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-045) |
 > | Entidades · Clase.Método | RolEmpleado · Catalogo.crear(), obtener(), actualizar(), inactivar() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-045) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-045) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-045**
 
 | CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
 |---|---|---|---|---|---|
 | [CA-1](#hu-045-ca-1) | Creación de un valor nuevo | — | — | — | [CU-045](3-casos-de-uso.md#cu-045) |
-| [CA-2](#hu-045-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | — | [CU-045](3-casos-de-uso.md#cu-045) |
+| [CA-2](#hu-045-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | [CU-045](3-casos-de-uso.md#cu-045) |
 | [CA-3](#hu-045-ca-3) | Edición de un valor existente | — | — | — | [CU-045](3-casos-de-uso.md#cu-045) |
-| [CA-4](#hu-045-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | — | [CU-045](3-casos-de-uso.md#cu-045) |
+| [CA-4](#hu-045-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | [CU-045](3-casos-de-uso.md#cu-045) |
 
 
 <a id="hu-046"></a>
@@ -4010,16 +3961,15 @@
 > | Mockups | [MK-18](4-mockups.md#mk-18) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-046) |
 > | Entidades · Clase.Método | TipoActivo · Catalogo.crear(), obtener(), actualizar(), inactivar() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-046) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-046) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-046**
 
 | CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
 |---|---|---|---|---|---|
 | [CA-1](#hu-046-ca-1) | Creación de un valor nuevo | — | — | — | [CU-046](3-casos-de-uso.md#cu-046) |
-| [CA-2](#hu-046-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | — | [CU-046](3-casos-de-uso.md#cu-046) |
+| [CA-2](#hu-046-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | [CU-046](3-casos-de-uso.md#cu-046) |
 | [CA-3](#hu-046-ca-3) | Edición de un valor existente | — | — | — | [CU-046](3-casos-de-uso.md#cu-046) |
-| [CA-4](#hu-046-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | — | [CU-046](3-casos-de-uso.md#cu-046) |
+| [CA-4](#hu-046-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | [CU-046](3-casos-de-uso.md#cu-046) |
 
 
 <a id="hu-047"></a>
@@ -4107,16 +4057,15 @@
 > | Mockups | [MK-18](4-mockups.md#mk-18) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-047) |
 > | Entidades · Clase.Método | TipoProblema · Catalogo.crear(), obtener(), actualizar(), inactivar() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-047) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-047) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-047**
 
 | CA | Escenario | RN que cita | RF que cita | RN que nacen de este CA | CU que lo implementa |
 |---|---|---|---|---|---|
 | [CA-1](#hu-047-ca-1) | Creación de un valor nuevo | — | — | — | [CU-047](3-casos-de-uso.md#cu-047) |
-| [CA-2](#hu-047-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | — | [CU-047](3-casos-de-uso.md#cu-047) |
+| [CA-2](#hu-047-ca-2) | Rechazo por nombre repetido en el mismo catálogo | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | — | [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26) | [CU-047](3-casos-de-uso.md#cu-047) |
 | [CA-3](#hu-047-ca-3) | Edición de un valor existente | — | — | — | [CU-047](3-casos-de-uso.md#cu-047) |
-| [CA-4](#hu-047-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | — | [CU-047](3-casos-de-uso.md#cu-047) |
+| [CA-4](#hu-047-ca-4) | Inactivación sin perder los registros que ya lo usan | [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | — | [RN-04](2-reglas-de-negocio-y-requisitos.md#rn-04), [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | [CU-047](3-casos-de-uso.md#cu-047) |
 
 
 <a id="hu-048"></a>
@@ -4204,7 +4153,6 @@
 > | Mockups | [MK-18](4-mockups.md#mk-18) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-048) |
 > | Entidades · Clase.Método | TipoSolicitud · Catalogo.crear(), obtener(), actualizar(), inactivar() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-048) |
 > | Mensajes de secuencia | N/A: caso no crítico | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-048) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-048**
 
@@ -4296,7 +4244,6 @@
 > | Mockups | [MK-06](4-mockups.md#mk-06) | [Matriz §5](5-matriz-de-trazabilidad-analisis.md#m5-hu-049) |
 > | Entidades · Clase.Método | CasoSoporte, HistorialCaso · CasoSoporte.actualizarCaso();  HistorialCaso.registrarHistorial() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-049) |
 > | Mensajes de secuencia | Sec. CU-001: registrarHistorial();  Sec. CU-007: actualizarCaso() | [Matriz §14](../fase_2/12-matriz-de-trazabilidad.md#m14-hu-049) |
-> | Implementación y pruebas | *No identificado en el documento* | — |
 
 **Trazabilidad de los criterios de aceptación de HU-049**
 
