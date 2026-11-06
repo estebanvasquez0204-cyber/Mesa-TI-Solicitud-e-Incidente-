@@ -32,6 +32,17 @@ Desarrollar un sistema que permita:
 
 ## Contenido del Repositorio
 
+La documentación está organizada por fases según la ruta oficial del curso, en la carpeta [`docs/`](docs/README.md):
+
+| Fase | Carpeta |
+|---|---|
+| Fase 0 — Concepción | [docs/fase_0](docs/fase_0/README.md) |
+| Fase 1 — Análisis | [docs/fase_1](docs/fase_1/README.md) |
+| Fase 2 — Diseño | [docs/fase_2](docs/fase_2/README.md) |
+| Fase 3 — Construcción | [docs/fase_3](docs/fase_3/README.md) |
+
+Incluye:
+
 - Documentación de análisis
 - Historias de usuario
 - Requerimientos funcionales y no funcionales

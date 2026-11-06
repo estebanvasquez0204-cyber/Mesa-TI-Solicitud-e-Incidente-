@@ -28,9 +28,7 @@ flowchart LR
 <a id="mk-01"></a>
 ### MK-01 — Inicio de sesión y recuperación de contraseña
 
-![Figura 6. MK-01: Inicio de sesión y recuperación de contraseña](img/MK-01.png)
-
-*Figura 6. MK-01: Inicio de sesión y recuperación de contraseña.*
+*Figura 6. MK-01: Inicio de sesión y recuperación de contraseña.* — 🖼️ La imagen original del documento Word va en `img/MK-01.png` (pendiente de agregar).
 
 | Campo | Contenido |
 |---|---|
@@ -44,9 +42,7 @@ flowchart LR
 <a id="mk-02"></a>
 ### MK-02 — Reportar un caso
 
-![Figura 7. MK-02: Reportar un caso](img/MK-02.png)
-
-*Figura 7. MK-02: Reportar un caso.*
+*Figura 7. MK-02: Reportar un caso.* — 🖼️ La imagen original del documento Word va en `img/MK-02.png` (pendiente de agregar).
 
 | Campo | Contenido |
 |---|---|
@@ -60,9 +56,7 @@ flowchart LR
 <a id="mk-03"></a>
 ### MK-03 — Caso registrado (confirmación)
 
-![Figura 8. MK-03: Caso registrado (confirmación)](img/MK-03.png)
-
-*Figura 8. MK-03: Caso registrado (confirmación).*
+*Figura 8. MK-03: Caso registrado (confirmación).* — 🖼️ La imagen original del documento Word va en `img/MK-03.png` (pendiente de agregar).
 
 | Campo | Contenido |
 |---|---|
@@ -76,9 +70,7 @@ flowchart LR
 <a id="mk-04"></a>
 ### MK-04 — Mis casos — listado y búsqueda
 
-![Figura 9. MK-04: Mis casos — listado y búsqueda](img/MK-04.png)
-
-*Figura 9. MK-04: Mis casos — listado y búsqueda.*
+*Figura 9. MK-04: Mis casos — listado y búsqueda.* — 🖼️ La imagen original del documento Word va en `img/MK-04.png` (pendiente de agregar).
 
 | Campo | Contenido |
 |---|---|
@@ -92,9 +84,7 @@ flowchart LR
 <a id="mk-05"></a>
 ### MK-05 — Detalle del caso (solicitante)
 
-![Figura 10. MK-05: Detalle del caso (solicitante)](img/MK-05.png)
-
-*Figura 10. MK-05: Detalle del caso (solicitante).*
+*Figura 10. MK-05: Detalle del caso (solicitante).* — 🖼️ La imagen original del documento Word va en `img/MK-05.png` (pendiente de agregar).
 
 | Campo | Contenido |
 |---|---|
@@ -108,9 +98,7 @@ flowchart LR
 <a id="mk-09"></a>
 ### MK-09 — Avisos
 
-![Figura 11. MK-09: Avisos](img/MK-09.png)
-
-*Figura 11. MK-09: Avisos.*
+*Figura 11. MK-09: Avisos.* — 🖼️ La imagen original del documento Word va en `img/MK-09.png` (pendiente de agregar).
 
 | Campo | Contenido |
 |---|---|
@@ -127,9 +115,7 @@ flowchart LR
 <a id="mk-06"></a>
 ### MK-06 — Gestión del caso (soporte)
 
-![Figura 12. MK-06: Gestión del caso (soporte)](img/MK-06.png)
-
-*Figura 12. MK-06: Gestión del caso (soporte).*
+*Figura 12. MK-06: Gestión del caso (soporte).* — 🖼️ La imagen original del documento Word va en `img/MK-06.png` (pendiente de agregar).
 
 | Campo | Contenido |
 |---|---|
@@ -143,9 +129,7 @@ flowchart LR
 <a id="mk-07"></a>
 ### MK-07 — Casos pendientes
 
-![Figura 13. MK-07: Casos pendientes](img/MK-07.png)
-
-*Figura 13. MK-07: Casos pendientes.*
+*Figura 13. MK-07: Casos pendientes.* — 🖼️ La imagen original del documento Word va en `img/MK-07.png` (pendiente de agregar).
 
 | Campo | Contenido |
 |---|---|
@@ -159,9 +143,7 @@ flowchart LR
 <a id="mk-08"></a>
 ### MK-08 — Historial del caso
 
-![Figura 14. MK-08: Historial del caso](img/MK-08.png)
-
-*Figura 14. MK-08: Historial del caso.*
+*Figura 14. MK-08: Historial del caso.* — 🖼️ La imagen original del documento Word va en `img/MK-08.png` (pendiente de agregar).
 
 | Campo | Contenido |
 |---|---|
@@ -175,9 +157,7 @@ flowchart LR
 <a id="mk-10"></a>
 ### MK-10 — Resumen de atención y reportes
 
-![Figura 15. MK-10: Resumen de atención y reportes](img/MK-10.png)
-
-*Figura 15. MK-10: Resumen de atención y reportes.*
+*Figura 15. MK-10: Resumen de atención y reportes.* — 🖼️ La imagen original del documento Word va en `img/MK-10.png` (pendiente de agregar).
 
 | Campo | Contenido |
 |---|---|
@@ -191,9 +171,7 @@ flowchart LR
 <a id="mk-11"></a>
 ### MK-11 — Disponibilidad del personal de soporte
 
-![Figura 16. MK-11: Disponibilidad del personal de soporte](img/MK-11.png)
-
-*Figura 16. MK-11: Disponibilidad del personal de soporte.*
+*Figura 16. MK-11: Disponibilidad del personal de soporte.* — 🖼️ La imagen original del documento Word va en `img/MK-11.png` (pendiente de agregar).
 
 | Campo | Contenido |
 |---|---|
@@ -210,9 +188,7 @@ flowchart LR
 <a id="mk-12"></a>
 ### MK-12 — Reglas de tiempos de atención
 
-![Figura 17. MK-12: Reglas de tiempos de atención](img/MK-12.png)
-
-*Figura 17. MK-12: Reglas de tiempos de atención.*
+*Figura 17. MK-12: Reglas de tiempos de atención.* — 🖼️ La imagen original del documento Word va en `img/MK-12.png` (pendiente de agregar).
 
 | Campo | Contenido |
 |---|---|
@@ -226,9 +202,7 @@ flowchart LR
 <a id="mk-13"></a>
 ### MK-13 — Usuarios — listado y búsqueda
 
-![Figura 18. MK-13: Usuarios — listado y búsqueda](img/MK-13.png)
-
-*Figura 18. MK-13: Usuarios — listado y búsqueda.*
+*Figura 18. MK-13: Usuarios — listado y búsqueda.* — 🖼️ La imagen original del documento Word va en `img/MK-13.png` (pendiente de agregar).
 
 | Campo | Contenido |
 |---|---|
@@ -242,9 +216,7 @@ flowchart LR
 <a id="mk-14"></a>
 ### MK-14 — Registrar / actualizar usuario
 
-![Figura 19. MK-14: Registrar / actualizar usuario](img/MK-14.png)
-
-*Figura 19. MK-14: Registrar / actualizar usuario.*
+*Figura 19. MK-14: Registrar / actualizar usuario.* — 🖼️ La imagen original del documento Word va en `img/MK-14.png` (pendiente de agregar).
 
 | Campo | Contenido |
 |---|---|
@@ -258,9 +230,7 @@ flowchart LR
 <a id="mk-15"></a>
 ### MK-15 — Cuentas bloqueadas
 
-![Figura 20. MK-15: Cuentas bloqueadas](img/MK-15.png)
-
-*Figura 20. MK-15: Cuentas bloqueadas.*
+*Figura 20. MK-15: Cuentas bloqueadas.* — 🖼️ La imagen original del documento Word va en `img/MK-15.png` (pendiente de agregar).
 
 | Campo | Contenido |
 |---|---|
@@ -274,9 +244,7 @@ flowchart LR
 <a id="mk-16"></a>
 ### MK-16 — Activos — listado y búsqueda
 
-![Figura 21. MK-16: Activos — listado y búsqueda](img/MK-16.png)
-
-*Figura 21. MK-16: Activos — listado y búsqueda.*
+*Figura 21. MK-16: Activos — listado y búsqueda.* — 🖼️ La imagen original del documento Word va en `img/MK-16.png` (pendiente de agregar).
 
 | Campo | Contenido |
 |---|---|
@@ -290,9 +258,7 @@ flowchart LR
 <a id="mk-17"></a>
 ### MK-17 — Registrar / actualizar activo
 
-![Figura 22. MK-17: Registrar / actualizar activo](img/MK-17.png)
-
-*Figura 22. MK-17: Registrar / actualizar activo.*
+*Figura 22. MK-17: Registrar / actualizar activo.* — 🖼️ La imagen original del documento Word va en `img/MK-17.png` (pendiente de agregar).
 
 | Campo | Contenido |
 |---|---|
@@ -306,9 +272,7 @@ flowchart LR
 <a id="mk-18"></a>
 ### MK-18 — Catálogos de clasificación
 
-![Figura 23. MK-18: Catálogos de clasificación](img/MK-18.png)
-
-*Figura 23. MK-18: Catálogos de clasificación.*
+*Figura 23. MK-18: Catálogos de clasificación.* — 🖼️ La imagen original del documento Word va en `img/MK-18.png` (pendiente de agregar).
 
 | Campo | Contenido |
 |---|---|
