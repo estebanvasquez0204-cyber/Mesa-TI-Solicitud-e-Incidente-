@@ -25,7 +25,7 @@ flowchart LR
     E --> RNF[RNF<br/>10]
 ```
 
-Las imágenes (diagrama de casos de uso críticos y las 19 pantallas) están en [`img/`](img/). Los cambios aprobados de esta fase se registran en el [CRF-002](../gestion-del-cambio/crf-002-fase-1.md).
+Las imágenes (diagrama de casos de uso críticos y las 19 pantallas) están en [`img/`](img/). Los cambios aprobados de esta fase se registran en el [CRF-001](../gestion-del-cambio/crf-001-historias-de-usuario.md) (campo «Origen», criterios de aceptación y trazabilidad HU ↔ RF) y en el [CRF-002](../gestion-del-cambio/crf-002-fase-1.md).
 
 ## Trazabilidad bidireccional
 

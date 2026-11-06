@@ -61,8 +61,8 @@ Conteos resultantes: 46 historias, 50 RF, 30 RN, 48 CU (46 de HU y 2 de apoyo), 
 Esfuerzo estimado: medio, concentrado en documentación. Riesgo de no aprobar: mantener la observación de la docente en C3, C4 y C5 y llegar a las fases de diseño con un modelo que no respalda lo especificado.</td>
 </tr>
 <tr class="odd">
-<td><strong>Relación con el CRF-001</strong></td>
-<td>El CRF-001 (7 de octubre de 2026, estado Aprobado) no se modifica. Sigue vigente en lo que describe, salvo en las cifras de su análisis de impacto («49 requerimientos», «40 historias», «no se crean requerimientos nuevos»), que este CRF-002 actualiza, y en su afirmación de que el modelo UML y los casos de uso no se modificaban, que deja de ser cierta.</td>
+<td><strong>Relación con el [CRF-001](crf-001-historias-de-usuario.md)</strong></td>
+<td>El [CRF-001](crf-001-historias-de-usuario.md) (7 de octubre de 2026, estado Aprobado) no se modifica. Sigue vigente en lo que describe, salvo en las cifras de su análisis de impacto («49 requerimientos», «40 historias», «no se crean requerimientos nuevos»), que este CRF-002 actualiza, y en su afirmación de que el modelo UML y los casos de uso no se modificaban, que deja de ser cierta.</td>
 </tr>
 <tr class="even">
 <td><strong>Decisiones pendientes de validar</strong></td>
@@ -75,4 +75,4 @@ Esfuerzo estimado: medio, concentrado en documentación. Riesgo de no aprobar: m
 </tbody>
 </table>
 
-*Nota.* Elaboración propia. El CRF-001 (7 de octubre de 2026, estado Aprobado) no se modifica; este CRF-002 actualiza sus cifras.
+*Nota.* Elaboración propia. El [CRF-001](crf-001-historias-de-usuario.md) (7 de octubre de 2026, estado Aprobado) no se modifica; este CRF-002 actualiza sus cifras.

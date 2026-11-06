@@ -33,7 +33,7 @@ flowchart TD
 
 La guía la aplica a toda la ruta y tiene peso especial en esta fase:
 
-- Todo cambio entra por **CRF** (el Cambio DECIDE). Ejemplo documentado: [CRF-002](../gestion-del-cambio/crf-002-fase-1.md).
+- Todo cambio entra por **CRF** (el Cambio DECIDE). Documentados: [CRF-001](../gestion-del-cambio/crf-001-historias-de-usuario.md) y [CRF-002](../gestion-del-cambio/crf-002-fase-1.md).
 - Cabeceras de historial y control de versiones (la Configuración REGISTRA).
 - Las **Líneas Base** congelan el trabajo y son la puerta.
 - En Git, cada commit cita su CRF y el **tag** es la línea base.

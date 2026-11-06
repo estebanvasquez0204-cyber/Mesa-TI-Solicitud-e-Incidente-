@@ -348,4 +348,4 @@ Artefactos de diseño de la Fase 2 que conectan los requisitos con la [Fase 3 �
 | Diagramas de secuencia (4 CU críticos) | [Fase 2 · 10](../fase_2/10-diagramas-de-secuencia.md) |
 | Diagramas de estados | [Fase 2 · 11](../fase_2/11-diagramas-de-estados.md) |
 | Matriz HU → RF → entidad → clase.método → CU → mensaje → MK → RN | [Fase 2 · 12](../fase_2/12-matriz-de-trazabilidad.md) |
-| Gestión del cambio | [CRF-002](../gestion-del-cambio/crf-002-fase-1.md) |
+| Gestión del cambio | [CRF-001](../gestion-del-cambio/crf-001-historias-de-usuario.md) · [CRF-002](../gestion-del-cambio/crf-002-fase-1.md) |
