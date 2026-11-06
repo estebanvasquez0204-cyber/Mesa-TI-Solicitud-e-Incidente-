@@ -22,7 +22,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td>HU-001 Reportar un caso de soporte</td>
+<td><a id="m14-hu-001"></a><a href="../fase_1/1-historias-de-usuario.md#hu-001">HU-001</a> Reportar un caso de soporte</td>
 <td>RF-01, RF-02, RF-18</td>
 <td>CasoSoporte, HistorialCaso, TiempoAtencionSLA, Activo</td>
 <td>CasoSoporte.crearCaso()<br />
@@ -35,7 +35,7 @@ Activo.obtenerActivo()</td>
 <td>RN-01, RN-02, RN-23, RN-25</td>
 </tr>
 <tr class="even">
-<td>HU-002 Recibir confirmación del caso enviado</td>
+<td><a id="m14-hu-002"></a><a href="../fase_1/1-historias-de-usuario.md#hu-002">HU-002</a> Recibir confirmación del caso enviado</td>
 <td>RF-03, RF-05</td>
 <td>Aviso, CasoSoporte</td>
 <td>Aviso.crearAviso(), actualizarEstadoEnvio(), reintentarEnvio()<br />
@@ -47,7 +47,7 @@ Sec. CU-007: crearAviso()</td>
 <td>RN-02, RN-15, RN-16, RN-17</td>
 </tr>
 <tr class="odd">
-<td>HU-003 Recibir avisos sobre el avance del caso</td>
+<td><a id="m14-hu-003"></a><a href="../fase_1/1-historias-de-usuario.md#hu-003">HU-003</a> Recibir avisos sobre el avance del caso</td>
 <td>RF-04, RF-05, RF-06</td>
 <td>Aviso</td>
 <td>Aviso.crearAviso(), obtenerAviso(), actualizarEstadoEnvio(), reintentarEnvio(), marcarLeido()</td>
@@ -57,7 +57,7 @@ Sec. CU-007: crearAviso()</td>
 <td>RN-15, RN-16</td>
 </tr>
 <tr class="even">
-<td>HU-004 Identificar si el caso es un problema o una solicitud</td>
+<td><a id="m14-hu-004"></a><a href="../fase_1/1-historias-de-usuario.md#hu-004">HU-004</a> Identificar si el caso es un problema o una solicitud</td>
 <td>RF-02, RF-07</td>
 <td>CasoSoporte</td>
 <td>CasoSoporte.crearCaso()</td>
@@ -67,7 +67,7 @@ Sec. CU-007: crearAviso()</td>
 <td>RN-03</td>
 </tr>
 <tr class="odd">
-<td>HU-005 Consultar casos anteriores</td>
+<td><a id="m14-hu-005"></a><a href="../fase_1/1-historias-de-usuario.md#hu-005">HU-005</a> Consultar casos anteriores</td>
 <td>RF-09, RF-10</td>
 <td>CasoSoporte</td>
 <td>CasoSoporte.obtenerCaso()</td>
@@ -77,7 +77,7 @@ Sec. CU-007: crearAviso()</td>
 <td>RN-06</td>
 </tr>
 <tr class="even">
-<td>HU-006 Revisar casos pendientes</td>
+<td><a id="m14-hu-006"></a><a href="../fase_1/1-historias-de-usuario.md#hu-006">HU-006</a> Revisar casos pendientes</td>
 <td>RF-11</td>
 <td>CasoSoporte, TablaImportancia</td>
 <td>CasoSoporte.obtenerCaso()<br />
@@ -88,7 +88,7 @@ TablaImportancia.calcularResultadoImportancia()</td>
 <td>RN-05, RN-23</td>
 </tr>
 <tr class="odd">
-<td>HU-007 Cambiar la situación actual del caso</td>
+<td><a id="m14-hu-007"></a><a href="../fase_1/1-historias-de-usuario.md#hu-007">HU-007</a> Cambiar la situación actual del caso</td>
 <td>RF-12, RF-13, RF-49, RF-50</td>
 <td>CasoSoporte, HistorialCaso, TransicionEstadoCaso</td>
 <td>CasoSoporte.actualizarCaso(), registrarPrimeraRespuesta(), marcarSolucionado()<br />
@@ -100,7 +100,7 @@ TransicionEstadoCaso.esTransicionValida()</td>
 <td>RN-06, RN-07, RN-08, RN-14, RN-23</td>
 </tr>
 <tr class="even">
-<td>HU-008 Asignar una persona encargada del caso</td>
+<td><a id="m14-hu-008"></a><a href="../fase_1/1-historias-de-usuario.md#hu-008">HU-008</a> Asignar una persona encargada del caso</td>
 <td>RF-14, RF-49</td>
 <td>CasoSoporte, HistorialCaso</td>
 <td>CasoSoporte.actualizarCaso()<br />
@@ -112,7 +112,7 @@ Sec. CU-007: actualizarCaso()</td>
 <td>RN-08, RN-09</td>
 </tr>
 <tr class="odd">
-<td>HU-009 Agregar comentarios al caso</td>
+<td><a id="m14-hu-009"></a><a href="../fase_1/1-historias-de-usuario.md#hu-009">HU-009</a> Agregar comentarios al caso</td>
 <td>RF-16, RF-17</td>
 <td>ComentarioCaso</td>
 <td>ComentarioCaso.registrarComentario(), listarComentarios()</td>
@@ -122,7 +122,7 @@ Sec. CU-007: actualizarCaso()</td>
 <td>RN-08, RN-10</td>
 </tr>
 <tr class="even">
-<td>HU-010 Ver tiempo aproximado de atención</td>
+<td><a id="m14-hu-010"></a><a href="../fase_1/1-historias-de-usuario.md#hu-010">HU-010</a> Ver tiempo aproximado de atención</td>
 <td>RF-13, RF-20</td>
 <td>CasoSoporte, TiempoAtencionSLA</td>
 <td>CasoSoporte.cumpleSLA()<br />
@@ -133,7 +133,7 @@ TiempoAtencionSLA.obtenerSLA()</td>
 <td>RN-06, RN-13, RN-14</td>
 </tr>
 <tr class="odd">
-<td>HU-011 Revisar resumen general de atención</td>
+<td><a id="m14-hu-011"></a><a href="../fase_1/1-historias-de-usuario.md#hu-011">HU-011</a> Revisar resumen general de atención</td>
 <td>RF-21</td>
 <td>CasoSoporte</td>
 <td>CasoSoporte.cumpleSLA(), obtenerCaso(), registrarPrimeraRespuesta()</td>
@@ -143,7 +143,7 @@ TiempoAtencionSLA.obtenerSLA()</td>
 <td>RN-14, RN-29</td>
 </tr>
 <tr class="even">
-<td>HU-012 Revisar resumen por periodo</td>
+<td><a id="m14-hu-012"></a><a href="../fase_1/1-historias-de-usuario.md#hu-012">HU-012</a> Revisar resumen por periodo</td>
 <td>RF-22</td>
 <td>CasoSoporte</td>
 <td>CasoSoporte.obtenerResumenAtencion()</td>
@@ -153,7 +153,7 @@ TiempoAtencionSLA.obtenerSLA()</td>
 <td>RN-29</td>
 </tr>
 <tr class="odd">
-<td>HU-013 Reabrir un caso</td>
+<td><a id="m14-hu-013"></a><a href="../fase_1/1-historias-de-usuario.md#hu-013">HU-013</a> Reabrir un caso</td>
 <td>RF-23</td>
 <td>CasoSoporte</td>
 <td>CasoSoporte.reabrirCaso()</td>
@@ -163,7 +163,7 @@ TiempoAtencionSLA.obtenerSLA()</td>
 <td>RN-08, RN-11</td>
 </tr>
 <tr class="even">
-<td>HU-015 Consultar información del personal de soporte</td>
+<td><a id="m14-hu-015"></a><a href="../fase_1/1-historias-de-usuario.md#hu-015">HU-015</a> Consultar información del personal de soporte</td>
 <td>RF-24</td>
 <td>InfoPersonalSoporte</td>
 <td>InfoPersonalSoporte.obtenerInfoSoporte()</td>
@@ -173,7 +173,7 @@ TiempoAtencionSLA.obtenerSLA()</td>
 <td>RN-28</td>
 </tr>
 <tr class="odd">
-<td>HU-016 Registrar usuarios del sistema</td>
+<td><a id="m14-hu-016"></a><a href="../fase_1/1-historias-de-usuario.md#hu-016">HU-016</a> Registrar usuarios del sistema</td>
 <td>RF-26</td>
 <td>Usuario, Catalogo</td>
 <td>Usuario.crearUsuario(), encriptarContrasena(), validarCorreoUnico()<br />
@@ -184,7 +184,7 @@ Catalogo.obtener()</td>
 <td>RN-17, RN-18, RN-19</td>
 </tr>
 <tr class="even">
-<td>HU-017 Consultar usuarios registrados</td>
+<td><a id="m14-hu-017"></a><a href="../fase_1/1-historias-de-usuario.md#hu-017">HU-017</a> Consultar usuarios registrados</td>
 <td>RF-27</td>
 <td>Usuario</td>
 <td>Usuario.obtenerUsuario()</td>
@@ -194,7 +194,7 @@ Catalogo.obtener()</td>
 <td>RN-23</td>
 </tr>
 <tr class="odd">
-<td>HU-018 Indicar tipo de problema</td>
+<td><a id="m14-hu-018"></a><a href="../fase_1/1-historias-de-usuario.md#hu-018">HU-018</a> Indicar tipo de problema</td>
 <td>RF-31</td>
 <td>TipoProblema</td>
 <td>Catalogo.obtener()</td>
@@ -204,7 +204,7 @@ Catalogo.obtener()</td>
 <td>RN-03, RN-04</td>
 </tr>
 <tr class="even">
-<td>HU-019 Indicar tipo de solicitud</td>
+<td><a id="m14-hu-019"></a><a href="../fase_1/1-historias-de-usuario.md#hu-019">HU-019</a> Indicar tipo de solicitud</td>
 <td>RF-32</td>
 <td>TipoSolicitud</td>
 <td>Catalogo.obtener()</td>
@@ -214,7 +214,7 @@ Catalogo.obtener()</td>
 <td>RN-03, RN-04</td>
 </tr>
 <tr class="odd">
-<td>HU-020 Indicar clase de solicitud</td>
+<td><a id="m14-hu-020"></a><a href="../fase_1/1-historias-de-usuario.md#hu-020">HU-020</a> Indicar clase de solicitud</td>
 <td>RF-33</td>
 <td>CasoSoporte (atributo clase_solicitud)</td>
 <td>CasoSoporte.crearCaso()</td>
@@ -224,7 +224,7 @@ Catalogo.obtener()</td>
 <td>RN-03</td>
 </tr>
 <tr class="even">
-<td>HU-021 Indicar cuántas personas se ven afectadas</td>
+<td><a id="m14-hu-021"></a><a href="../fase_1/1-historias-de-usuario.md#hu-021">HU-021</a> Indicar cuántas personas se ven afectadas</td>
 <td>RF-18, RF-19</td>
 <td>TablaImportancia</td>
 <td>TablaImportancia.calcularResultadoImportancia()</td>
@@ -234,7 +234,7 @@ Catalogo.obtener()</td>
 <td>RN-01, RN-05</td>
 </tr>
 <tr class="odd">
-<td>HU-022 Indicar qué tan rápido necesito atención</td>
+<td><a id="m14-hu-022"></a><a href="../fase_1/1-historias-de-usuario.md#hu-022">HU-022</a> Indicar qué tan rápido necesito atención</td>
 <td>RF-18, RF-19</td>
 <td>TablaImportancia</td>
 <td>TablaImportancia.calcularResultadoImportancia()</td>
@@ -244,7 +244,7 @@ Catalogo.obtener()</td>
 <td>RN-01, RN-05</td>
 </tr>
 <tr class="even">
-<td>HU-023 Iniciar sesión</td>
+<td><a id="m14-hu-023"></a><a href="../fase_1/1-historias-de-usuario.md#hu-023">HU-023</a> Iniciar sesión</td>
 <td>RF-34</td>
 <td>Usuario</td>
 <td>Usuario.autenticar(), registrarIntentoFallido(), resetearIntentosFallidos(), bloquearCuenta()</td>
@@ -254,7 +254,7 @@ Catalogo.obtener()</td>
 <td>RN-20, RN-21, RN-23</td>
 </tr>
 <tr class="odd">
-<td>HU-024 Recuperar contraseña</td>
+<td><a id="m14-hu-024"></a><a href="../fase_1/1-historias-de-usuario.md#hu-024">HU-024</a> Recuperar contraseña</td>
 <td>RF-35</td>
 <td>Usuario, TokenRecuperacion</td>
 <td>Usuario.generarTokenRecuperacion(), encriptarContrasena(), enviarEnlaceRecuperacion(), restablecerContrasena()<br />
@@ -265,7 +265,7 @@ TokenRecuperacion.esValido(), marcarUsado(), revocar()</td>
 <td>RN-19, RN-22</td>
 </tr>
 <tr class="even">
-<td>HU-025 Cerrar sesión</td>
+<td><a id="m14-hu-025"></a><a href="../fase_1/1-historias-de-usuario.md#hu-025">HU-025</a> Cerrar sesión</td>
 <td>RF-36</td>
 <td>Usuario</td>
 <td>Usuario.cerrarSesion()</td>
@@ -275,7 +275,7 @@ TokenRecuperacion.esValido(), marcarUsado(), revocar()</td>
 <td>RN-23</td>
 </tr>
 <tr class="odd">
-<td>HU-026 Pasar un caso a otra persona de soporte</td>
+<td><a id="m14-hu-026"></a><a href="../fase_1/1-historias-de-usuario.md#hu-026">HU-026</a> Pasar un caso a otra persona de soporte</td>
 <td>RF-15, RF-49</td>
 <td>CasoSoporte, HistorialCaso</td>
 <td>CasoSoporte.actualizarCaso()<br />
@@ -287,7 +287,7 @@ Sec. CU-007: actualizarCaso()</td>
 <td>RN-08, RN-09</td>
 </tr>
 <tr class="even">
-<td>HU-028 Cerrar casos sin respuesta del usuario</td>
+<td><a id="m14-hu-028"></a><a href="../fase_1/1-historias-de-usuario.md#hu-028">HU-028</a> Cerrar casos sin respuesta del usuario</td>
 <td>RF-37</td>
 <td>CasoSoporte, Aviso</td>
 <td>CasoSoporte.cerrarCaso()<br />
@@ -298,7 +298,7 @@ Aviso.crearAviso()</td>
 <td>RN-08, RN-12, RN-15</td>
 </tr>
 <tr class="odd">
-<td>HU-029 Definir tiempos de atención</td>
+<td><a id="m14-hu-029"></a><a href="../fase_1/1-historias-de-usuario.md#hu-029">HU-029</a> Definir tiempos de atención</td>
 <td>RF-38</td>
 <td>TiempoAtencionSLA</td>
 <td>TiempoAtencionSLA.crearSLA(), obtenerSLA(), actualizarSLA(), inactivarSLA()</td>
@@ -308,7 +308,7 @@ Aviso.crearAviso()</td>
 <td>RN-13</td>
 </tr>
 <tr class="even">
-<td>HU-030 Descargar reportes de atención</td>
+<td><a id="m14-hu-030"></a><a href="../fase_1/1-historias-de-usuario.md#hu-030">HU-030</a> Descargar reportes de atención</td>
 <td>RF-40</td>
 <td>CasoSoporte</td>
 <td>CasoSoporte.generarReporte()</td>
@@ -318,7 +318,7 @@ Aviso.crearAviso()</td>
 <td>RN-29</td>
 </tr>
 <tr class="odd">
-<td>HU-031 Actualizar la información de un usuario registrado</td>
+<td><a id="m14-hu-031"></a><a href="../fase_1/1-historias-de-usuario.md#hu-031">HU-031</a> Actualizar la información de un usuario registrado</td>
 <td>RF-28</td>
 <td>Usuario</td>
 <td>Usuario.validarCorreoUnico(), actualizarUsuario()</td>
@@ -328,7 +328,7 @@ Aviso.crearAviso()</td>
 <td>RN-17, RN-18</td>
 </tr>
 <tr class="even">
-<td>HU-032 Inactivar un usuario que ya no debe tener acceso</td>
+<td><a id="m14-hu-032"></a><a href="../fase_1/1-historias-de-usuario.md#hu-032">HU-032</a> Inactivar un usuario que ya no debe tener acceso</td>
 <td>RF-29</td>
 <td>Usuario</td>
 <td>Usuario.inactivarUsuario(), actualizarUsuario()</td>
@@ -338,7 +338,7 @@ Aviso.crearAviso()</td>
 <td>RN-21</td>
 </tr>
 <tr class="odd">
-<td>HU-033 Desbloquear una cuenta de usuario</td>
+<td><a id="m14-hu-033"></a><a href="../fase_1/1-historias-de-usuario.md#hu-033">HU-033</a> Desbloquear una cuenta de usuario</td>
 <td>RF-30</td>
 <td>Usuario</td>
 <td>Usuario.desbloquearCuenta(), resetearIntentosFallidos()</td>
@@ -348,7 +348,7 @@ Aviso.crearAviso()</td>
 <td>RN-20, RN-23</td>
 </tr>
 <tr class="even">
-<td>HU-034 Actualizar mi disponibilidad para recibir casos</td>
+<td><a id="m14-hu-034"></a><a href="../fase_1/1-historias-de-usuario.md#hu-034">HU-034</a> Actualizar mi disponibilidad para recibir casos</td>
 <td>RF-25</td>
 <td>InfoPersonalSoporte</td>
 <td>InfoPersonalSoporte.actualizarDisponibilidad()</td>
@@ -358,7 +358,7 @@ Aviso.crearAviso()</td>
 <td>RN-28, RN-23</td>
 </tr>
 <tr class="odd">
-<td>HU-035 Registrar un activo tecnológico de la empresa</td>
+<td><a id="m14-hu-035"></a><a href="../fase_1/1-historias-de-usuario.md#hu-035">HU-035</a> Registrar un activo tecnológico de la empresa</td>
 <td>RF-44</td>
 <td>Activo</td>
 <td>Activo.crearActivo()</td>
@@ -368,7 +368,7 @@ Aviso.crearAviso()</td>
 <td>RN-24</td>
 </tr>
 <tr class="even">
-<td>HU-036 Consultar los activos tecnológicos registrados</td>
+<td><a id="m14-hu-036"></a><a href="../fase_1/1-historias-de-usuario.md#hu-036">HU-036</a> Consultar los activos tecnológicos registrados</td>
 <td>RF-45</td>
 <td>Activo</td>
 <td>Activo.obtenerActivo()</td>
@@ -378,7 +378,7 @@ Aviso.crearAviso()</td>
 <td>RN-23</td>
 </tr>
 <tr class="odd">
-<td>HU-037 Actualizar la información de un activo tecnológico</td>
+<td><a id="m14-hu-037"></a><a href="../fase_1/1-historias-de-usuario.md#hu-037">HU-037</a> Actualizar la información de un activo tecnológico</td>
 <td>RF-46</td>
 <td>Activo</td>
 <td>Activo.actualizarActivo()</td>
@@ -388,7 +388,7 @@ Aviso.crearAviso()</td>
 <td>RN-24</td>
 </tr>
 <tr class="even">
-<td>HU-038 Dar de baja un activo tecnológico</td>
+<td><a id="m14-hu-038"></a><a href="../fase_1/1-historias-de-usuario.md#hu-038">HU-038</a> Dar de baja un activo tecnológico</td>
 <td>RF-47</td>
 <td>Activo</td>
 <td>Activo.darDeBajaActivo()</td>
@@ -398,7 +398,7 @@ Aviso.crearAviso()</td>
 <td>RN-25</td>
 </tr>
 <tr class="odd">
-<td>HU-040 Consultar las reglas de tiempos de atención configuradas</td>
+<td><a id="m14-hu-040"></a><a href="../fase_1/1-historias-de-usuario.md#hu-040">HU-040</a> Consultar las reglas de tiempos de atención configuradas</td>
 <td>RF-39</td>
 <td>TiempoAtencionSLA</td>
 <td>TiempoAtencionSLA.obtenerSLA()</td>
@@ -408,7 +408,7 @@ Aviso.crearAviso()</td>
 <td>RN-13</td>
 </tr>
 <tr class="even">
-<td>HU-041 Consultar el historial de cambios de un caso</td>
+<td><a id="m14-hu-041"></a><a href="../fase_1/1-historias-de-usuario.md#hu-041">HU-041</a> Consultar el historial de cambios de un caso</td>
 <td>RF-41, RF-49</td>
 <td>HistorialCaso</td>
 <td>HistorialCaso.listarHistorial(), registrarHistorial()</td>
@@ -418,7 +418,7 @@ Aviso.crearAviso()</td>
 <td>RN-08</td>
 </tr>
 <tr class="odd">
-<td>HU-042 Adjuntar y consultar evidencias de un caso</td>
+<td><a id="m14-hu-042"></a><a href="../fase_1/1-historias-de-usuario.md#hu-042">HU-042</a> Adjuntar y consultar evidencias de un caso</td>
 <td>RF-42, RF-43</td>
 <td>AdjuntoCaso</td>
 <td>AdjuntoCaso.cargarAdjunto(), obtenerAdjunto(), listarAdjuntos(), eliminarAdjunto()</td>
@@ -428,7 +428,7 @@ Aviso.crearAviso()</td>
 <td>RN-08, RN-27</td>
 </tr>
 <tr class="even">
-<td>HU-043 Administrar las áreas</td>
+<td><a id="m14-hu-043"></a><a href="../fase_1/1-historias-de-usuario.md#hu-043">HU-043</a> Administrar las áreas</td>
 <td>RF-48</td>
 <td>Area</td>
 <td>Catalogo.crear(), obtener(), actualizar(), inactivar()</td>
@@ -438,7 +438,7 @@ Aviso.crearAviso()</td>
 <td>RN-26, RN-30</td>
 </tr>
 <tr class="odd">
-<td>HU-044 Administrar los cargos</td>
+<td><a id="m14-hu-044"></a><a href="../fase_1/1-historias-de-usuario.md#hu-044">HU-044</a> Administrar los cargos</td>
 <td>RF-48</td>
 <td>Cargo</td>
 <td>Catalogo.crear(), obtener(), actualizar(), inactivar()</td>
@@ -448,7 +448,7 @@ Aviso.crearAviso()</td>
 <td>RN-26, RN-30</td>
 </tr>
 <tr class="even">
-<td>HU-045 Administrar los roles de empleado</td>
+<td><a id="m14-hu-045"></a><a href="../fase_1/1-historias-de-usuario.md#hu-045">HU-045</a> Administrar los roles de empleado</td>
 <td>RF-48</td>
 <td>RolEmpleado</td>
 <td>Catalogo.crear(), obtener(), actualizar(), inactivar()</td>
@@ -458,7 +458,7 @@ Aviso.crearAviso()</td>
 <td>RN-26, RN-30</td>
 </tr>
 <tr class="odd">
-<td>HU-046 Administrar los tipos de activo</td>
+<td><a id="m14-hu-046"></a><a href="../fase_1/1-historias-de-usuario.md#hu-046">HU-046</a> Administrar los tipos de activo</td>
 <td>RF-48</td>
 <td>TipoActivo</td>
 <td>Catalogo.crear(), obtener(), actualizar(), inactivar()</td>
@@ -468,7 +468,7 @@ Aviso.crearAviso()</td>
 <td>RN-26, RN-30</td>
 </tr>
 <tr class="even">
-<td>HU-047 Administrar los tipos de problema</td>
+<td><a id="m14-hu-047"></a><a href="../fase_1/1-historias-de-usuario.md#hu-047">HU-047</a> Administrar los tipos de problema</td>
 <td>RF-48</td>
 <td>TipoProblema</td>
 <td>Catalogo.crear(), obtener(), actualizar(), inactivar()</td>
@@ -478,7 +478,7 @@ Aviso.crearAviso()</td>
 <td>RN-04, RN-26, RN-30</td>
 </tr>
 <tr class="odd">
-<td>HU-048 Administrar los tipos de solicitud</td>
+<td><a id="m14-hu-048"></a><a href="../fase_1/1-historias-de-usuario.md#hu-048">HU-048</a> Administrar los tipos de solicitud</td>
 <td>RF-48</td>
 <td>TipoSolicitud</td>
 <td>Catalogo.crear(), obtener(), actualizar(), inactivar()</td>
@@ -488,7 +488,7 @@ Aviso.crearAviso()</td>
 <td>RN-04, RN-26, RN-30</td>
 </tr>
 <tr class="even">
-<td>HU-049 Corregir la clasificación de un caso</td>
+<td><a id="m14-hu-049"></a><a href="../fase_1/1-historias-de-usuario.md#hu-049">HU-049</a> Corregir la clasificación de un caso</td>
 <td>RF-08, RF-49</td>
 <td>CasoSoporte, HistorialCaso</td>
 <td>CasoSoporte.actualizarCaso()<br />

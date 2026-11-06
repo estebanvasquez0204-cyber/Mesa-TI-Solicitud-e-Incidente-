@@ -4,7 +4,11 @@
 >
 > **Fuente:** documento Word *Proyecto.docx* — «Mesa de Ayuda TI de Nexa Servicios» (F. J. Motta Quintero y E. Vásquez Valencia · Ingeniería de Software II · Docente: Lora Patiño Gloria Amparo · Octubre de 2026), sección 10.
 
+<a id="act-cu-001"></a>
+
 ## 10.1 Reportar un caso de soporte (CU-001)
+
+> 🔗 Caso de uso: [CU-001](../fase_1/3-casos-de-uso.md#cu-001) · Nace de [HU-001](../fase_1/1-historias-de-usuario.md#hu-001)
 
 ### 10.1.1 Identificación del proceso
 
@@ -31,7 +35,11 @@
 
 *Nota.* Elaboración propia, a partir de CU-001, de su historia de usuario y del diagrama de clases versión 3. El código PlantUML está en el archivo A01_CU-001.puml y la imagen en alta resolución en A01_CU-001.png.
 
+<a id="act-cu-007"></a>
+
 ## 10.2 Cambiar la situación actual del caso (CU-007)
+
+> 🔗 Caso de uso: [CU-007](../fase_1/3-casos-de-uso.md#cu-007) · Nace de [HU-007](../fase_1/1-historias-de-usuario.md#hu-007)
 
 ### 10.2.1 Identificación del proceso
 
@@ -58,7 +66,11 @@
 
 *Nota.* Elaboración propia, a partir de CU-007, de su historia de usuario y del diagrama de clases versión 3. El código PlantUML está en el archivo A02_CU-007.puml y la imagen en alta resolución en A02_CU-007.png.
 
+<a id="act-cu-016"></a>
+
 ## 10.3 Registrar usuarios del sistema (CU-016)
+
+> 🔗 Caso de uso: [CU-016](../fase_1/3-casos-de-uso.md#cu-016) · Nace de [HU-016](../fase_1/1-historias-de-usuario.md#hu-016)
 
 ### 10.3.1 Identificación del proceso
 
@@ -85,7 +97,11 @@
 
 *Nota.* Elaboración propia, a partir de CU-016, de su historia de usuario y del diagrama de clases versión 3. El código PlantUML está en el archivo A03_CU-016.puml y la imagen en alta resolución en A03_CU-016.png.
 
+<a id="act-cu-029"></a>
+
 ## 10.4 Definir tiempos de atención (CU-029)
+
+> 🔗 Caso de uso: [CU-029](../fase_1/3-casos-de-uso.md#cu-029) · Nace de [HU-029](../fase_1/1-historias-de-usuario.md#hu-029)
 
 ### 10.4.1 Identificación del proceso
 

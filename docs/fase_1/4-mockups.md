@@ -8,12 +8,16 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 
 ## 4.1 Mockups del solicitante
 
+<a id="mk-01"></a>
+
 ### MK-01 — Inicio de sesión y recuperación de contraseña
 
 **Figura 2**  
 *MK-01: Inicio de sesión y recuperación de contraseña*
 
 ![MK-01](img/MK-01.png)
+
+*Finalidad:* muestra la pantalla «Inicio de sesión y recuperación de contraseña», que atiende [CU-023](3-casos-de-uso.md#cu-023), [CU-024](3-casos-de-uso.md#cu-024). Sus campos, botones y reglas visibles se detallan en la ficha siguiente.
 
 *Nota.* Elaboración propia.
 
@@ -28,12 +32,27 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 | **Botones ↔ Eventos**    | Ingresar → autenticar() (RF-34) · Enviar enlace → generar token (RF-35) · ¿Olvidó su contraseña? → panel de recuperación |
 | **RN visibles**          | RN-20 (mensaje genérico y bloqueo), RN-22 (enlace temporal y de un solo uso), RN-21                                      |
 
+> **🔗 Trazabilidad de MK-01**
+>
+> | Relación | Elementos | Fuente en el documento |
+> |---|---|---|
+> | Casos de uso que atiende | [CU-023](3-casos-de-uso.md#cu-023), [CU-024](3-casos-de-uso.md#cu-024) | Ficha («Atiende (CU)») |
+> | Casos de uso que aterrizan aquí | [CU-023](3-casos-de-uso.md#cu-023), [CU-024](3-casos-de-uso.md#cu-024) | Cobertura §4.4 |
+> | RF de sus botones | [RF-34](2-reglas-de-negocio-y-requisitos.md#rf-34), [RF-35](2-reglas-de-negocio-y-requisitos.md#rf-35) | Ficha («Botones ↔ Eventos») |
+> | RN visibles | [RN-20](2-reglas-de-negocio-y-requisitos.md#rn-20), [RN-21](2-reglas-de-negocio-y-requisitos.md#rn-21), [RN-22](2-reglas-de-negocio-y-requisitos.md#rn-22) | Ficha («RN visibles») |
+> | HU | [HU-023](1-historias-de-usuario.md#hu-023), [HU-024](1-historias-de-usuario.md#hu-024) | Matriz §5 |
+
+
+<a id="mk-02"></a>
+
 ### MK-02 — Reportar un caso
 
 **Figura 3**  
 *MK-02: Reportar un caso*
 
 ![MK-02](img/MK-02.png)
+
+*Finalidad:* muestra la pantalla «Reportar un caso», que atiende [CU-001](3-casos-de-uso.md#cu-001), [CU-004](3-casos-de-uso.md#cu-004), [CU-018](3-casos-de-uso.md#cu-018), [CU-019](3-casos-de-uso.md#cu-019), [CU-020](3-casos-de-uso.md#cu-020), [CU-021](3-casos-de-uso.md#cu-021), [CU-022](3-casos-de-uso.md#cu-022), [CU-042](3-casos-de-uso.md#cu-042). Sus campos, botones y reglas visibles se detallan en la ficha siguiente.
 
 *Nota.* Elaboración propia.
 
@@ -48,12 +67,27 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 | **Botones ↔ Eventos**    | Enviar caso → crear caso (RF-01, RF-18, RF-19, RF-20) · Adjuntar archivo → RF-42 · Cancelar → vuelve a Mis casos                                                                                                                                             |
 | **RN visibles**          | RN-01 (error de “Dónde ocurre”), RN-03 (problema/solicitud excluyentes), RN-04, RN-05 (importancia), RN-25, RN-27                                                                                                                                            |
 
+> **🔗 Trazabilidad de MK-02**
+>
+> | Relación | Elementos | Fuente en el documento |
+> |---|---|---|
+> | Casos de uso que atiende | [CU-001](3-casos-de-uso.md#cu-001), [CU-004](3-casos-de-uso.md#cu-004), [CU-018](3-casos-de-uso.md#cu-018), [CU-019](3-casos-de-uso.md#cu-019), [CU-020](3-casos-de-uso.md#cu-020), [CU-021](3-casos-de-uso.md#cu-021), [CU-022](3-casos-de-uso.md#cu-022), [CU-042](3-casos-de-uso.md#cu-042) | Ficha («Atiende (CU)») |
+> | Casos de uso que aterrizan aquí | [CU-001](3-casos-de-uso.md#cu-001), [CU-004](3-casos-de-uso.md#cu-004), [CU-018](3-casos-de-uso.md#cu-018), [CU-019](3-casos-de-uso.md#cu-019), [CU-020](3-casos-de-uso.md#cu-020), [CU-021](3-casos-de-uso.md#cu-021), [CU-022](3-casos-de-uso.md#cu-022), [CU-042](3-casos-de-uso.md#cu-042) | Cobertura §4.4 |
+> | RF de sus botones | [RF-01](2-reglas-de-negocio-y-requisitos.md#rf-01), [RF-18](2-reglas-de-negocio-y-requisitos.md#rf-18), [RF-19](2-reglas-de-negocio-y-requisitos.md#rf-19), [RF-20](2-reglas-de-negocio-y-requisitos.md#rf-20), [RF-42](2-reglas-de-negocio-y-requisitos.md#rf-42) | Ficha («Botones ↔ Eventos») |
+> | RN visibles | [RN-01](2-reglas-de-negocio-y-requisitos.md#rn-01), [RN-03](2-reglas-de-negocio-y-requisitos.md#rn-03), [RN-04](2-reglas-de-negocio-y-requisitos.md#rn-04), [RN-05](2-reglas-de-negocio-y-requisitos.md#rn-05), [RN-25](2-reglas-de-negocio-y-requisitos.md#rn-25), [RN-27](2-reglas-de-negocio-y-requisitos.md#rn-27) | Ficha («RN visibles») |
+> | HU | [HU-001](1-historias-de-usuario.md#hu-001), [HU-004](1-historias-de-usuario.md#hu-004), [HU-018](1-historias-de-usuario.md#hu-018), [HU-019](1-historias-de-usuario.md#hu-019), [HU-020](1-historias-de-usuario.md#hu-020), [HU-021](1-historias-de-usuario.md#hu-021), [HU-022](1-historias-de-usuario.md#hu-022), [HU-042](1-historias-de-usuario.md#hu-042) | Matriz §5 |
+
+
+<a id="mk-03"></a>
+
 ### MK-03 — Caso registrado (confirmación)
 
 **Figura 4**  
 *MK-03: Caso registrado (confirmación)*
 
 ![MK-03](img/MK-03.png)
+
+*Finalidad:* muestra la pantalla «Caso registrado (confirmación)», que atiende [CU-002](3-casos-de-uso.md#cu-002). Sus campos, botones y reglas visibles se detallan en la ficha siguiente.
 
 *Nota.* Elaboración propia.
 
@@ -68,12 +102,27 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 | **Botones ↔ Eventos**    | Ver mi caso → MK-05 (RF-13) · Reportar otro caso → MK-02                                           |
 | **RN visibles**          | RN-02, RN-16 (el correo se envía aparte)                                                           |
 
+> **🔗 Trazabilidad de MK-03**
+>
+> | Relación | Elementos | Fuente en el documento |
+> |---|---|---|
+> | Casos de uso que atiende | [CU-002](3-casos-de-uso.md#cu-002) | Ficha («Atiende (CU)») |
+> | Casos de uso que aterrizan aquí | [CU-002](3-casos-de-uso.md#cu-002) | Cobertura §4.4 |
+> | RF de sus botones | [RF-13](2-reglas-de-negocio-y-requisitos.md#rf-13) | Ficha («Botones ↔ Eventos») |
+> | RN visibles | [RN-02](2-reglas-de-negocio-y-requisitos.md#rn-02), [RN-16](2-reglas-de-negocio-y-requisitos.md#rn-16) | Ficha («RN visibles») |
+> | HU | [HU-002](1-historias-de-usuario.md#hu-002) | Matriz §5 |
+
+
+<a id="mk-04"></a>
+
 ### MK-04 — Mis casos — listado y búsqueda
 
 **Figura 5**  
 *MK-04: Mis casos — listado y búsqueda*
 
 ![MK-04](img/MK-04.png)
+
+*Finalidad:* muestra la pantalla «Mis casos — listado y búsqueda», que atiende [CU-005](3-casos-de-uso.md#cu-005), [CU-025](3-casos-de-uso.md#cu-025). Sus campos, botones y reglas visibles se detallan en la ficha siguiente.
 
 *Nota.* Elaboración propia.
 
@@ -88,12 +137,27 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 | **Botones ↔ Eventos**    | Buscar → RF-10 · Ver → MK-05 (RF-13) · Cerrar sesión (encabezado) → RF-36                                                            |
 | **RN visibles**          | RN-06 (solo casos propios), RN-23                                                                                                    |
 
+> **🔗 Trazabilidad de MK-04**
+>
+> | Relación | Elementos | Fuente en el documento |
+> |---|---|---|
+> | Casos de uso que atiende | [CU-005](3-casos-de-uso.md#cu-005), [CU-025](3-casos-de-uso.md#cu-025) | Ficha («Atiende (CU)») |
+> | Casos de uso que aterrizan aquí | [CU-005](3-casos-de-uso.md#cu-005), [CU-025](3-casos-de-uso.md#cu-025) | Cobertura §4.4 |
+> | RF de sus botones | [RF-10](2-reglas-de-negocio-y-requisitos.md#rf-10), [RF-13](2-reglas-de-negocio-y-requisitos.md#rf-13), [RF-36](2-reglas-de-negocio-y-requisitos.md#rf-36) | Ficha («Botones ↔ Eventos») |
+> | RN visibles | [RN-06](2-reglas-de-negocio-y-requisitos.md#rn-06), [RN-23](2-reglas-de-negocio-y-requisitos.md#rn-23) | Ficha («RN visibles») |
+> | HU | [HU-005](1-historias-de-usuario.md#hu-005), [HU-025](1-historias-de-usuario.md#hu-025) | Matriz §5 |
+
+
+<a id="mk-05"></a>
+
 ### MK-05 — Detalle del caso (solicitante)
 
 **Figura 6**  
 *MK-05: Detalle del caso (solicitante)*
 
 ![MK-05](img/MK-05.png)
+
+*Finalidad:* muestra la pantalla «Detalle del caso (solicitante)», que atiende [CU-009](3-casos-de-uso.md#cu-009), [CU-010](3-casos-de-uso.md#cu-010), [CU-013](3-casos-de-uso.md#cu-013), [CU-042](3-casos-de-uso.md#cu-042). Sus campos, botones y reglas visibles se detallan en la ficha siguiente.
 
 *Nota.* Elaboración propia.
 
@@ -108,12 +172,27 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 | **Botones ↔ Eventos**    | Reabrir caso → RF-23 · Adjuntar archivo → RF-42 · ✕ del adjunto → RF-43                                                      |
 | **RN visibles**          | RN-11 (plazo de 5 días hábiles y motivo), RN-13, RN-14, RN-10, RN-27                                                         |
 
+> **🔗 Trazabilidad de MK-05**
+>
+> | Relación | Elementos | Fuente en el documento |
+> |---|---|---|
+> | Casos de uso que atiende | [CU-009](3-casos-de-uso.md#cu-009), [CU-010](3-casos-de-uso.md#cu-010), [CU-013](3-casos-de-uso.md#cu-013), [CU-042](3-casos-de-uso.md#cu-042) | Ficha («Atiende (CU)») |
+> | Casos de uso que aterrizan aquí | [CU-009](3-casos-de-uso.md#cu-009), [CU-010](3-casos-de-uso.md#cu-010), [CU-013](3-casos-de-uso.md#cu-013), [CU-042](3-casos-de-uso.md#cu-042), [CU-S01](3-casos-de-uso.md#cu-s01) | Cobertura §4.4 |
+> | RF de sus botones | [RF-23](2-reglas-de-negocio-y-requisitos.md#rf-23), [RF-42](2-reglas-de-negocio-y-requisitos.md#rf-42), [RF-43](2-reglas-de-negocio-y-requisitos.md#rf-43) | Ficha («Botones ↔ Eventos») |
+> | RN visibles | [RN-10](2-reglas-de-negocio-y-requisitos.md#rn-10), [RN-11](2-reglas-de-negocio-y-requisitos.md#rn-11), [RN-13](2-reglas-de-negocio-y-requisitos.md#rn-13), [RN-14](2-reglas-de-negocio-y-requisitos.md#rn-14), [RN-27](2-reglas-de-negocio-y-requisitos.md#rn-27) | Ficha («RN visibles») |
+> | HU | [HU-007](1-historias-de-usuario.md#hu-007), [HU-009](1-historias-de-usuario.md#hu-009), [HU-010](1-historias-de-usuario.md#hu-010), [HU-013](1-historias-de-usuario.md#hu-013), [HU-042](1-historias-de-usuario.md#hu-042) | Matriz §5 |
+
+
+<a id="mk-09"></a>
+
 ### MK-09 — Avisos
 
 **Figura 7**  
 *MK-09: Avisos*
 
 ![MK-09](img/MK-09.png)
+
+*Finalidad:* muestra la pantalla «Avisos», que atiende [CU-003](3-casos-de-uso.md#cu-003). Sus campos, botones y reglas visibles se detallan en la ficha siguiente.
 
 *Nota.* Elaboración propia.
 
@@ -128,12 +207,27 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 | **Botones ↔ Eventos**    | Clic en un aviso → RF-06 · Ver el caso → MK-05 · aviso emergente → RF-04 |
 | **RN visibles**          | RN-15 (tres canales y reintento), RN-16                                  |
 
+> **🔗 Trazabilidad de MK-09**
+>
+> | Relación | Elementos | Fuente en el documento |
+> |---|---|---|
+> | Casos de uso que atiende | [CU-003](3-casos-de-uso.md#cu-003) | Ficha («Atiende (CU)») |
+> | Casos de uso que aterrizan aquí | [CU-003](3-casos-de-uso.md#cu-003), [CU-028](3-casos-de-uso.md#cu-028) | Cobertura §4.4 |
+> | RF de sus botones | [RF-04](2-reglas-de-negocio-y-requisitos.md#rf-04), [RF-06](2-reglas-de-negocio-y-requisitos.md#rf-06) | Ficha («Botones ↔ Eventos») |
+> | RN visibles | [RN-15](2-reglas-de-negocio-y-requisitos.md#rn-15), [RN-16](2-reglas-de-negocio-y-requisitos.md#rn-16) | Ficha («RN visibles») |
+> | HU | [HU-002](1-historias-de-usuario.md#hu-002), [HU-003](1-historias-de-usuario.md#hu-003), [HU-028](1-historias-de-usuario.md#hu-028) | Matriz §5 |
+
+
+<a id="mk-19"></a>
+
 ### MK-19 — Establecer nueva contraseña
 
 **Figura 8**  
 *MK-19: Establecer nueva contraseña (enlace de recuperación)*
 
 ![MK-19](img/MK-19.png)
+
+*Finalidad:* muestra la pantalla «Establecer nueva contraseña», que atiende [CU-024](3-casos-de-uso.md#cu-024). Sus campos, botones y reglas visibles se detallan en la ficha siguiente.
 
 *Nota.* Elaboración propia.
 
@@ -148,7 +242,20 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 | **Botones ↔ Eventos**    | Guardar contraseña → restablecerContrasena() (RF-35) · Solicitar enlace nuevo → MK-01                                                       |
 | **RN visibles**          | RN-19 (contraseña protegida), RN-22 (enlace temporal y de un solo uso)                                                                      |
 
+> **🔗 Trazabilidad de MK-19**
+>
+> | Relación | Elementos | Fuente en el documento |
+> |---|---|---|
+> | Casos de uso que atiende | [CU-024](3-casos-de-uso.md#cu-024) | Ficha («Atiende (CU)») |
+> | Casos de uso que aterrizan aquí | — | Cobertura §4.4 |
+> | RF de sus botones | [RF-35](2-reglas-de-negocio-y-requisitos.md#rf-35) | Ficha («Botones ↔ Eventos») |
+> | RN visibles | [RN-19](2-reglas-de-negocio-y-requisitos.md#rn-19), [RN-22](2-reglas-de-negocio-y-requisitos.md#rn-22) | Ficha («RN visibles») |
+> | HU | [HU-024](1-historias-de-usuario.md#hu-024) | Matriz §5 |
+
+
 ## 4.2 Mockups del personal de soporte y del supervisor
+
+<a id="mk-06"></a>
 
 ### MK-06 — Gestión del caso (soporte)
 
@@ -156,6 +263,8 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 *MK-06: Gestión del caso (soporte)*
 
 ![MK-06](img/MK-06.png)
+
+*Finalidad:* muestra la pantalla «Gestión del caso (soporte)», que atiende [CU-007](3-casos-de-uso.md#cu-007), [CU-008](3-casos-de-uso.md#cu-008), [CU-009](3-casos-de-uso.md#cu-009), [CU-026](3-casos-de-uso.md#cu-026), [CU-042](3-casos-de-uso.md#cu-042), [CU-049](3-casos-de-uso.md#cu-049). Sus campos, botones y reglas visibles se detallan en la ficha siguiente.
 
 *Nota.* Elaboración propia.
 
@@ -170,12 +279,27 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 | **Botones ↔ Eventos**    | Cambiar situación → RF-12 · Asignar → RF-14 · Pasar a otra persona → RF-15 · Guardar corrección → RF-08 · Agregar comentario → RF-16 · Historial → MK-08 |
 | **RN visibles**          | RN-07 (solo cambios permitidos), RN-09, RN-10, RN-03, RN-08                                                                                              |
 
+> **🔗 Trazabilidad de MK-06**
+>
+> | Relación | Elementos | Fuente en el documento |
+> |---|---|---|
+> | Casos de uso que atiende | [CU-007](3-casos-de-uso.md#cu-007), [CU-008](3-casos-de-uso.md#cu-008), [CU-009](3-casos-de-uso.md#cu-009), [CU-026](3-casos-de-uso.md#cu-026), [CU-042](3-casos-de-uso.md#cu-042), [CU-049](3-casos-de-uso.md#cu-049) | Ficha («Atiende (CU)») |
+> | Casos de uso que aterrizan aquí | [CU-007](3-casos-de-uso.md#cu-007), [CU-008](3-casos-de-uso.md#cu-008), [CU-009](3-casos-de-uso.md#cu-009), [CU-026](3-casos-de-uso.md#cu-026), [CU-042](3-casos-de-uso.md#cu-042), [CU-049](3-casos-de-uso.md#cu-049) | Cobertura §4.4 |
+> | RF de sus botones | [RF-08](2-reglas-de-negocio-y-requisitos.md#rf-08), [RF-12](2-reglas-de-negocio-y-requisitos.md#rf-12), [RF-14](2-reglas-de-negocio-y-requisitos.md#rf-14), [RF-15](2-reglas-de-negocio-y-requisitos.md#rf-15), [RF-16](2-reglas-de-negocio-y-requisitos.md#rf-16) | Ficha («Botones ↔ Eventos») |
+> | RN visibles | [RN-03](2-reglas-de-negocio-y-requisitos.md#rn-03), [RN-07](2-reglas-de-negocio-y-requisitos.md#rn-07), [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08), [RN-09](2-reglas-de-negocio-y-requisitos.md#rn-09), [RN-10](2-reglas-de-negocio-y-requisitos.md#rn-10) | Ficha («RN visibles») |
+> | HU | [HU-001](1-historias-de-usuario.md#hu-001), [HU-007](1-historias-de-usuario.md#hu-007), [HU-008](1-historias-de-usuario.md#hu-008), [HU-009](1-historias-de-usuario.md#hu-009), [HU-026](1-historias-de-usuario.md#hu-026), [HU-042](1-historias-de-usuario.md#hu-042), [HU-049](1-historias-de-usuario.md#hu-049) | Matriz §5 |
+
+
+<a id="mk-07"></a>
+
 ### MK-07 — Casos pendientes
 
 **Figura 10**  
 *MK-07: Casos pendientes*
 
 ![MK-07](img/MK-07.png)
+
+*Finalidad:* muestra la pantalla «Casos pendientes», que atiende [CU-006](3-casos-de-uso.md#cu-006). Sus campos, botones y reglas visibles se detallan en la ficha siguiente.
 
 *Nota.* Elaboración propia.
 
@@ -190,12 +314,27 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 | **Botones ↔ Eventos**    | Ordenar por → RF-11 · clic en número → MK-06                                              |
 | **RN visibles**          | RN-05 (P1 es la más alta); el mensaje “no hay pendientes” es el CA-4 de la HU-006         |
 
+> **🔗 Trazabilidad de MK-07**
+>
+> | Relación | Elementos | Fuente en el documento |
+> |---|---|---|
+> | Casos de uso que atiende | [CU-006](3-casos-de-uso.md#cu-006) | Ficha («Atiende (CU)») |
+> | Casos de uso que aterrizan aquí | [CU-006](3-casos-de-uso.md#cu-006) | Cobertura §4.4 |
+> | RF de sus botones | [RF-11](2-reglas-de-negocio-y-requisitos.md#rf-11) | Ficha («Botones ↔ Eventos») |
+> | RN visibles | [RN-05](2-reglas-de-negocio-y-requisitos.md#rn-05) | Ficha («RN visibles») |
+> | HU | [HU-006](1-historias-de-usuario.md#hu-006) | Matriz §5 |
+
+
+<a id="mk-08"></a>
+
 ### MK-08 — Historial del caso
 
 **Figura 11**  
 *MK-08: Historial del caso*
 
 ![MK-08](img/MK-08.png)
+
+*Finalidad:* muestra la pantalla «Historial del caso», que atiende [CU-041](3-casos-de-uso.md#cu-041). Sus campos, botones y reglas visibles se detallan en la ficha siguiente.
 
 *Nota.* Elaboración propia.
 
@@ -210,12 +349,27 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 | **Botones ↔ Eventos**    | Solo lectura: no hay botones de edición (RF-41)                                        |
 | **RN visibles**          | RN-08 (historial inmutable)                                                            |
 
+> **🔗 Trazabilidad de MK-08**
+>
+> | Relación | Elementos | Fuente en el documento |
+> |---|---|---|
+> | Casos de uso que atiende | [CU-041](3-casos-de-uso.md#cu-041) | Ficha («Atiende (CU)») |
+> | Casos de uso que aterrizan aquí | [CU-028](3-casos-de-uso.md#cu-028), [CU-041](3-casos-de-uso.md#cu-041), [CU-S02](3-casos-de-uso.md#cu-s02) | Cobertura §4.4 |
+> | RF de sus botones | [RF-41](2-reglas-de-negocio-y-requisitos.md#rf-41) | Ficha («Botones ↔ Eventos») |
+> | RN visibles | [RN-08](2-reglas-de-negocio-y-requisitos.md#rn-08) | Ficha («RN visibles») |
+> | HU | [HU-041](1-historias-de-usuario.md#hu-041) | Matriz §5 |
+
+
+<a id="mk-10"></a>
+
 ### MK-10 — Resumen de atención y reportes
 
 **Figura 12**  
 *MK-10: Resumen de atención y reportes*
 
 ![MK-10](img/MK-10.png)
+
+*Finalidad:* muestra la pantalla «Resumen de atención y reportes», que atiende [CU-011](3-casos-de-uso.md#cu-011), [CU-012](3-casos-de-uso.md#cu-012), [CU-030](3-casos-de-uso.md#cu-030). Sus campos, botones y reglas visibles se detallan en la ficha siguiente.
 
 *Nota.* Elaboración propia.
 
@@ -230,12 +384,27 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 | **Botones ↔ Eventos**    | Hoy/Esta semana/Este mes/Rango → RF-22 · Descargar PDF/Excel → RF-40            |
 | **RN visibles**          | RN-14 (atrasado), RN-29 (periodo sin casos)                                     |
 
+> **🔗 Trazabilidad de MK-10**
+>
+> | Relación | Elementos | Fuente en el documento |
+> |---|---|---|
+> | Casos de uso que atiende | [CU-011](3-casos-de-uso.md#cu-011), [CU-012](3-casos-de-uso.md#cu-012), [CU-030](3-casos-de-uso.md#cu-030) | Ficha («Atiende (CU)») |
+> | Casos de uso que aterrizan aquí | [CU-011](3-casos-de-uso.md#cu-011), [CU-012](3-casos-de-uso.md#cu-012), [CU-030](3-casos-de-uso.md#cu-030) | Cobertura §4.4 |
+> | RF de sus botones | [RF-22](2-reglas-de-negocio-y-requisitos.md#rf-22), [RF-40](2-reglas-de-negocio-y-requisitos.md#rf-40) | Ficha («Botones ↔ Eventos») |
+> | RN visibles | [RN-14](2-reglas-de-negocio-y-requisitos.md#rn-14), [RN-29](2-reglas-de-negocio-y-requisitos.md#rn-29) | Ficha («RN visibles») |
+> | HU | [HU-011](1-historias-de-usuario.md#hu-011), [HU-012](1-historias-de-usuario.md#hu-012), [HU-030](1-historias-de-usuario.md#hu-030) | Matriz §5 |
+
+
+<a id="mk-11"></a>
+
 ### MK-11 — Disponibilidad del personal de soporte
 
 **Figura 13**  
 *MK-11: Disponibilidad del personal de soporte*
 
 ![MK-11](img/MK-11.png)
+
+*Finalidad:* muestra la pantalla «Disponibilidad del personal de soporte», que atiende [CU-015](3-casos-de-uso.md#cu-015), [CU-034](3-casos-de-uso.md#cu-034). Sus campos, botones y reglas visibles se detallan en la ficha siguiente.
 
 *Nota.* Elaboración propia.
 
@@ -250,7 +419,20 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 | **Botones ↔ Eventos**    | Guardar estado → RF-25 · listado del equipo → RF-24              |
 | **RN visibles**          | RN-28 (estado más reciente; “Sin información”)                   |
 
+> **🔗 Trazabilidad de MK-11**
+>
+> | Relación | Elementos | Fuente en el documento |
+> |---|---|---|
+> | Casos de uso que atiende | [CU-015](3-casos-de-uso.md#cu-015), [CU-034](3-casos-de-uso.md#cu-034) | Ficha («Atiende (CU)») |
+> | Casos de uso que aterrizan aquí | [CU-015](3-casos-de-uso.md#cu-015), [CU-034](3-casos-de-uso.md#cu-034) | Cobertura §4.4 |
+> | RF de sus botones | [RF-24](2-reglas-de-negocio-y-requisitos.md#rf-24), [RF-25](2-reglas-de-negocio-y-requisitos.md#rf-25) | Ficha («Botones ↔ Eventos») |
+> | RN visibles | [RN-28](2-reglas-de-negocio-y-requisitos.md#rn-28) | Ficha («RN visibles») |
+> | HU | [HU-015](1-historias-de-usuario.md#hu-015), [HU-034](1-historias-de-usuario.md#hu-034) | Matriz §5 |
+
+
 ## 4.3 Mockups del administrador
+
+<a id="mk-12"></a>
 
 ### MK-12 — Reglas de tiempos de atención
 
@@ -258,6 +440,8 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 *MK-12: Reglas de tiempos de atención*
 
 ![MK-12](img/MK-12.png)
+
+*Finalidad:* muestra la pantalla «Reglas de tiempos de atención», que atiende [CU-029](3-casos-de-uso.md#cu-029), [CU-040](3-casos-de-uso.md#cu-040). Sus campos, botones y reglas visibles se detallan en la ficha siguiente.
 
 *Nota.* Elaboración propia.
 
@@ -272,12 +456,27 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 | **Botones ↔ Eventos**    | Guardar → RF-38 · Editar/Desactivar → RF-38 · tabla → RF-39                                       |
 | **RN visibles**          | RN-13 (una sola regla activa por combinación; versiones anteriores)                               |
 
+> **🔗 Trazabilidad de MK-12**
+>
+> | Relación | Elementos | Fuente en el documento |
+> |---|---|---|
+> | Casos de uso que atiende | [CU-029](3-casos-de-uso.md#cu-029), [CU-040](3-casos-de-uso.md#cu-040) | Ficha («Atiende (CU)») |
+> | Casos de uso que aterrizan aquí | [CU-029](3-casos-de-uso.md#cu-029), [CU-040](3-casos-de-uso.md#cu-040) | Cobertura §4.4 |
+> | RF de sus botones | [RF-38](2-reglas-de-negocio-y-requisitos.md#rf-38), [RF-39](2-reglas-de-negocio-y-requisitos.md#rf-39) | Ficha («Botones ↔ Eventos») |
+> | RN visibles | [RN-13](2-reglas-de-negocio-y-requisitos.md#rn-13) | Ficha («RN visibles») |
+> | HU | [HU-029](1-historias-de-usuario.md#hu-029), [HU-040](1-historias-de-usuario.md#hu-040) | Matriz §5 |
+
+
+<a id="mk-13"></a>
+
 ### MK-13 — Usuarios — listado y búsqueda
 
 **Figura 15**  
 *MK-13: Usuarios — listado y búsqueda*
 
 ![MK-13](img/MK-13.png)
+
+*Finalidad:* muestra la pantalla «Usuarios — listado y búsqueda», que atiende [CU-016](3-casos-de-uso.md#cu-016), [CU-017](3-casos-de-uso.md#cu-017), [CU-031](3-casos-de-uso.md#cu-031), [CU-032](3-casos-de-uso.md#cu-032). Sus campos, botones y reglas visibles se detallan en la ficha siguiente.
 
 *Nota.* Elaboración propia.
 
@@ -292,12 +491,27 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 | **Botones ↔ Eventos**    | Buscar → RF-27 · + Nuevo usuario → MK-14 (RF-26) · Editar → MK-14 (RF-28) · Inactivar/Reactivar → RF-29 |
 | **RN visibles**          | RN-21 (inactivo no ingresa; historia conservada)                                                        |
 
+> **🔗 Trazabilidad de MK-13**
+>
+> | Relación | Elementos | Fuente en el documento |
+> |---|---|---|
+> | Casos de uso que atiende | [CU-016](3-casos-de-uso.md#cu-016), [CU-017](3-casos-de-uso.md#cu-017), [CU-031](3-casos-de-uso.md#cu-031), [CU-032](3-casos-de-uso.md#cu-032) | Ficha («Atiende (CU)») |
+> | Casos de uso que aterrizan aquí | [CU-017](3-casos-de-uso.md#cu-017), [CU-031](3-casos-de-uso.md#cu-031), [CU-032](3-casos-de-uso.md#cu-032) | Cobertura §4.4 |
+> | RF de sus botones | [RF-26](2-reglas-de-negocio-y-requisitos.md#rf-26), [RF-27](2-reglas-de-negocio-y-requisitos.md#rf-27), [RF-28](2-reglas-de-negocio-y-requisitos.md#rf-28), [RF-29](2-reglas-de-negocio-y-requisitos.md#rf-29) | Ficha («Botones ↔ Eventos») |
+> | RN visibles | [RN-21](2-reglas-de-negocio-y-requisitos.md#rn-21) | Ficha («RN visibles») |
+> | HU | [HU-017](1-historias-de-usuario.md#hu-017), [HU-031](1-historias-de-usuario.md#hu-031), [HU-032](1-historias-de-usuario.md#hu-032) | Matriz §5 |
+
+
+<a id="mk-14"></a>
+
 ### MK-14 — Registrar / actualizar usuario
 
 **Figura 16**  
 *MK-14: Registrar / actualizar usuario*
 
 ![MK-14](img/MK-14.png)
+
+*Finalidad:* muestra la pantalla «Registrar / actualizar usuario», que atiende [CU-016](3-casos-de-uso.md#cu-016), [CU-031](3-casos-de-uso.md#cu-031). Sus campos, botones y reglas visibles se detallan en la ficha siguiente.
 
 *Nota.* Elaboración propia.
 
@@ -312,12 +526,27 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 | **Botones ↔ Eventos**    | Guardar → crear usuario (RF-26) o actualizar (RF-28) · Cancelar → MK-13                            |
 | **RN visibles**          | RN-17 (correo único), RN-18 (área obligatoria para solicitante), RN-19                             |
 
+> **🔗 Trazabilidad de MK-14**
+>
+> | Relación | Elementos | Fuente en el documento |
+> |---|---|---|
+> | Casos de uso que atiende | [CU-016](3-casos-de-uso.md#cu-016), [CU-031](3-casos-de-uso.md#cu-031) | Ficha («Atiende (CU)») |
+> | Casos de uso que aterrizan aquí | [CU-016](3-casos-de-uso.md#cu-016), [CU-031](3-casos-de-uso.md#cu-031) | Cobertura §4.4 |
+> | RF de sus botones | [RF-26](2-reglas-de-negocio-y-requisitos.md#rf-26), [RF-28](2-reglas-de-negocio-y-requisitos.md#rf-28) | Ficha («Botones ↔ Eventos») |
+> | RN visibles | [RN-17](2-reglas-de-negocio-y-requisitos.md#rn-17), [RN-18](2-reglas-de-negocio-y-requisitos.md#rn-18), [RN-19](2-reglas-de-negocio-y-requisitos.md#rn-19) | Ficha («RN visibles») |
+> | HU | [HU-016](1-historias-de-usuario.md#hu-016), [HU-031](1-historias-de-usuario.md#hu-031) | Matriz §5 |
+
+
+<a id="mk-15"></a>
+
 ### MK-15 — Cuentas bloqueadas
 
 **Figura 17**  
 *MK-15: Cuentas bloqueadas*
 
 ![MK-15](img/MK-15.png)
+
+*Finalidad:* muestra la pantalla «Cuentas bloqueadas», que atiende [CU-033](3-casos-de-uso.md#cu-033). Sus campos, botones y reglas visibles se detallan en la ficha siguiente.
 
 *Nota.* Elaboración propia.
 
@@ -332,12 +561,27 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 | **Botones ↔ Eventos**    | Desbloquear → RF-30                              |
 | **RN visibles**          | RN-20                                            |
 
+> **🔗 Trazabilidad de MK-15**
+>
+> | Relación | Elementos | Fuente en el documento |
+> |---|---|---|
+> | Casos de uso que atiende | [CU-033](3-casos-de-uso.md#cu-033) | Ficha («Atiende (CU)») |
+> | Casos de uso que aterrizan aquí | [CU-033](3-casos-de-uso.md#cu-033) | Cobertura §4.4 |
+> | RF de sus botones | [RF-30](2-reglas-de-negocio-y-requisitos.md#rf-30) | Ficha («Botones ↔ Eventos») |
+> | RN visibles | [RN-20](2-reglas-de-negocio-y-requisitos.md#rn-20) | Ficha («RN visibles») |
+> | HU | [HU-033](1-historias-de-usuario.md#hu-033) | Matriz §5 |
+
+
+<a id="mk-16"></a>
+
 ### MK-16 — Activos — listado y búsqueda
 
 **Figura 18**  
 *MK-16: Activos — listado y búsqueda*
 
 ![MK-16](img/MK-16.png)
+
+*Finalidad:* muestra la pantalla «Activos — listado y búsqueda», que atiende [CU-035](3-casos-de-uso.md#cu-035), [CU-036](3-casos-de-uso.md#cu-036), [CU-037](3-casos-de-uso.md#cu-037), [CU-038](3-casos-de-uso.md#cu-038). Sus campos, botones y reglas visibles se detallan en la ficha siguiente.
 
 *Nota.* Elaboración propia.
 
@@ -352,12 +596,27 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 | **Botones ↔ Eventos**    | Buscar → RF-45 · + Nuevo activo → MK-17 (RF-44) · Editar → MK-17 (RF-46) · Dar de baja → RF-47 |
 | **RN visibles**          | RN-25 (el aviso explica la consecuencia)                                                       |
 
+> **🔗 Trazabilidad de MK-16**
+>
+> | Relación | Elementos | Fuente en el documento |
+> |---|---|---|
+> | Casos de uso que atiende | [CU-035](3-casos-de-uso.md#cu-035), [CU-036](3-casos-de-uso.md#cu-036), [CU-037](3-casos-de-uso.md#cu-037), [CU-038](3-casos-de-uso.md#cu-038) | Ficha («Atiende (CU)») |
+> | Casos de uso que aterrizan aquí | [CU-036](3-casos-de-uso.md#cu-036), [CU-037](3-casos-de-uso.md#cu-037), [CU-038](3-casos-de-uso.md#cu-038) | Cobertura §4.4 |
+> | RF de sus botones | [RF-44](2-reglas-de-negocio-y-requisitos.md#rf-44), [RF-45](2-reglas-de-negocio-y-requisitos.md#rf-45), [RF-46](2-reglas-de-negocio-y-requisitos.md#rf-46), [RF-47](2-reglas-de-negocio-y-requisitos.md#rf-47) | Ficha («Botones ↔ Eventos») |
+> | RN visibles | [RN-25](2-reglas-de-negocio-y-requisitos.md#rn-25) | Ficha («RN visibles») |
+> | HU | [HU-036](1-historias-de-usuario.md#hu-036), [HU-037](1-historias-de-usuario.md#hu-037), [HU-038](1-historias-de-usuario.md#hu-038) | Matriz §5 |
+
+
+<a id="mk-17"></a>
+
 ### MK-17 — Registrar / actualizar activo
 
 **Figura 19**  
 *MK-17: Registrar / actualizar activo*
 
 ![MK-17](img/MK-17.png)
+
+*Finalidad:* muestra la pantalla «Registrar / actualizar activo», que atiende [CU-035](3-casos-de-uso.md#cu-035), [CU-037](3-casos-de-uso.md#cu-037). Sus campos, botones y reglas visibles se detallan en la ficha siguiente.
 
 *Nota.* Elaboración propia.
 
@@ -372,12 +631,27 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 | **Botones ↔ Eventos**    | Guardar → RF-44 o RF-46 · Cancelar → MK-16                                              |
 | **RN visibles**          | RN-24 (serie única; nombre y tipo obligatorios)                                         |
 
+> **🔗 Trazabilidad de MK-17**
+>
+> | Relación | Elementos | Fuente en el documento |
+> |---|---|---|
+> | Casos de uso que atiende | [CU-035](3-casos-de-uso.md#cu-035), [CU-037](3-casos-de-uso.md#cu-037) | Ficha («Atiende (CU)») |
+> | Casos de uso que aterrizan aquí | [CU-035](3-casos-de-uso.md#cu-035), [CU-037](3-casos-de-uso.md#cu-037) | Cobertura §4.4 |
+> | RF de sus botones | [RF-44](2-reglas-de-negocio-y-requisitos.md#rf-44), [RF-46](2-reglas-de-negocio-y-requisitos.md#rf-46) | Ficha («Botones ↔ Eventos») |
+> | RN visibles | [RN-24](2-reglas-de-negocio-y-requisitos.md#rn-24) | Ficha («RN visibles») |
+> | HU | [HU-035](1-historias-de-usuario.md#hu-035), [HU-037](1-historias-de-usuario.md#hu-037) | Matriz §5 |
+
+
+<a id="mk-18"></a>
+
 ### MK-18 — Catálogos de clasificación
 
 **Figura 20**  
 *MK-18: Catálogos de clasificación*
 
 ![MK-18](img/MK-18.png)
+
+*Finalidad:* muestra la pantalla «Catálogos de clasificación», que atiende [CU-043](3-casos-de-uso.md#cu-043), [CU-044](3-casos-de-uso.md#cu-044), [CU-045](3-casos-de-uso.md#cu-045), [CU-046](3-casos-de-uso.md#cu-046), [CU-047](3-casos-de-uso.md#cu-047), [CU-048](3-casos-de-uso.md#cu-048). Sus campos, botones y reglas visibles se detallan en la ficha siguiente.
 
 *Nota.* Elaboración propia.
 
@@ -391,6 +665,17 @@ Cada mockup lleva su código MK, declara qué CU atiende, usa los nombres y tipo
 | **Campos ↔ Diccionario** | nombre (nombre_area, nombre_cargo, nombre_rol según el catálogo), estado; descripcion solo en tipos de activo, de problema y de solicitud |
 | **Botones ↔ Eventos**    | Guardar → RF-48 · Editar/Inactivar → RF-48                                                                                                |
 | **RN visibles**          | RN-26 (nombre único por catálogo), RN-04, RN-30 (inactivación sin perder registros)                                                       |
+
+> **🔗 Trazabilidad de MK-18**
+>
+> | Relación | Elementos | Fuente en el documento |
+> |---|---|---|
+> | Casos de uso que atiende | [CU-043](3-casos-de-uso.md#cu-043), [CU-044](3-casos-de-uso.md#cu-044), [CU-045](3-casos-de-uso.md#cu-045), [CU-046](3-casos-de-uso.md#cu-046), [CU-047](3-casos-de-uso.md#cu-047), [CU-048](3-casos-de-uso.md#cu-048) | Ficha («Atiende (CU)») |
+> | Casos de uso que aterrizan aquí | [CU-043](3-casos-de-uso.md#cu-043), [CU-044](3-casos-de-uso.md#cu-044), [CU-045](3-casos-de-uso.md#cu-045), [CU-046](3-casos-de-uso.md#cu-046), [CU-047](3-casos-de-uso.md#cu-047), [CU-048](3-casos-de-uso.md#cu-048) | Cobertura §4.4 |
+> | RF de sus botones | [RF-48](2-reglas-de-negocio-y-requisitos.md#rf-48) | Ficha («Botones ↔ Eventos») |
+> | RN visibles | [RN-04](2-reglas-de-negocio-y-requisitos.md#rn-04), [RN-26](2-reglas-de-negocio-y-requisitos.md#rn-26), [RN-30](2-reglas-de-negocio-y-requisitos.md#rn-30) | Ficha («RN visibles») |
+> | HU | [HU-043](1-historias-de-usuario.md#hu-043), [HU-044](1-historias-de-usuario.md#hu-044), [HU-045](1-historias-de-usuario.md#hu-045), [HU-046](1-historias-de-usuario.md#hu-046), [HU-047](1-historias-de-usuario.md#hu-047), [HU-048](1-historias-de-usuario.md#hu-048) | Matriz §5 |
+
 
 ## 4.4 Cobertura de los casos de uso
 

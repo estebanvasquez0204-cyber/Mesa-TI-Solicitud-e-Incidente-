@@ -27,6 +27,10 @@ flowchart LR
 
 Las imágenes (diagrama de casos de uso críticos y las 19 pantallas) están en [`img/`](img/). Los cambios aprobados de esta fase se registran en el [CRF-002](../gestion-del-cambio/crf-002-fase-1.md).
 
+## Trazabilidad bidireccional
+
+Cada HU, CA, RN, RF, RNF, CU y MK tiene un ancla propia y un bloque **🔗 Trazabilidad** con enlaces hacia los elementos que lo originan y los que genera. Cada enlace indica en qué parte del documento está escrita la relación. La vista consolidada está en [apoyo/matriz_trazabilidad.md](../apoyo/matriz_trazabilidad.md).
+
 ## Versión anterior
 
 [`version-anterior/`](version-anterior/) conserva la primera versión del análisis que estaba en el repositorio (otra numeración). Quedó reemplazada por *Proyecto.docx* y se guarda solo como evidencia del trabajo iterativo.
